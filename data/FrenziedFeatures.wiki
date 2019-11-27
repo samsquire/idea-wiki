@@ -1,0 +1,13 @@
+﻿++ Frenzied Features
+
+Frenzied Features is confusing the user with features to make them or help them use it.
+    * Dialogues
+    * [Wizard]s
+
+Ubuntu Linux autostarted some VOIP application wizard. What the hell if I wanted VOIP then I would have installed it or searched for it. EncouragedFeatures
+
+FF can lead to [HelpLapse]s.
+
+The following systems are affected:
+    * ExpandSystem
+    * ApplicationManagement

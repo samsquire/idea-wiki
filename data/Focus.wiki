@@ -1,0 +1,20 @@
+﻿++ Focus
+
+Focus refers to the extraction of a particular relevant information among irrelevant information. Focus satisfies CrossReferential and GetInto.
+
+documentation about a particular element's on its [Focus] page
+
+++Uses
+
+[Configuration]
+Configuration panels for example are large and hold a lot of information. To make a user complete them by opening a configuration panel is not the right thing to do if the user only needs to change something trivial.
+
+Instead, the relevant information is 'focused' by either
+     * configuration panel is opened and the input where information is required is higlighted
+     * simple wizard-like panel containing an input for the information
+      * with a button to open the full panel 
+
+Overlarge Fields
+     * 'zoom in', a field that isn't large enough to accomoodate all the data can be opened in a larger new dialogue so everything can be viewed
+     * in the native text editor?
+     * what about on save? 

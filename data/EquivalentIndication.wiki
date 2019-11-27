@@ -1,0 +1,9 @@
+﻿++ Equivalent Indication
+
+FI is a subtle [Feedback] to HelpTheUser that encourages usage of toolbars rather than menubars. When a menubar is used, as the mouse hovers over menuitems the toolbar button that represents it lights up and zooms in.
+    * ExplainWhatJustHappened
+
+as using the menubar, buttons zoom in to indicate how to do it without the menu: 
+    * SAVE - SAVE Button gets bigger
+    * PRINT - print gets bigger
+    * changing dropdown to 'center' lights up CENTER on the interface

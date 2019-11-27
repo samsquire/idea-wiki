@@ -1,0 +1,5 @@
+﻿++ Game Ghost
+
+GG is where a representation of an entity ingame is visible but cannot be interacted with. This is used for:
+    * [Replays]
+    * [Spectating]

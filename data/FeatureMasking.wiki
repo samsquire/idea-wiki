@@ -1,0 +1,5 @@
+﻿++ Feature Masking
+
+FM is where DesignedIn features can be replaced with other implementations. This is useful for SeamlessUsability and UserPower.
+    * ConsistentSystem
+    * 

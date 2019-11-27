@@ -1,0 +1,28 @@
+﻿++ Encouraged Features
+
+EF is a method of trying to increase the number of people who use a feature by increasing their awareness of it. [Conventional]ly this seems to be accomplished by autostarting the application or showing a random tip explaining how to use a feature.  This is pretty ineffective because the user is inundated with pointless or too much information.
+
+EF is a way of encouraging [Users] to do things with their computers they would not normally. This feature is provided thanks to the implementation of the [TaskArchitecture]. A subset of random tasks from random categories is selected and displayed with an enticing description. Following are a series of examples:
+
+Use your game console to play music and films from this computer
+ Technical: Stream media to game console
+Connect this computer to the internet
+Use your cellphone to connect to the internet
+Get notified of news using the internet
+ Technical: Subscribe to RSS feeds or email lists
+Boost signal strength with an aerial
+ Informs user what they need to buy to increase the signal strength
+Record telephone calls
+Create a telephone exchange
+ Set up a Private Branch Exchange (PBX) like Asterisk
+Use internet for telephone calls
+ Technical: VOIP, Ventrilo, stuff like Skype
+
+Network house wirelessly
+Network house with wires
+Network house
+
+
+++EF
+EF will evaluate the users' current computer status before suggesting things to do with the computer. For example, suggesting that the user boost their wireless signal is silly if they are using a wired connection.
+    * Each suggested feature or task will be attached prerequisites for the task. Some will include software, hardware purchases or additional installations whereas others different things. The user can therefore sort through the things that are cheapest, take the least time or highly community rated.

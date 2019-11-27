@@ -1,0 +1,14 @@
+﻿++ Feedback
+
+Feedback is a response that can be a confirmation or an indication to an event or action.
+
+    * Status/State
+    * dialogues
+    * [IndicatePriorInteraction]s
+    * ProgressIndication 
+
+Related [Paradigms]:
+    * NeverFailWithoutWhy
+    * AlwaysFeedback
+
+See TrivialFeedback

@@ -1,0 +1,11 @@
+﻿++ Different Representation
+
+There is more than one representation for the same data. Unlike conventional systems, TheSystem should not force a user into a HaveTo due to a forced representation.
+
+The following different representations are usually available:
+    * RealRepresentation
+
+++Examples of Forced Representation
+    * Windows:Opening a file type with one application only and not its creator (see [Authoring])
+
+

@@ -1,0 +1,15 @@
+﻿++ File
+
+A file is a contigous region of data on the hard drive.
+
+    * Delete
+    * Copy
+    * Read
+    * Move
+    * Overwrite
+    * Backup
+    * Convert
+    * Compress
+    * Archive
+    * Encrypt
+

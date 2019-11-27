@@ -1,0 +1,40 @@
+﻿++ Download
+
+Files are stored in a SmartCache as they are downloaded. Logical [Links] are made when the download is finished so the file will not have to be moved. This is ReferNotStore.
+
+++Architecture
+Downloads have the following tasks:
+    * resume
+    * start
+    * stop
+    * pause
+These can also be TriggerAnything]s. For example, when a file is started its progress has TaskExternalisation to a [Chat] application and when it is finished it is added to a file management system.
+
+The following concepts apply to downloads:
+    * ProgressiveFeedback and AlwaysFeedback
+    * [Queue]
+    * Prioritising
+
+Download is a stage that is invoked when obtaining from the [Network] or the [Internet]. An AbstractionAwareness is necessary to prevent confusing the user, UseAnySource and making a HelpLapse.
+
+After clicking a remote file, TheSystem checks SmartCache to see whether the file was obtained already. If not, FileHandling is used to display a file offer. This is a format specific [Frontend] that displays options including:
+    * preview/stream
+    * open
+    * download
+
+Download also has OrderPreservation if [Users] desire.
+
+++Interfaces
+
+TheSystem can HelpTheUser]s that have an structure for [Files].
+    * AutomaticStandardEstablishment can move certain file types to certain areas.
+    * display a list of common [Zones] and allow the user to select one, music, games, installations etc
+    * Let the user save.
+
+* upon download, save file where?
+ 
+
+
+ 
+
+[icon=download]

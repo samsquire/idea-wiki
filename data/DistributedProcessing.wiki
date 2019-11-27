@@ -1,0 +1,3 @@
+﻿++ Distributed Processing
+
+The [Outsourcing] of [Processing] is DP. Nodes of the [Network] are given the task of processing something. Conventionally, this is named grid computing.

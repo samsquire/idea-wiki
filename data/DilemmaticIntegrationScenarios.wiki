@@ -1,0 +1,20 @@
+﻿++ Dilemmatic Integration Scenarios
+
+DIS refers to examples where [SystemIntegration] should be possible but is difficult to design for or create an architecture. Some scenarios have proposed solutions that may not be completely ideal.
+
+++Website download section
+
+A website wants to provide files to download. A school website may have some important files for parents and students for example. Getting these files from where they are authored to the correct place on the website and updating the website is the problem that needs to be solved.
+
+The integration problem arrives in 'submitting a file' to the website.
+    * Basic folder sensitivity is a simple type of integration that means TheSystem will TriggerAnything based on the addition of files to a directory. The website system may have this configured to occur on the remote FileSystem on the website to invoke database [Initialization] of the new file. The next step is to get files from [Users] to the website. An extension of this architecture is to have a sensitive folder [Triggers] on the [Users] computer so that when a file is added, it can be automatically uploaded through some mechanism. Further stages of integration are:
+    * only uploading the file when the user has finished with it. Most software writes to files frequently, despite not being finished. The user would inadvertently trigger an automatic upload if this is not sufficiently intelligent. There are two stages of potential integration that solve this:
+     * SystemViewer, controls appear in the DirectoriesArePortals to 'submit' files to the website.
+     * The user doesn't make files in the folder but only sends them there when they're 'done'.
+     * The [Authoring] software has a 'done' button or option that means the file is ready for uploading.
+    
+
+++Integrating multiple things together
+
+Implementing [Passthrough]s, LiveData and [Extensibility] between random subsystems is difficult because each architecture should have little or no awareness of the other.
+

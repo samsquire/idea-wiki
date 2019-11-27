@@ -1,0 +1,7 @@
+﻿++ Dual Endpoint
+
+DE is when an [Endpoint] is available as both LogicalEndpoint and PhysicalEndpoint. This can be accomplished by
+
+    * maintaining both a LE/PE by converting the LE into a PE whenever it is modified
+
+see ParseCompile

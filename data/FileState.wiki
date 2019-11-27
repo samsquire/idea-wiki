@@ -1,0 +1,20 @@
+﻿++ File State
+
+File state refers to the conditions, properties and other metadata of a file. States include:
+    * opened
+    * downloading
+    * scanning
+    * encrypting
+    * editing
+    * uploading
+    * decompressing
+    * compressing
+    * indexing
+    * writing
+    * reading
+    * erasing
+
+file size progress on system viewer, downloads would show a fraction, eg
+ - on the 'size' column would show 1.3MB / 20MB on a file that is still downloading
+
+progress of a download needs to be visible on a file in the SystemViewer for example

@@ -1,0 +1,30 @@
+﻿++ Forum Manual Of Style
+
+Forum Manual of Style ~ by Improfane
+v0.1
+
+Forums are places of converse, debate and arguments. People communicate in different ways and create conflic. This document outlines various stylizations in forum posting that - in the author's opinion - should be avoided. The version of this document is 0.1.
+
+Get To The Point
+
+Beginning posts with enumerative phrases like 'firstly' is unnecessary. Words that precede the post body should be omitted. Common examples are:
+    * well
+    * firstly, secondly
+    * as to whether
+
+Hand Raising
+
+Opening phrases like 'I agree' and 'I disagree' serve no purpose but make your side countable. Dogmatic individuals are happy to ignore the rest of your post if your opinion differs. Force people to read your threads by not making it too easy to dismiss.
+
+Erroneous Capitalisation
+
+Capitalising all words of a sentence is difficult to read and pretentious.
+
+Side By Side Comparisons
+
+These involve changing an author's original words to make them appear careless and arrogant. This tool is reserved for immature debaters. Explain positions explicitly instead of putting words in someone else's mouth.
+
+Fix Claim
+We do not support this behaviour as it is rude and incisive.
+
+

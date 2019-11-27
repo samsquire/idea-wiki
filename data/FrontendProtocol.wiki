@@ -1,0 +1,239 @@
+﻿++ Frontend Protocol
+
+The FP is a [Protocol] for creating [Frontend]s.
+
+++ Ideas
+    * Stream protocol
+    * Pre-fetching
+    * Separation of data and behaviours
+    * Bundling / Packages
+
+++Concepts
++++Display Only Elements
+
+You don't need the ability to manipulate an element on the screen at all times.
+    * [Conventional] Web browsers load all this internal data structure for the off-chance that a script or the user will need to manipulate it.
+    * This increases memory usage and CPU usage for algorithms.
+
+The improvement is that the frontend can display a compiled-version of an element as a trade off in performance. If dynamic behaviours are needed, they should be loadable on demand or they should be detected.
+
++++Interleaved Stream Allocations
+
+The server transmits the stream in an arbitrary order and in a way to maximize performance:
+    * The server transmits all the elements that are to be displayed immediately.
+    * The data for the entire screen is transmitted, beginning with the data to be displayed within elements first.
+    * The client offloads interface and data allocation to different threads.
+    * Elements that are likely to be used later are then transmitted.
+
+The reasoning for this design is that user interface elements need to be allocated, loaded into memory and initialized. They need to be configured too by the server.
+
++++Data Usage Profiles
+
+Data that is sent to the client is unlikely to be used as-is without manipulation by the client. For example:
+    * Sorting
+        * Put into an efficient client side data structure: trees
+    * Searching
+        * Create indexes 
+    
+
++++
+
+    * Simulate PC I/O, Network for data, simulate algorithmns for loading/sending data
+    * Set based update check: AND bitset, if match
+    * Human delay
+
++++Intelligent Interface Paging
+
+Some techniques can be used so that the client can support displaying large numbers of elements simultaneously. This can be accomplished by 'paging' visual elements by avoiding graphical work as much as possible.
+    * This would be the same infrastructure that supports paging as typically used by web sites that break content between pages to reduce load on servers and databases. [Conventional]ly the items are separated into batches of elements of a set number and the requests to the database are constructed to skip a number of elements depending on the page number.
+
+For example, if the server states that 25,000 items are within a tree:
+    * The user is unlikely to have enough time to view them all
+    * There will not be enough physical screen space to render them all
+    * it is unlikely the client has the memory and CPU resources to display them at once.
+    * there is not enough time to download all items
+    * Not all items will be needed
+
+Instead, the client can use some tricks to avoid having to fetch them:
+    * Determine how many can be displayed initially. These have immediate priority
+    * 
+
++++Perceivable Data First
+
+An element on the screen typically has a lot of content that is not visible to the user. Some of it is not relevant to the user as it dictates its behaviours when interaction occurs.
+
+    * Send the element style and current display content first.
+    * Do not send tooltips or internal data such as the data that might be displayed within
+    * If the visual element is a representation of some object, order the data so that data used for rendering is sent first.
+
++++ Data Updates
+
+The client needs to be able to handle updates to data that it is displaying.
+
++++ Representation Data Ordering
+
+The compiler can order the stream efficiently by analysing the frontend and determining what should be displayed in which order.
+
++++State Machine Stream
+The stream is a state machine. Only a subset of commands is valid at any given time.
+
++++Data Transfer Order
+
+This is a sequence of data that will be streamed to the client. The server handles each item according to the protocol standard. 
+
+    * Number of Elements to Render Upperbound
+        * Allocate memory
+        * For raw element structures
+        * Initialize scene graph for this many elements
+   
+The following items would alternate depending on the client's responses:
+    * Element To Display
+        * Type of element
+        * Properties of element
+    * Data packet for element of certain size
+
+
+
+++Procedure
+
+    * User enters front://search
+    * Client opens port to begin a session
+    * Client sends capabilities
+        * Screen size
+        * Processor profile
+        * Colour profile
+        * Graphics profile
+    * Server sends back content, packaged in the most efficient order
+    
+++Chat
+
+
+ i would love to know what you think of the idea
+ it's lots of micro-optimizations
+ web browsers are slow because they have to download a certain amount of HTML, tokenize it and parse it
+ allocate and construct trees
+ (for the DOM)
+ and then allocate and construct the scenegraph for rendering
+
+ they're fast enough but they feel too slow for me
+ too much work is done on the client and server
+
+ wait i'm going to unzip it
+
+
+ yeah i can see it  
+
+ your ideas always sound so professional, they're great!!
+
+   i am glad you agree
+ do they make sense to you?
+
+ yup!
+
+ do you think it would improve performance
+ the web should be a stream based, not a file  
+ of course the stream should be saveable to a file
+
+ i've been thinking about that question too..
+
+ i think it should be multithreaded it
+ too*
+
+ yup!
+
+ currently web browsers have a single thread for the network
+ and then a main thread
+ that's dumb
+ can multiple threads allocate memory at the same time?
+
+ there should be a network event thread
+ that then 'gives' and event to different threads:
+
+    o - event thread
+  /   \
+d      e
+
+d - data thread
+e - element thread
+
+ that somehow reminds me of my old OS lol!!
+
+ yeah!
+
+ really?
+ what did your old OS do  
+
+ well let me say it more precisely
+ that somehow reminds me of what my old OS was supposed to do!
+ haha
+
+ i wanted to implement several threads but i never found a good tutorial...!
+
+ unfortunately:
+
+"Now, the default implementation of malloc is generally conservative, and will simply have a giant lock around all this. This means that requests are processed serially, and the only thing that allocating from multiple threads instead of one does is slowing down the whole thing."
+
+ ah yeah malloc
+
+ apparently that won't help then  
+ i guess the main network thread would do the allocation
+ but the processing work on the data would be in the respective data and element thread
+
+ right
+
+ by making it event based
+ i think performance can be larger than making the client parse the stream
+ itself
+ a Html file is effectively a stream but has to be parsed manually
+
+ a for loop with events inside would be faster
+ i don't know how most protocols are implemented
+ but i imagine it's some kind of state machine loop
+
+ the order of events coming in directly effects how fast they are displayed on the screen
+ the individual threads would organize the data to make it faster while the interface is being used
+ so a table containing 5000 items would only load 60 at first
+
+ it would then create in memory tables of the data
+ OR it could write a SQL database  
+ to the hard drive
+ rather than writing a HTML cache
+
+ Yeah! i like the idea of the SQL database...!
+
+ so each record of the gui would be stored on disk like a SQL table that could be sorted
+ an searched
+
+ once it sends the intitial 60 items on the screen it would send the behaviours
+ like 'register a handler on this button'
+
+ priorities are:
+a) allocating objects in advance, all at once..more efficient to allocate 512 kilobytes in one go than allocating lots of 4kb chunks?
+b) displaying data in elements ASAP
+c) downloading secondary actions (behaviours)
+ d) loading additional data after the screen is ready to be used (the behaviours have finished)
+ it would be appending items from the table to the SQL database in the background
+ so if the user clicks page 2, it's instant
+ it would only load a certain number
+
+ maybe download X pages or 5 screen heights worth of data
+ so as soon as the user hovers over the scrollbar, it begins predownloading
+ or if they press page down or down on the keyboard or start crolling on the scroll wheel
+
+ it immediately begins downloading a few more
+ chances are, most interfaces would only load 2 or 3 pages of items because people would run a 'sort'
+ and sorts usually show only the top or bottom
+ so you can optimize for that too
+
+ the data in the middle is not downloaded
+ +
+|
+
+ +-------------------------+
+|     |                   |       |
+|  d |    list nd       |   d  |
+|     |                   |       |
++-------------------+------
+ d = downloaded
+ nd = not downloaded
+ what do you think?

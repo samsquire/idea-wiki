@@ -1,0 +1,14 @@
+﻿++ Frontend Design Considerations
+
+FDC are what must be considered when designing a [Frontend] UserInterfaces within TheSystem. Each consideration will be discussed.
+    *
+    * [Visibility]: InterfacePanelOverflow
+    * [Sizing]
+    * [Attention] must be explicitly defined in context.
+    * CompleteFlow must be defined
+    * [Help] must be supplied
+    * UserInterfacing methods and attributes
+    * [APIs] for input
+    * [Backend] 
+
+    * ContextSpecificMessages

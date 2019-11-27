@@ -1,0 +1,13 @@
+﻿++ Friendly Configuration
+
+FC is where [Configuration] is explained with the ExplanationSystem. This helps users understand what settings are actually doing. 
+    * rendered in the form of [Reports] by the ObjectInterfacer 
+
+Alongside the PracticeSystem this will HelpTheUser by explaining what currently happens and what would afterward.
+
+
+more information about presented options
+- easy adjust, live adjustment - options have live links with software
+ - press + and - to change up and down
+
+- graphs showing current result of options: update frequency shows checks that resulted negative and checks that result positive.

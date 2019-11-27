@@ -1,0 +1,17 @@
+﻿++ Empty Infrastructure
+
+EI describes a social phenomenon of [Development] where there are a plethora of [Conventional] projects but [Developer] and [Users] usage of infrastructure is minimal.
+
+++Examples
+    * [Linux] has many different distributions. Some good distributions are not used as much as others. These have an 'empty' infrastructure because people are not developing for them.
+    * ApplicationSigning is a powerful identity mechanism yet many open and closed source applications are not signed by developers or organisations.
+    * Encryption is and ContentSigning is not used by users.
+
+++Proposed Solutions
+
+EmptyInfrastructure are built to improve or fix a perceived issue or problem experienced by another, different existing infrastructure. The result is that the existing infrastructure possesses a large 'inertia' from usage. [Users] and [Developer]s cannot justify the effort to change. Solutions to this are:
+    * reducing the cost of the change, [Migration], [Multidirectional]
+    * encouraging adoption through [Standards], [DefaultSoftware], GoodInterfaces
+    * Powerful [Frontend]s that make it easier to use
+    * Create lots of low level and high level functionality by default
+    

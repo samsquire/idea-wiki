@@ -1,0 +1,8 @@
+﻿++ External Management
+
+EM is to manage something externally. This should always be possible and is encouraged due to NoDistance.
+
+    * [Applications] should not have to be opened to manage them.
+    * [Directness]
+
+EM doesn't block Internal Management.

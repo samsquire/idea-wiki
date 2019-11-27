@@ -1,0 +1,9 @@
+﻿++ Engine
+
+Engines are LowerLevel [Applications] that provides features which HigherLevel can use.
+    * Should be a SharedImplementation.
+    * Separate [Installation] of engine and its clients
+    * Often used by [Games]
+
+[Applications] that utilize engines have low coupling with them. This means that engines can be uninstalled without removing games and games without removing the engine.
+     * game engines - uninstall game engine without any games

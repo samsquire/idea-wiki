@@ -1,0 +1,4 @@
+﻿++ Fundamental Extraction
+
+[Extraction] is among the [Fundamentals]. [Users] may extract [Data] in the current format or as another, provided by the RepresentationSystem.
+    * This prevents lockin and is a FutureProofing.

@@ -1,0 +1,24 @@
+﻿++ Embedded Data
+
+ED is the [Data] contained within other data. [Standardization] means particular [Representations] are expected. Properties of ED include:
+    * BrittleData
+    * Low [Extensibility]
+
+Modifying ID:
+    * removes [Compatibility]
+    * forced awareness ForcedAbstractionAwareness (which means that there is a lack of transparency)
+
+TheSystem has a principle of AppearEmbeddedStoreExternally.
+
+The opposite to EmbeddedData is ExternalData and is preferred.
+
+Examples include:
+    * rows on a database
+    * file fields
+
+Formats:
+    * HTML, <a href="">
+     * don't ever store the actual html link in the database, messy
+    * Wiki - lightweight ID camelcase
+    * BBCODE - [url=]
+

@@ -1,0 +1,18 @@
+<document>
+<sam type="subs" name="DocumentingSystem.idea" template="ideaRecord.md" source="idea.md">
+	<Title>DocumentingSystem</Title>
+	<Description>DESC</Description>
+	<Idea>DocumentingSystem</Idea>
+</sam>
+<![CDATA[<div class="content DocumentingSystem">]]>
+++Documenting System
+
+The Documenting System allows activities to be tracked. The DS works alongside [Logging] and allows more useful information to be added.
+
+++User intervention
+
+    * user changes some security options and attaches a document to the change to explain why
+    * the user gives the label "i prefer this" to a change because they prefer it this way
+    * user figures that the change makes some software work and is recorded and if the user supplies information why<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

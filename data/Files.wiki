@@ -1,0 +1,23 @@
+﻿++ Files
+
+Files are presented by the SystemViewer.
+    see FileHandling
+
+++Implementation
+
+The different file architectures are distinct to TheSystem and SystemViewer.
+    * Files that contain multiple formats, word document 
+    * Compound Files are constructed of more than one file which is also has its own format. A document file may actually be a collection of multiple files
+      * open document and compressed archive files
+
+[Mapping] and AutoMapping is used to allow the user to BringCloser file-specific tasks. Relevant ContextMenu] are available. (see [Awareness])
+
+The FileSystem determines how files and folders are stored on the HardDrive.
+
+++Rules
+
+    * Files are not hidden, only filterable from view
+    * File size shows arrow pointing up and down if it has changed since user last saw it like video games.
+
+
+[icon=doc]

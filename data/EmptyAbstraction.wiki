@@ -1,0 +1,15 @@
+﻿++ Empty Abstraction
+
+An empty abstraction is one that is not used to its full potential because:
+    * little to no applications use it
+    * not enough information is available to use or understand it.
+    * 
+
+InformationUnavailibility and DatalessTemplates are signs of an EA and LowStandards tends to be the cause.
+
+++Examples
+    * In Windows XP services configurations are an empty abstraction.
+    
+    * ELF executable headers, ignored by Linux
+    http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+

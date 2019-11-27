@@ -1,0 +1,6 @@
+﻿++ Game Management
+
+This is a standard software that implements the game specifics of:
+    * MatchMaking
+    * UpdateArchitecture
+

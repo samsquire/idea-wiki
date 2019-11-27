@@ -1,0 +1,3 @@
+﻿++ Development Pattern
+
+DP refer to well-discussed and development strategies use to create software.

@@ -1,0 +1,8 @@
+﻿++ Emergent Programming
+
+EP is a concept where features come to exist through emergence rather than direct implementation. Emergence is where a feature emerges from various irrelevant components to make a desired behaviour.
+
+Luc Steel has the best example of emergence.
+http://cse.ucdavis.edu/~dynlearn/dynlearn/RoMADS/steels01/index.html
+Especially this page:
+http://cse.ucdavis.edu/~dynlearn/dynlearn/RoMADS/steels01/page2.html

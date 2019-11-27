@@ -1,0 +1,10 @@
+﻿++ External Configuration
+
+EC is [Configuration] that is not relevant to the operation of [Applications]. It is the opposite of InternalConfiguration. This is the configuration as a whole.
+
+    * Startup run
+    * Start menu position
+    * Permissions
+    * Processor priority
+
+EC can be accessed from the TitleBar or from ApplicationPortalling.

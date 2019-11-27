@@ -1,0 +1,5 @@
+﻿++ Future Proofing
+
+    * [Multidirectional]
+    * NoBrittleData
+    * MinimumInformation

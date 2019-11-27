@@ -1,0 +1,165 @@
+﻿++ Forum
+
+Forums are communication [Applications] that allow [Users] to communicate through permanent postings. Forums are usually [Internet] and [Network] based.
+    * [Applications] should be available to run a forum limited to a single machine based on its local [Users].
+    * ContentClassification allows forum [Portalling]. 
+    * Most forums are WebApplications where [Frontend]s are web pages.
+    * MyCommunity includes a NativeImplementation forum that aims to avoid the flaws of conventional forums.
+    * SoftwareConsilidation enables [Users] to create projects: create databases
+    database creation on a forum, make a table that is actually a real backend table
+
+++Architecture
+
+Forums require:
+    * [Caching] of [Posting]s, topics
+    * [Database] abstraction
+    * [Templating] for smileys, registration emails, 
+    * [Permissions] and GrainedControl of [Posting], topics and attachments
+    * User [Categories], groups, labels?
+    * CommonCommunicationImplementations
+ApplicationComponentry for forums includes:
+    * [Themes]
+    * [Backend]sh
+    * [Extensions]
+    * AntiSpam
+    * Localization
+
+(( registration is a common implementation that should probably be added to the common implementations OR a new web section ))
+
+Unfortunately, [Conventional] forums have [Reimplementation]s and IrrelevantCoding of the above built into the software. [NativeImplementation]s would use SoftwareConsolidation and [SharedImplementation]s to avoid this:
+    * CommonImplementations
+    * CommonCommunicationImplementations
+    * [Templating] for registration, emails
+
+Common features of forums include:
+    * UserPolling
+    * PrivateMessaging
+    * [Quoting]
+    * Format Markup
+
+small machines forum, email templates etc
+ - the email subsystem should handle that, not the forum software
+
+++Problems and Solutions
+    * DoublePosting
+    * CommunityQuality
+    * RedundantData
+    * QualityProblem
+
+NativeImplementation]s of forums aim to solve the common problems with:
+    * CommunityQuality
+    * [Ranking]
+    * 
+[Users] often create similar posts, leading to redundancy. To promote OnlyOnce, forum [NativeImplementation]s allow [Users] to UseTheSameSource via AnyMapping. Entire posts or sections of posts can be included in future posts MoreEfficient]ly.
+
+quiz implementation on forum
+inter posting on forum
+
+++Control
+
+GrainedControl can also enforce power and quality of a forum.
+
+
+++Quality
+
+Forum quality is encouraged with the LameCensor and CommunityQuality.  Other methods can increase via simple rules:
+    * minimum amount of words in topic title is required, eg no 'help' topics
+    * ban common topic titles
+    * excessive non-alphanumeric punctuation symbols, eg '!'
+    * topic starter can ban user from making further posts to a topic only if they have replied to it, other users see the ban and can agree/disagree on position
+
+GrainedControl can be used to control access:
+    * REQUIREMENTS per post, topic and forum/board
+    * combination of:
+    * min/max, scores
+    * views
+    * contribution
+    * variables from SoftwareConsolidation
+    * hide forums and posts at different times, see TimedDisclosure
+
+    * reorder forum posts
+
+To increase quality visibility, the good content can be promoted. Posts in large topics are especially subceptible since they go unread due to sheer size. Post promotion allows important posts to be promoted from normal posts by displaying at the top or some other high-profile location. Important posts are:
+    * responses to frequently stated comments
+    * notifications
+    * important remarks
+    * highly rated
+
+When individuals do not read the last page of posts, the discussion is reduced since they only replying to the topic starter.
+
+
+- a single post can have hundreds of replies.. promote the best ones to the top of most pages and keep it threaded
+
+++Concepts
+
+CrossReferential [Links] to usernames, posts and topics help make a ConsistentSystem through InformationInterface]s.
+    *  topics indicate time of and the last poster
+
+This is simple for DesktopApplications. WebApplications would require DynamicWebServers or Javascript to parse links. Parsing is likely to:
+    * Scan for username on current page.
+    * Scan for username on previous pages
+
+Javascript may incorrectly link references since it cannot accurately know [Users] context. It is likely that [Users] will add links to words themselves to correct and maintain the CrossReferential of postings.
+
+Link data should be stored as ExternalData so that the disadvantages of EmbeddedData are not applicable. Alternatively, [Wiki] like links can be used since they are a lightweight ID.
+
+++Original Features
+
+DesktopApplications will be RealTime in that when a forum event occurs, [Users] can receive UserNotifications or have the UserInterfaces immediately update.
+    * green background and up arrow to indicate some posts were made between focuses +3 means 3 posts created
+
+Frequently it is possible to subscribe to a forum post and receive emails when a new post is added. BringCloser and AbstractionAwareness means that turning this on or off should be possible from within interface that the email is displayed in.
+
+Conventional forums are difficult to find posts by the same [Users]. If one wants to read the posts of a user in the current topic, the topic has to be manually scanned. This is a problem in large, unthreaded topics. [Portalling] enables ImplementTheUnimplemented by providing user [Filtering].
+    * forum: find next post of XYZ
+
+++Replies
+
+Users may wish to reply so that only the user can see the message or everybody can.
+    * UnchangingInterface would be a good addition that allows one to private message a member directly from the post itself.  Checkboxes could be used to toggle public/private message mode. This is EmbeddedPrivateMessaging
+    * publicly visible or not
+    * attached to message (AnyMapping) to encourage contextual replies or completely separate PM
+
+Replies could be handled by multiple strategies:
+    * input underneath message
+    * new page for reply
+    * bottom of topic page
+
+Admin commands in [Paths] should have ImpossibilityDetection by:
+    * not responding to request
+    * banning the user (make it impossible to add admin command links to people do not try get eachother banned)
+
+Posts can become authorless and wiki-like on demand. This is possible due to SoftwareConsolidation where wiki parsing is utilized. Collaborative lists mean [Users] can add items to the list which can then be accepted or denied based on the author's settings.
+
+schedule message on forum to appear after someone else replies, to prevent double posts and for predictions
+
+++Post Promotion
+
+
+
+++Quality
+
+forum tags
+
+post requirements:
+ - you must have at least one post elsewhere, a post with a particular status
+ 
+++Ideas
+
+forum administration:
+ - male/female breakdown would be cool
+ - prune members: 'do not prune if at least 5 posts'
+ - mailing software should be powered by mailing software
+ - birthday event should not be handled by the forum software, but by a calendaring software that raises an 'event' on the calendar
+ - click block in eblah is a good idea, as is the login/logout, referral and attachments
+   - log files should be referencable in software, eg, the web server log files are displayed in the control panel for the forum, aka, generic log processing is required, not a native format or reimplemented parsing, see 'advanced ip search utility' in eblah
+
+need a post breakdown, eg,
+ - number of posts
+ - number of topics
+ - number of replies
+
+(( forum:
+sorting file, determines what topics return to the top, people can use their own algorithms
+voting algorithm, forum admin chooses a style of topic voting
+))

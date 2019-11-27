@@ -1,0 +1,7 @@
+<document>
+<sam type="subs" name="NAME.idea" template="ideaRecord.md" source="idea.md">
+	<Title>NAME</Title>
+	<Description>DESC</Description>
+	<Idea>NAME</Idea>
+</sam>
+<![CDATA[<div class="content NAME">]]>

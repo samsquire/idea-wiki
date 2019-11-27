@@ -1,0 +1,8 @@
+﻿++ Extensibility
+
+Extensibility is how easy, simple and how quickly additions can be made to [Applications] and TheSystem.
+    * see HighExtensibility
+
+Extensibility is accomplished through:
+    * FutureProofing
+    * [Multiples]

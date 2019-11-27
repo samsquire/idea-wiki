@@ -1,0 +1,98 @@
+﻿++ Game Architecture
+
+The GA is a NativeImplementation for [Games] to utilize.
+
+++Components
+The GA is broken down into the following components:
+    * NetworkedGames
+    * GamePortalling
+    * GameComponentry
+    * GameRepository
+    * GameManagement
+
+++Implementation
+
+Games use TaskExternalisation to announce the playing of a game. All games register themselves in the GA what is possible.
+
+This allows SystemIntegration of other [Applications]. [Chat] applications present the game with StandardRepresentations, often being the game's icon on the contacts InterfacePanels. If the recipient doesn't have the game:
+    * the game could be downloaded if free
+    * instructions for purchasing commercial games, opened in an [Encyclopedia] or GamePortalling
+
+Multiple games can be indicated and [Users] can customize which games are displayed. Either the recipient or local player can decide this. This can be by choosing them manually or using existing DynamicData from the perspective of either user:
+    * favourites only
+    * frequently played
+    * most recently played
+    * only installed games
+This means that the chat user could choose to only display icons of favourite games that a contact owns. [Users] may choose to avoid using graphical representations of games and use the text name instead.
+
+[Remote] [Users] have [Portalling] as a NativeImplementation implemented by GamePortalling. The [Chat] interacts with it. This portal presents the same information as local GamePortalling but is more limited for [Security] reasons.
+
+Both installed and owned games are presented. This is so that [Remote] players can still use the GP as a RealRepresentation of the player. These remote players can also request the installation of games and the player can also provide a reason why it isn't installed. For example 'lost disc'.
+
+The combination of MatchMaking and OrganisationArchitecture are use this information to help organize games.
+    * a user may specify he wants to play any game. The common collection of games shared can then be voted upon.
+    * A user chooses a game and everybody with the game is notified.
+    * New games can be introduced to users through the [Sharer]. This is likely to occur with those who have no common games with everybody else.
+
+The obtaining of the game should be an UnchangingInterface.
+    * This means that it will be added to the [Download] manager but will not be opened. Instead, LiveData in the form of InterfacePanels are used. The game entry will reflect this progress.
+
+ProgressiveFeedback is available to all those relevant to the game. This [Feedback] includes:
+    * downloading, the game or GameComponentry
+    * installing
+    * updating
+    * synchronizing
+    * configuration
+    * loading
+Notifications can be distributed to:
+    * everybody, as a status (installing game name + icon)
+    * the remote player who influenced the [Users] to obtain the game
+    * owners of the game/people have it installed
+This progress will also be clearly visible from the user's game portal and InterfacePanels.
+
+For installed games, data regarding individual games and active games is viewable from the InterfacePanels or through the user's individual portal. The following data should be available:
+    * active character
+    * progress
+    * duration
+    * GameComponentry: map, mods (StatusRepresentations)
+    * show scores
+    * compare scores
+    * viewing the [Inventory] of [Games] - the GameRepository
+This data applies to both multiplayer and singleplayer games. This is so that singleplayer games have an ImplicitImplementTheUnimplemented where they are interactive multiplayer wise.
+
+[Users] may invoke additonal tasks. These tasks usually require the [Permissions] of the remote user, in which case they will be requested and subsequently blocked, denied or accepted. AccurateInterface mean that the screen should display clearly what will require a permission and what is immediately available, see ClearOnCapability.
+    * Watch Game - Users who also have the can have the game streamed to them if the engine supports it. Alternatively, video recording can be enabled and it can be delivered afterward as a video clip. This would be a UserRule since it will take [Resources].
+    * share GameComponentry
+    * [Synchronization] of GameComponentry
+
+The OrganisationArchitecture and GameManagement handles the differences between 
+
+
+Active NetworkedGames may be displayed and joined. The status of the game such as map, mod and server may be provided aswell. Upon selection, the recipient may join the game.
+    * StandardRepresentations for game settings such as game type and mod.
+    * Can be copied and pasted as a NG path.
+
+Games with passwords may prevent users from entering. StatusRepresentations such as a key are used to show that the game is locked. Upon clicking, the password is requested from the user and may if accepted, they may enter the server.
+    * Route [Chat] messages ingame.
+
+Game [Configuration] can be invoked from [Paths] such as:
+    botfps://map:urban/mode:dm
+
+++Framework
+
+The [Backend] of the GA is a set of architectures with [Reusability].
+    * bot creation - pluggable AI
+
+gamework
+ - cross platform framework for game management
+
+map requests - community service
+game movies
+
+
+gameplay ideas:
+ - fast list and custom list: fast list shows games that are JUST about to begin
+
+powerful play network
+ - live-like integration of games and players
+ - accomplishments

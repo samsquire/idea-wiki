@@ -1,0 +1,32 @@
+﻿++ Game Agent
+
+GA is a piece of software that allows users to manage and organize games between multiple users. This is possible through the OrganisationArchitecture by removing layers of uneccesary complexity of explicitness in game creation.
+
+The goal of the GameAgent is so that the player can start a game instantly with one press from within TheSystem and have the game load right into the game itself. The user should not have to mess with InternalConfiguration to get a game set up and interrupt SeamlessUsability. 
+
+These are the expected minimum features:
+    * Inserting IP address settings
+    * Selecting game servers to play on
+    * Synchronization of loading games: Not everyone will have equal hardware. Some hardware may take longer to initialize than others. This means that these people should have an early start. The GameAgent will run [Performance] [Tracking] to find the fastest players and the trends during games before making decisions.
+    * Set a game start time, including date and time
+    * Game request system: Users can request games from other players and make game offers. If a game offer is accepted the user will not need to do anything because it will be automatically started at the requested time.
+
+Other desired features are:
+    * Selecting who will play in the game
+    * Selecting the sides of the game
+    * Selecting when to play the game
+
+++Notifications
+The UserNotifications system may alert users in the following situations:
+    * A player has opened a game
+Programmatically event is FRIEND OPENS GAME. Where FRIEND and GAME could match to a more specific friend or game.
+    * Friend can be substituted with any player. Opens is a verb and could have have additional attributes like game properties or even time period.
+
+What if the user has a busy state? It is a bit messy to program in an if check. Instead the active user could have a filter for what they are notified by.
+    * Friend is no longer busy
+    * FRIEND CREATES GAME
+    * Notications = 
+
+popup 'sam has loaded game'
+ - watch local network
+ - load game engine at last minute

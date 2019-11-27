@@ -1,0 +1,25 @@
+﻿++ Efficient Frontend Arrangement
+
+EFA means that the [Frontend] should always be arranged in the most efficient way possible.
+
+++Requirements
+
+    * The amount of whitespace should be limited to a set figure and amount.
+    * DatalessTemplates should not cause WastedSpace
+    * [Users] can begin using an interface easily. The EFA HelpTheUser
+    * The rules used by EFA are easy for [Users] to grasp and are not difficult to understand.
+
+++Implementation
+This can be accomplished through:
+    * Hiding elements of no importance
+    * OptimalResizing
+    * Resizing less useful elements so they do not impinge the user.
+    * Ensuring elements are sized for them to be used efficiently
+    * [Prioritizing] elements
+    * Re-arranging elements according to priority
+    * Collapsing or expanding groups.
+
+HorizontalScrolling
+
+++Examples
+    * Windows Live Messenger shows empty groups of contacts even if they are all offline. This is a complete waste of space. Either the group could be completely hidden, moved to the bottom as they have a lower priority or automatically collapsed.

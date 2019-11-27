@@ -1,0 +1,13 @@
+﻿++ Distributed Statistics
+
+DS is statistics generated from DataCollection which is propagated through NativeNetworks.
+
+DefenceArchitecture utilizes DS to present information to HelpTheUser make better decisions. Conventional examples are Microsoft Spynet.
+    * [Malware], [Firewall] - user decided good/bad
+
+[Reports] are generated from these statistics.
+    * Pie charts reflecting user opinions.
+    * Security company opinions from security websites.
+
+
+(( back and forward on windows ))

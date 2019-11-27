@@ -1,0 +1,5 @@
+﻿++ Do Not Do Anything You Do Not Have To
+
+This a common idiom in TheSystem in regard to efficiency and optimisation.
+
+TheSystem and its DefaultSoftware should avoid doing anything that it does not have todo. This is possible through DirectedLogic, HighStandards and ContinuousInitialization.

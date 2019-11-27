@@ -1,0 +1,5 @@
+﻿++ Facilities
+
+Facilities refer to generic features that are available to [Instances] of a type.
+
+    * the [Volume] control per GrainedSeparation

@@ -1,0 +1,8 @@
+﻿++ Generalized Interfaces
+
+GI are UserInterfaces that are highly reusable because of genericness. SelectiveImplementation means that an interface can be an RelevantInterface. GI promotes OnlyOnce, the ReusabilityArchitecture and NoReimplementation.
+    * Elements of a [Frontend] can be enabled and disabled depending on the capabilities of the [Backend].
+    * StandardizedScreens are often GI because they require the versatility to be used anywhere in TheSystem.
+
+++Examples
+    * ApplicationCategories

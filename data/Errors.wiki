@@ -1,0 +1,19 @@
+﻿++ Errors
+
+Errors are when the system as encountered a problem. They essentially destroy UserControl and leave them stranded.
+    * SolutionSystem and SuggestedSolution help the user make an error solving choice
+
+++Architecture
+
+    The presentation needs to be displayed in a simple an easy way.
+     * The ExplanationSystem shows the error message in a box and follow with a explanation underneath in different formatting.
+
+    StandardEstablishment and StandardMultiples for errors
+    All applications have error conditions.
+     * When application is installed, an ErrorStore is installed that gives a dialogue description
+
+    * DNS server responsibility delegation: Error delegation, when a new application is installed, the application's error code range is dedicated to it
+    
+
+* higher awareness for errors (linux)
+ * argument that KDE is harder to configure because it requires decompressing archive etc whereas gnome allows you to simply add the file RepresentationSystem handles this

@@ -1,0 +1,8 @@
+﻿++ Fundamentals
+
+Fundamentals are what all [Architecture]s are designed to support. Fundamentals promote NoBaseTaskDownload.
+
+    * StandardEstablishment and StandardMultiples
+    * [Migration]
+    * [Extraction] FundamentalExtraction
+    * [Reusability]

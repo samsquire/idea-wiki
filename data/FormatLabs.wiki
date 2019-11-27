@@ -1,0 +1,26 @@
+﻿++ Format Labs
+
+FormatLabs is an idea to foster innovation of standards and 
+
+Business Idea #8
+Open Source Standards Body
+We sell a licence package for businesses to use all the following
+standards. We then make open source software and integrate it with as
+many programs as we can think of. We would say that open source products
+have the right to use our software to gain support.
+    Privacy Policy Format
+    Video Game Factcard Format (1player, online play, split-screen, co-op)
+    EULA Format
+    Game Mod File
+    Other Standards - some organisations claim to conform to standards
+like RFCs, IEEE or ISOs. We can make a format that records a list of
+standards and make icons for each of them. We can then offer CSS
+stylesheets that style mentions of standards into pretty buttons with
+icons, we can make the web more semantic. This can apply to products, to
+processes or organisations as a whole, such as the PCI data security
+standards. This is a bit like those 'hacker guard' icons you see on
+websites but a bit more secure.
+    Qualification Standards System - why isn't there a format the
+represents every qualification in existence? GCSE, OCR etc?
+    Tabs Open - a format for representing the tabs that you have open
+  

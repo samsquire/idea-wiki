@@ -1,0 +1,6 @@
+﻿++ Efficient Data
+
+ED means [Data] usage is efficient.
+    * ReferNotStore
+    * OnlyStoreDifferences
+    * UpdateOnlyWhenNecessary

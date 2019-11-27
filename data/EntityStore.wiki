@@ -1,0 +1,30 @@
+﻿++ Entity Store
+
+Entity Stores are [Stores] for [Entity]s.
+
+    * Entity Stores are rendered with the ObjectInterfacer.
+    * They can have a specialised [UserInterfaces].
+    * [EntityStore]s can usually be [Managed].
+    * StandardMultiples and StandardEstablishment
+
+see [Entity]
+
+++Special Features
+Unlike ComponentStore:
+     * Downloaded without storing
+
+++Exemplar Entity Stores
++++Accounts
+[Accounts] are an EntityStore.
+    * The local machine is an entity and contains references the account entities that are local.
+
++++Corporate
+    * departments of an organisation, see [Business]
+
++++Data/Software
+     * frequently modified data/software
+     * whether it needs to be updated
+     * backed up
+
+
+

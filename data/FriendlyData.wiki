@@ -1,0 +1,15 @@
+﻿++ Friendly Data
+
+FD is a HelpTheUser which means that the representation of [Data] should be in a simple and easy form.
+
+++Examples
+
+     Raw data such as dates can be made more friendly by using the language's terms for them:
+    Tomorrow (Saturday 12th)
+    Next Friday (Monday 18th), 8.30am - 12.30pm
+    Monday 30th, ... 
+    Tuesday 16th July, ... 
+    Friday 26th October 2009
+    Tomorrow Lunchtime
+
+     Raw data such as numerical times can be demonstrated by clock faces.

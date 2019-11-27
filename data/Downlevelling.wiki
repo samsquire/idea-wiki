@@ -1,0 +1,5 @@
+﻿++ Downlevelling
+
+Downlevelling is the opposite of [Uplevelling] and it means that a feature or capability is to be implemented at a lower level.
+
+see ImplementationLevel

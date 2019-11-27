@@ -1,0 +1,7 @@
+﻿++ Do Not Scare The User
+
+DNSTU means that [Users] should never be displayed with information that scares the user unless it is warranted. The following may scare a user:
+    * [Complexity]
+    * [Security] warnings
+
+The impact of scarying a user more than once reduces the action of the user in the future.

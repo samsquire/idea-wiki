@@ -1,0 +1,16 @@
+﻿++ Downlevel To The System
+
+[BaseTasks] and other features are downlevelled to TheSystem's domain to create consistency and robust [Architecture]. This is a StandardEstablishment. The downlevelling means that the following resources are shared:
+
+    * [UserInterfaces] - dialogues
+    * [ComponentStore]s
+    * [EntityStore]s
+    * [Bases]
+The shared resources are not restricted by TheSystem. 
+    * DownlevelledSystems describes particular downlevelled systems.
+
+++Examples
+    * [Applications] and SystemComponents use the same [UserInterfaces] which make the system easier to learn. see StandardizedScreens
+
+see [Downlevelling] and LowerLevel
+    * 

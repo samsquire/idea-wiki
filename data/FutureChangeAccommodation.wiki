@@ -1,0 +1,8 @@
+﻿++ Future Change Accommodation
+
+FCA is a technique from TheDevelopmentModusOperandi that encourages [Architecture]s, [Applications] and TheSystem itself to be designed so that changes can be made in the future. This is to prevent [SubsequentChangeSensitivity]
+
+++Examples
+Adding fields to already created systems can be complicated since there is unspecified behaviour for old systems that do not read the new fields. 
+    * HTTP protocol -  HTTP is very simple and easy to add new fields
+    * [Email] 

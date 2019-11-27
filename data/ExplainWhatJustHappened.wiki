@@ -1,0 +1,9 @@
+﻿++ Explain What Just Happened
+
+EWJH is a feature in TheSystem that attempts to make it more clear what has just occurred in TheSystem. In ConventionalSystems it is sometimes difficult to tell what a keyboard shortcut did.
+
+EWJH means that the keyboard shortcut would somehow be obvious what happened.
+
+This could be implemented as an overlay that explains what just happened.
+
+The help key, such as F1 could explain what the user has done and how they invoked something to happen. This is supported by [Logging].

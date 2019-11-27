@@ -1,0 +1,8 @@
+﻿++ Development Style
+
+Development Modes refers how the application was developed.
+
+++Styles
+
+    * offensive programming
+    * defensive programming

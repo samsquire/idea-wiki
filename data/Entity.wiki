@@ -1,0 +1,17 @@
+﻿++ Entity
+
+Entities can be anything that is not the local machine.
+    * people
+    * remote machines
+    * companies
+    * groupings
+
+++Entities and Componentry
+Entities are individual [Components] but are not the exactly same as ApplicationComponentry
+    
+    * Entities tend to be metadata and are not processed whereas [Componentry] (in applications) is actively processed.
+
+++Entity Stores
+Multiple entities are stored in an EntityStore.
+
+

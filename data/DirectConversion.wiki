@@ -1,0 +1,9 @@
+﻿++ Direct Conversion
+
+DC is a design strategy that means the conversion is exact and there is no intermediary format.
+
+++Supposed Advantages
+    * speed of actual conversion
+
+++Disadvantages
+    * requires lots of initial [Development]

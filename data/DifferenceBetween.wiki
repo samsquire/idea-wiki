@@ -1,0 +1,15 @@
+﻿++ Difference Between
+
+++Virtual Memory and Cache memory
+    * Virtual memory is a representation of memory exposed to applications by the operating system. Virtual memory can refer to an actual location within real memory, an empty location or even on a hard drive.
+    * Cache memory is instead a holding area between main memory and virtual memory for data that is constantly accessed.
+    * Differences: Virtual memory is logical, cache memory can be physical. 
+
+++Memwrite and Memread
+    * Memwrite and memread are control unit signals. Memwrite is used in ST operations while memread is used in LD operations.
+    * Memwrite is active during STORE operations so the data on the address line and write data is committed to memory
+    * Memread is high during a LOAD operation and LOW during a RR or STORE. HIGH causes the data memory to read the  data from the address line and output the data at this address onto the read data line. From here it will go to Mux C and since MemToReg is HIGH, the data will go to writedata of the register file. On the next clock signal, the data will be committed to the register file at the register referenced by writereg when RegWrite is HIGH.
+
+++Opcode and Funct
+
+The opcode represents a family of operations, it controls what signals the control unit will genreate. For RR operation, the funct parameter specifies the ALU operaton to run between the two operands. 

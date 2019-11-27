@@ -1,0 +1,6 @@
+﻿++ Game Considerations
+
+GC are what should be promoted in games.
+
+    * IngameProgression
+    * [Loot]
