@@ -1,0 +1,51 @@
+﻿++ Product System
+
+PS provides allows [Users] to interact with products by [Standardization] of product [Comparison] and [Portalling].
+
+The PS is essential for ControlledCommercial and CommercialIntegration because it provides a bridge from product discovery and product purchase. IntegratedAdvertising relies on the PS for potential products.
+
+PS [Data] is in the form of [Inventory] and catalogues. PS is designed for [Pooling] and obtains these from a combination of:
+    * from companies themselves
+    * Meta organisations
+    * private individuals CollaborativeData in a DistributedDataNetwork
+The CommunityNetwork runs a PS for applications with the OfficiallyAcceptedCertification and the NativeCompetition. CollaborativeData for other products is also maintained.
+
+++Implementation 
+Products typically include:
+    * [Hardware]
+    * [Applications]
+    * real life objects
+
+Products require SpecializedScreens to be AccurateInterface and ReliableInterfaces. Conflicts occur between [Users] and [Business] in how to display products.
+    * [Business]es are able to style the data originating from their own catalogue but this [Users] can override for [Standardization]
+
+BaseInteraction]s can help [Users] analyse and compare products efficiently. TheSystem can make comparisons to determine to decide on the technically superior product:
+    * [Compatibility]
+    * [Capability]
+    * [Extensibility]
+
+PS is useful for InterchangeableImplementations or [SelectableImplementations].
+
+Other properties for comparison are specific to the individual product.
+    * Price
+    * Size physical/logical
+    Logical/Physical size converter...100MB file - fits on 1 CD rom or flash drive (in your possession)
+
+[Users] may also utilize other properties. This is because [Users] requirements may be different to that of technical superiority.
+    * [Legality] - what license is it?
+    * [Authoring] - could the user modify it
+    * [Compatibility] - file formats you could open
+    * [Capability]
+
+[Pooling] additional information from external sources helps [Users] make better choices.
+    * CollaborativeData, DistributedStatistics
+    * [ReviewStore]s
+    * Whitepapers
+    * Polls
+    * Screenshots
+    * Media
+    * Demonstrations
+
+[Network] enables CrossReferential [Links] to:
+    * [Forum]s
+    * [Chat]

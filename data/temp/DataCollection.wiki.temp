@@ -1,0 +1,43 @@
+﻿++ Data Collection
+
+DC is how TheSystem collects [Data] about [Users]. This data is essential for:
+    * [Administration]
+    * [Development]
+    * IssueDetection and the IssueSystem
+    * [Help]
+    * Collaborative Help
+
+DC is on by default and will collect in a [Queue] before delivery.
+
+++Implementation
+
+DC is accomplished through UserTracking and [LogDurationsToo]. The following data is automatically collected:
+    * duration
+    * frequency
+    * favourites
+    * under [Usage]
+    * overuse
+    * speed/quickness
+For any of the following items:
+    * used commands
+    * what [Frontend] elements are used
+    * UserInterfaces
+    * search
+    * [Help]
+[Users] can display the information collected about them. Simple patterns may be detectable and could provide help to [Users] problems
+
+Additionally, the [Data] can be delivered elsewhere for [Processing]. This could be those of [Administration] or developers of the [Applications]. For privacy, the data is anonymous unless specified.
+
+TheSystem uses DC for:
+    * CollaborativeData
+Other uses include:
+    * ShowWhatTheUserWantsToKnow
+    * Testing
+
+usability data collection like microsoft office/user involvement program
+
+TheSystem WILL collect information about its usage and deliver it to our server as part of usability testing
+ - pools usability data
+
+
+

@@ -1,0 +1,13 @@
+﻿++ Interactive Text
+
+IT is where text has associated interactions with them. The text's structure has meaning in the RepresentationSystem. This is parsed as soon as possible per DataMapping.
+
+++Incremental Meaning
+Strings with incremental meaning such as [Paths] can be invoked in entirety or specific by its specific components. For example, the path of: ftp://sam/images/holiday has the following components:
+     * protocol specifier: FTP, would open the user's FTP client
+     * sam folder
+     * sam/images folder
+     * sam/images/holiday folder
+Even if only the protocol specifier was selected, the entire text object should be given so that it can be accessed manually from within the client.
+
+    * HTML can be modified on the fly. Use spacebar as the "/".

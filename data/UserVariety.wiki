@@ -1,0 +1,8 @@
+﻿++ User Variety
+
+UV is the choice [Users] have from a selection and is possible due to PromoteVariety. This means the choice between:
+    * [Applications]
+    * [Configuration]
+
+UV is accomplished through StandardMultiples, AlternativeExpansion and [Componentry]. UV can be ImplicitImplementTheUnimplemented if the [Fundamentals] are followed.
+

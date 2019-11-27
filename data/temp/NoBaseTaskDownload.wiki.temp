@@ -1,0 +1,13 @@
+﻿++ No Base Task Download
+
+Users should not HaveTo obtain software to fulfil [BaseTasks]. This is because of:
+    * The [Download] will be an unnecessary extra step (NoUnnecessary, NoForcedSteps)
+    * User should not have to do it manually (NoManual)
+DefaultSoftware, DownlevelToTheSystem, ShareArchitecture and [Externalisation] prevent the need for base task downloads.
+
+++Examples of Simple Tasks
+    System alarm/clock, alert me in 5 minutes
+     * if clock functionality exists already - why is it so hard to hook an event to a certain value? why do i have to download calendar or time keeping software
+     * [Calendar] is apart of system
+
+[category=paradigms]

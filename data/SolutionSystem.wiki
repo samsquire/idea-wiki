@@ -1,0 +1,19 @@
+﻿++ Solution System
+
+The SS attempts to find solutions to problems. It is the application of InternalErrorHandling. When a solution is found, there may be a SuggestedSolution.
+
+++Implementation
+
+A number of different services are consulted to identify solutions to problems:
+    * UseTests can identify the preconditions for problems occurring.
+    * IssueSystem to make [Mapping] connections to logged [Issues] on the CommunityNetwork
+    * [Encyclopedia]s to link problems to human readable articles
+
+Some sources of data include:
+    * LimitationAwareness
+    * ArchitecturalAwareness
+    * AbstractionAwareness
+
+    * solution system: try things to see if it works. make user aware that an alternative is being tried. record why it failed so that user can run appropriate system to get rid of the trouble, (trouble system, performance checker etc)
+     * eg, in a game, there are two connection protocols: TCP/IP and IPX, TCP/IP is faster but fails and IPX is used instead - there is no error and the user shouldn't have to change it manually - the user might not know how or why to
+     * watermark/fade in with pretty icons

@@ -1,0 +1,16 @@
+﻿++ Outsourcing
+
+Outsourcing is where responsibilities are given to external machines. Responsibilities come in different forms:
+    * a service
+    * the storage of data/[Files]
+    * [Tasks].
+
+Outsouring [Processing] [Tasks] is known as DistributedProcessing.
+    * Outsourcing usually takes place across [Network]s.
+    * Tasks can be sourced to standalone machines through data transfer methods such as [Sharer] and MediaCreation
+
+
+++Uses
+
+    * centralize tasks and offload them from other machines:
+     * file hosting

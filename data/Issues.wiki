@@ -1,0 +1,10 @@
+﻿++ Issues
+
+Issue means anything that could be detrimental to TheSystem's operation or to cause [Users] a HelpLapse. The following are examples of issues and what is in place to prevent or solve them.
+    * [Errors]
+    * bugs
+    * accidents (AccidentSafety)
+    * common mistakes
+    * [Security]
+
+The IssueSystem is responsible for recording all transpired issues.

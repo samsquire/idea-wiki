@@ -1,0 +1,7 @@
+﻿++ Smart Difference
+
+SD is an implementation of OnlyStoreDifferences. The efficiency of OSD deteriorates after many changes are made. 
+
+SD prevents this from happening by restarting the stage where differences are calculated from. This is called a "checkpoint". This will be made when applying changes require more resources than acceptable: space, memory or CPU.
+
+delta encoding detect changes then if the changes get too much to patch into memory on render a complete new copy is made

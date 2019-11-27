@@ -1,0 +1,14 @@
+﻿++ System Configuration Screen
+
+The SCS is SystemManagement that holds the [Configuration] of all of TheSystem to be accessed. This includes:
+    * [Hardware]
+    * ApplicationManagement
+        * ApplicationCategories
+    * SystemComponents
+    * [Network]
+    * [Memory]
+    * UserInterfaces
+    * UserRule]s
+    * [Users] and [Accounts]
+
+SCS is equivalent to the control panel and YAST.

@@ -1,0 +1,15 @@
+﻿++ No Primarily Manual Numerical Configuration
+
+Numerical [Performance] controls should never be manual. Examples include:
+    * threads
+    * maximum connections
+    * [Caching] sizes
+    * Scanning/Update frequency
+    * [Polling]
+
+Instead HelpTheUser and AutomaticSetup and intelligence is used to ensure [Performance] is set to a realistic value.
+
+If the automatic decision is insufficient
+    * ExplanationSystem
+
+pefrormance by numbers is broken - eg, number of threads etc

@@ -1,0 +1,12 @@
+﻿++ Instances
+
+Instances are iterations of something. They are implemented in two ways.
+    * NativeImplementation
+    * ImplicitImplementTheUnimplemented: Multiple instances is possible because of NoBrittleData, OrderIndiscriminate and NoAssumptions
+
+++Ideology
+    * Single Instance programs against HighStandards
+
+Applications will permit you to:
+    * Single/Multiple instance of the [Applications]
+    * [Open] Multiple instances of the same [Files]

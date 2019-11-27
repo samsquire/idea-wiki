@@ -1,0 +1,248 @@
+﻿++ Legislation
+
+[WYSIWYG]
+
+    * Data Protection Act
+        Adequate Update Excessive Accuracy
+        Fair Lawful Purpose
+        Secure Exportation
+    * Regulation of Investigatory Powers (RIP act)
+        demand handover of encryption keys
+        any surveillance is not admissible in a court of law
+    * Terrorism Act
+        threat of action that intimidates or influences the public (or section thereof) or government
+        action involves serious violence, damage to property, endagerment of life, risk to health and safety 
+        interfere or disrupt an electronic system
+    * Crime and Security Act
+        
+    * Identity Theft
+        using another's identity and assuming it
+    * Misappropriation
+        the use of someone else's property or funds for ones personal use or an an unauthorized use
+    * Computer Misuse Act
+    * Data Protection Act
+
+You are the director of The Green Truth Foundation, an organisation that, through information and teaching materials provided on the internet, educates people about the dangers of global warming. You have just received a worrying email from the Ministry of the Environment of Solgazia, a country known for its high pollution and resistance to global warming legislation: the Ministry’s website has been hacked, and its top page replaced with a page encouraging people to kill the President of Solgazia, for his crimes against the environment. What is even worse, the new page claims to be authored by The Green Truth Foundation, with logo and all.
+
+    * Terrorism Act on two counts: threat of action to endanger someone's life
+    * Computer Misuse Act
+    * Data Protection Act
+
+Two things need to be done:
+    * create backup of website for forensic evidence, restore from backup later
+    * identifying source of attack, contact web host, backup website complete with logs
+    * reporting the attack to authorities with jurisdiction
+    * repairing the damage caused to the foundation, making the data inaccessible
+    * distance the foundation from illegal action
+
+    * Contact the authorities such as SIS (MI5) as this is international
+    * Pull the site down (disable it, make it inaccessible)
+    * Notify everyone within the foundation
+    * SOCA (serious organised crime agency) submit a Suspicious Activity Reports (SARs)
+
+"Describe each activity where there is interaction between the software development team and the customer."
+    * During requirements stage, the customer will need to produce descriptions of how the system will operate and what it will do through high-level statements such as a business logic or process or and mathematical functions if necessary. The development team would reply with a systems definition which is the developers perception of how the system works.
+
+    * requirements:
+    * interface design
+    * interface testing
+
+ a.substring(0,1) + a.substring(3) + a.substring(1,3);
+ 
+ 
+
+
+++Software
+ 
+ 
+ In any sufficiently complex project, it is unavoidable that errors are made. During which activities in a software engineering process do you expect to discover errors that were made in the requirements capture phase? How does the timing of such discoveries impact on your overall project progress?
+ 
+    * In the analysis phase the least number of errors may be found. The client may assume knowledge of the domain and may find some requirements are ambiguous, impossible or invalid. This would mean asking for reclarification and a more detailed requirement that is needed. If this occurs within the planning stages, some parts of the planning will need to be rewritten. Especially if specifications have already been written. The schedule will need to be rescheduled, this may reduce the amount of time spent or more likely, increase the time spent on a requirement. There may be diagreements inside the team what a requirement actually means.
+    * If implementation has already began, the existing implementation is already incorrect as it implements a requirement incorrectly. The project is guaranteed to become later depending on the severity of the misinterpretation because the schedule will need to be changed: code written at cost may have to be thrown away, the specifications and documentation produced in the design phase needs to be changed and finally the new code needs to be written.
+    * If the budget and schedule is to be maintained, the project may strivet to get the implementation finished while running out of enough time to write documentation or run tests or even both. This would result in buggy, unfinished and unpolished software that does not work the way it should.
+    * There may be disagreements between members if there are errors in the requirements because they may want to handle them differently.
+
+++Sams BChop
+BinaryChop
+BoyerMoore
+
+<html>
+<body>
+
+<script type="text/javascript">
+br = "<br>";
+
+function AssertationFail(a, b) {
+ this.a = a;
+ this.b = b;
+}
+
+function assert_equal(a, b) {
+ if (a != b) {
+   throw new AssertationFail(a,b);
+   }
+}
+
+function zeroEdge(ps) {
+ n = [];
+ var rs = bchop(n, 3);
+ assert_equal(rs, -1);
+ps.pass();
+}
+
+function minEdge(ps) {
+ n = [1];
+ var rs = bchop(n, 3);
+ assert_equal(rs, -1);
+
+ n = [200];
+ var rs = bchop(n, 200);
+ assert_equal(rs, 0);
+ ps.pass();
+}
+
+function oddSets(ps) {
+ n = [1,3,5];
+ var rs = bchop(n, 1);
+ assert_equal(rs, 0);
+
+ rs = bchop(n, 3);
+ assert_equal(rs, 1);
+
+ rs = bchop(n, 5);
+ assert_equal(rs, 2);
+
+  rs = bchop(n, 6);
+ assert_equal(rs, -1);
+
+ps.pass();
+}
+
+function biggerSet(ps) {
+ var n = [1, 3, 5, 7];
+ var rs = bchop(n, 3);
+ assert_equal(rs, 1);
+
+ assert_equal( bchop(n, 5) , 2);
+ assert_equal( bchop(n, 7) , 3);
+ assert_equal( bchop(n, 8) , -1);
+ps.pass();
+}
+
+function autoSet(ps) {
+teset = 50;
+var sett = [];
+for (i=0;i<teset;i++) {
+ sett.push(i * 3);
+}
+for (i=0;i<teset;i++) {
+ assert_equal( bchop(sett, sett[i]), i); 
+}
+
+ps.pass();
+}
+
+function testAll() {
+ps = new Passer();
+try {
+ zeroEdge(ps);
+ minEdge(ps);
+ basicTest(ps);
+ oddSets(ps);
+ biggerSet(ps);
+ autoSet(ps);
+ 
+
+} catch (error) {
+ if (error instanceof AssertationFail ) {
+  alert("Assertation failed!\na is " + error.a + " b is " + error.b);
+ } else {
+  alert("errors!");
+  } 
+
+}
+   finally {
+   ps.results(); 
+  }
+}
+
+testAll();
+
+
+function basicTest(ret) {
+ n = [1,2,3,4,5];
+var pos = 0;
+ for (t=0;t<n.length;t++) {
+  pos = Test(n, t);
+//    alert(typeof(pos) + " " + typeof(t) );
+  assert_equal(t, pos);
+}
+ret.pass();
+}
+
+function Passer() {
+ this.passes = 0;
+ this.pass = function() {
+  this.passes++;
+ }
+ this.results = function() {
+  alert("Passed " + this.passes + " tests.");
+}
+}
+
+function bchop(list, what) {
+var len = list.length;
+document.write("List is " + len + "ns" + br);
+
+document.write("Looking for " + what + br);
+
+var upperi = len-1;
+document.write("Upper index is " + upperi + br);
+middle = upperi>>1;
+
+document.write("Middle is " + middle + " (" + list[middle] + ")" + br);
+
+var left = 0;
+var right = upperi;
+var elems = len-1;
+
+while (elems > 1) {
+document.write(br);
+document.write("L: " + left + " M: " + middle + "(" + list[middle] + ") R: " + right + br);
+ if (list[middle] == what) return middle;
+document.write("What is " + what + " list[middle] is " + list[middle] + br);
+
+ if ( what < list[middle] )
+  right = middle;
+if ( what > list[middle])
+  left = middle;
+
+ 
+
+ elems = right-left;
+document.write("Els : " + elems + br);
+ middle = left + (elems>>1)
+}
+
+document.write("Final left value is: " + list[left] + br);
+
+if (list[right] == what)
+ return right;
+else if (list[left] == what)
+ return left;
+
+return -1;
+}
+
+function Test(list, x) {
+var result = bchop(list, list[x] );
+ document.write("Looking for " + list[x] + " of pos " + x + "...found at pos " + result + br);
+return result;
+}
+
+
+</script>
+
+</body>
+</html>
+

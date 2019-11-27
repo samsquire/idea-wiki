@@ -1,0 +1,35 @@
+﻿++ User Interfacing
+
+UserInterfacing is the act of interacting with [Applications] or TheSystem. This encompasses the following technologies:
+    * [Selection]
+    * drag
+    * pick up left click to pickup, left click to drop, right click to cancel
+    * [Targeter]
+    * move
+    * mouse gestures
+    * BaseInteraction
+    * [Navigation]
+    * ToggleAndDemand
+
+UserTracking records the the interfacing of [Users].
+
+++Mouse
+
+    * user interface command verbs:
+     * left click
+     * instantly carry out action
+     * right click is conditional
+      * to activate: 
+       * assign keyboard shortcuts to actions
+       * assign a button to action, eg a floating box
+       * a shortcut
+       * a script/macro file
+     * do after result of other event:
+      * when something has finished/begun
+       * user-space activities register themself: an install of software, compiling
+      * when an event occurs
+       * application installed events: someone signs in to an instant messenger, an email is received 
+     * context menu with options
+      * "Do at.."
+    * ability to chain commands together
+     * macros, recording 

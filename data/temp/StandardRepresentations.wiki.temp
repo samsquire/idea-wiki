@@ -1,0 +1,10 @@
+﻿++ Standard Representations
+
+SR are either textual or graphical [Frontend] features that represent a representation in the RepresentationSystem.
+    * SR is unlike CommonInformation which refer to types of information while SR tend to refer to particular known objects.
+
+++Examples
+    * RSS Feed - orange feed symbol
+    * Icon indicates status of message
+    * Game icon - a game
+    * a technology name or type, DDR2 RAM, SATA, cheat protection, encryption

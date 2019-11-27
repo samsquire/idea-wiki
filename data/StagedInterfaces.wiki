@@ -1,0 +1,9 @@
+﻿++ Staged Interfaces
+
+SI are UserInterfaces that are split up into multiple, separate [Frontend]s. Examples include:
+    * [Wizard]s
+
+Interfaces become staged when the following technology is used:
+    * [Navigation]
+    * [Trail]s
+    * [Tabs]

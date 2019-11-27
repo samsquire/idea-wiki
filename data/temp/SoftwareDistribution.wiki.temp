@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="SoftwareDistribution.idea" template="ideaRecord.md" source="idea.md"><Title>Distributing Software</Title><Description>Getting software to where it will run.</Description><Idea>SoftwareDistribution</Idea></sam><![CDATA[]]>
+## Software Distribution
+
+Applications can be distributed in numerous ways:
+
+ * download link
+ * download protocol
+ * download file
+ * provisioning tools
+ * network administration tools (AD)
+
+The source of these downloads can be across Sharer, a SoftwareServer or by compatible Servers.
+
+ * Systems like Linux use a container format known as InstallPackages.
+ * Windows relies on executable Installers.
+
+RemoteSoftware is how some applications may be distributed and how they are designed to be run.
+
+Some applications need to be bundled since they interoperate. This is important for any utilized SharedImplementations of the ShareArchitecture. TheSystem needs an awareness of bundled applications so it can offer StandardizedScreens and Permissions for them. Examples include:
+
+ * game engine and games
+ * bundled toolbars<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

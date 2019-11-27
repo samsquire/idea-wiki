@@ -1,0 +1,3 @@
+﻿++ Passthrough
+
+Passthrough is a description for a [Hooking] and [Watch] implemented so that all normal requests pass through it first.

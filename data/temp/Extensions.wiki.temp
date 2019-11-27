@@ -1,0 +1,8 @@
+﻿++ Extensions
+
+Extensions are ApplicationComponentry that augment [Applications].
+
+    * Extensions can also be called plugins and modifications.
+
+[alias=Plugins]
+[alias=Modifications]

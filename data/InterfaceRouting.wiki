@@ -1,0 +1,27 @@
+﻿++ Interface Routing
+
+IR is where UserInterfaces can be invoked in a particular area and in a particular way:
+    * StatusBar
+    * TitleBar
+    * SystemTray
+    * dialogues
+    * InformationPopup]s
+    * [Portalling]
+
+This is because of AnywhereInterface. [Users] frequently prefer different interface strategies and therefore have UserControl in the form of UserRule]s. IR is accessible from the interface in question, most likely from ContextMenu]s.
+
+TheSystem's has defaults for common interfaces that may be applied to [Applications]:
+    * "Do you want to [Save] changes?" (as a dialogue)
+    * "Friend has signed on" (as popup)
+    * "USB drive detected" (to SystemTray)
+    * Audio CD detected (to popup/system tray)
+     * if no CD-ripper or writer is detected, assume user wishes to play
+     * capability engine, list unavailable capabilities and explain how to achieve functionality: eg, obtain cd writer hardware
+     * capability AFTERWARDS, common capabilities: make backup
+
+As an AvailableOption, IR can also route interfaces to the [Sharer], for InterfaceSharing, this is useful for sending [Remote] logs for example.
+
+InterfacePanels are designed to scale to any area. Scaling is not enough to fit IP in certain areas. The actual layout must change to keep the IP meaningful and usable. This could be accomplished in two ways:
+    * multiple IP, for different purposes
+    * nested IP
+    * area flags: smaller icon for status bar.

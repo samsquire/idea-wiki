@@ -1,0 +1,64 @@
+﻿++ Universal Modeller
+
+The UM is a proposed architecture and platform for defining processes that integrate various operating system and application tools without writing a line of code. The UM relies on the solution to DilemmaticIntegrationScenarios.
+    * see UseCases
+
+
+++Implementation
+
+The UM should be displayed as a series of flow charts to determine activity. Actions would be defined as blocks, inside these block are resources which are essentially representations that can be used by other processes.
+
+Common models would be represented by the UM as trivialized processes. Examples include:
+    * Synchronizing a file (one way (rsync), two way)
+    * Transfer a file
+     * Download a file (FTP, BitTorrent, HTTP, TCP/UDP)
+    * Send a message (email, instant messager, SMS)
+
+Each of these would may a wizard to further define the action. This is because transferring a file could use FTP, Bit Torrent, Email or any other protocol.
+
+Bit Torrent backup
+    * the BT libraries would be added to the project either implicitly or explicitly
+    * a process would be defined called 'backup' and it would would take a file
+    * or a directory of files
+    * or a tree (which would be a common representation in TheSystem
+    * a process for starting a connection would be defined 
+    * this might be the first node in the modeller, labelled: 'Wait for connection'
+    * a node can be drawn from waiting to the next step, which will probably be handshake and/or authentication
+    * since BT is being used, the internal handshake state of BT may be propagated to be the upmost level and shared by it, this is because BT is essentially HTTP which allows additional headers to be appended, according to StandardsAbstraction
+    * either in the design of the backup protocol or designation of client and server will the following be decided:
+     * the one providing backup space
+     * the one providing content to backup
+    * it may be that anybody using the protocol can do either.
+    * to join the network, a particular machine must be contacted since this is how it will contact the initial nodes of the network. In Buddybackup for example, this is the company's servers.
+    * Should the backup provider or the content provider be the server? storage->client (GET) OR client->storage (PUSH)
+    * I think the client should push the content to the storage. The client should contact at least one known storage client and then begin pushing data to it through direct transfer
+    (Here begins BT protocol)
+    * The client will become a seed for distributing the backup. This establishes the first backup copy, just like most backup systems do. This step can be skipped if there are bandwidth constraints on the network. Instead, the storage could simply act as a BT leech and download at its own pace.
+    * The storage will also become a seed.
+    * Other storage will seed the backup
+    * The data that the client stores will be encrypted. This is important if the client should not be able to open the backup material.
+    * The backup's transmissions are encrypted.
+    * Each backup is recorded as a 'session' on every storage and client. The session corresponds to the backup event, including dates and times.
+    * 
+
+Rsyncing an encrypted volume, securely? Is it possible?
+
+++Requirements
+
+    * Avoid using source code as the primary mode of controlling the process. Context menu hangs are the primary reason why Windows Explorer crashes due to poor developers
+    * Promote design of interfaces
+    * Use a class diagram view with arrows and connectors to control state and actions.
+
+++Design
+
+The user will be displayed with a graphical view of the process modelled as far. The process can be manipulated by using a number of common controls.
+
+++Examples
+
+    * After attaching a picture to an email, if the email is too large, the user can specify when to resize the picture automatically, if the picture is too large.
+    * The user can define a filing system whereby files from emails can be automatically filed away on the user's computer. Should the user want to be notified or asked questions for data of each file, the UM must support this too.
+    * Uses the ProtocolDeveloper to control data transmissions.
+    * Support creation of custom [Database]s but in a faster and easier way than access and other desktop databases.
+    * Could define comparisons in terms of 'properties' on system resources. For example, there might be 'mirror', 'backup' and 'checking if the same' properties which will determine what the UM will do.
+
+

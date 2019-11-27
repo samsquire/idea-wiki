@@ -1,0 +1,61 @@
+﻿++ Software Server
+
+SS is an [Servers] architecture for SoftwareDistribution that enables software to be [Download]ed, [Development] to take place and organize software.
+    * ApplicationData
+    * ApplicationComponentry 
+    * [Servers].
+
+++Uses
+    * The SS offers NativeImplementation to obtain [Documentation] which can be used by the ExpandSystem.
+    * Software project [Portalling] allowing [Users] to obtain, learn and [Development].
+
+++Architecture
+
+Software will have services associated with it. These may include:
+    * Help and Support / Community
+     * Live Chat
+     * Message Boards
+    * TaskArchitecture
+    * Issue, bug tracking
+    * Download (FTP/HTTP/BITTORRENT etc)
+     * Mirroring
+     * Source Control
+    * UpdateArchitecture
+     * Updates
+     * Security
+    * Policy
+    * Documentation
+    * Global Mirrors
+
+These services are usually hosted on separate machines, although it is possible to have them on the same machine. The services could be in the control of the authors or a third party which makes it more complicated. To centralize this data, all this information is hosted in a single index/table:
+    * connection details, port
+    * crossover information
+    * protocol/type of server
+The hoster of this information is in a DNS-like or a DNS StandardsAbstraction so there are multiple copies. PointConsistency is necessary to ensure they are kept updated. It is undecided whether services should have BackwardAwareness/InvisibleImplementation and have a list of services aswell.
+
+The referenced services may be a group of mirrors rather than single machines. This would be the case for the download server. This creates a double-redundancy for both the SS and services.
+
+The DNS structure of SS can be used to group and compartmentalise software like top-level domains. This could include ApplicationCategories or application specific details such as stability.
+
+++Pathing
+The usage of the DNS systems means that the path scheme can be made relative. An abstraction is made by the client to the correct server in the background. The path will either be standardized or custom, although this creates a compatibility puzzle since not everybody will be configured the same way. Examples:
+    forum://sam's web server/
+    applications://sam's web server/
+    irc://sam's web server
+    sam's web server is the name of the software
+There is also the problem with [Absolute] identification as will become user unfriendly. Providing they are linked from websites and ApplicationManagement, this should not be a problem.
+    forum://245.123.123.461/
+
+SystemComparison
+
+++Ideas
+* inherit the failsafes of the DNS system
+
+* perhaps a DNS-like software system
+* central application server
+ * branch server, eg a category
+ * actual software server 
+
+* application install file - text file that references the necessary sources
+ * upon opening it outlines everything required for install
+  * eg CVS address and compiler chain for compiling

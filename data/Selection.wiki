@@ -1,0 +1,6 @@
+﻿++ Selection
+
+Selection is the choosing of individual items. [Multiples] can be selected.
+    * close all-but this one on list, delete all but this one
+
+selecting data should preserve the data above where the data is, for example, select text, right click, click something, while the next page loads, the selected content should still be visible above everything else, including the loading window

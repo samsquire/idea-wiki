@@ -1,0 +1,8 @@
+﻿++ Invisible Processing
+
+IP refers to [Processing] with [Invisibility]. UserRule]s permit these to configured.
+
+    * BackgroundTask
+    * IdleTask
+    * [AutoService]
+    * AutoMapping

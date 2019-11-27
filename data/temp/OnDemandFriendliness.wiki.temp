@@ -1,0 +1,7 @@
+﻿++ On Demand Friendliness
+
+ODF means that the [PhysicalEndpoint] of [Representations] should be MachineReadable format and the friendless rendition of HumanReadable should be only be achieved through LogicalEndpoint.
+    * ODF uses up less [Resources] and allows more IndepthData to be stored.
+    * Difficult to modify or read
+    * Can result in DatalessTemplates and AvoidObviousTemplates
+    * Reduces [Directness] of UI but increases internal Directness

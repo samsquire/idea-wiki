@@ -1,0 +1,5 @@
+﻿++ Indepth Data
+
+IS means that data should be as indepth as possible. This is possible due to:
+    * MinimumInformation
+    * StoreAsMuchAsPossible

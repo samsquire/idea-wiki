@@ -1,0 +1,7 @@
+﻿++ Visibility
+
+Visibility is a property of UserInterfaces' [Frontend]s that determines when [Users] can see an item on the screen. It is part of FrontendDesignConsiderations.
+
+Visibility has fine GrainedSeparation without a loss of performance or increase in complexity.
+
+fine grained visibility, individual pieces of text visibility, application needs to check for update inbetween display and hide, forum postings

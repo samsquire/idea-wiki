@@ -1,0 +1,14 @@
+﻿++ Markup Control
+
+Make File: 
+
+ * Determine dependencies for a file.
+  * Contains links to other .md files
+ * Before merging a file, all parent files need to be merged. (./merged/xxx)
+
+From the perspective of one file:
+ * extract me if
+ * i am more up to date than all my parents
+ * i am more up to date than all my parent's merged files
+
+Table file extraction depends on being newer than all the other Output files.

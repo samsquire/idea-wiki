@@ -1,0 +1,3 @@
+﻿++ Frontend References
+
+utilize string text in webpage, right click save target as, not all browsers can do it, the context menu string entry for "save target as" could be externalized so the webpage can display it to indicate what needs to be done

@@ -1,0 +1,16 @@
+﻿++ Complicated Meta Architectures
+
+CMA refers to the tendency for an architecture that supports development and follows rules and best practices to be complicated.
+    * see [Complexity]
+
+++Description
+
+Many tools are designed to make developer's lives easier and make [Development] easier and faster. These tools and frameworks instead increase complexity and the requirement of UnecessaryKnowledge.
+
+Other MA are manual and possess little [Autonomy], reducing their effectiveness.
+
+++Examples
+
+    * 'make' tools
+    * interface descriptor languages
+    * 

@@ -1,0 +1,24 @@
+﻿++ Spectating
+
+Spectating is where [Users] watch other players playing a [Games]. [Conventional]ly it only occurs in MultiplayerGaming. Within [NativeImplementation]s however, spectating is extended to SinglePlayerGaming.
+
+Spectating is useful since it permits:
+    * competition
+    * collaboration
+    * help/advice
+    * socialisation
+
+Features:
+    * possible to join midgame
+    * possible to start spectating from the beginning of the game (the gamestate is recorded)
+    * 
+
+    * [Chat]
+    * GameGhost
+
+
+++Implementation
+
+InterfaceSharing works by transmitting the interactions with the interface, spectating works in the same way but uses the game engine itself rather than [Frontend] rendering. This is because lag would become a problem unless the game engine itself is used.
+
+Delivering the game state to spectators, wastes bandwidth and could decrease speed for the players. For example, two players are playing and a spectator joins. If the game is serverless, these players need to deliver gamestate to the spectator. This could be accomplished with a DistributedDataNetwork to spread out the load of updates. The players are unlikely to care about spectators being unable to receive the game since they are not involved.

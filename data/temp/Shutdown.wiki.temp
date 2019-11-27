@@ -1,0 +1,4 @@
+﻿++ Shutdown
+
+* OS saves what is open as a different file
+ * when the original file is reopened: "this file was open when the system shut down, would you like to see the original?" 

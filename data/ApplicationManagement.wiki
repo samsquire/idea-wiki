@@ -37,7 +37,7 @@ The user will have a lot of software and will take time to render. The user is a
      * render the application's icon
 
 
-    ExternalConfiguration panel  file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/application_configuration.PNG
+    ExternalConfiguration panel  file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/application_configuration.PNG
 
 Wizards will exist to HelpTheUser install from different [Source]s.
 

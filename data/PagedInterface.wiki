@@ -1,0 +1,22 @@
+﻿++ Paged Interface
+
+PI are [Frontend]s that are structured in vertical pages. To navigate a paged interface, [Users] scroll vertically.
+    * [Navigation is usually through [Links] embedded in the page.
+Web pages rendered in a [Browser] are PI.
+
+PI may be preferred to dialogues, single pages and panels since:
+    * higher [Interactivity]
+    * easily resizable and scalable
+    * printable
+    * could UseATypicalApplication
+
+* paged interface rendering
+ * easier to use than single page/panels/dialogues
+ * can be more interactive without confusing
+ * can be resized without losing layout and scaled easily 
+  * eg, web browsers, compiled/prerendered/API of HTML
+  * [Interfaces] directly with any compatible web browsers (engines)
+
+++Examples
+    * windows defender paged interface
+    * Vista control panel

@@ -1,0 +1,20 @@
+﻿++ Default Software
+
+DS are [Applications] that are present on the general installation of TheSystem. ComprehensiveSystem means that there is a large DS.
+
+    * operating system software
+    * all purpose
+    * DefaultGames
+    * PersonalSoftware
+    * SecuritySoftware
+    * [Developer] - development tools - ability to write own software for the OS
+    * WordProcessor - a simple mode and advanced mode
+    * scriptable scientific calculator
+    * web [Browser], web server and page creation suite - they work together
+    * plugable audio player and editor
+    * pluggable video player and editor
+    * pluggable image viewer and editor
+    * [Email] email client and server - they work together
+    * network tools - ability to send tasks to other computers
+    * [Search] advanced search tools - for email, web server/web browser, word processor, development tools, audio, image and video players
+    * [Snapshotting]

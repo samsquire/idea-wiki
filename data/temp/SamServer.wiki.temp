@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<document><sam name="header.md"/><sam type="sparql" name="encserver.sparql"><sam name="idea.prefix"/>	
+INSERT DATA {
+:SamServer a owl:Class; a :Idea;
+	 dc:title "Sam Server";
+	 dc:description "Example example";
+	 dc:identifier "SamServer".
+}
+</sam><![CDATA[ ]]><sam name="fulltable.md"/></document>

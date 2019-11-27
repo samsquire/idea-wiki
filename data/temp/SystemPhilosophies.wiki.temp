@@ -1,0 +1,18 @@
+﻿++ System Philosophies
+
+SP are the philosophies used to design and produce TheSystem and its [Applications].
+
+++Listing
+    * SingleClickSingleAction
+    * HumanTaskDesign
+    * OneOfficialVersion
+    * GameInterfacesAreGood
+    * LocalNotRemote
+    * PortalBasedComputing
+    * MakeToolsForEverything
+
+++Open Source
+open sourceness - too many communities, incompatible spinoffs
+forks are BAD because they cause development to completely degragment
+
+[icon=graduate]

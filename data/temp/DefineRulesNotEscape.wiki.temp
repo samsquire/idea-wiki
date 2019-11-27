@@ -1,0 +1,8 @@
+﻿++ Define Rules Not Escape
+
+rendering is not just a mime type
+ - i request HTML rendering with a plethora of individual configs:
+  - based on official standards
+  - feature sets, HTML tables, basic formatting, CSS
+  ( spawned from HTTP messenger concept that only basic formatting is requested so only it will be parsed )
+  - security feature

@@ -1,0 +1,8 @@
+﻿++ Review Store
+
+Review Store stores reviews:
+    * StandardEstablishment and StandardMultiples for reviews
+    * data [Directness]
+    * can now UseBest
+
+Reviews are CrossReferential for both initialized (internal and installed) and external. The external references can be [JustUse]d due to UseAnySource.

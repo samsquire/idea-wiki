@@ -1,0 +1,5 @@
+﻿++ No Continuous Enumeration
+
+NCE means that enumeration should never happen continuously.
+    * HeavyTasks
+    * OnlyDoHeavyTasksOnce

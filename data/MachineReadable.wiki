@@ -1,0 +1,8 @@
+﻿++ Machine Readable
+
+MR is the ease at which software can read and make use. [Paradigms] that support MR are:
+    * NoParse / PhysicalEndpoint
+    * [Directness]
+
+Opposites to MR are:
+    * LogicalEndpoint

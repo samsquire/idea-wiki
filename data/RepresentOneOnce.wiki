@@ -1,0 +1,6 @@
+﻿++ Represent One Once
+
+ROO means that if there are multiple items and some of them are really the same, they should only be only represented once.
+
+    * SingleFileRepresentation where there are multiple [Representations] for the exact same content
+    * RepresentationGrouping

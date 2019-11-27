@@ -1,0 +1,9 @@
+﻿++ Status Representations
+
+SR are StandardRepresentations of status.
+    * Inaccessibility may be represented by denied access sign.
+    * Protected areas may be represented as a key or padlock.
+
+TheSystem, [Applications] and [Technologies] may have specific statuses that apply.
+
+Clicking a SR presents information about the status, reasons why and if possible, how to remove the status.

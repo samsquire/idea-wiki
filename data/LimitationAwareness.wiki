@@ -1,0 +1,7 @@
+﻿++ Limitation Awareness
+
+know your limitations (slashdot post in bookmarks somewhere!)
+http://tech.slashdot.org/comments.pl?sid=613583&cid=24185487
+memory deficit for emulation of another OS
+ - game will be loaded in 10 seconds, will notify you when ready
+ - i should be able to tell how much i am REQUIRED to load and if it is possible to load it efficiently (StopAtSource, specifications)

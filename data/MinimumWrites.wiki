@@ -1,0 +1,5 @@
+﻿++ Minimum Writes
+
+MW means that writing to the HardDrive must be kept at a minimum. This is because writing is slow and reduces [Performance]. Reducing constant writing improves [Performance] and requites an IntelligentImplementation.
+
+MW means [Accountability] of writes is more feasible and contributes to an AccountableSystem.

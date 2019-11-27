@@ -1,0 +1,15 @@
+﻿++ Efficiency Awareness
+
+EA is where TheSystem's efficiency is monitored over time to gauge the systems efficiency.
+
+The [Conventional] system [Windows] has a performance monitoring administrative feature. Vista has a user event notification called boot degradation which attempts to notify the user that there has been a drop in [Bootup] performance
+
+++Architecture
+
+The time taken to do various tasks is recorded and calculated. EA is used for the PerformanceMetric. EA requires an understanding of what causes inefficiencies.
+    * HardDrive inefficiencies are caused by defragmentation, poor physical arrangement
+    * [Configuration]
+    * [Caching]
+
+A regular decompression of a large and slow to decompress file indicates an inefficiency. It would be much faster to decompress once and store it on the hard drive permanently. During one of the decompression processes, TheSystem could suggest that the user moves the decompressed version to the hard drive so it no longer has to decompress. Obviously the amount of free space would be checked first to ensure it is a pertinent suggestion.
+    * This feature should appear on the ReversibilitySystem so that if users run out of storage space in the future, they may re-compress the file.

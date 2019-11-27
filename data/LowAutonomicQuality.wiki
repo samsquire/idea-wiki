@@ -1,0 +1,11 @@
+﻿++ Low Autonomic Quality
+
+LAQ refers to the low quality found in [Conventional]ly generated content. TheSystem regards this a problem to be solved. LAQ results in DatalessTemplates.
+    * Solutions are HighStandards, MinimumInformation and ShowEverything.
+
+++Examples
+
+    * Aggregation websites
+    * Properties of a web page picture
+    * Advertising
+    * 

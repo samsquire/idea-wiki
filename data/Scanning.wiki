@@ -1,0 +1,17 @@
+﻿++ Scanning
+
+Scanning is looking through information on demand to locate something. This is the opposite of [Indexing].
+    * SmartResources
+
+++Improvements
+Scanning is effectively [Polling] and for [Performance] reasons, only happen once. OnlyPollOnce. This is why it is coupled with [Indexing] where the scan forces a ContinuousInitialization to the index. This lightens the weaknesses of each strategy.
+    see [Search]
+
+++Advantages
+    * Requires no permanent storage space.
+    * On-demand, no previous organisation
+    * Format specific scanning routines can be used on each item.
+
+++Disadvantages
+    * [Processing] intensive.
+    * Slow

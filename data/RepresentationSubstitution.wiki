@@ -1,0 +1,21 @@
+﻿++ Representation Substitution
+
+RS means that a representation that builds upon another representation is interchangeable with that one.
+
+++Implementation
+
+Representations are hierarchical and nested. Certain representations will propagate up to the encompassing representation.
+    * A propagating representation would be a process and its open files.
+    * A software package has with it a number of associated windows. Since the windows represent the software, files also propagate to the window and belong to it. A different case applies to applications that allow the opening of multiple files.
+
+++Examples
+
+    * An open application will undoubtedly have opened various [Files] such as:
+     * configuration files
+     * files opened by the user
+     * internal resource files
+    * when a user opens up a file dialogue through FileHandling, an application that has an open file can act as a placeholder for the real file. Selecting the application should list the files opened by that application. If tabs are used to represent the list of files inside the application, this dialogue should show a list of tabs.
+
+    * RS is important in terms of user useability. To a user, an engine and frontend are exactly the same thing. One should be able to choose a frontend of an application to refer to the library within. TheSystem should aim to transparently convert [Frontend] interactions into [Backend] commands.
+
+TabsWindowsAreTheSame means that any of these can represent a file. They should be interchangeable with a file. For example, when asked what file to use, it should be possible to select a running application and the file in that application.

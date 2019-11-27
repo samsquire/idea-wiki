@@ -1,0 +1,3 @@
+﻿++ Language
+
+good idea to have language dropdown on every page so that the language can be changed immediately.

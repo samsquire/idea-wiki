@@ -26,4 +26,4 @@ The following tasks are available to maps:
     * [Autonomy]
 
 The following image demonstrates this for a link:
-file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/data_breakdown.PNG
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/data_breakdown.PNG

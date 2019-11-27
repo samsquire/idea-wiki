@@ -1,0 +1,14 @@
+﻿++ Autonomy
+
+Autonomy allows users to automate. The user may choose to handle something differently based on certain conditions or cause extra instructions.
+
+    * The interface should be provide features to create autonomic behaviour. NoUnnecessary or NoForcedSteps should be taken to do something simple and clearly automatable.
+
+++Methods
+UserDeveloping helps the users can instruct the computer what is to happen without the complexity of [Development].
+
+++Uses
+    * The user may [Watch] a folder and be notified when a new file is added.
+    * Do something at a certain time. [Sche
+
+see NoManual, NoBaseTaskDownload

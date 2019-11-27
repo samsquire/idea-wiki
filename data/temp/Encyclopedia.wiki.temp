@@ -1,0 +1,26 @@
+﻿++ Encyclopedia
+
+Encyclopedias are [Information] [Database]s that explain and document in both HumanReadable and MachineReadable formats.
+
+++Architecture
+
+The sheer amount of [Data] means [Wiki]s are likely to be the tool of choice. The NewInformationMultimediaEngine will be used to render the information contained in encyclopedias.
+
+Encyclopedias are complex systems in that they have the following requirements:
+    * need to be readable hierarchically
+    * can be read and understood in a non-linear fashion
+    * BaseInteraction
+    * readable on computer screen
+    * equally useful when printed
+
+TheSystem will take the a few step further and ensure that the OrganisationArchitecture is used to connect the encyclopedia socially.
+    * a [Forum]
+
+++Implementations
+SystemComponents use encyclopedias:
+    * DefenceArchitecture SecurityEncyclopedia
+    * AntiMalware MalwareEncyclopedia
+    * GameEncyclopedia
+    * SystemManagementScreen HardwareManager
+    * How humans would calculate something and how a computer would, such as mathematical problems
+

@@ -1,0 +1,10 @@
+﻿++ Issue Detection
+
+ID aims to detect actions that would have detrimental effects on TheSystem. Examples of issue detection include:
+    * Low disk space
+run out of disk space, how should the system deal with active applications
+
+
+If a video game with high requirements and is run on a conventional system, there is no check to see if the video game will run effectively. This means that despite high requirements, virtual memory will be utilized and [Performance] comes to a standstill.
+
+TheSystem on the otherhand will halt before the action takes place and inform the user that it cannot continue without extreme effects on performance.

@@ -1,0 +1,8 @@
+﻿++ Opening Applications To Access Content
+
+OATAC refers to PoorUserMethodology where [Users] open [Applications] in order to access [Files] of PersonalOwnership they have.
+
+TheSystem should discourage this method of accessing files as much as possible by:
+    * ensuring [Users] know where their [Files] are stored
+    * making navigating TheSystem easy
+    * 

@@ -1,0 +1,116 @@
+﻿<document>
+<sam type="subs" name="SystemViewer.idea" template="ideaRecord.md" source="idea.md">
+	<Title>System Viewer</Title>
+	<Description>The GUI for inspecting files and objects in your desktop environment.</Description>
+	<Idea>SystemViewer</Idea>
+</sam>
+<![CDATA[<div class="content SystemViewer">]]>
+++ System Viewer
+
+SV is essentially the [Frontend] engine for file and application listings. It is the equivalent of Windows Explorer in [Windows].
+
+     * ObjectInterfacer renders the SystemViewer
+     * All components use the ObjectSystem so features like [Mapping] are available
+     * MediaCreation - drag and drop files to drives
+
+++Implementation
+
+The SystemViewer is a [Frontend]s with the following components:
+    * Address bar - showing [Paths]
+    * Navigational and feature Toolbar
+    * Content area
+     * [Portalling] for folders (see DirectoriesArePortals)
+     * a list of files in ListStyle, of potentially InconsistentSizing with ListHeaders and UsefulColumns
+     * Icons of [Files] represent FileState
+     * autonomous FileGrouping
+
+++Architecture
+
+[Conventional] systems show the FileSystem in a basic and limiting way:
+    * Simple list of icons. It is a PhysicalEndpoint
+    * There is imited control over the [Ordering], positioning (AestheticControlOfAppearance) and sizing of content.
+    * 
+TheSystem's SystemViewer aims to make files more accessible and FriendlyData and under UserControl. This includes simple AestheticControlOfAppearance. A user may want:
+    * [Files] in a folder to appear different positions of the screen
+    * files to have different sizes - some might be more important or used more
+This is a ConventionalBackward on ConventionalSystems. Sometimes the AestheticControlOfAppearance may not be enough because the meaning is only known to the person and not to TheSystem.
+
+Methods of TheSystem applying meaning to [Files] include:
+    * tags
+    * categories
+    * keywords
+    * BubbleBack
+    * FileGrouping
+
+[Conventional] [FileSystem]s unfortunately cannot natively store this information as it is unlikely to be designed into them. Instead, a NativeImplementation of PhysicalRepresenting is used extensively to NoVisiblePhysicalEndpoints or [Uplevelling] can be used to imitate it. Either NativeImplementation would achieve this through:
+    * DirectoriesArePortals
+    * ArtificialFileSystems
+    * Files and folders can be grouped with FileGrouping
+
+SystemIntegration of the SV is important to all [Applications] for a ConsistentSystem and ComprehensiveSystem.
+
+++Interface
+
+    * BubbleBack will be used extensively by the SystemViewer to provide meaning and context.
+
+     Concept Images:    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/systemviewer.PNG
+
+++ Artificial File Systems
+
+AFS describes HigherLevel features that have been applied to [FileSystem]s for use in the SystemViewer.
+
+    * folder merging, UnifiedFileSystems
+    * CopyOnWrite
+    * [RatingSystem]
+    * FileSystemLinks
+
+LogicalFileSystems
+ArtificialFileSystems
+VirtualFileSystems
+
+last night ides:
+    * file/folder viewer is basically a configurable portal
+    * XHTML files can have a 'validated' field in system viewer
+
+    * where should configuration data be stored
+    * emergent properties programmed into windows
+
+++Artificial File Systems
+
+++Merged Display
+[MergedDisplay]
+     Grouped diplay at the top and listing underneath:
+    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/systemviewer_mergedisplay.PNG
+
+    * server like files and non-normal file system like systems should still use the file explorer to display them
+     * they should be accessible anywhere, even the my documents equivalent folder
+     * eg, version control folder in my documents or a web server folder
+      * view dynamically/view statically 
+
+++Addressing
+    * file addresses formatted differently to separators/delimeters
+     * slightly different background colour?
+
+
+
+
+++Ideas
+view deleted files on file explorer
+
+file list should always show folder size
+
+file list in system viewer is like a spreadsheet
+ - use a spreadsheet/grid tool software to render it
+ - export as a spreadsheet
+
+gantt chart generation through file modifications
+
+dual column file view: clicking on a folder in one side:
+    * changes other side to the list of folders inside the clicked folder
+    * changes the clicked side to a list of files
+alternatively
+    * changes the other side to the current side
+    * the current side to the folder clicked on, easy to scroll backward/forward
+<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

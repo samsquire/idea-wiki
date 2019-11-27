@@ -1,0 +1,9 @@
+﻿++ Real Time
+
+RT means that [Information] of events and [Processing] should be obvious in real time.
+
+This is contrary to conventional systems that force [Users] to manually use [Logging] to find out what occurred.
+
+Examples include:
+    * [Firewall] events
+    * AntiMalware

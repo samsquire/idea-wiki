@@ -1,0 +1,11 @@
+﻿++ Insufficient Space
+
+Insufficient space is a major problem in regard to [HardDrive]s and [Memory].
+
+TheSystem should always be aware how much storage space is available in any volume at any time. I believe it could be stored in memory as a value that is always updated when files are written or deleted.
+
+TheSystem should provide an early notice that the disk is practically full because the data in any open programmes is suddenly at risk because it has nowhere to go.
+
+This needs to be represented by the system in some way. This could be represented through UserNotifications through some SystemTray dialogue that states: "There is now not enough storage space to store all open files." Upon clicking, the user is given a list of options. These could be deleting existing files, sending it in an email or uploading it online.
+
+

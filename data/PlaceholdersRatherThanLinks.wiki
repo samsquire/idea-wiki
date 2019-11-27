@@ -1,0 +1,11 @@
+﻿++ Placeholders Rather Than Links
+
+PRTL means that [Placeholders] should be preferred in place of [Links].
+
+++Architecture
+
+Content displays a StandardRepresentations or CommonInformation that when clicked will cause activation and opening.
+
+The best example of PRTL is in [Email]. [Users] can receive [Email]s containing [Links] to various different content: pictures, videos and audio. Rather than forcing the user to click on the attachment or click the link, an embedded placeholder representing the link's content could be displayed.
+    * a link to a video will show a video player
+

@@ -1,0 +1,5 @@
+﻿++ Ordered Render
+
+OR refers to the principle that UserInterfaces should be rendered in an order.
+    * increases responsiveness
+    * allows interface to be used before additional details are added.

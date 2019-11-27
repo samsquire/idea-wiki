@@ -1,0 +1,14 @@
+﻿++ Applications Must Explain Themselves
+
+[Applications] must explain interactions with TheSystem. This is to create an AccountableSystem.
+
+++Implementation
+
+Explanations can sometimes be derived by interactions themselves. Utilizing CommonImplementations and SharedImplementation]s can suffice as the explanation itself. An explanation for writing to [Files] as a result of using a [Configuration] subsystem would not require explicit specification. This is an ImplicitImplementTheUnimplemented.
+
+Other obvious explanations can be derived from:
+    * [Protocols]
+    * [Bases] APIs
+
+[Applications] that do not use a common implementation must explicitly specify[Accountability]. Applications have similar implementations and interactions can fit into [Categories]. This is likely to form the basis of a [Development] [Encyclopedia].
+    * using worker threads

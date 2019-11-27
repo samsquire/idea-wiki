@@ -1,0 +1,10 @@
+﻿++ Share Anything
+
+SA means that any [Source] can be sharable.
+    * Sharing is handled via the [Sharer]
+
+Conventional systems make SA difficult due to BrittleData.
+
+Unlike conventional systems, TheSystem can share content that they cannot without additional software. Unconventional sharing includes:
+    * InterfaceSharing
+    * 

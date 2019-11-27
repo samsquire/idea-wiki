@@ -1,0 +1,28 @@
+﻿++ Documentation
+
+Documentation can come in many forms:
+    * FAQ
+    * Tutorial
+    * Guide
+    * Reference
+    * StateList
+
+Documentation is:
+    * CrossReferential
+    * LiveData
+    * RealRepresentation - VariableInputOutput
+
+[Indexing]
+
+++Implementation
+Documentation is a large part of [Development] and [Developer]. Ideas to make it easier to use include:
+    * wiki documentation
+
+Documentation that covers multiple subjects means [Navigation] must be easy OrderIndiscriminate and ImplementationIndiscriminate aim to prevent [HelpLapse]s.
+
+Documentation is essential to operate a system and needs to be available in all situations without dependencies.
+    * This means that the raw format for documentation may have to be plain text.
+The RepresentationSystem is able to convert documentation into other useful formats: HTML, WordProcessor. [Multidirectional] could solve this problem by making the native help viewer use a ParseCompile format.
+
+'live documentation' (after compile) - labels/documents variables and constructs of memory LogicalMemory
+- binary patches will continue to work providing the patched information hasn't changed

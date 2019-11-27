@@ -1,0 +1,9 @@
+﻿++ List Headers
+
+LH are subtle headers in lists such as ListStyle. These usually horizontal. They are used to provide:
+    * BaseInteraction]s to their contents
+    * [Categories]
+
+LH are most useful on small amounts of items and are used by SmartItem before other representations.
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/list_headings.PNG

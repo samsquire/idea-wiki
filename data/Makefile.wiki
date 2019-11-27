@@ -1,0 +1,43 @@
+<document name="Makefile.md">
+ARTICLES=$(wildcard *<Type/>)
+MCFILES=$(filter-out "README<Type/>",$(ARTICLES))
+DEPENDENCIES=$(ARTICLES:%<Type/>=./%<Type/>.d)
+GENERATED=$(filter-out "README.html, $(ARTICLES:%<Type/>=./generated/%.html))
+MERGED=$(ARTICLES:%<Type/>=./merged/%<Type/>)
+
+<![CDATA[
+clean:	
+	-rm sections/*
+	-mv merged/file . &amp;&amp; rm merged/* &amp;&amp; mv file ./merged
+	-rm generated/*.html
+	-rm output/* 
+	-rm ./*.d
+]]>
+.PHONY: clean build all extract
+
+.PRECIOUS:
+extract: $(DEPENDENCIES)
+merge: $(MERGED)
+build: $(GENERATED)
+
+.SECONDARY:
+./%<Type/>.d: ./%<Type/><![CDATA[
+	echo "Saving dependencies for $&lt; in $@"
+	mcdeps.sh "$&lt;" > ./$@
+	echo "extracting $&lt;"
+	extractfile.sh $&lt;
+]]>
+
+.SECONDARY:
+./merged/%<Type/>: ./%<Type/>.d
+	 join.sh $(subst <Type/>.d,<Type/>,<![CDATA[$&lt;)
+]]>
+./generated/%.html: ./merged/%<Type/><![CDATA[
+	echo "Building &lt;..."]]>
+	pandoc -f markdown -t html5 -o $@ "$(subst <Type/>.d,<Type/>,<![CDATA[$&lt;)"
+]]>
+-include $(DEPENDENCIES)
+
+
+</document>
+

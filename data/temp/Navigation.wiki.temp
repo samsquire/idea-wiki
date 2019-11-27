@@ -1,0 +1,8 @@
+﻿++ Navigation
+
+Navigation is how users navigate through [[UserInterfaces]]. Various strategies exist.
+
+    * [Search]
+    * Back and Foward, BackForward
+    * List Navigation is essentially [Links] and must IndicatePriorInteraction
+    * combined as a StateList

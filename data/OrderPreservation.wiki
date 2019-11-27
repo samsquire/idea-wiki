@@ -1,0 +1,7 @@
+﻿++ Order Preservation
+
+OP is when the order of the [UserInterfacing] is preserved to its [Processing]. This enables UserControl over [Tasks]. This is a useful metaphor that allows users to give instructions in the order they want them to be followed out. see [Ordering] and OrderActions
+
+Examples include:
+    * Print Jobs
+    * ApplicationManagement

@@ -1,0 +1,15 @@
+﻿++ Invisible Implementation
+
+II means that an ImplementationLevel]s are invisible on either or both sides. A LowerLevel and a HigherLevel are unaware of eachother. This is contrary to AbstractionAwareness.
+
+++Advantages
+
+    * NoReimplementation
+    * NoBrittleData
+    * No SpecificTarget
+    * [Compatibility]
+
+++Disadvantages
+
+    * EmptyAbstraction
+    * No SpecificTarget

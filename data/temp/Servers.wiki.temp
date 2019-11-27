@@ -1,0 +1,46 @@
+﻿++ Servers
+
+Servers provide a service are essentially [Backend]s for [Clients].
+    * Communicates with a [Frontend] of a client.
+    * Administered by a [Frontend]s
+    * ServiceHelper can discover remote servers for use
+
+++Types of Server
+New server designs:
+    * ConstructServer
+    * PatchServer
+Traditional designs:
+    * [Forum]
+    * [Chat]
+
+todo: place all server ideas into appropriate pages
+    * how to indicate services are running?
+
+++Architecture
+
+Conventional systems run servers without [Frontend]s and are dedicated. TheSystem on the otherhand will RegardNormal the operation of [Servers] and provide facilities to BringCloser. This is accomplished through GeneralizedInterfaces for administration and overview of server operation.
+    * The SystemViewer includes servers on its view.
+
+TS will facilitate the inclusion of servers as typical [Applications] and are available for UseATypicalApplication. [Security] implications force conventional servers to be dedicated and separate from desktops. TS will have strict AccessModes to contain the entire server to provide maximum [Accountability] and control.
+
+Servers can be configured to be dedicated which will then unload all [Frontend]s and only run what is necessary to run as a server. If NetworkAdministration is available,[Outsourcing] can be used to convert nodes into servers.
+
+
+GUI server run computer normally, status alerts, someone has signed in etc, denied user attempts,, when site gets too popular, stop alerts and replace with a count of users
+
+
+++Caching
+     * record redirection status messages of HTTP
+      * eg, append / to URL
+     * persist URL resolving table even outside of web browser to relax web server stress
+
+++Framework
+    * servers are compiled based on a framework
+
+++Server Folders
+    * server folders are the folder which the server serves
+    * server related tools are integrated into the file explorer when accessed
+     * eg, checkbox on available files 
+    * appropriate server-config file is generated
+
+     * more should be done with STATUS messages transmitted between servers, AlwaysFeedback

@@ -1,0 +1,8 @@
+﻿++ Tasks
+
+A task is something to be done by the user or TheSystem. The TaskArchitecture allows the user to fulfil tasks.
+
+    see BaseTasks and ApplicationBaseTasks for a list of basic and fundamental tasks
+    
+
+[icon=date]

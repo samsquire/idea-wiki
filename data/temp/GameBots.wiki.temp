@@ -1,0 +1,43 @@
+﻿++ Game Bots
+
+GB is one of the CommonGameImplementations where non-human players, controlled by the computer are programmed to interact with the player.
+
+GB is an artificial intelligence problem and has yet to be accomplished. It can be imitated with a combination of two things:
+    * predefined scripted interactions
+    * ondemand decision making
+
+Preferably ondemand decision making should be utilized more than scripting as this adds to the dynamic experience. Waypoints are an example of scripted interactions. Bots should know the map and waypoints are difficult to avoid.
+
+IdealGaming means that GB have [Standardization]. This prevents [Reimplementation] and to avoids IrrelevantCoding for complicated programs. [Reusability] is also a factor with GB since they could:
+    * reused by games utilizing the same engines
+    * reprogrammed for different engines
+    * reused by games of the same genre
+
+SharedImplementation]s of a GB implement base behaviours that tend to be common to the game genre themselves. [Games] therefore have an ImplicitImplementTheUnimplemented.
+
+++Examples
+
+[FPS] [Games] and [RTS] are games that frequently have bots.
+
+++Requirements
+Generally, bots of all genres should:
+    * Utilize multiple strategies
+    * Evaluate the effectiveness of a strategy and prioritize threats.
+    * Act like humans: self-preservation, co-ordinate team
+    * Be unpredictable to humans
+    * Make costly mistakes
+    * Never cheat.
+    * Learn mistakes and learn human players reused strategy
+    * Predict humans
+
+++FPS
+    * moving as a team
+    * covering teammates
+    * taking cover
+    * co-ordinating members of the same team
+    * supression fire
+
+++RTS
+    * suprize attacks
+    * diversions
+    * ambushes

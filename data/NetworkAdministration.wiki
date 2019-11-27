@@ -1,0 +1,49 @@
+﻿++ Network Administration
+
+NA is a NoBaseTaskDownload where [Network]s can be administrated without further software.
+
+++Implementation
+
+If sufficient rights over nodes is available, [Frontend]s and [Backend]s can be controlled through InterfaceSharing. This is essentially remote desktop.
+
+With the NativeNetworks and cooperative NetworkMonitoring, useful information can be pooled including:
+    * [Resources]
+    * [Performance]
+    * [Processing]
+    * [Issues]
+    * [Reports]
+    * [Metering]
+    * ApplicationManagement
+    * [Configuration]
+    * DefenceArchitecture
+
+This provides the following features:
+    * ResourceControl means that nodes can be instructed to utilize a enforce a maximum bandwidth. This is likely to be presented by sliders widgets for each node widgets that control proportions of traffic of the maximum bandwidth.
+
+    * [Update]s can be applied remotely because nodes report version information.
+
+traffic limiting/shaping across a LAN
+ - view versions on all nodes, selecting them all and updating is lame
+
+Many Servers - concept NOT a microkernel, instead high level applications are lots of servers: frontends, backends, distinct interchangeable implementations
+
+++Interfaces
+
+[Network]s are a combination of many different [Entity]s and physical [Hardware]:
+    * individual nodes
+    * cabling
+    * network [Hardware]
+These elements must be CrossReferential to relevant SystemComponents, data from NetworkMonitoring and to [Encyclopedia]s (NoMixGeneralSpecificInformation)
+    * NetworkMonitoring
+    * NetworkCacher
+    * [Outsourcing]
+    * NetworkDeployment
+
+++Features
+    * Remote Administration
+    * ApplicationManagement / UpdateArchitecture / [Backup]
+    * List of nodes
+    * SystemComparison
+    * NetworkMonitoring
+
+consolidating assets of massive networks, including hard drive SMART data

@@ -1,0 +1,32 @@
+﻿++ Multiplayer Gaming
+
+MG means that more than one individual can be involved or interact with the game or the game environment.
+
+There are two forms of MG, simultaneous and indirect.
+    * Simultaneous is when players interact in real time together
+    * Indirect is where players interact but asynchronously
+
+IdealGaming means that indirect MG is the MinimumFeature required for NativeImplementation of games.
+
+IndirectMultiplayerGaming
+
+++Implementations
+Indirect multiplayer game features include:
+    * Score Sharing, ability to view other player's scores.
+    * [HighScores]
+    * [Spectating]
+    * [Replays]
+    * GameGhost, where players see others at stages of the game for comparative purposes
+    * Temporarily let other players control game
+    * [Hotseating]
+    * CooperativeControl
+
+
+
+portal editor, writes articles/reviews
+ - people vote
+
+game shares
+ - people buy and sell with virtual money
+
+cool interface for gaming, like a media pc

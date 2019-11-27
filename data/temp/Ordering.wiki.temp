@@ -1,0 +1,7 @@
+﻿++ Ordering
+
+Ordering is to place something in a particular position.
+    * is a BaseInteraction.
+    * handled by OrderControl
+
+ascending and descending, let user choose pure english or just ascending/descending 'best at maps first (descending)', 'worse at maps first (ascending)'

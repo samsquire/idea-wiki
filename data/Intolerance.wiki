@@ -1,0 +1,36 @@
+﻿++ Intolerance
+
+* intolerance is where the system doesn't tolerate invalid or inconsistent communications with other machines and will not understand them
+
+++Advantages
+* higher speed
+
+++Disadvantages
+* incompatibility
+
+++Examples
+
+* HTTP: only tolerate CRLF and never LF
+ * never check for only LF 
+
+++Features
+
+Not tolerating machines will be confusing to both clients and servers. This is why the information can be processed at a later time. 
+see NeverFailWithoutWhy
+
+Statistics can be used to determine whether the intolerant server is worth the disadvantages.
+
++++Later Log Processing
+Process information later to determine why the client/server was rejected/rejected. This means there is no extra error logic at the time of the failed request, the request is simply written and later processed.
+At the time of the failure:
+* do not attempt to figure out why it failed when the request happened
+
+Later processing:
+
+* use data availble at the time:
+    * HTTP: user agent
+    * protocol+protocol designer: structure/validity
+* create statistics
+ * heuristics
+
+[category=paradigms]

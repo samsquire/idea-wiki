@@ -1,0 +1,5 @@
+﻿++ Sorting
+
+Sorting is organizing a list of items based on criteria.
+    * is a BaseInteraction
+    * handled by SortControl

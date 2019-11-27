@@ -1,0 +1,11 @@
+﻿++ Initialization
+
+Initialization is the acknowledging and registering. Examples:
+    * [Installation]
+    * [Bases]
+
+Initialization tends to involve StandardEstablishment and StandardMultiples so it is an example of [Centralisation].
+
+    * may go against NoBrittleData if it isn't [Multidirectional]
+    * [Migration]
+

@@ -1,0 +1,112 @@
+﻿++ Application Management
+
+This is part of the SystemComponents and enables management of [Applications] on TheSystem.
+
+     "application management interface: panels? dialogue?"
+
+++Requirements
+    * High Performance (SystemFactors)
+    * [BaseInteraction]s
+     * [Filtering] : software criteria, by license
+     * [Batching] : batch exporting/installation/removal
+    * [Categories]
+     * games, utility, productivity
+    * AlwaysFeedback:
+      Status messages; in usage
+    * [UserInterfacer]
+     * draggable software rows on software management 
+    * SystemIntegration
+     * 'copy' option in application management, will paste as a group of files, paste as an install on another computer
+    * IntricateDevelopment
+     * [Developer] can be invoked to modify existing software
+
+++Tasks
+In addition to [Managed] tasks, the following [Tasks] may also be available:
+    * Reinstall
+    * Repair
+    * Rollback
+    * [Extraction]
+    * ApplicationMigration
+
+++Interfaces
+The user will have a lot of software and will take time to render. The user is able to use it while it loads, it should continually add to the bottom of the list
+    OrderedRender, Render order:
+     * list of installed applications first
+     * action buttons
+     * calculated statistics [Resources] 
+     * render the application's icon
+
+
+    ExternalConfiguration panel  file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/application_configuration.PNG
+
+Wizards will exist to HelpTheUser install from different [Source]s.
+
+Access to various [Zones] and ApplicationComponentry is available from individual [Applications] ContextMenu]s.
+
+++Installation
+
+[Installation] and AM are connected tasks. This is why the interface will allow installs to be invoked in two ways:
+    * Find new software
+    * Install new software
+This ultimately HelpTheUser and is an example of ConnectRelevantTasks.
+
+
+
+
+
+++Status
+StatusRepresentations mean various statuses may be clearly visible:
+    * Some applications may have a status regarding their stage of [Development]
+     mature, in development, released etc
+
+Typical statuses include:
+    * updating
+    * compiling
+    * running
+    * scheduled
+
+++Versioning
+There may exist MultipleVersions for applications. [Multiples] of applications can coexist with NoConflicts. Versioning promotes UserControl as users switch between versions.
+    * If compatible [Componentry] exist between versions (such as configuration) they may be shared via MultipleManagement.
+    * Management tasks are possible.
+    * SmartCache
+
+    SafeCustomisation
+
+++Extraction
+UserControl over [Extraction] permits particular data to be extracted.
+    * Particular ApplicationPurpose folders may be exported
+    * ApplicationComponentry and ApplicationEntities
+    * [Code]
+    * Even data from uninstalled [Applications] may be extracted, such as the default [Configuration] file. This is possible because of JustUse.
+
+++Ideas
+
+
+
+* application icons/listing in application manager
+ * dialogue or context menu to OPEN or EDIT
+  * explore application's files? configs? 
+
+- new software button allows user to create software or install it (undecided)
+ - startup application production/management screens
+ - wizards
+
+software manager
+- every version of an application updated is recorded/stored/preserved
+ - ability to rollback to another version
+ - version specific data, such as configuration is also recorded/stored
+
+- fatal dependency, version/software technically dependant is ensured installation
+ - internal structures of applications and an application that uses them
+- ability to view specifications of software if provided
+ - eg open source
+technical specifications and properties allow compatability to be calculated
+ - for fatal dependencies
+- strategy of breakage on bugs/updates, message user developer with bug report(s)
+- patches are interchangeable and can be reverted, some patches can act like 'extensions' to modify interaction or hard coded variables
+
+- version control specification file
+
+the product system should have a standardized logo for the product
+ - 'DVD' in the corner of every result

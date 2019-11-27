@@ -1,0 +1,11 @@
+﻿++ Use Tests
+
+UT are simple checks that offer information about the user, [Applications] and TheSystem. 
+
+    * jusched.log - Java updater
+    * SCW*.tmp - recently scanned file
+
+UT show what [Applications] the user is using.
+
+this must be capable even to other installed operating systems and even across the network
+

@@ -1,0 +1,6 @@
+﻿++ Modularity
+
+Modularity is how divided something is.
+    * Promotes HighStandards
+    * Results in [Componentry]
+    * Recommended by MaximumModularity

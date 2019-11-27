@@ -1,0 +1,51 @@
+﻿++ Bases
+
+Bases are [SharedImplementation]s of the ShareArchitecture which combine:
+    * StandardEstablishment of [Stores]' [Entity]s
+    * [Centralisation]
+    * [Externalisation]
+    * [Standardization]
+
+Bases aim to BringCloser, NoReimplementation and aid ImplicitImplementTheUnimplemented. Bases are very important to SystemInformation.
+
+This means that they have:
+    * StandardizedScreens
+    * HighStandards
+
+This is accomplished through:
+    * [Downlevelling], DownlevelToTheSystem, DownlevelBaseTasks
+    * [Standards]
+
+Bases are used to simplify [Development] for the [Developer]. Bases make a ComprehensiveSystem possible.
+
+++List
+These are bases:
+    * [Algorithms]
+    * ApplicationFacilities
+    * FrontendServices
+    * [Undo]
+    * [Network]
+    * ControlBinding
+    * [Concurrency]
+    * Network Bindings
+    * Software (ApplicationManagement)
+    * Hardware (HardwareManager)
+    * Threads/[Processing]/Processes
+    * Open [Files]
+    * StandardizedScreens
+    * PhysicalMemory
+    * [Clipboard]
+    * Print Queue
+    * [Startup]
+    * [Bootup]
+    * Ports (idea invoked my ahref)
+     * large port number, name of application(s) that use it and icons
+      * show conflicts
+     * change port used
+     * control panel for ports  
+     * red means blocked, green means open
+     * right click and change port forwarding etc
+    * [History]
+    * 
+
+see ApplicationBaseTasks

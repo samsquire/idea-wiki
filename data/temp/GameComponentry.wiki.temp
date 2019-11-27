@@ -1,0 +1,26 @@
+﻿++ Game Componentry
+
+[Games]' [Componentry] is made of many different [Components].
+    * PointConsistency of componentry is usually necessary for NetworkedGames
+
+[Portalling] is used extensively for GC to make management a RealRepresentation. This is GamePortalling.
+
+++Possible Components
+
+    * Mods
+    * Maps  
+    * [Servers] [Configuration]
+     * Map Lists - a [List]
+    * Saves
+    * Expansions
+    * Profiles
+    * Bindings (default bindings)
+    * [Replays]
+    
+
+++Implementation
+
+    * The [Games] original content is preserved through marking so that it can be restored too. These defaults may even be stored in a completely different area for AccidentSafety and to prevent [Users] from modifying them. This exercises ReadonlyApplications and CopyOnWrite.
+    * GC can be expanded through AlternativeExpansion.
+    * The PhysicalEndpoint for most GC are [Zones].
+

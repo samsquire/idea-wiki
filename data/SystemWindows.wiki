@@ -1,0 +1,33 @@
+﻿++ System Windows
+
+SystemWindows are a [Desktop] environment concept where the [Frontend]s of [Applications] are physically displayed within. SW have:
+    * [TitleBar]
+
+SW offer various powerful features such as:
+    * pin to top
+    * move
+    * resize
+    * [Outputs] Redirection
+    * [Externalisation] viewing
+    * A DesignatedRefuseArea for objects relevant to the window.
+
+Open [Files] are displayed and accessible from the [TitleBar], like [ContextMenu]s.
+
+++Implementation
+
+TheSystem's Window Manager controls [SystemViewer]s and must be more powerful than [Conventional] systems. In order to do this, the manager will manage windows based on assumptions that aim to make the user's life easier. The style of assumptions will be through EmergentProgramming. These are:
+
+    * Windows will attempt to lay themselves out so they do not overlap another
+    * Should a window be forced to overlap another, it will overlap a lower priority part of the window according to [Attention]
+    * Windows are resized according to their contents
+    * Windows will be attempted to be placed in the centre of the screen
+    * Windows placed in the middle of the screen may be automatically moved to make room for other windows.
+    * Changes to windows will be reflected through resizing, an additional file for example.
+    * There is a maximum size for windows after which the window will require scrolling rather than resizing
+    * Asking the WM to focus multiple windows at once should use an algorithm to display these windows efficiently. For example, shift pressing a web browser and an email application may arrange the windows side by side.
+    * EfficientFrontendArrangement
+
+
+
+record sound from any program/process, window
+ - physical lines linking windows together, like pipes, they can flash when sound goes through them

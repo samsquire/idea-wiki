@@ -1,0 +1,26 @@
+﻿++ Firewall
+
+FW are [Passthrough]s that block unwanted [Network] traffic for [Security]. FW has GrainedControl.
+
+In conventional systems, firewalls tend to be commercial. Firewalls often cause [Annoyances] when legitimate traffic is blocked like NetworkedGames.
+
+The FW NativeImplementation has a high SystemIntegration to maintain [Capability] without loss to [Security]. This is accomplished in multiple ways.
+    * User must always know when something is blocked and why, Source of failure
+External firewalls should be detectable and TheSystem should have an ArchitecturalAwareness of its rules, even if it cannot interact with them.
+
+accurate rules, see blocked request from firewall, know what exactly will PERMIT the request
+
+Network data that is DistinguishedContent has StandardRepresentations:
+    * port numbers
+    * IP addresses
+    * host names
+    * domains
+    * MAC addresses
+When invoked, the data can be used to:
+    * create a new firewall rule if none exists
+    * find rules containing the data
+    * find recent logs for permitted/denied rules containing the data
+
+ContextMenu]s are available to add simple and GrainedControl.
+    * file -> block
+    * IP address -> block

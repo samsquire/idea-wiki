@@ -1,0 +1,15 @@
+﻿++Application Categories
+
+[Applications] are marked based on what type of application they are. The category an application fits into can determine:
+    * storage location
+    * [Stores] used
+    * resources required
+    * functionality it provides
+
+All [Categories] can be apart of the OrganisationArchitecture. Each individual application or the entire category may be administered and presented with SpecializedScreens of [Portalling].
+
+++Exemplar Categories
+    * [Games]
+    * [Servers]
+    * PersonalSoftware
+    * SecuritySoftware

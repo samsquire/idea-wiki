@@ -1,0 +1,22 @@
+﻿++ Just Use
+
+The user should be able to use something without making any further commitments. There must be NoForcedSteps. 
+     * This means that the user can [Open] without having to [Save]
+     * Use [Applications] without [Installation]
+     * Displaying [Entity]s or [EntityStore]s without storing them
+     * Run applications entirely in ram, without any [Installation] or [Initialization].
+
+This can apply to any [Source] including:
+    * [Applications]
+    * [Entity]s and [EntityStore]s
+    * [Components] and [ComponentStore]s
+
+To make JU possible and easy to understand, the difference between assumed and explicit intentions are distinguished with an AbstractionAwareness.
+    * Previewing an online file requires it to be stream [Download]ed before it can be previewed.
+
+[Data] should be used as early as possible in TheSystem. Conventional systems use temporary files and load them. JU means that the data should simply be used as it is rather than outputting to a file.
+
+* generate file and open rather than save and store file then open - save and open ContinuousInitialization creation
+
+
+

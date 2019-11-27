@@ -1,0 +1,18 @@
+﻿++ Common Implementations
+
+CI are capabilities and features that [Applications] often require. These include:
+    * account managers that handle creation and management [Accounts]
+    * category creation and organization
+    * colour scheme modification
+    * alerts configuration - [UserNotifications]
+    * connection details: proxy server
+    * plugin architecture - [Componentry]
+    * help document system [Help]
+    * spell checking
+    * dictionary
+    * password fields
+    * translation
+    * [Componentry], see ApplicationComponentry
+    * [Reports]
+
+Conventional systems do not standardize these functions which means [Reimplementation]  is common. NoReimplementation means this should be avoided.  The majority can have a [Standardization].

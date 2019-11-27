@@ -1,0 +1,6 @@
+﻿++ Stager
+
+The [Stager] uses ListStyle to easily communicate distinct stages.
+    * All BaseInteraction]s apply
+
+The stager is the [Frontend] for the StagerSystem

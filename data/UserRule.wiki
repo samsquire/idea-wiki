@@ -1,0 +1,16 @@
+﻿<document>
+<sam type="subs" name="UserRule.idea" template="ideaRecord.md" source="idea.md">
+	<Title>UserRule</Title>
+	<Description>Computers were built for users, not the other way around. BLAH!</Description>
+	<Idea>UserRule</Idea>
+</sam>
+<![CDATA[<div class="content UserRule">]]>
+++ User Rule
+
+User Rules are choices that are made by the user that determine how something will act. This is how [Autonomy] is implemented.
+
+
+
+    * Whether an application will ask the user to update<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

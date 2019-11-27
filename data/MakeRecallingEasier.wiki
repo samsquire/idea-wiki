@@ -1,0 +1,34 @@
+﻿++ Make Recalling Easier
+
+Recalling in the TheSystem should be easier than current modern architectures.
+
+++Reasoning
+
+Early computer architectures seemed to rely on recall based memory schemes.
+    * files are stored under filenames in folder names which is referenced by a path.
+    * command names
+
+This forced people to organise files in well defined ways and become familiar with the data they maintain. Unfortunately, this takes a lot of effort and for most [Users] it is difficult to justify the effort.
+
+In modern computing, this has brought forth a number of innovations that support these recall adverse users in favour of more direct recalling architectures.
+    * Gmail uses labels rather than folders.
+    * Ubiquitous search
+
+These features are definitely helpful, allowing people to find files faster and easier. The perceived problems of these architectures include:
+    * Presence simply masks the problems of the underlying data organisation.
+    * Users do not actually know anything about organising files intelligently.
+    * User friendly architectures shift intelligence from the human to the computer. This is a mistake, a computer is not as intelligent as a human.
+    * The result is that people feed the computer generalised information about what they want but do not actually know where it is stored.
+    * Search algorithms are slower than human knowledge.
+    * Filesystems have not adapted to be efficient at organising and characterising data.
+    * People have no care where the information is actually stored and the accuracy of its positioning in a system it becomes inconsistent and messy. Where any information can be retrieved by searching, there is little incentive to organise it efficiently.
+
+TheSystem hopes to mitigate the problems with an intelligently designed recall based architecture that:
+    * encourages adoption by users
+    * improves consistency and accuracy 
+    * is easy to use
+    * enabled by default
+    * innovative
+    * avoid UnadoptedEstablishment of window's default music, pictures and documents folder
+    * 
+

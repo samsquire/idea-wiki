@@ -1,0 +1,8 @@
+﻿++ Links
+
+Links are logical references to anything physical.
+    * Links are used to create InformationInterface.
+    * Required to IndicatePossibleInteraction and IndicatePriorInteraction
+    FileSystemLinks
+    * SmartCache - to link physical and logical locations
+

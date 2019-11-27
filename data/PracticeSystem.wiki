@@ -1,0 +1,36 @@
+﻿++ Practice System
+
+The PS HelpTheUser to choose the best practice. This can be settings or actions from the user. The practice system works like this:
+    * Scans [Configuration] / notices something against good practice
+    * Explain and tell user what is wrong
+    * Offers to fix it or give intrusctions on how to fix
+
+Instructions are to be formulated so they specific to the task. The user may ignore the advice and continue the practice.
+
+The PS is not supposed to solve problems. Only improve current progress. The PS can give advice for:
+    * [Performance]
+    * [Security]
+    * [Hardware]
+
+The PS is not a help system. It aims to help users make practice or software function optimally. The PS must AvoidObviousTemplates and DatalessTemplates.
+
+
+'practice' files are a documentation advice for 'best' practice
+- refers to software and even configuration settings of such software
+- some practices can be turned on depending on the complexity, invoke frontend software and wizards etc
+- ask for data/data required 
+
+++Interface
+The ObjectInterfacer will be used to render each practice as ListStyle.
+
+++Example
+
+Joel on Software states that only one person should write the specfication:
+example:
+ advice: one person writes a specification
+ user: tries to set a specification to a group
+ user is advised/warned as specifications should be written by one person
+ user can override if desired
+
+advantages and disadvantages of technologies: compressing a webpage before sending
+

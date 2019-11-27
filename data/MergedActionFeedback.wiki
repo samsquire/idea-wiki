@@ -1,0 +1,10 @@
+﻿++ Merged Action Feedback
+
+MAF means that [Selection] of an ActionMerging will ensure that [Feedback] will always be provided for every merged action due to AlwaysFeedback.
+
+GeneralizedInterfaces may be used to represent the merged actions being undertaken. Actions that generate ProgressBars would be integrated on the interface. It is important that the final action is clearly indicated on the dialogue.
+
+
+++Example
+
+A highly compressed file from within the SystemViewer will be slow to open. If there was no indication to [Users] that the file would need to be decompressed beforehand, the user will be watching a decompression dialogue when all they wanted was to open it. This is why a list of steps to come should show that eventually the file will be opened.

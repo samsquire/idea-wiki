@@ -1,0 +1,31 @@
+﻿++ Stager System
+
+The SS manages interdependent stages of action.
+
+++Architecture
+
+SS means stages can be [Managed] by [Users] with UserPower. The [Frontend] is called the [Stager].
+
+highly generalized application stages
+ - checking zone folder
+
+The most important uses are for [Applications] and TheSystem. Each stage tends to be a dependency on another. IndepthData and ComprehensiveSystem means that SS always knows the active stage.
+
+An applications actions is documented in generalized stages. During [Development], stages are either:
+    * added directly into the code.
+    * added as ExternalData at the same time as the code
+Upon compiling, a document specifying all the stages is available for TheSystem to read. [Developer]s can create intricate descriptions and explanations for each stage. The SS is also utilized as [Documentation] since it can provide [Help] by having [Links] and CrossReferential to and from it. It is likely these stages will have [Reusability] and can probably be standardized:
+    * Read configuration file
+    * Listen for connections
+    * Show frontend.
+This would also create an ImplicitImplementTheUnimplemented because the following require NoReimplementation:
+    * [Logging] and [DocumentingSystem] is simplified
+    * Translation occurs once
+    * [Errors] and issues can be narrowed down to a particular stage. (see IssueDetection)
+This HelpTheUser because it can be used for a general overview of how [Applications] function.
+
+ApplicationPortalling and the SystemPortal utilize the [Stager] for these reasons
+
+stager system: maintains dependencies between stages, passes through them
+
+error in application stage helps narrow down what went wrong

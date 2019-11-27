@@ -1,0 +1,11 @@
+﻿++ Instant Panels
+
+IP refers to a technique whereby a panel is loaded and ready for display but is hidden from view. When the panel is activated the panel is instantly displayed.
+
+++Implementation
+
+TheSystem will attempt to use IP as much as possible to make changing and accessing options as fast as possible.
+
+++Examples
+
+This is used extensively by Mac OS, a [Conventional] system and by Windows with its [Tabs].

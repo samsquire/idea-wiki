@@ -1,0 +1,25 @@
+﻿++Hibernation Is Fast
+
+Windows XP has a feature called 'Hibernation' that allows you to turn off the computer and return to it in the same state. There is some discussion at Raymond Chen's blog where comments complain that it is slow. 
+
+I use hibernation to bypass the slow loading time of Windows. How do I do this? 
+
+There are two stages to hibernation.
+1 dumping to the hard drive and shutting down.
+2 reading from the hard drive and loading Windows 
+Hibernation dumps everything loaded in memory to the disk. This includes the binary and caches of these applications. If you hibernate with a web browser open, it only makes sense that hibernation takes so much time, because you are saving pictures and web page cache to the disk.
+
+I want to avoid Window's loading times.
+
+Opera takes 400MB in both the pagefile and physical memory - according to Task Manager - when I have 100+/- tabs open. This is a large amount to write to the disk and read back for little benefit. Do I really need the cache? 
+
+Instead, I create a session file of my tabs, containing only a list of loaded URLs. This can then be loaded back later. This session file turns out to be a measly 200KB compared to 400MB. 
+
+It is this obvious. Close things that are trivial to open when you return from hibernation. This means closing stuff that is one click away: 
+ audio player - playlists! 
+ instant messenger 
+ email client 
+ word processors
+...anything else that can be loaded in a click 
+
+This is how I hibernate quickly and return to Windows faster than booting up.

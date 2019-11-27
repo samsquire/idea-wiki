@@ -1,0 +1,36 @@
+﻿++ Interface Panels
+
+IP are groupings of [Frontend] widgets to convey consistent information. They are displayed inside UserInterfaces.
+    * IP are routed with InterfaceRouting
+    * Are vectors and therefore scalable due to real time flow
+
+++Architecture
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/paneling.PNG
+
+TheSystem makes use as IP as StandardizedScreens.
+    * Panels create StandardRepresentations for common data. This results in maximum [Reusability] and a ConsistentSystem. If the panel is well designed, this also gives MultipleRoutes (as an ImplicitImplementTheUnimplemented)
+    * Used extensively for wide elements such as table rows and lists
+
+Panels are highly CrossReferential and use many [Links], CloseExplanation and other InformationPopup]s prevent HelpLapse.
+
+Other more specific examples include:
+    * [UserNotifications] notifications
+    * TitleBar
+    * StateList]s
+
+IP are created in [Development] with UserInterfaces by the [Applications] developer. IP can easily be modified by [Users] as a CasualModification. This is because not all data available will be presented in a panel.
+    * Checkbox [Configuration] allow [Users] to toggle the display of particular information
+    * The [Developer] and DataConnector may also be utilized allow modfication of the layout aswell as the data.
+
+IP avoids [Absolute] layouts as much as possible, instead, the IP engine will flow the interface based on individual widget properties. Styling is up to [Users].
+
+Updates that make new information available means that IP have to be updated. NoManual and NoForcedSteps means that the update should be included with a specific [Update] to the IP. This will then add the desired data to the IP.
+
+InterfaceSharing means that IP can be shared with active mode [Sharer]. [Remote] panels can then be added for monitoring or control purposes.
+
+
+++Ideas
+        * interface panels are configurable by right right clicking and selecting customise, data can be showed/displayed in them 
+
+[alias=InterfacePanel]

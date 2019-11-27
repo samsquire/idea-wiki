@@ -1,0 +1,11 @@
+﻿++ User Services
+
+US are features in TheSystem that a user is most likely to directly interact with. These might be DefaultSoftware and ApplicationBaseTasks. The distinction of US and SystemServices are that these are generally for interactions with as a [Frontend] rather than a [Backend], which means they are likely to have UserInterfaces associated with them.
+
+    * LifeManagementDesign
+    * ObjectInterfacer
+    * SystemScripting
+    * DevelopmentAids
+    * DistributedDocumentAuthoringSystem
+    * AlternativeManager
+    * UniversalModeller

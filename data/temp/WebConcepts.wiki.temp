@@ -1,0 +1,15 @@
+﻿++ Web Concepts
+
+WC are ideas that are ideas to reform the web.
+
+Sitemap
+The sitemap is conventionally implemented on the actual web page. This defeats the object of a map since you have to be on the site to get where you want. This is a on a unnecessary HigherLevel implementation. Sitemaps should instead be accessible before the abstraction of the webpage. This means a protocol or format is used to store a sitemap instead.
+    * Easy to generate and parse
+    * Small
+    * Human readable
+    * Flexible
+    * Plain text
+The site map can therefore be rendered as a graphic and be used for [Navigation]. XML is likely to be the format.
+
+index only web pages viewed for a certain period of time - eg, longer than 30 seconds
+or average out site view time

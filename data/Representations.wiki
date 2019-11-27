@@ -1,0 +1,6 @@
+﻿++ Representations
+
+aka formats
+
+* parse machine readable language into human readable on receive
+OnDemandFriendliness

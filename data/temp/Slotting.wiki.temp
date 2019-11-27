@@ -1,0 +1,8 @@
+﻿++ Slotting
+
+Slotting is where all components, architectures and data of TheSystem have differentiation and a slot as a home. Unlike conventional systems where applications are treated as the slots, TheSystem aims to have a slot for everything.
+
+For example, installing a network designer software will not be treated as just another application.
+
+    * [Portalling] are interfaces for slots.
+    * [Bases]

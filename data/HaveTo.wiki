@@ -1,0 +1,8 @@
+﻿++ Have To
+
+A 'Have To' is an action that a user must do. Usually a 'Have To' is:
+    * time consuming
+    * pointless
+    * could be done automatically
+    * should be on a LowerLevel of an ImplementationLevel and [Downlevelling]
+    * a hurdle that gets in the way what the user wants to do

@@ -1,0 +1,8 @@
+﻿++ Endpoint
+
+Endpoints are goals of processing, it represents the finished work or outcome of a process. Goals can be reached in different ways.
+
+++Types of Endpoint
+    * LogicalEndpoint
+    * PhysicalEndpoint
+    * DualEndpoint

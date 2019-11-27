@@ -1,0 +1,9 @@
+﻿++ User Lists
+
+UL are data stored about a user to improve performance, to record and HelpTheUser navigate.
+    * [History]
+    * Favourites/Bookmarks
+    There is no easy way to determine whether i've looked at a file or not, no colour coding
+    * [Usage]
+
+UL are DynamicData and VisibleData.

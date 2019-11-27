@@ -1,0 +1,9 @@
+﻿++ Information Overload
+
+IO is when there is too much information on the screen. This can occur due to
+
+    * repetitive data
+    * similar data
+    * compactness/closeness of information
+    * FrenziedFeatures
+    * 

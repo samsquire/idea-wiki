@@ -1,0 +1,9 @@
+﻿++ Relevant Load
+
+RL means that UserInterfaces should only load and render what they need to function. This is to maximize [Performance].
+    * StagedInterfaces should load only the stage that will be displayed.
+    * Tree dialogues which contain lots of content
+
+++Implementation
+
+After what is required to operate the interface, the remaining content can be rendered. The interface is operable as soon as the initial screen is rendered.

@@ -1,0 +1,13 @@
+﻿++ Performance
+
+Performance is the workload capability. Improving performance is achieved via:
+    * [Cacher] for [Caching]
+    * LowerLevel and [Downlevelling]
+    * Less [Complexity]
+    * NoEnumeration and DirectedLogic
+
+++Implementation
+
+Performance is AlwaysFeedback to the user.
+
+    * Hard Drive throughput

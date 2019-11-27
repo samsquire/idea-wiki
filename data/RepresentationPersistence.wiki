@@ -1,0 +1,9 @@
+﻿++ Representation Persistence
+
+
+
+source persistence - 'send via email' will:
+ - save the source to HD
+ - send a path is necessary 
+ - if link receipt fails, send source
+need link receipts!

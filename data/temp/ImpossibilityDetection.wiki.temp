@@ -1,0 +1,8 @@
+﻿++ Impossibility Detection
+
+ID is a technique which enables potential threats and deception to be discovered. This works similar to a black and white list: availibility is compared to what is happening to determine threats.
+
+A client attempts to use a feature which [Permissions] do not allow. StopAtSource means that the client will not attempt an action it has no permission to. Since client is unsafe and cannot be trusted, the validation is also on the server. If the client tries, the server knows that the client is unsafe, modified and possibly a threat.
+
+    * sending a field not specified in the user interface: instant blocking
+    * for forums it should be easy to remove unnecessary fields like signature and web site

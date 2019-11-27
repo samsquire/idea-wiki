@@ -1,0 +1,15 @@
+﻿++ Comparison
+
+[Users] frequently need to make comparisons, TheSystem must make this as easy as possible for:
+    * [Compatibility]
+    * [Capability]
+
+    * [BaseInteraction]s
+
+Comparisons need to be consistent. Show the [Capability] of each and mark each one with its [Compatibility]. [Users] should not be forced to make mental comparisons. An example of an inconsistent comparison is Spyware Doctor:
+
+clientside interface like wikimatrix but standardized
+
+make it easy to comparison: don't just list all features that one has and not those it doesn't:
+ - spyware doctor: list all the features present in green and those not in red.
+

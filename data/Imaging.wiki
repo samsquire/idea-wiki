@@ -1,0 +1,19 @@
+﻿++ Imaging
+
+Imaging is the storage an entire medium into particular [Files]. This includes:
+    * [Files]
+    * directories
+    * HardDrive]s
+    * [Bases]
+    * [Configuration]
+    * [Memory]
+
+Imaging is mainly used for:
+    * state saving
+    * [Versioning]
+    * [Backup]
+    * [Restore]
+
+++Implementation
+
+Imaging is controlled through SpecializedScreens. Images can be utilized outside the system due to ExternalManagement. This is imperative for recovery.

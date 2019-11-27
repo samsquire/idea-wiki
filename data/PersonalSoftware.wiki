@@ -1,0 +1,8 @@
+﻿++ Personal Software
+
+PS are [Applications] and SystemComponents that provide [Personal] information management.
+
+++List
+    * UserTaskSystem
+    * UserTimeManagement
+    * Address Book / Contact List

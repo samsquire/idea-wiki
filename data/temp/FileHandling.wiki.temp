@@ -1,0 +1,28 @@
+﻿++ File Handling
+
+Handling of files is a AbstractionAwareness. 
+    * The [Save]: write, delete original, rename
+
+++Tasks
+    * [Download]
+    * [Caching]
+    * [Open]
+    * [Save]
+
+++Offering
+When a file is offered it is treated in the same way across TheSystem. This is because file transfer is one of the BaseTasks and should be a [ConsistentSystem].
+
+    * no forced representation of a file
+     * it shouldn't ask to be opened in a particular application 
+    * applications shouldn't use their own dialogue to offer a file
+    * physical representation of the file and the choice.
+    * NoAssumptions that the user will want to download the file. They may wish to JustUse.
+    * File are to be treated as files when they are offered.
+
+++Concept Interfaces
+This treats a file in the same way the SystemViewer treats them. On the left pane is icon of file and on the right are available actions.
+    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/file_offering.PNG
+
+see [Download] and [Save]
+
+fs tunelling antisolution, creation of new file, derived file, erased

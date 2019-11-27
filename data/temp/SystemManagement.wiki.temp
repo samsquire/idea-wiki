@@ -1,0 +1,15 @@
+﻿++ System Management
+
+System Management is how the system and SystemComponents are [Managed].
+    * In Windows, this is Control Panel.
+    * The SystemConfigurationScreen is responsible for SM in TheSystem.
+
+Items that can be managed include:
+
+    * [Hardware]
+     * PhysicalMemory
+    * [Installation]
+    * LogicalMemory
+    * [Accounts]
+    * [Installation] of [Applications]
+     * see ApplicationManagement 

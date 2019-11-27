@@ -1,0 +1,29 @@
+﻿++ System Integration
+
+System Integration is where application features are integrated to TheSystem and other [Applications]. [Applications] use [Externalisation] to expose their features and make them available for use. Integration enables [Autonomy] and prevents [Distance].
+
+++Architecture
+
+There are various types of integration.
+    * [Awareness] integration is where an architecture is relevant elsewhere.
+     * When an application allows [Users] to select what other application should be used for a task.
+    * [Embedding] integration is when a component is directly used.
+    * [Standardization] is where there is common way to do something and this can be called upon.
+    * [Externalisation] is specifying what you are looking for and then accessing it for usage in your own programme.
+
+++Implementation
+
+
+
+Integration is difficult to achieve due to reasons discussed in the DilemmaticIntegrationScenarios. There are various strategies to integration.
+    * [Passthrough] hooks
+    * 
+
+    * Integration is two faceted: people who want to integrate software from another into their software and people who want their software to integrate into others.
+    * Where should the effort be placed?
+    * TheDevelopmentModusOperandi enforces UpfrontConsideration in regard to integration on developers. This means all software will be integratable.
+    * It should be possible for software to automatically integrate if it makes sense.
+    * 
+
+     * [Applications] [Protocols]
+     * DifferentRepresentation via ObjectInterfacer

@@ -1,0 +1,6 @@
+﻿++ Themes
+
+Themes are the different [Frontend]s available.
+    * Themes exist so that there is UserVariety
+
+Themes should have [Compatibility] regardless of other modifications or extensions.

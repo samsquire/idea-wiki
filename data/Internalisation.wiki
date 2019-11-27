@@ -1,0 +1,4 @@
+﻿++ Internalisation
+
+Internalisation is an explicit [Share] through [Export]ing. The distribution occurs from inside.
+    * [Servers] use [Internalisation] since they are explicitly contacted to retrieve information.

@@ -1,0 +1,11 @@
+﻿++ Basics
+
+Basics are the LowerLevel collections. Ordered by ImplementationLevel]s, these are:
+
+    * [Fundamentals] are overall architectural design decisions
+    * [Bases] are database storage areas, programs should be able to interact with the Bases APIs rather than the database themselves
+    * [BaseInteraction]s are interactions that can be done with data on UserInterfaces
+    * ApplicationBaseTasks are basic tasks that should be possible with installed software
+    * BaseTasks are basic tasks that is expected to be used by anyone using the system and should always be possible 
+
+[icon=cog]

@@ -1,0 +1,8 @@
+﻿++ Derive Not Reimplement
+
+DNR means that the architecture should be derived from rather than [Reimplementation].
+    * helps ImplicitImplementTheUnimplemented.
+
+++Examples
+Examples include:
+    * DesktopFirst: WebApplications and DesktopApplications

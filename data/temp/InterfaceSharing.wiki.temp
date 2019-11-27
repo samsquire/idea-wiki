@@ -1,0 +1,25 @@
+﻿++ Interface Sharing
+
+IS is where the [Frontend]s can be shared by multiple [Users] [Remote] or local. IS is absracted through the [Sharer].
+
+++Implementation
+
+IS can take place in either active or static mode of the [Sharer]. In both modes, it is assumed that the frontend is available on the recipient. This means that only the data contents of the frontend needs to be delivered.
+
+In static mode, there is no reply. This means that all the data needs to be transmitted in an lump. In active mode, the [Optimum] strategy is to SpecificTarget - only the data required for [Synchronization] is delivered by OnlyStoreDifferences
+    * This is important for StagedInterfaces
+
+Both modes can offer control over the [Frontend]s.
+    * Static mode utilizes UserTracking and will require another [Sharer] session to commit the UserTracking. This could be either as static dump or active by replaying the UserTracking file.
+
+IS enables users to collaborate on tasks such as [Configuration] changes. IS means [Applications] automatically inherits or ImplicitImplementTheUnimplemented collaboration into non-sharing applications. This works well on StagedInterfaces ([Tabs]/wizards) as individual users can be 'on' a particular stage of an interface. After all users finished, a supervisor could verify all changes are okay.
+    * Each stage title could have the name of whoever is on it
+    * Modified fields background colour go red to indicate modification
+    * in Application portal, list of people under the frontend
+
+[Outsourcing] has SystemIntegration. Tasks can be given to other users:
+    * set a todo list
+    * make a deadline
+    * make a deadline for someone else
+    * a collaborated decision
+This is typically accessed through context menus on the required element: a window, a window's field or a stage in a StagedInterfaces.

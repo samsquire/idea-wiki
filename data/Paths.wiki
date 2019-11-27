@@ -1,0 +1,14 @@
+﻿++ Paths
+
+Paths are the DataInterfacer's reference to data. Paths are also referential representations of data for the RepresentationSystem.
+    * Paths are structured and follow [Standards].
+    * [Mapping] usually occurs through AutoMapping
+    * Paths are InteractiveText
+    * ExactURL
+
+Paths themselves have multiple [Representations]:
+    * relative
+    * [Absolute]
+Copying and pasting the path of a file inside a web server folder could copy:
+    * the web/ftp path of the file
+    * the real path

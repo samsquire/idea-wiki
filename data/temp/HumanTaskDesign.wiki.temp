@@ -1,0 +1,5 @@
+﻿++ Human Task Design
+
+HTD means that humans should design the task if they are completing it by hand. Only when the methodology by hand is achieved should the technique be designed for a computer.
+
+pretend that a human will do a task and write software to do it in the efficient way the human discovered

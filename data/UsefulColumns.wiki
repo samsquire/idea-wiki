@@ -1,0 +1,12 @@
+﻿++ Useful Columns
+
+UC refers to a principle of grid views in [Frontend]s to have useful fields or columns displayed.
+    * EmergentUsefulness?
+
+++Examples
+    * XML file validation such as XHTML
+    * Time remaining for a song or film
+    * Viruses detected in email should be visible in email column
+
+column entries must be modifiable on lists
+ - properties shouldn't need to be opened VisibleEdit

@@ -1,0 +1,5 @@
+﻿++ Refer Not Store
+
+RNS means that references should be stored as opposed to storing [Data] again. In conventional systems these are known as:
+    * shortcuts
+    * syslinks

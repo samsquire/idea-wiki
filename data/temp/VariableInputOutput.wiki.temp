@@ -1,0 +1,20 @@
+﻿++ Variable Input Output
+
+VIO refers to an input and output that take variables.
+    * [Paths]
+
+++Fields
+VI fields are the fields on a user interface.
+    * Never use variable like/replacement/placeholders, eg %PRODUCT_NAME%. These are messy, complicated, confusing and user unfriendly. VI needs to be APART of the interface
+
+Differentiate between literal text and a variable, render this text differently, eg, underlined, different background colour
+    * Mouseover should show its current value 
+
+++Inserting Variables
+Right click, insert variable
+   OR
+  A button next to the text box or an arrow
+   OR
+  While typing the placeholder syntax eg, %% or $, intellisense style context menu pops up
+   OR
+  Radio buttons to choose between plain text and variable data

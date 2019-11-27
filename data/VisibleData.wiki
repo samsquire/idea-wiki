@@ -1,0 +1,13 @@
+﻿++ Visible Data
+
+VD means that whatever can be viewed is a potential [Source] for data. This is an example of UseAnySource. This includes UserInterfaces on behalf of TheSystem. VD is usually obtained with the [Clipboard].
+
+Perhaps a mouse or keyboard shortcut that means 'grab any data you can see'. DynamicData is a particular subset of VD.
+
+++Data
+    * [ToolTips]
+    * icons
+    * elements
+
+++Examples
+    * Administrator should always be able to interact with the ip addresses of users in networked software. (ZoomableInterfaces?)

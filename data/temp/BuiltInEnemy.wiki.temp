@@ -1,0 +1,7 @@
+﻿++ Built In Enemy
+
+The built in enemy is a process with the same permissions as any other process but with a small difference. The built in enemy has the purpose of attacking the rest of the system to determine if an exploit exists. It is an early warning system that allows users to benefit from exploits and vulnerabilities.
+
+It is the equivalent of a vulnerability scanner or auditor except that is part of the system itself.
+
+    * Vulnerabilities are downloaded from the official sources. These vulnreabilities simply test to see if the exploit is possible.

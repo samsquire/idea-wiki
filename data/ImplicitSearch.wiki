@@ -1,0 +1,7 @@
+﻿++ Implicit Search
+
+IS means that TheSystem is designed so that many [Frontend] [Links] are actually searches but are presented so well in the interface that they do not feel like searches.
+
+++Implementation
+
+IS is possible due to CrossReferential and ContextualInterfaces. [Portalling] will be used to make the design of search and query screens truly useful.

@@ -1,0 +1,12 @@
+﻿++ Standardization
+
+Standardization is when a [Capability]'s implementation or InvisibleImplementation is regarded official. Standardization prevents the need for [Reimplementation] which is HighStandards due to NoReimplementation.
+    * The best example of standardization is CommonImplementations.
+
+
+++Implementation
+
+Standardization occurs in the following ways:
+    * DownlevelToTheSystem
+    * elected applications/frameworks
+These all result in [SharedImplementation]s.

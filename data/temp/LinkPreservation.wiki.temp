@@ -1,0 +1,5 @@
+﻿++ Link Preservation
+
+LP is a way to retain the context of a link that makes sense to the machine using it.
+
+    * Viewing [Reports] on a different computer would initiate a remote control protocol, if it enabled remotely, it can be used to the same effect as using the report on the original machine.

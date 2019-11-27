@@ -1,0 +1,20 @@
+﻿++ Annoyances
+
+Annoyances are what cause [Users] to dislike operating TheSystem. For this reason, HighStandards mean TheSystem and [Applications] are to NoAnnoyUser.
+
+++Causes
+Breaking active focus is frustrating to [Users]. It takes away UserControl and UsersAwareness. This is why [Attention] tightly controlled by its DownlevelToTheSystem.
+
+    * HelpLapse
+    * [Issues]
+    * HaveTo
+    * [Configuration]
+     Having to configure
+    * [Autonomy]
+
+The above annoyances are mitigrated and solved with the following:
+
+    * AutomaticSetup - limit the unnecessary exposure to [Configuration]
+    * [Attention] - attention is maintained
+    * UserControl - users are aware of what is happening
+    * IndicateAutomatedActions - prevents loss of UsersAwareness due to [Autonomy]

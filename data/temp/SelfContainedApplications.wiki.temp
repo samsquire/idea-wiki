@@ -1,0 +1,13 @@
+﻿++ Self Contained Applications
+
+SCA are [Applications] that offer a feature and implement it entirely themselves. This includes:
+    * [Representations]
+    * [Protocols]
+    * [Frontend]s
+    * [Database] layout
+
+SCA is common on all conventional systems and is a result of LowStandards and LowStandardization. SCA frequently have [Reimplementation]s of the CommonImplementations. No OfficiallyAcceptedCertification application are permitted to be SCA.
+
+TheSystem avoids SCA with the NoSelfContainedSoftware because of SoftwareConsolidation.
+
+[icon=folder2]

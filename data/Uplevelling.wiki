@@ -1,0 +1,10 @@
+﻿++ Uplevelling
+
+Uplevelling is to improve a basic and more fundamental architecture by reimplementing it on a higher level or basing on the lower level. see ImplementTheUnimplemented It is the opposite of [Downlevelling]
+
+    complexity levels for features to prevent reimplementations of the same but simpler/faster/stable or securer
+    - lower the complexity level, the faster, simpler etc
+    - used to divide features up
+    - eg reliability across UDP
+
+see ImplementationLevel

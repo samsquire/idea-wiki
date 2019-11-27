@@ -1,0 +1,15 @@
+﻿++ Web Applications
+
+WA are [Applications] that are utilized from a [Browser].
+
+TheSystem discourages WA an initial platform to built on. Instead WA are regarded as a DerivedPlatform.
+    * DesktopFirst
+
+    * Promotes external [Centralisation] so that [Data] is stored remotely and out of the [Users] control.
+
+++Examples
+Common WA include:
+    * [Chat]
+    * [Email]
+    * [Forum]
+    * IssueSystem

@@ -1,0 +1,12 @@
+﻿++ Versioning
+
+Versioning is where the same [Files], [Entity] or content has multiple states. Versioning is used for:
+    * [Applications]
+    * [Components]
+    * UsersContent
+    * [Files]
+
+Versioning is a NoBaseTaskDownload and is likely to be a DownlevelToTheSystem, at the FileSystem.
+    * In [Conventional] systems, versioning is specifically implemented by particular [Applications] such as [Wiki]s and source[Code] systems.
+    * MultipleVersions is the result of over versioning, SmartDifference aims to prevent the weakness from occuring.
+    * MultipleManagement is how connection between individual versions are controlled.

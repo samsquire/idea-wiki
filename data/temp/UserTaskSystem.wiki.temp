@@ -1,0 +1,7 @@
+﻿++ User Task System
+
+The UTS stores non-TaskArchitecture [Tasks] for [Users]. This includes:
+    * todo lists/[Checklist]s
+    * [Personal]
+
+The UTS is separate from the UserTimeManagement but utilizes for time sensitive tasks.

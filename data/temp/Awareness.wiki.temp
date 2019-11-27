@@ -1,0 +1,17 @@
+﻿++ Awareness
+
+Awareness is how TheSystem knows something exists. This is encouraged to enforce AlwaysFeedback, HighStandards and a comprehensive system.
+
+    * In SystemViewer, a context menu of an Application's directory shows an 'Uninstall' as an option.
+    * File watch: skin getting moved into skin directory, views queue, waits rather than erroring on 'incomplete skin'
+    * An application requires particular files in a structure. The user places them into the correct StandardEstablishment but the transfer is not finished. The application is aware of this transfer and will not throw an error or hang due to incompleted. AcknowledgeIncompleteness
+    * [UserInterfaces] are highly aware: The installed map list of an application, thanks to LiveData will also show the progress of a soon to be avialable map.
+    * CPU bound and memory bound [Applications], see SmartResources
+
+++Implementation
+  * [Bases]
+    * [Mapping]
+    * ContentClassification
+    * ApplicationPurpose
+
+[icon=listen]

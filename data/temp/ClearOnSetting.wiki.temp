@@ -1,0 +1,6 @@
+﻿++ Clear On Setting
+
+* simple toggle AND extra options if desired, eg apache web server config
+ * hate having to over-options, eg, dissallow *.* is nasty to read and understand
+
+[category=paradigms]

@@ -1,0 +1,5 @@
+﻿++ Never Happen
+
+NH means that the that a state should not occur because a solution is DesignedIn into the [Architecture], SharedImplementation or SystemPhilosophies and SystemDesign.
+    * OrganizeFromTheBeginning
+    * 

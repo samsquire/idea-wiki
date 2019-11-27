@@ -1,0 +1,5 @@
+﻿++ Personal Ownership
+
+PO means that TheSystem should represent [Personal] content in a more distinct and distinguished way. This is implemented through UserLists, SmartItem and [Categories].
+
+PO is not regarded as normal [Categories], a HigherLevel representation of it is necessary. PO is possible due to [Authoring].

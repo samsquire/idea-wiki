@@ -1,0 +1,14 @@
+﻿++ Sizing
+
+Sizing is the calculation of how large something. Sizing is very important in computing because:
+    * memory locations depend on size
+    * [Processing] is adversely affected by size of data
+    * UserInterfaces must size elements on the screen somehow. Identifying the right size is one of the FrontendDesignConsiderations.
+    * AutoSize
+
+Sizing must support relativity.
+    * use any unit type: percentages, pixcels, ems
+    * use the size of something else
+
+CSS suffers from this since
+CSS percentages need to be compoundable with pixel values eg, 25%+10px

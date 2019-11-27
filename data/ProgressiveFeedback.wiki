@@ -1,0 +1,14 @@
+﻿++ Progressive Feedback
+
+[Feedback] that is progressive should AlwaysFeedback.
+    * [Open]/Loading
+    * [Save]
+    * [Update]
+    * [Initialization]
+
+++Implementations
+PF [Technologies] include:
+    * [Checklist]s
+    * StateList]s
+    * Progress Bars
+These are often SharedImplementation]s.

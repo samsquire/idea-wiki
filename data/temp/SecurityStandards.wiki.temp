@@ -1,0 +1,9 @@
+﻿++ Security Standards
+
+SS describes various methodologies to maximize [Security]. Since security is not a product but a state on a continuum, it cannot be accomplished with a single action or process. It is not even something can be accomplished or attained, it can only be relentlessly attained.
+
+Software must meet these fundamentals in order to have the OfficiallyAcceptedCertification.
+
+Methods employed by TheSystem include:
+    * ClearOnCapability
+    * IsolateEverything

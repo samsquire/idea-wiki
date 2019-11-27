@@ -1,0 +1,6 @@
+﻿++ Startup
+
+Startup refers to the [Applications] that run on TheSystem after [Bootup]. ComprehensiveSystem means that startup management is DesignedIn.
+
+    * OrderActions
+    * [Stager] is how the ordering of system applications is managed and organised.

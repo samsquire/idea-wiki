@@ -1,0 +1,135 @@
+﻿++ MIPs
+
+
+i) What is non-determinism and why is it useful?
+
+A deterministic operating system is where the opeations are completely 'determinable, that is the possible events are known and it can be found out what will happen next. The state of the system is always known
+
+Nondeterminism means that the operating system can handle any operation out of a given set of operation or events at any time. This is useful because the system can be flexible with what it executes next - it is not possible to surprise the operating sytem. Sources of non-determinism are timing of operations, sharing, data uncertainty, procedural uncertainty and memory limitations. These are all rampant with operating systems as it is difficult to predict anything.
+
+D ata
+U ncertainty 
+M emory limitations
+P rocedural
+U ncertainty
+S haring
+T iming
+Non-determinancy=DUMPUST!
+Examples are the ability to suspend a running program at any time since a program has no idea when it will be suspended, sharing the same data amongst multiple threads and who has access to the same data, the uncertainty of which procedure will execute next due to branching, what happens to an application when the system exhausts its memory such as with paging and virtual memory, the timing of interrupts such as keyboard interrupts caused by the user typing at random times.
+
+++OS types
+*   Embedded systems control specific hardware or equipment
+        washing machine, TV, DVD player, handheld game consoles
+    Restricted hardware
+*   Process control systems
+        controls some industrial or commercial process
+        nuclear reactor, CNC/milling machinery, newspaper press, patient monitoring, hilicopter avionics
+        real time constraints, i.e, a robot arm really needs to be deterministic and know exactly where it is at all times, concurrency and determinancy are difficult problems
+        
+*   Single user systems
+        may provide just one virtual machine to the user, DOS
+        may provide multiple VMs that can execute concurrently: like 95,98-Windowsw 7
+Desirable traits of an operating sytem
+
+* File interrogation system
+        large set of files or data interrogated by many users
+        includes database management systems, file servers,
+        ususally pretty fast to offer data quickly and easy
+        tend to be implemented as an application that runs ontop of another OS or as subsystem for an OS
+* Transaction processing system
+        similar to a file interrogation system but data changed are well defined as 'transactions' so each change is accounted for and data is self-consistent
+        used where more atomicity over data is needed so that there is only one current version
+        used by banks, airline systems, 
+
+* General purpose systems
+        used for multiple tasks, potentially multiple user
+        supports many utlities, languages, devices and attachments
+
+++Aproach to OS design
+
+* Monolithic: implemented as a single program, with its own potentially modular design
+* Layered: divided into modules that together form layers, layers may be changed
+* Client-server: the core kernel only implements communication message passing mechanisms and leaves every other task to modules in the system. These modules communicate with one another to offer operating sytem services such as drivers or file systems
+* Highly concurrent: thousands of lightweight processes
+
+++Desirables
+    *   Concurrency: tasks need to be run in parallel, at the same time
+        context-switching between tasks, scheduling tasks to the processor(s), protection of tasks interfering with one another and synchronization of data
+    * Sharing
+        the OS shares information and resources between concurrent tasks
+        reduce costs and physical resources, less RAM needed
+        peripherals that can only be used one at a time, such as a keyboard or printer
+        avoids software having to do things themselves, libraries
+        DP
+    * Long term storage
+        protecting stored data from unauthorized users and software
+        fast access to files and data stored on local or remote hardware
+    * Non-determinancy
+        handle all events regardless of order, timing, data uncertainty, timing, procedural uncertainty, sharing uncertainty, memory and other limitations
+    * Efficiency
+        high utilization of available resources, not wasting memory but keeping accesss to resources as fast as possible
+    * Reliability
+        minimise the time between system failures,  no software is bug free but minimise the impact of bugs can have on the system
+    * Resillience
+        a hardware fault should be tolerant of hardware faults where possible
+    * Maintainabilty
+        an operating system is no different to a program and must be maintanable long into the future, the code should be well-written, clean and easy to change in the future to fix bugs or to add features
+    * Small size
+        the operating system should limit its consumption of resources that would prevent other tasks from running, a useless operating system would be one that takes most resources just to operate such as memory, long term hard disk storage, processor time)
+        updates are easier the smaller and less complex the system is
+    * Dependability
+        * reliability in certain applications where operation is mission critical such as avionics, automobiles, military communications
+
+C oncurrency
+S haring
+S torage
+D eterminancy
+E fficiency
+R eliability
+R esilience
+M aintability
+S ize
+D ependability
+
+++MIPs architecture
+Controlled by
+MUX A = RegDest
+MUX B = ALUSrc
+MUX C = MemToReg
+
+RR - register to register (op0, 000000)
+fetch, register read, ALU, register write
+op 6 bits (31-26)
+rs 5 bits (25-21)
+rt 5 bits (21-16)
+rd 5 bits (15-11)
+shamt 5 bits (10-7)
+funct 6 bits (0-6)
+    * MUX-A = 0= Yes, there is a registry destination, and we want to direct rd to writereg as that's where it will go
+    * MUX-B = Controlled by ALUSrc, when OFF,  readdata2 (rt 20-16) is routed to the ALU (to be added to readdata1, s 26-21. When ON, readdata2 is ignored and offset is used in place, which comes from bits 15-0 of the instruction.
+    * MUX-C = Controlled by MemToReg. When ON, during LOAD operations the memory output is routed to the writereg. When OFF the ALU output is routed to writereg for RR operations
+
+
+LOAD - memory to register (op33, 100011)
+MemToReg control has to be high for a store to work
+op 6 bits
+rs 5 bits (source one)
+rt 5 bits (destination operand)
+offset (16 bits)
+rt = men(rs+offset)
+
+STORE - register to memory (op43 101011 )
+31-26 op (6 bits=101011)
+25-21 rs (5 bits) base register
+20-16 rt (5 bits) destination register
+15-0 offset (16 bits) offset register
+
+STORE = A:X, B:1, C:X
+MUX A = irrelevant
+MUX B = ALUSrc high, a -> 32bit offset signal -> ALU input b
+ALU C = irrelevant
+
+LOAD = A:0, B:1, C:1
+
+BEQ - branch if equal
+ADD - add

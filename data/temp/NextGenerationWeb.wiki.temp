@@ -1,0 +1,35 @@
+﻿++ Next Generation Web
+
+The next generation web is how I imagine the web to be built in the future. The web should attempt to include as much order and flexibility as possible. This seems impossible it is hopes the hindsight of the ConventionalBackward would allow for better decisions on web architecture. The existing web is a mess of poor maintainability and low quality. It is rapidly becoming a corporate space, controlled and polluted by businesses.
+
+The SimilarIdeas that the TGW will support include:
+
+++Advanced rendering
+
+The inflexibility of the web means that the information that is available is in a poor or inappropriate form. Many functionalities need to be possible without adding additional software. This is what needs to be supported by default:
+
+    * Arbitrary fonts: fonts should be easily transferrable between computers. There should be no or limited cost in rendering an unseen font.
+    * Vectors: rasters are space hungry and inflexible. Vectors are scalable, mutable and easy to work with. It is hoped that mathematical theory can provide optimisations with vectors that make displaying objects fast.
+    * Animation: animation provides for entertainment and a better polished feel
+    * Programmatic Rendering
+        * http://www.processing.org/
+        * http://www.lwjgl.org/ 
+    * Video: It must be possible to view videos with the minimal of hassle and of the best of quality. The compression mechanisms for transferring video need to be efficient and easily understandable.
+    * Efficient over-the-wire communication. Low redundant transmission.
+    *
+
+++Distribution
+
+++Rendering Optimisations
+
+Currently there is a ConventionalBackward of trying to optimize the execution of individual computer instructions in web browser engines. This forgoes the obvious nature of the web: it is graphical. Executing the instructions that generates graphics might make the web faster but it is optimizing a particular method rather than trying to optimize various small tasks.
+
+The TGW will attempt to optimize the speed and responsiveness by trying to optimize the actual graphics of the system:
+    * The transformations of shapes, text.
+    * Paralellism of code. CPU usage should be as little as possible.
+    * Hardware acceleration: we seem to have advanced processors in graphical processing units that are never utilized by graphical code.
+    * Rotate and spin shapes
+
+
+
+

@@ -1,0 +1,5 @@
+<document>
+<sam type="subs" name="MDMake" template="ideaRecord.md" source="Makefile.md">
+	<Type>.md</Type>
+</sam>
+</document>

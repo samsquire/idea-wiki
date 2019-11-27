@@ -1,0 +1,82 @@
+﻿++ Issue System
+
+The IS is responsible for the [Logging] and [Documentation] of [Issues].
+
+++Implementation
+The IS consists of a [Database] that distinguishes all kinds of [Issues]. The following information is stored:
+    * Description
+    * Target
+    * Status of Issue
+    * Cause
+    * Risk/Severity
+    * Solution (SolutionSystem)
+    * Date(s)
+    * StagerSystem
+
+[Applications] have a large number of associated issues and it is necessary ensure that NoUnnecessary data is wasting TheSystem's [Resources]. To waste less space a combination of storing less issues and less data is used.
+
+The MinimumInformation means that issues can still be accounted for and displayed. OnDemandFriendliness is used to create HumanReadable issue data:
+    * StandardRepresentations for type of solution and cause
+    * StatusRepresentations for issue status, risk
+
+The ExpandSystem is used to expand the depth of information when necessary:
+    * when [Users] request it
+    * when it becomes relevant, the issue is affecting the user
+    * when the user accesses the issue
+
+[Internet] or [Network] connection is available, additional data will be obtained and placed into a SmartCache.
+
+The IS is designed to be used by both [Users] and developers. This means that the difference in data depth is considerable.
+    * Issue specific [Documentation]
+    * Patches
+    * Developer communication
+High severity would be in high detail by default. This is UserRule because [Users] may wish to have a ComprehensiveSystem, [Developer]s for example need to be aware of all issues. High detail includes the converse
+
+Issues submitted by [Users] have PersonalOwnership, it will be represented separately, as UsersContent in its own database.
+
+IS is presented through [Portalling] and can be queried with BaseInteraction]s. Individual records are displayed like the DataUserInterfacer. The IS can be accessed from:
+    * ApplicationPortalling
+    * the TitleBar
+    * through CrossReferential [Links], ContextMenu of the [Applications]' name
+
+[Remote] issue systems can also be utilized due to UseAnySource. All remote issue detection systems should be accessible because of UseAnySource and JustUse. They can be accessed as if they are local TheSystem.
+    * NativeImplementation use native [Protocols] to access issue [Servers], most typically SoftwareServer]s
+
+Tradional issue systems are only accessible through web applications. This means  ContentClassification is necessary to interact with them. 
+
+IS is essentially a conventional bug tracking database but with LowerLevel SystemIntegration. This makes a ComprehensiveSystem and IndepthData. The DownlevelToTheSystem enables [Users], [Administration] and [Developer] tasks to take advantage of it.
+    * The UpdateArchitecture updates existing [Issues]
+    * The ExpandSystem obtains new [Issues].
+
+Issues may eventually be fixed with [Update]s. An AbstractionAwareness of this means:
+    * [Update]s refer to the issue they fixed
+    * [Issues] are updated to refer to the update
+CrossReferential link between them creates [Accountability] for [Change] and adds to the DocumentingSystem.
+
+Available [Data] may not always be in detail, such as when they are first discovered.
+
+Knowledge of issues can therefore trigger the UpdateArchitecture and ExpandSystem to:
+    * check for [Applications]/issue updates more frequently if an issue is released
+    * update if the update is specified on the issue
+
+This is especially important for dangerous issues such as those that concern [Security]. RelevancyHook]s are used to detect when [Issues] are relevant.
+    * for example, if [Security] issue is only relevant when a particular [Configuration] is true, the RH will fire when this is so
+
+ - relevancy hook detects when a disclosure or problem is found and hooks onto it, begins to check more regularly for update
+- data from previous updates - when they were released:
+  - hit rate, update rate
+  - over checking/under checking, check on average time between updates or distance from 
+discovery to disclosure
+  - explosive update, origin submits to a few large nodes, large nodes pass on to smaller nodes and eventually everybody gets it
+
+[Documentation] can be stored along beside [Issues] and CrossReferential allows them to have [Links].
+
+
+issue detection is primitive covnentionally
+ - bugzilla doesn't even wrap comments properly
+ - everything is inspecific, checking for transmissions is done by looking at flashing LED
+  - email address is wtf? why is there correct addresses in brackets next to the linked one, antispam? do it properly first time round
+
+
+software merging
+ - bug tracking database

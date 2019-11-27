@@ -1,0 +1,8 @@
+﻿++ Continuous Initialization
+
+CI is where [Initialization] happens continuously as it happens rather than unanimously, all at once. CI promotes:
+    * [Directness]
+    * NoEnumeration
+
+Another name for CI is OnDemand/on the fly/just in time
+[alias=OnDemand]

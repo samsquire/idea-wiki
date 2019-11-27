@@ -1,0 +1,19 @@
+﻿++ Usage
+
+Usage is the data related to usage. This includes:
+    * [History]
+    * LogDurationsToo
+    * UsageFrequency
+    * UserTracking
+    * UserLists
+
+RememberEverything describes various usage data.
+
+These are used to:
+    * make decisions automatically
+    * optimize
+    * ChangePreserving [Navigation]
+    * [Logging]/track
+    * create [Accountability]
+
+Usage is a DynamicData.

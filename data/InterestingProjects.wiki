@@ -1,0 +1,7 @@
+﻿++ Interesting Projects
+
+    * Drools
+    * Vesta Configuration Management System http://www.vestasys.org/
+    * Elastic Search http://www.elasticsearch.org/
+    * RTEMS
+    * Atomontage Engine - volumetric voxel 3d engine

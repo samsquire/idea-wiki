@@ -1,0 +1,31 @@
+﻿++ Object Interfacer
+
+The [ObjectInterfacer] renders [UserInterfaces] of the ObjectSystem.
+
+The interfacer groups rendering into two groups:
+    * physical - true representation, eg, a database folder
+    * logical - a parsed/processed representation
+
+++Styles
+The following styles are used when rendering objects that have connections:
+    * ListStyle
+    * BubbleBack
+    * ProportionalIcons
+    * MergedDisplay
+
+++Rendered
+    * [Entity] and [EntityStore]
+    * [Components] and ComponentStore
+
++++Uses
+    As widgets:
+     * combo boxes/drop downs
+     * trees
+
+    For File Explorer
+     * to avoid an IrrelevantCoding and UnnecessaryUplevelling
+
++++Representation
+The OSI means that TheSystem can create acurate representations of remote or abstract stuctures such as:
+     * eg, files, drives, hardware, ftp, HTTP
+This is an example of SystemIntegration

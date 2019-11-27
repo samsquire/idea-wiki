@@ -1,0 +1,5 @@
+﻿++ Placeholders
+
+Placeholders imitate objects that have been loaded into memory but have not. Instead they act as immediate [Links] for the object to be loaded into memory.
+
+PlaceholdersRatherThanLinks asks that Placeholders be used for convenience.

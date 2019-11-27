@@ -1,0 +1,13 @@
+﻿++ Caching
+
+Caching is storing [Data] or [Information] data at a location different to where it was obtained.
+
+    * Temporary [Initialization]
+    * May take more [Resources] to use
+    * Improve [Performance] if the source is slow
+    * [Security] suffers as a result if the security is inconsistent
+    * Invokes the PointConsistency [Problems] where the cache and source is out of date
+    * Means that accessing data is OnlyOnce
+    * Reaccessing is not required NoUnnecessary
+
+The [Cacher] is responsible for this in TheSystem.

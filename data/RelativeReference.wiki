@@ -1,0 +1,8 @@
+﻿++ Relative Reference
+
+RR means that references should be relative to [Users]. This means:
+     Dates can be relative:
+    Tomorrow (Saturday 12th)
+    Next Friday (see FriendlyData)
+
+     InterfacePanels of the [Calendar] of the UserTaskSystem displays calendar events within the calendar.

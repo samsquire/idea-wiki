@@ -1,0 +1,9 @@
+﻿++ Store As Much As Possible
+
+SAMAP means that as much information should be stored as possible.
+
+++Examples
+
+ * Comprehensive log files
+ * Windows Event Log
+ * /var/log

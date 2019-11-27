@@ -1,0 +1,5 @@
+﻿++ Specific Target
+
+ST is that any [Processing] should be as accurate and targeted as possible. Processes should not have a large scale of influence. ContinuousInitialization is an example of ST.
+
+ST prevents wasteful processing and enables [Directness].

@@ -1,0 +1,24 @@
+﻿++ Timed Disclosure
+
+TD is a DisclosureSystem feature which allows information to disclosed:
+    * for a certain duration
+    * at a particular time
+    * a mixture of both
+
+This can be used to enforce [Security] and [Permissions] on UsersContent. TD is especially useful for controlling its sharing with [Sharer].
+
+TD can be used to:
+    * hide additional information
+    * detect inconsistencies
+
+++Implementation
+
+    * For local content, TheSystem's own time implementation can be used
+    * For [Remote] content, the data must be encrypted and unlocked with a key.
+
+++Uses
+    * [Forum]
+    * [Email]
+    * [Chat]
+
+unlocker - post-predictor: detect trolls, intentional spelling errors, unlock the guess at a later time

@@ -1,0 +1,24 @@
+﻿++ Subsystems
+
+Subsystems are the individual systems that make up TheSystem.
+
+    * PracticeSystem
+    * ExpandSystem
+    * DisclosureSystem
+    * DefenceArchitecture
+    * DocumentingSystem
+    * ExplanationSystem
+    * IssueSystem
+    * SolutionSystem
+    * ProductSystem
+    * RelevancySystem
+    * StagerSystem
+    * UserTaskSystem
+    * LegalSystem
+    * [RepresentationSystem]
+
+Architectures are technically systems:
+    * UpdateArchitecture
+    * GameArchitecture
+    * NetworkedDefenceArchitecture
+    * ShareArchitecture

@@ -1,0 +1,13 @@
+﻿++ Task Store
+
+Task Stores hold information on completeting a [Tasks] for the TaskArchitecture.
+
+    * PrerequisiteStore
+    * [Configuration]
+
+TS are usually nested so that there is no redundancy. Self sufficient tasks will act as the root or be called from another task. 
+
+
+
+* savable tasks?
+* aware tasks - aware that other tasks have happened

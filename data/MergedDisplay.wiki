@@ -1,0 +1,8 @@
+﻿++ Merged Display
+
+A merged display is where multiple types of displays are combined, automatically.
+    * MD differs to MergedMultipleDisplay since it only merges similar objects into the same interface.
+
+++Implementation
+
+A MD is possible due to [PanelGrid]s. Each cell in the grid can store a certain type of display format.

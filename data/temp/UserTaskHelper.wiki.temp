@@ -1,0 +1,10 @@
+﻿++ User Task Helper
+
+The UTH detects the intentions of [Users] and uses IssueDetection to see if there could be a problem.
+
+++Email 
+[Users] add attachments to [Email]s to deliver [Files] to contacts. If the attachment is too large, the recipient may not be able to receive it. UTH would fire when the user adds the file after attaching a large file.
+    * The email client states that it is unlikely it will be deliverable since it is too large
+    * it would then use the Alternative Manager to offer alternative transfer mechanisms that are UseBest and MoreEfficient
+ * check infrastructure/policy file of email host to see if capable of receiving such large file
+  * integration to internal policies, eg, request large file transfer to mail administrator as a warning

@@ -1,0 +1,8 @@
+﻿++ Information Technology Failure
+
+Why does information technology fail?
+
+    * Computer technology and ideas come from human beings who are all different and have different understandings of what is the right way to do something. New software ideas are born that claim to solve all the problems of yesteryear. They are unable to overcome the obstacles that were introduced in the past and the problems become unsolvable.
+    * The different roles in IT often conflict. The developers are different to the administrators. These people have different approaches to how things should be done.
+    * Businesses want to be able to make changes rapidly but there are laws and requirements that change must be checked, tracked and auditable.
+    * IT permeates to every occupation in a business. Very few offices have people who do not use computers. All occupations have been digitized. This means that IT is a leaky bucket, the IT knowledge escapes the department and must be pursued by everybody in the company. Some departments must even interact with computers at a low-level like XML file editing or with domain software or passwords.

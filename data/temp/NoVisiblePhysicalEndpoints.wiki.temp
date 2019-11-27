@@ -1,0 +1,9 @@
+﻿++ No Visible Physical Endpoints
+
+NVPEP means that [Users] rarely view a PhysicalEndpoint unless requested. NVPEP is a HelpTheUser and a ShowWhatTheUserWantsToKnow. NVPEP applies especially to:
+    * [Database]s
+    * [Configuration]
+    * [Protocols]
+    * SystemViewer - the files are not displayed in the order as they are on the medium
+
+NVPEP is implemented through PhysicalRepresenting.

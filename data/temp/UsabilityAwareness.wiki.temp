@@ -1,0 +1,7 @@
+﻿++ Usability Awareness
+
+UA is where TheSystem is aware of the limitations of [Users]. This includes:
+    * Colour matching
+    * Font size
+     * users cannot see the same colour on the same colour (white on white)
+     * if the text is longer than the box/container it cannot be seen - solution?  

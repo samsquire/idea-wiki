@@ -1,0 +1,45 @@
+﻿++ Architectural Awareness
+
+AA is where TheSystem appears to have [Awareness] of various architectures. There are two sides of AA:
+    * HumanReadable
+    * MachineReadable
+AA is preferably an ImplicitImplementTheUnimplemented. AutomaticHelpDocumentation
+
+++Conventionally
+
+[Conventional] seem to avoid acknowledging the existence of architectures besides their own. This is a mistake.
+
+
+++Implementation
+
+AA requires that [Componentry] be sufficiently self-descriptive to explain how the architecture works. The OfficiallyAcceptedCertification means the MinimumInformation for an architecture would be its [Documentation]. This is for HumanReadable AA.
+
+
+
+AA is accomplished by:
+    * StoreAsMuchAsPossible
+    * ShowEverything
+    * [Share]
+
+
+AA is the beginnings of:
+    * InteractiveArchitecturalAwareness
+    * ArchitecturalBridging
+
+++Reasoning
+
+TheSystem should never ignore something it doesn't understand. The minimum is to acknowledge another architecture existence. Reasoning includes:
+    * RealRepresentation
+    * AccurateInterface
+    * NoLying
+    * ReliableInterfaces
+    * ComprehensiveSystem
+
+(( don't pretend what you don't understand doesn't exist ))
+
+
+
+Examples include:
+    * [Firewall]
+    * [Authoring]
+    * [Mapping]

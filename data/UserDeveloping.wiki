@@ -1,0 +1,10 @@
+﻿++ User Developing
+
+User Developing is a strategy that allows users to develop. This is an extension to UserTracking.
+    see IntricateDevelopment, NoManual and [Autonomy]
+
+UI-programming
+     * lists, how to make macros from clicking, different languages? can't always check the text value
+     * need some kind of ID for each item
+    
+    * reverse abstraction - programming style, manipulate user interface and determine what the user interface is calling

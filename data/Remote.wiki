@@ -1,0 +1,11 @@
+﻿++ Remote
+
+Remote refers to [Tasks] and [Technologies] that take place or are relevant to an external system.
+
+    * [Sharer]
+    * [Outsourcing]
+    * NetworkAdministration
+    * DistributedProcessing
+
+When [Save] remote resources, [Paths] to the local copy are likely to appear underneath the remote path to indicate that it was saved. 
+    when saving a webpage, the local representation path appears underneath remote URL

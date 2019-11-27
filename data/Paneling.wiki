@@ -1,0 +1,6 @@
+﻿++ Paneling
+
+Paneling is an InterfacePanels that displays either horizontally or vertically to content.
+    * SystemViewer - for a selected file
+    * Previews
+    * [Configuration]

@@ -1,0 +1,5 @@
+﻿++ Embedding
+
+Embedding is a SystemIntegration strategy where [Applications] include [UserInterfaces] or components of others. This is accomplished via [Import]s of [SharedImplementation]s from the ShareArchitecture.
+
+    * SafeEmbedding

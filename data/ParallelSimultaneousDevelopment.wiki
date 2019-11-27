@@ -1,0 +1,10 @@
+﻿++ Parallel Simultaneous Development
+
+SD is where any development task is acehived simultaneously, in a parallel arrangement to every other. This is opposed to the more [Conventional] SequentialDevelopment. SD is like a [Concurrency] for construction.
+    * [UpfrontConsideration]s
+
+++Implementation
+
+SD is accomplished through an ImplicitImplementTheUnimplemented whereby the [Architecture]s and [Applications] utilized for [Development] hook themselves. This forces data to be collected by TheSystem.
+    * Building an [Frontend] requires all items have textual explanations and descriptions
+    *   

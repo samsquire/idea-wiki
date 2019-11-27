@@ -1,0 +1,5 @@
+﻿++ Double Posting
+
+Sequential postings waste physical space of topics. Rather than permitting double postings, if the previous post belongs to the user, consequent postings will be appended with it rather than adding a new post.
+
+The post button is likely to change to 'append' rather than 'post' to avoid confusion.

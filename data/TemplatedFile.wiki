@@ -1,0 +1,5 @@
+﻿++ Templated File
+
+template awareness during save, ImplicitImplementTheUnimplemented:
+ - save as so that a file is based from another
+ - save differences so that the result is much smaller than the template

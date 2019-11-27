@@ -1,0 +1,32 @@
+﻿++ Internal Error Handling
+
+IEH refers to a design decision in TheSystem where [Errors] that are handled by [Applications] should be handled instead by the TheSystem itself.
+
+The reasoning is that error handling in typical languages results in errors that could be handled by the scope of operating environment rather than the particular application. This would avoid boilerplate sourcecode.
+
+Common errors would be handled in the following ways:
+
+++File Not Found
+A file that is not found can be because of two reasons:
+    * Transitory that file was once in the right place
+    * the file has never been found before
+Finding a transitory lost file is the easiest to program around. This is through the use of caching a list of files that have been manipulated by TheSystem or any programs. Reasons why a file is not in the right place can be explained by:
+    * the file was moved
+    * the file was deleted
+    * the file was renamed
+All these operations are deliberate by the user. As a result, the file names and their paths can be indexed. When a file is not found in its expected location, each cache can be consulted
+    * a list of files moved from (A) to (B)
+    * a list of recently deleted files
+    * a list of recent renames from (A) to (B), pretty much the same as moving
+
+When the desktop environment finds a match, it will present the user with a dialogue explaining that the file could not be found in the expected location but the file was found elsewhere. The user is then provided with some basic choices like:
+    * rename back
+    * move back
+    * undelete
+This dialog would have to be very simple to avoid confusing the user with questions they do not know the answer to.
+
+TestingThroughAPIs
+InsufficientSpace
+
+++Not Enough storage space
+If upon saving there is insufficient storage space available,

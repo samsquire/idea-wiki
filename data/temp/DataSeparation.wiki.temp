@@ -1,0 +1,6 @@
+﻿++ Data Separation
+
+DS refers to the physical separation of [Data] on UserInterfaces. Rules include:
+    * Variable data is to be clearly separated by Static data.
+    * Static data should not be embedded into variable data except for titling such as column headers and field names.
+    * Documentation and Help is a prime suspect of DS, it doesn't need to be placed absolutely everywhere.

@@ -1,0 +1,25 @@
+﻿++ System Awareness
+
+TheSystem should be aware of the following. Awareness is how integrated they are. SA is implemented through:
+    * DesignedIn
+    * NoBaseTaskDownload
+    * BringCloser
+
+++Acknowledge
+    * AcknowledgeThePast
+    * AcknowledgeIncompleteness
+
+++Examples
+    * ComputerStages
+    * PushOrPull
+    * ProgressiveFeedback
+    * [Technologies], [Problems], BaseTasks
+    * [Componentry]: SystemComponents, ApplicationComponentry
+    * [Standards]
+    * [Queue]s
+    * [Memory]
+    * [Network]
+    * [Optimum]
+    * [Legality]
+    * [Internet]
+    * [Personal]

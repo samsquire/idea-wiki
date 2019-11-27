@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="BaseInteraction.idea" template="ideaRecord.md" source="idea.md"><Title>Base Interactions - For Users</Title><Description>Users expect these interactions but why do we keep re-implementing them?</Description><Idea>BaseInteraction</Idea></sam><![CDATA[]]>
+## Base Interaction
+
+BI are BaseTasks for interaction with items on UserInterfaces. Downlevelling these Tasks creates a ConsistentSystem and prevents the need for reimplementation. (see NoReimplementation). 
+ * BI are completely controllable by the user to enforce UserControl over view.
+
+ * Ordering / OrderControl
+ * Sorting / SortControl
+ * Filtering / FilterControl
+ * Search
+ * Batching
+ * Selection - selections invertable, eg all but, or only<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

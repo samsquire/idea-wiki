@@ -1,0 +1,24 @@
+﻿++ User Productivity
+
+UP is work [Users] can accomplish. UP is aided by:
+    * HelpTheUser
+    * NoAnnoyUser
+
+Features that are designed explicitly to improve UP include:
+    * TaskArchitecture
+    * AutomaticSetup
+
+The following cause productivity to decrease:
+    * [Annoyances]
+    * [Issues]
+    * [Errors]
+    * InformationOverload
+    * FrenziedFeatures
+    * [Security]
+    * [UserNotifications]
+    * [Attention]
+
+++Implementation
+
+
+isolation button - so you can get work done : turns off all alerts and interruptions

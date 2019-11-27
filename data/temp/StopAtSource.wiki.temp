@@ -1,0 +1,7 @@
+﻿++ Stop At Source
+
+SAS means stopping should happen at the source. This effectively prevents problems from propagating further on.
+
+A client on a permission based protocol will be aware of its current authority. This prevents the client for attempting actions it has no permission to do. This prevents the failed case from propagating across the network and stops it at the source. ImpossibilityDetection relies on SAS to recognise errors or malicious behaviour.
+
+[Firewall] [Configuration] is replicated on individual nodes and enforced so that they do not pointlessly try to access already denied requests.

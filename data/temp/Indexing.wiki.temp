@@ -1,0 +1,36 @@
+﻿++ Indexing
+
+Indexing summarizes data to make it easier to access and [Search]. This is contrary to [Scanning] which is on demand.
+    * SmartResources
+
+++Implementation
+    * Indexing can be InvisibleProcessing as a BackgroundTask or an IdleTask
+    * Indexing results in a PointConsistency problem since the index must reflect the RealRepresentation. Unless the index is updated, the changes will not be accessible.
+    * ContinuousInitialization of indexing means that when a change is made, the index is immediately updated. This is somewhat [Multidirectional].
+    * Indexes can be optimized with specialized knowledge of formats.
+
+     Advantages
+    * Fast to search
+    * Can be optimized to data types
+
+     Disadvantages
+    * Takes lots of storage space.
+    * Generating an index from scratch takes a long time to complete.
+    * Limited to what the index stores
+
+++Architecture
+
+Much content is indexed to improve the [Performance] and [Interactivity] of TheSystem:
+    * [Bases]
+    * UsersContent
+
+The following are indexed for SystemPortal:
+    * [Help] and [Documentation]
+    * [Files]
+    * [Applications]
+    * [Logging]
+    * ComputerStages
+
+
+centralized help system
+- indexed help, different to file/desktop search

@@ -1,0 +1,14 @@
+﻿++ Quoting
+
+Quoting is a type of [Posting] where a different post is included within it. This is used to refer to particular statements and phrases.
+
+++Conventionally
+
+[Conventional] implementations are that the original post is marked within the new post and the reply appears underneath or above it. Unfortunately this results in results in RedundantData, with two copies of the post.
+
+Conventional quoting is often tedious requiring the copy and pasting of the original post. Fine grained quoting is simply not possible since quote buttons tend to quote the entire message.
+
+++Implementation
+
+    * WriteInto
+Select the part of the post to be quoted and add only that. Perhaps a drag to select then a text box appears underneath for the text.

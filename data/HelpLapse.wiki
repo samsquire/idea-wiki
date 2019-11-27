@@ -1,0 +1,17 @@
+﻿++ Help Lapse
+
+Help Lapses are when users become confused and are unable to continue. 
+    * what to do next - [StateList]s
+    * what they can do - IndicatePossibleInteraction]s
+    * 
+
+++Examples
+    * non-[Multidirectional] systems will cause HL, a [Wizard] for example may not be able be reran to obtain the input again
+    * Configure application button opens a config file in a text editor
+    * relative files/absolute files/missing files: stop [HelpLapse]s when putting a file on a disk - the full URL and a copy of the file is copied over..first the URL is checked to see if it exists when opened, if not, the copy is used, eg webpage images
+
+++Causes
+
+    * DatalessTemplates
+    * OverAbstraction
+    * ModularBreakdown

@@ -1,0 +1,32 @@
+﻿++ Data
+
+Data is raw information. Types of data include:
+    * [Audio]
+    * Text
+    * Video
+
+TheSystem aims to make ensure data has the following properties:
+    * EfficientData
+    * DistinguishedContent
+    * could have [Categories]
+Data can be EmbeddedData or ExternalData
+
+In addition to [Actions],
+    * [Backup]
+
+++Validation
+    Validation Marking, data is marked as being validated data internally
+     * functions don't validate data, the data itself is, eg, relying on the caller to validate data
+     * range of numbers
+
+++Databases
+
+    * data will be stored in databases when calculation/rendering/reading is time consuming, examples are:
+     * context menu on windows
+     * file list on windows
+     * add/remove programs 
+    * the database is tuned for its usage
+     * for a regularly viewed dialogue, the data will be tuned for rapid reading rather than writing
+ 
+
+[icon=data file]

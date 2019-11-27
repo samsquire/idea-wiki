@@ -1,0 +1,8 @@
+﻿++ Use A Typical Application
+
+Applications and formats are different but the system should attempt to show data in normal applications.
+
+    * open log files/system generated files in typical applications
+     * eg spreadsheet
+
+[category=paradigms]

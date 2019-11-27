@@ -1,0 +1,11 @@
+﻿++ Minimum Information
+
+There is a minimum amount of information to be stored about everything. This is to protect TheSystem from:
+    * DatalessTemplates
+    * EmptyAbstraction
+    * InformationUnavailibility
+
+As an advantage, MI means that:
+    * AlwaysFeedback to [Feedback] is easier
+
+This is an example of a HighMinimum.

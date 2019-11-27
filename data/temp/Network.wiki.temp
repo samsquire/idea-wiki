@@ -1,0 +1,20 @@
+﻿++ Network
+
+[Network]s are one of the [Bases]. TheSystem can distinguish between [Protocols], broadcasts and packets through the network. This permits SystemIntegration.
+
+[Awareness] of the surrounding network is a NoBaseTaskDownload and can be manipulated with UserInterfaces.
+    * LiveData and ChangeSensitivity for network information is important for NoLying
+    * The structure of the network is detected through AutoMapping and [Mapping]
+    * The ObjectInterfacer renders a interactive RealRepresentation
+    * [Downlevelling] access to remote machines is accomplished with the ServiceHelper
+    * The local network and the internet is differentiated.
+
+++Monitor
+[UserNotifications] enables creation of notifications when particular protocol states, broadcasts or packets are transmitted. NetworkAdministration permits members of the node to be controlled or issued tasks with [Outsourcing].
+
+
+    * create virtual network with other machines
+
+++Related
+    * NetworkedGames
+    * The DisclosureSystem ensures data is not leaked through the network.

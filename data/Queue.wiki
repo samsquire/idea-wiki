@@ -1,0 +1,23 @@
+﻿++ Queue
+
+Queues are used to:
+    * use [Resources] effectively
+    * create better [Performance]
+    * do things in order
+    * attempt
+
+queue update/upgrade/uninstall/instals
+
+++Uses
+
+    * [Sharer]
+    * [Download]ing
+    * UpdateArchitecture
+    * SmartCache
+    * [Errors], SolutionSystem
+     * for failed attempts, TryBeforeChecking, [Errors]
+
+++Artificial Queue
+An AQ prevents overload by intentionally reducing throughput and making a queue. This is especially polite to remote servers and is employed by the UpdateArchitecture.
+    * more responsive system
+

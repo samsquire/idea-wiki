@@ -1,0 +1,13 @@
+﻿++ Resources
+
+Resources are available to be used.
+    * SmartResources is how TheSystem utilizes resource intelligently.
+     * ResourceControl is how [Users] control resources.
+
+
+++Types of Resource
+    * storage space
+    * CPU usage
+    * PhysicalMemory
+    * network destinations/services
+    * network bandwidth

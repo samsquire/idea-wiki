@@ -1,0 +1,10 @@
+﻿++ User Reasoning
+
+reasons/history for: installing/not installing/uninstalling
+- date/times
+- incompatibilities: eg license
+- reference to other files or a separate database altogether
+- error handling/bug database integration
+- file technical support problems per application
+- ability to trial installed applications to gather user/people opinions
+- refer to document stating why we should/should not use this particular software

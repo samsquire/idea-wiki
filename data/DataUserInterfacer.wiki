@@ -14,7 +14,7 @@ The individual fields and headings are InterfacePanels. This is because there is
 ++Implementation
 
 DataMapping represents all the available information in a DUI:
-file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/data_mapping.PNG
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/data_mapping.PNG
 
 [alias=PropertyDisplay]
 

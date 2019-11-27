@@ -1,0 +1,44 @@
+﻿++ Remote Software
+
+RS is a platform which makes it possible for currently uninstalled and remote [Applications] to run.
+    * RS aims to solve the problems of web applications.
+    * Fix the weaknesses of XUL and AJAX.
+The user can choose [Installation] of RS so it may be run without [Download].
+
+++Implementation
+
+RS can utilize rich desktop-bound UserInterfaces that are typically only available to DesktopApplications. This includes features like:
+    * persistent menus: when menus stay at the top
+    * SingleInterface
+    * UnchangingInterface
+The presentation logic is completely separate from the software logic. This means RS can operate with and without connectivity.
+    * Only necessary information is transmitted to the server.
+    * During offline usage, the state is continued until connectivity returns 
+
+persistent parts of a web page..frames are efficient but need to be MORE embedded
+
+++Balance
+
+RS is a balance between:
+    * [Security]
+    * Ease of use
+    * Large applications
+    * NoUnnecessary [Installation]
+
+++Requirements
+    * no security vulnerabilities
+    * non-imposing security limitations
+    * extendable
+    * modular
+    * fast
+    * small
+    * offline/online interaction with server
+    * powerful
+
+
+* users do not like to download applications
+ * activeX style but less authority?
+ * previous idea: open applications before install
+  * no difference between installed applications and open applications?
+* only when data is saved is the application actually installed
+ * application can only modify it's saved space - not files? 

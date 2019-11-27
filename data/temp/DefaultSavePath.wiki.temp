@@ -1,0 +1,9 @@
+﻿++ Default Save Path
+
+DSP is a GoodDefault [Paths] of the [Chooser] where [Files] might be saved to. This default choice is chosen to minimise the fiddling [Users] must do to select where they want a file to go.
+
+++Implementation
+
+    * If someone is saving the current file to a different filename, it is reasonable to believe that [Users] want it in the same location. The folder of the current folder should therefore be the default.
+    * An idea from Phillip Haines is that the SystemWindows of the folder that is most uppermost is the default.
+    * http://stealthisidea.com/articles/gui-titlebar-tweaks/

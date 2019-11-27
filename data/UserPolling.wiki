@@ -1,0 +1,12 @@
+﻿++ User Polling
+
+Forums frequently have polling where [Users] can vote for different choices.
+    * UseATypicalApplication means dedicated polling software will be used. [Polling] Standardization
+    * Must record everybody and choices.
+    * Voting requisite, must make a post to vote. The voting screen is only visible from the post creation screen.
+    * Addition polling, posting will add your post to the poll. AnyMapping Good for things like competitions, ideas or opinions.
+    * When a topic is converted to a poll everybody who posted is notified.
+    * Complying with standard polling APIs mean polling has a [InterchangeableImplementation]
+    * If [Users] add new option to the poll, all those who have voted already are notified and given a chance to change once to any new options only and to any subsequent added options.
+
+Polls can be embedded into the author's post where desired or at the top. This is overridable by all other [Users].

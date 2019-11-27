@@ -1,0 +1,3 @@
+﻿++ Safe Embedding
+
+Modules must be safe from eachother and embedded applications should not be able to crash others or its host.

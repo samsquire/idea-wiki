@@ -1,0 +1,75 @@
+﻿++ Email
+
+Email is electronic mail and form of [Network] communication.
+
+++Implementation
+
+Email is a target for easy StandardsAbstraction and TheSystem promotes email SystemIntegration. Email can be used:
+    * [IssueSystem]
+    * UpdateArchitecture
+    * [Metering]
+    * NetworkMonitoring
+    * [Sharer]
+
+
+email is apart of the system: 'check your email' is linked to email
+ - programmers specify metadata regarding email so a special notification can be created or linked from?, the email subject, contents etc
+
+++Social Tools
+
+Email has become a social tool and TheSystem should reflect this. A common problem with email is InformationOverload. SystemIntegration with UserNotifications and [Calendar] could permit the following:
+    * alotting a time to deal with emails
+    * when email should be read
+    * reminding users to reply to emails
+    * when these replies should be made by determining the best time to reply
+
+++Attachments
+
+Email [Applications] should not regard emails as simplistic textual objects. Email, while ill suited, is often used for file sharing and other structured information. Files tend to be stored in attachments or as links. These emails can be detected and the icon of them in the email program be displayed differently. Image attachements might show photograph icons and other formats likewise. PlaceholdersRatherThanLinks is used for each for such files. An attached video should show up as a video [Frontend] with a play button for example.
+    * Email has integration with [Sharer]
+
+StandardsAbstraction and the ProtocolDeveloper should allow [Developer]s and [Users] to create powerful email plugins that drive logic at either end of communications.
+
+using email as the the standard intermediary format.
+
+++Security
+
+[Conventional] systems suffer from emails used to transmit viruses. The AntiMalware and the DefenceArchitecture has SystemIntegration with email.
+
+Emails transmitted by viruses tend to have elements common to eachother. Viruses can therefore be detected by using the appearance of the email to detect viruses and worms without time consuming AntiMalware [Scanning]:
+    * fakefrom address
+    * subject
+    * email body
+    * attachment filenames
+
+These are likely to be checked in this order to reduce [Processing] cost. The [Malware] Encyclopedia [Database] contains this data and can be looked up to see if it matches.
+
+Legitimate files tend to be expected from contacts. This knowledge can be used filter legit attachments to malware and spam. The user specifies he is looking for a particular file type:
+    * a WordProcessor document
+    * an JPG
+More often than not the sender will not know what format the file is in, file groups can be used instead:
+    * letter, WordProcessor, large image file
+    * image, WordProcessor
+
+Only when the desired file is identified will AntiMalware be invoked. This prevents premature [Processing]. 
+
+++Ideas
+
+* highlight to quote text
+* only include signature if rest of email is of certain length
+ * perhaps multiple signatures for multiple email sizes
+* find&replace title/body, eg, an annoying phrase someone says
+
+* large attachments
+ * detect how many times an attachment would need to be sent and calculate bandwidth consumption
+
+* email should be more of a document system
+
+per folder/per account and per email filtering
+
+++To Reply
+* show in categories emails to repy to
+ * sender priority
+ * personal priority
+ * length unanswered
+ * type of email 

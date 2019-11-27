@@ -1,0 +1,7 @@
+﻿++ Unnecessary Uplevelling
+
+Unnecessary Uplevelling is a type of IrrelevantCoding where [Uplevelling] is applied to something that is not necessary.
+
+++Examples
+    * File explorer
+    

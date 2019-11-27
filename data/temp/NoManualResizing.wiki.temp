@@ -1,0 +1,6 @@
+﻿++ No Manual Resizing
+
+NMR is a principle where [Users] should have NoUnnecessary need for manual resizing. This promotes:
+    * NoManual
+    * HelpTheUser
+NMR is implemented by EfficientFrontendArrangement and OptimalResizing.

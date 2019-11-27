@@ -1,0 +1,10 @@
+﻿++ Security Software
+
+SS are [Applications] implementing [Security] on TheSystem. The SecurityScreens presents a status for each for the SL and the DefenceArchitecture brings [Security] together.
+
+SS is are SelectiveImplementation, SelectableImplementations and ideally should be InterchangeableImplementations.
+    * [Firewall]
+    * AntiMalware
+    * Black/White/Grey listing
+    * Intrusion Prevention
+    * Intrusion Detection

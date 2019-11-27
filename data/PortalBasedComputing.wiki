@@ -1,0 +1,26 @@
+﻿++ Portal Based Computing
+
+PBC is an interface strategy used by TheSystem to make usage as easy as possible.
+
+++Implementation
+
+[Portalling] is used extensively for [Frontend]s in [Applications]. [Conventional]ly these are known as:
+    * Suites
+    * Overview
+    * Home pages
+    * Dashboard
+    * Control Panel
+    * Panel
+    * Homescreen
+    * Main screen
+    * Main menu
+    * Help
+
+++Examples
+These are examples in TheSystem
+    * [Help]
+    * [TaskArchitecture]
+    * SystemConfigurationScreen
+    * DirectoriesArePortals
+    * GamePortalling
+    * 

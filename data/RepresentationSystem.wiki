@@ -1,0 +1,98 @@
+﻿++ Representation System
+
+The RS is responsible for managing representations. Conversion can be implicit or explicit. Representations have associated formats.
+
+++Implementation
+All possible [DifferentRepresentation]s of data are acknowledged. The steps required to reach another representation are stored. The RS is similar to the TaskArchitecture since these steps are reused.
+
+The RS prevents IrrelevantCoding of [Applications] by requiring them to specify the suitable representation. The RS can then invoke conversion steps on the data provided.
+    * [Clipboard]
+
+If steps for a direct conversion do not exist, conversions can be chained. This is when data are passed through multiple representations until the desired one is reached. The quality of the conversion is an important factor when deciding upon this however.
+
+    * Representation A needs to be Representation C but A-C isn't available. A-B and B-C however, are available.
+
+Ideally, only one representation should be used in all [Applications] and TheSystem. All applications interface with a representation in the same way so that applications are representation neutral. The RS responsibility is to ensure the representation that is [Optimum] for internal system wide usage. This is because the internal format is optimized for manipulation and storage.
+
+The user suitable representation is frequently different to the internal representation and needs to be converted. For example, a date object can be stored in different PhysicalEndpoint]s. [Users] may wish to customize the date representation by picking from a list, creating their own or modifying one from the list.
+    * This is handled by InputMasks
+
+++Conversion
+Details about representations themself can dictate how and when they are used. Properties of representation conversion include:
+    * Fixed: A standard and consistent scale. 16bit and 32bit doubles size
+    * Variable: Each conversion is specifically implemented. BMP to PNG
+    see DirectConversion
+Factors of conversion include:
+    * Quality/Loss
+    * Incompatibilities
+    * Permanence
+
+++Types of Representation
+CrossReferential [Paths]
+Referential representations hold no information except a link to the real data. The representation of items on [Network] [Protocols] such as FTP and HTTP is often presented like:
+    format is protocol:://domain/directory/file
+Properties of these include:
+    * Permanence: How long is this reference valid?
+
+Physical
+The data itself.
+Properties include:
+    * [Authoring] metadata
+
+The type of representation is often important when deciding which is to be used.
+    * in [Backup] the most complete and lossless representation must be sent
+    * for [Sharer] it is often infeasible to send the complete/lossless representation if it firmly exists elsewhere, instead [Paths] would be sent to share web pages
+
+++Interface
+Some representations will be more desirable to the user over others. An interface displays available representations and an [Ordering] based on factors most important to the user.
+
+++Examples
+A file will always have the following representations:
+    * referential [Paths]
+    * contents
+    * file object
+
+A webpage URL has the following possible representations:
+    1) Text: Escaped and Unescaped URL (4)
+    2) The rendered version (1,2,3)
+    3) The file (1,2)
+    4) The contents (1,2)
+Steps involved for each representation
+    1) Contact server with protocol specified in URL.
+    2) Obtain the file via download.
+    3) Opened in the correct application.
+    4) Escape/Unescape the URL string.
+
+    * a compressed folder is a representation of a folder
+
+
+++User Interfacs
+
+The [Data] of UserInterfaces is rarely stored in the same way it will be displayed. Data will be converted into a form that the [Frontend] can use it to display. This may become inefficient if the formats require [Processing]. [Backend]s may be written to accept a SpecificTarget of multiple representations. This:
+    * reduces conversions
+    * use less memory
+    * less redundancy OnlyOnce
+Examples are dates and times that use format strings to render it in a friendly way.
+
+[Frontend]s are [Source]s for information and have multiple representations. An item on a list widget is an InterfacePanels, one of many representations. Copying and pasting on another application depends on what the application accepts.
+    * a [History] list on browser, multiple items are selected and pasted into a word processor; since the word processor can accept either the textual representations - the paths or the image themselves, it has to ask the user.
+
+If multiple widgets are selected, applications also need to handle a list of representations rather than just one. For example, copying a the history of visited web pages to a text editor will paste a list of urls. It is an IrrelevantCoding for the text editor to convert the list into text, instead TheSystem handles it:
+    * text editor text widget element accepts raw text
+    * user pastes IMAGE into text, originating from web browser, URL is a textual representation
+    * URL is inserted into text widget element
+As a list, the user may require or expect a way to divide the list items up. The user may be asked when asked to choose a representation. Although, it is most likely to separated by new lines.
+
+Image data to [Paths] is lossy because the original data is no longer contained. In the same way, [Paths] to raw image data is lossy because the original path is lost. In this case, the original data may be embeddable so that it can be recovered. The DisclosureSystem will ensure that [Users] aware of any disclosed information.
+
+
+last night ideas: log file of file conversions, useful for copy and paste?
+applications make the user know what format is in use
+
+
+
+"representation"
+image url/image data
+both represent the same
+
+convert representations to eachother

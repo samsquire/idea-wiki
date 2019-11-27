@@ -1,0 +1,14 @@
+﻿++ Synchronized File Representations
+
+SFRS is strategy of MultipleRepresentationsOfFiles where multiple [Files] are of the same content [Representations] and have an automatic PointConsistency through [Synchronization]. 
+    * SFRS differs to SingleFileRepresentation in that there are multiple [PhysicalEndpoint]s rather than one. SFRS has an additional S to mark this difference.
+    * SFRS differs to RepresentationGrouping in that RG refers to content rather than representations.
+    * SFRS may be a bad name as it may be any PhysicalEndpoint, not merely a file.
+
+++Architecture
+
+Files that represent the same content are grouped together. When a [Change] is detected to one of the files, AutomaticConversion is used to synchronize the changes to the other files.
+
+Multimedia and document formats file are the best example of SFR.
+    * There is a JPG file and a PNG file. When the PNG file changes, the JPG file also changes.
+    * An Open Document format is changed and the PDF document is re-generated.

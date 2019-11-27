@@ -1,0 +1,11 @@
+﻿++ Parse Compile
+
+PC is a DualEndpoint that supports NoEnumeration. PC means that parsing happens OnlyOnce. (NoParse). After this initial [Initialization], a ContinuousInitialization is used to maintain the PhysicalEndpoint of the parsed copy.
+
+    * enumeration store - rather than processing data to filter it, actually store the sequence
+     * it means more data is stored but at least it will be fast
+     * to maintain consistency, whenever it is modified, the API modified this store aswell
+     * example: Application Manufacturer and their Applications
+      * as opposed to a relational database which has to be searched/read, this is PHYSICAL 
+
+config compile - checking parts of memory frequently is inefficient

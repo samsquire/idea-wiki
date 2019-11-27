@@ -1,0 +1,8 @@
+﻿++ System Applications
+
+SA are the general LowerLevel applications used for administration. On Linux these are text based and powerful and on windows are severely underpowered.
+
+    * [Directness] states that they shouldn't be text based
+    * Efficient recursion
+    * Safe [Wrappers]
+

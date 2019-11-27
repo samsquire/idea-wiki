@@ -1,0 +1,22 @@
+﻿++ Indicate Future Action
+
+IFA means that TheSystem's UserInterfaces should indicate the result of a future user interaction should it not be immediately obvious.
+    * The PhysicalRepresenting is describes by StandardActionRepresentations
+
+This feature is inspired by [Windows] Vista with its User Account Control feature. All features of TheSystem that force a permission elevation are surrounded with a special icon, prefixed or suffixed.
+
+++Architecture
+
+The StandardActionRepresentations are devised and are linked to the corresponding action. An InformationPopup is displayed if [Users] place the mouse over the SAR. (Maybe the SAR can grow slightly in size for [Focus] indication)  ActionMerging is a case where IFA is specially important.
+
+IndicateFutureAction and ActionMerging are absolutely necessary to ensure that PhysicalRepresenting accurately portray the slight differences between the PhysicalEndpoint and its abstraction.
+
+IFA is necessary as sometimes actions that precedes another may not be immediately obvious to [Users]. This is especially the case if these actions take prolonged lengths of time. IFA must also indicate ALL future actions when the action has been invoked.
+
+    * Opening a compressed archive in the SystemViewer may provide access to files so that they are decompressed as a ContinuousInitialization/on the fly. 
+        
+    * In an encrypted archive where the password has been set but the filenames are not compressed, it may appear as if the files can be opened as normal. In actual fact, the passphrase must be provided and it must be decrypted (This is ActionMerging). The 'Open' action would indicate then
+    * In a network file view, there may be a list of files. TheSystem has only received the file list itself - not the files themselves. The 'Open' action would need to indicate the fact that the files need to be downloaded before they can be opened.
+    * Clicking a command that requires additional information will indicate that the user must provide future input. In ConventionalSystems like [Windows], menu items represent this with the elipsis '...' to show that it is continued elsewhere.
+
+

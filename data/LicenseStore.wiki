@@ -1,0 +1,7 @@
+﻿++ Licenses Store
+
+An EntityStore dedicated to licenses for [Legality].
+
+    * can be used to generate a CapabilityStore
+    * [Licenses] cannot be enforced by the system and will not be attempted
+    * Conflicts between licenses can be determined

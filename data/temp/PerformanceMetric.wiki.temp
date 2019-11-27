@@ -1,0 +1,16 @@
+﻿++ Performance Metric
+
+PM is TheSystem's rating according to its [Hardware] and [Performance]. The score is produced based on the LimitationAwareness, EfficiencyAwareness and PrerequisiteStore.
+
+The PM is based on the [Conventional] [Windows] Vista 'experience score'. This score gives a performance rating for:
+    * Hard drive
+    * Processor
+    * Memory speed
+    * Video card graphics performance
+    * Special effects
+
+++Architecture
+
+The PM will be used to help [Users] decide:
+    * what [Applications] should be used with AlternativeExpansion
+    * 

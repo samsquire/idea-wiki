@@ -1,0 +1,26 @@
+﻿++ Network Deployment
+
+ND is the [Installation] of [Applications] across a [Network]. ND is an important part of NetworkAdministration and has ties in with [Outsourcing].
+
+++Implementation
+
+ND queries the HardwareManager of individual nodes and the CompatibilityArchitecture]s help make [Installation] choices MoreEfficient and compatible.
+
+ND is a NativeImplementation of NetworkAdministration. It is undecided whether ND provides a SpecializedScreens dedicted for deployments or has [Reusability] of the NetworkAdministration UserInterfaces. Interactions include the access of the following information by [Selection] or [ContextMenu]s:
+    * lists all the compatible and incompatible nodes from an application
+    * lists compatible applications are available from individual nodes
+
+Deployment commands can be issued to nodes of specific operating system type, processor types, arbitary [Categories]
+Queries to the HardwareManager enable specific requests:
+    * This could be in the form of SQL: AT LEAST 128 MEMORY FREE, INSTALLED
+
+The ProductSystem is essential to select [Optimum] applications for 
+
+[Tasks] applied to groups of computing turn the [Frontend] into an UnchangingInterface with ProgressIndication InterfacePanels such as ProgressBars indications bars for each node. Headings for the groups identify the total progress.
+
+network deployments:
+ - right click list of windows 98 machines and click 'install'
+  will only install on THOSE machines
+ - need to be able to group machines in many different ways
+ - large list of progress bars for that install on all of the windows 98 machines
+ - SQL for servers: LEAST 128MB RAM would list all machines with 128mb ram

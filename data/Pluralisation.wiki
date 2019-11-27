@@ -1,0 +1,12 @@
+﻿++ Pluralisation
+
+Pluralisation is the natural result of a flexible RepresentationSystem. Every representation can be a plural.
+
+Plurals may work differently according to how they are designed and assigned.
+
+++Examples
+    * An element can easily have text added to it
+    * 
+
+link source ANYWHERE, right click UI and add a wiki page to it or add a word processed document.
+user can add data anywhere to the system, per file, per UI

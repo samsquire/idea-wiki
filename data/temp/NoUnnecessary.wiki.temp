@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="NoUnnecessary.idea" template="ideaRecord.md" source="idea.md"><Title>Unnecessary Computing</Title><Description>Computers make us do things that should be unnecessary.</Description><Idea>NoUnnecessary</Idea></sam><![CDATA[]]>
+## No Unnecessary
+
+There should be nothing unnecessary.
+
+ * NoForcedSteps
+ * NoManual<sam type="dotml" name="nounc.svg" graphname="NoUnnecessary.md"><sam type="selfquery" name="noun.dotml" code="depgraph.xq">I</sam></sam>
+
+##Examples
+    
+ * In Window's Chooser if the active 'Place' is clicked, the place is refreshed, this is pointless, as soon as a place is chosen the button should unregister from input. This is accomplished through Desensitizing
+ * Dropping the exact same file onto another is likely to cause the file to be overwritten with itself in a Conventional system. User should be notified of this pointless act to prevent an overwrite confirmation.<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

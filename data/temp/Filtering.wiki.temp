@@ -1,0 +1,5 @@
+﻿++ Filtering
+
+Filtering is selectively displaying what is currently available.
+    * is a BaseInteraction
+    * handled by FilterControl

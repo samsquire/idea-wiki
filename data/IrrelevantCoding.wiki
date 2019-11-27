@@ -1,0 +1,11 @@
+﻿++ Irrelevant Coding
+
++++Scenario
+* multiple hard disks are installed 
+* an interface for one is opened, the title window shows what is currently open
+
+ * do not place a control inside the application that allows the hard disk to be changed since this is out of context
+  * should be handled external to application
+  * via the file system which stores and lists multiple entities already,
+  * eg: hard drives: games, files, music
+   * from the menu bar, where the menu says "Hard Disk - Games", there should be a drop down there which 

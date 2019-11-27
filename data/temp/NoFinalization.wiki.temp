@@ -1,0 +1,8 @@
+﻿++ No Finalization
+
+No Finalization means that actions should be changeable rather than finalized and difficult to change.
+
+++Examples
+    * Changing the installation directory of [Applications]
+
+[category=paradigms]

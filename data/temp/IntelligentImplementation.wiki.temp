@@ -1,0 +1,18 @@
+﻿++ Intelligent Implementation
+
+II are implementations that are intelligent in how they function.
+
+++Implementation
+
+II use intelligence to make the implementation MoreEfficient. Principles include:
+    * using heuristics that determine where an [Optimum] shortcut exists or not
+    * [Ordering] for the most likely and common return
+    * deferring until absolutely necessary
+    * [Concurrency] - doing multiple things at once
+
+
+++Examples
+    * SmartResources
+    * SmartItem
+    * SmartCache
+    * SmartDifference

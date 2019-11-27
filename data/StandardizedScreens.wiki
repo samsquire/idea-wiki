@@ -1,0 +1,12 @@
+﻿++ Standardized Screens
+
+This is a StandardEstablishment and StandardMultiples of [UserInterfaces] to make a ConsistentSystem and ConsistentBaseTasks.
+
+++Examples
+
+    * FileHandling
+     * [Download], [Open], [Save]
+    * Colour Picking
+    * Language Selection
+    * Keyboard Map selection
+    * Volume

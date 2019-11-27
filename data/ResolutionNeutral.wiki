@@ -1,0 +1,3 @@
+﻿++ Resolution Neutral
+
+RN is means that TheSystem and its [Applications] can be utilized on any [Resolutions]. This is apart of the [Standards] and it's inclusion results in HighStandards for [Users] and developers.

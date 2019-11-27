@@ -1,0 +1,15 @@
+﻿++ Code For Every Possibility
+
+++Advantages
+* unexpected behaviour is impossible - fewer bugs/errors
+
+++Disadvantages
+* tedious/waste of time
+* reimplementing the wheel
+
+++Question
+* every possibility be accounted for
+ * higher level abstractions mean that we have to make use irrelevant level's idosycracies, eg a hd's space - what does the install manager care about that? * see [NoReturnErrors]
+ * package manager shouldn't have to care about write permissions, why should it have to go through a long list of possibilites? check if file is writable, check if disk is full
+ * and [TryBeforeChecking]
+

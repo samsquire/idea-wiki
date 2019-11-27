@@ -1,0 +1,3 @@
+﻿++ Capability Store
+
+Stores all capabilities of [Entity]s with [Accountability] - [Users], TheSystem and [Applications].

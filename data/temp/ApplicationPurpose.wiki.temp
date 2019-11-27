@@ -1,0 +1,37 @@
+﻿++ Application Purpose
+
+Application Purpose is a PurposeStore for [Applications]. It specifies the purpose of components in applications through [Mapping]
+    
+    [Files]
+     * Reason for file existing
+
+    Folders
+     * What the folder is for and contains
+
+    [Applications]
+     * installed to suit a dependency or to help complete task
+
+    ApplicationComponentry
+     * what components do
+
+The purpose may be extracted from [Documentation] and the SoftwareServer. The ExpandSystem is used if more information can be obtained if the user desires.
+
+[History] - shows all versions of software in a list and information about usage, size and location and compares it to an update check
+
+++Examples
+
+Files
+    * dbghelp.dll - ?
+    * filezilla.chm - help manual
+    * filezilla.exe - ftp client application
+    * filezilla.pdb - program database
+    * filezilla.xml - configuration
+    * fzgss.dll - ?
+    * fzsftp.exe - secure ftp
+    * gpl.html - licensing
+    * legal.htm - legal details
+    * libeay32.dll - openssl
+    * puttylicense.html - license for [Import]ed software
+    * readme.htm - readme, [Documentation]
+    * ssleay32.dll - openssl
+    * uninstall.exe - uninstaller

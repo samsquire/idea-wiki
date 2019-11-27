@@ -1,0 +1,56 @@
+﻿++ Lookup Tables
+DifferenceBetween
+TheOpinions
+Time Complexities - the time it takes for an operation to occur given the amount of data to be handled
+
+Lookup tables are very important in computing because when there is a lot of data it is often very important to be able to search a lot of information quickly and easy as it will be prohibitive to search it sequentially. A sequential search would take the proportional time to compare and check every indivdual item. This is impossible in a real computer system.
+
+ There are multiple approaches to implementing a lookup table.
+ 
+ An array is a contiguous block of memory which holds a collection of equal sized data items, these are identified by their address in memory. Fecthing data requires the index number of the particular item. A sequential array search would therefore begin at the lowest possible index which is 0 (corresponds to the beginning of the memory block) and progressively increment the array index and comparing the data at each address with the search value.
+ 
+    * The time taken to find desired element A is proportional to the distance the array is from the start index. If A is the first item, it will take the time it takes to check if the first item is the right item. If A is the last item it will take N comparisons to reach A.
+    * This means that a search in an array of 100 would be 10 times longer than one in an array of 10 items. This is because the search time is linear.
+    * On small lists this is not too slow.
+
+CONSTRAINTS:
+    * keys must be unique
+    * range of keys is limited
+
+In a sorted array, the data is in a known order: ascending or descending with larger values on one side. This means that any given point in the array you can be certain whether or not a particular value will lie in one side.
+    * You begin with the middle value and check if it is equal to the target value. If so, we can stop.
+    * Since the values must be in order. We check if A is greater or less than the middle value. If the value is greater then we eliminate the left side and if the value is less we can eliminate the right side.
+    * We repeat this process, progressively cutting each side in half each time until we finally reach the target value.
+    * Slow to insert
+    * Reasonable find speed
+
+In a hash table, the data structure is similar to an array except the index position is calculated by a hash. A hash is a reproducible calculation that gives the location as an index into the list. This means that there is no need to cycle or iterate over the data in the list.
+    * The speed is limited to the speed of the hash function so the speed of finding a given record is the speed of one hash lookup: O(1).
+
+5 Points why a fixed size table of 1000 records:
+    * It would be beneficial if the lookup and storage speeds are constant time no matter how many records there are.
+    * The worst case of an algorithm should be understood.
+    * Binary search would require the data be sorted, this would make storage slower and storage and retrieval times unpredictable
+    * A binary tree would be slow to update and reasonable fast to search but the time to search will be unpredictable and longer than a hashtable
+    * A sequential array would be very slow to retrieve but pretty fast to add to.
+    * If the lookup table were to be in memory, it would require the type of the data * 1000 to store. If this data is as structure, it could take a lot more data and way too much memory. In this case, a binary search tree would be more appropriate as a Btree would be efficient to store on a hard drive.
+
+++Hash Tables
+
+"Suppose you need a lookup-table as part of a larger algorithm. You know that there will be a maximum of 1000 records stored at any time but the highest possible storage and retrieval speed is essential. Say, with reasons, which data structure you would use."
+
+Firstly, I would eliminate an unsorted array because this would be of linear time complexity to search, it may satisfy constraint of storage fast in O(1) time but retrieval would take a massive number of comparisons. On average there would be 500.5 comparisons because 1000(1000+1)/2 / 1000 = 500.5 which is approximately n/2 or O(n) in the worst case for retrieval. Hash tables are more suited because they offer a constant time on insertation and retrieval. A sorted array, binary heaps/trees all have worst cases where they need to be kept sorted or rebalanced. A hash table does not need any maintenance operations, unless it fills up beyond a certain point - in this algorithm this is guaranteed never to happen as there is a fixed 1000 records.
+
+HASH TABLES ADV:
+    * constant time insert and retrieval
+    * only the space for 1000 items is ever needed
+    * 
+
+++Arrays
+    * constant time to access, adding to the end
+    * linear time to insert or delete (except at the end) when there is no room
+
+++Adjacency Matrixes
+
+An adjacency matrix is a powerful data structure for representing a graph. Rows and columns in the matrix represent nodes in the graph and the data at a particular position represents whether or not there is an edge that links them together. The amount of space required to store a graph of 10 nodes is therefore 10^2 because there must be sufficient space for all possible connections.
+    * adjacency matrixes 

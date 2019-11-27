@@ -1,0 +1,18 @@
+﻿++ Referral Reward
+
+RR is the reward received by someone who referred another to a service or otherwise.
+
+++Implementation
+
+[Conventional] referral implementations on WebServer]s use a unique identifier in the [Paths] that refers to the user which recommended. The problem with this is that this is quickly lost if the recipient navigates away from that particular page.
+
+An idea from a Simple Machines Forum mod was to set a cookie that stored the referrer ID so that it stays for a duration. This way the referrer can receive credit accurately.
+    * http://custom.simplemachines.org/mods/index.php?mod=836
+
+An improvement to the idea is to obfuscate the user identifier and uniquely identify all [Paths]. This means that no matter what [Paths] are used, they can receive credit. The problem with this is the unnecessary credit given from large websites.
+
+A sideeffect of this method is that links can be traced to who gave them out. Although this could not be relied upon due to abuse.
+
+Other steps include:
+    * awarding credit if the new member settles into the community well, such as by following rules well. This would promote CommunityQuality.
+    * awarding only certain parts of the website, such as the homepage.

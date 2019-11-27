@@ -1,0 +1,15 @@
+﻿++ Application Facilities
+
+AF are the [Facilities] that are available to [Users] while using [Applications].
+
+++Implementation
+
+The TitleBar of SystemWindows provides access to many AF.
+
+The control inputs of [Applications] are prespecified and known before hand. This means it should be possible to view all the active key map configuration for a particular application. The TitleBar can represent this by a symbolic input, an arrow, a keyboard or the letter 'I'.
+
+
+
+key map application shows shortcuts for active programmes
+ - keyboard icon in titlebar
+  - shows the shortcuts used by the application

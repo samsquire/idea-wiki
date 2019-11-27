@@ -1,0 +1,22 @@
+﻿++ Internet Modifier
+
+IM are [Applications] and DirectedLogic that modify [Internet] traffic. Examples include:
+    * [Browser] plugins
+    * Proxy servers
+
+IM is used in the following ways:
+    * [Caching]
+    * [Indexing]
+    * privacy concerns
+
+++Implementation
+
+TheSystem should provide facilities for adding traffic modifiers to help [Users] understand and utilize the [Internet] more effectively. These tools should not be specific to the [Browser] software. This is accomplished through StandardizedScreens to help manage internet modifications.
+
+proxy cache and search engine
+
+distributed internet filtering, people decide disagree/agree what they want to be blocked and what not, created rules will fit into categories of these
+
+proxy daisychain
+ - 'web dashboard' determines how pages are viewed
+ - manage how pages are changed before you view them

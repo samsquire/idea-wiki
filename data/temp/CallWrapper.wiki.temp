@@ -1,0 +1,22 @@
+﻿++ Call Wrapper
+
+CallWrapper is called 'togetherjs' and is on NPM.
+
+<code>
+call_socket = callbacks.wrap(socket, sys); // return a special version of first argument
+
+// when the last item is used it is actually executed
+call_socket.send('channel', callback.cont);
+sys.genuuid(callbacks); // adds genuuid to the callback sequence
+
+
+callbacks.wrap([socket, something, something], function(socket, something, something) {
+
+
+
+
+});
+</code>
+
+
+

@@ -1,0 +1,6 @@
+﻿++ Questions
+
+    * hierarchical data in text
+    * 6 billion people but so little software
+    
+    * ascii control characters never used

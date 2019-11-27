@@ -1,0 +1,35 @@
+﻿++ Email Notification Standard
+
+This is a description of an informal standard that could be used to make MTA (mail transfer agents) more content aware and intelligen to human users. They work by encoding metadata into an email so that it is more useful to the receipient. The ideas of this standard is to promote innovation in MTA that is lacking. Another aim is to increase automation and integration of email handling and other applications. These are the proposed standards as yet.
+
+++Account Activation (AA)
+
+AA is a signification that a user's account on some system needs to be activated. This is a method of verifying if an email address is owned by the user and if it is valid.
+    * Verbs: activate, ignore, do not activate
+    * Leaks: email address
+    * Integration:
+        * Web browsers where a user has signed up and stored on a queue of waiting activations
+        * MTA-> web browser that the account is valid
+    * Automation: activate all accounts
+
+++Newsletter Subscription Dialogue (NSD)
+
+NSD describes the dialogue used by any form of newsletter. This encompasses a number of activities that a user of an email system may wish to engage.
+    * Verbs: subscribe (additional lists), unsubscribe, view lists, preferences
+    * Leaks: email address
+    * Integration:
+     * mailing list management/viewer
+
+++Forum Reply Notification (FR)
+
+A user has received a reply to a post of his and he wants to be notified when this occurs. Many different pieces of software tend to implement their own variant of this functionality.
+
+++Financial Transaction Notification (FT)
+
+When an exchange of money has been issued between a number of accounts, this notification explicitly specifies:
+    * Leaks: Account number, Magnitude of amount
+    * Integration: accounting or financial software
+
+++Delivery Dispatch
+
+A user has made an order and will receive a summary of the order in a follow-up email. Usually sent from an automated system.

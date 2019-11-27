@@ -1,0 +1,15 @@
+﻿++ RDF Stuff
+
+# Enter a SPARQL query
+
+PREFIX lg: <http://opendatacommunities.org/def/local-government/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/>
+
+SELECT ?authorityname ?governname WHERE {
+?authority a lg:LocalAuthority.
+?authority rdfs:label ?authorityname.
+?authority lg:governs ?governs.
+?governs rdfs:label ?governname
+
+}

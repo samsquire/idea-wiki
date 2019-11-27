@@ -1,0 +1,61 @@
+﻿++ Code
+
+Code is what forms [Applications] and TheSystem. Code is RegardNormal, this means the CasualModification is possible. ComprehensiveSystem and IntricateDevelopment means that interaction with code is easy and BringCloser, unlike conventional systems.
+    * CodeIdeas
+
+Code is produced by [Users] during the [Development] process, from within the [Developer] suite. Other methods of generating code include:
+    * UserTracking, see UserDeveloping
+    * UserInterfaces
+
+For code to be easy to use these factors are important:
+    * [Reusability]
+    * [Accountability] through attribution
+    * [Componentry]
+    * [Documentation]
+    * Readability
+
+UserInterfaces that present code will enable or encourage the above. TheSystem's NativeImplementation presents code in this way.
+
+Code attribution is important for [Legality] and [Accountability]. The questions are:
+    * what did this author do
+    * who is the author of this code
+This requirement requires code to be indexed through [Indexing]. After this, InformationPopup]s (such as ToolTips) are available by hovering mouse over code. The contributor's name is displayed and is CrossReferential to the index of all of the author's code. These IP will have spacial awareness to avoid hiding the code underneath.
+
+ * code attribution - who is responsible for this code, tooltip on highlight
+     * diff with server, diff is attirbuted to logged in user
+      * labelled diff - a diff file with each difference attributed to different users
+       * download the entire of file?  
+    * physical appearance of text, tooltips fit into gaps at end of lines and in spaces
+     * code
+    * render spaces of code by choice
+     * optionally save spaces as well
+
+++Architecture
+
+The side effect of code [Reusability] is that much code is redundant and an IrrelevantCoding. An example is code that is responsible for [Initialization] of SharedImplementation]s.
+
+Conventionally, this common code was generated automatically by an application through templates (VariableInputOutput). The problem with this is that it is not [Multidirectional] and cannot be easily modified without parsing, an unnecessary task. (see NoParse)
+
+This has multiple solutions:
+    * hold an internal representation and simply compile that each time
+    * 
+
+++Code Readability
+
+    * fade code that isn't in current scope
+
+++Generation
+* how to avoid 'boiler plate' code - eg, the stuff that in (practically) all applications need that are based on something else
+     * windows API
+     * KDE applications
+     * visual basic objects
+
+Using a User Interface to generate computer code is inefficient. Instead, an API for making the required objects in memory is interfaced from a dynamically generated User Interface which is then decompiled into text. This is more efficient than parsing source code.
+
+    * reverse abstraction to parse existing interface code ReverseAbstraction
+    
+    * the KDE actually has naming schemes for variables etc in its code
+     * it should be provided by a transition service 
+
+source code search, functionality grouping
+ - license detect

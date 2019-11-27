@@ -1,0 +1,9 @@
+﻿++ No Relocating Information
+
+NRI means that users should not be forced to refind data that can be derived from what is already on the screen.
+
+++Examples
+
+    * A file or folder is open.
+    * This and file are at a certain position in the file system. The user should not need to navigate to this position manually since it is open. The user should be able to refer to open objects without having to drag them.
+    *Dragging is slow and hard.

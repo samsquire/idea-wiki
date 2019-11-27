@@ -1,0 +1,22 @@
+﻿++ System Management Screen
+
+The SMS displays the status of TheSystem at a glance, including [Hardware] and TheSystem's [Configuration].
+
+++Implementation
+
+The SMS makes use of ThreeDimensionalIntegration to communicate information. Hardware can be "explored" of its component parts and its relation and connection to the computer.
+
+All [Hardware] is displayed similarly for a ConsistentSystem. The hardware model is display in the centre of the screen, this model may automatically rotate slowly or remain in predecided perspective. Surrounding the model are various labels indicating each part. The curly bracket '}' symbol is used to represent breadths of things, such as cables.
+
+All parts of the interface must link to a relevant [Encyclopedia] 
+
+++Examples
+
+The mouse hardware part of the SMS would be a three dimensional diagram of the mouse with the model depicting the real life mouse:
+    * the type of connector
+    * the mouse technology: optical, ball mouse, trackball
+    * the wire
+Each part should be linked to a relevant [Encyclopedia] for indepth explanation. For example, accessing the help page for the connector and the cable may give wiring and pin specifications.
+
+
+ - perhaps the VRML language can be used

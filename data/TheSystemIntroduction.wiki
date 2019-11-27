@@ -1,0 +1,6 @@
+﻿++ The System Introduction
+
+What is the simplest way to explain TheSystem with the most important topics?
+
+    * For [Development]: making new software
+    * For learning and information: computers should be havens for expressing and distributing knowledge and information as fast as possible.

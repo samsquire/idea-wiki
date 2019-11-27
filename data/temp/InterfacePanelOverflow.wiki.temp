@@ -1,0 +1,20 @@
+﻿++ Interface Panel Overflow
+
+IPO is a state that occurs when a InterfacePanels are smaller than its contents and it is not large enough to contain it all. TheSystem must deal with this problem because it effects usability in that [Data] becomes unavailable.
+    * Required by AlwaysReadable
+
+++Architecture
+
+An overflow will cause the following steps:
+    * Rearrangement of panel
+    * OptimalResizing of contents.
+    * Sensitivity to InformationPopup
+
+InterfacePanels must rearrange themselves to make the data displayed within them more useful to [Users]. This is based on internal rules set by the particular panel. All panels possess internal[Prioritizing] of each individual component.
+
+The information that becomes hidden is now unavailable to the user. Should the user want this information, they will need to access it in some other way. They may do this by with GetInto through a properties ContextMenu. A more effective method that [Conventional] systems use is [InformationPopup]s. Moving the mouse over the panel could:
+    * replace the IP with a full sized interface panel containing all the information.
+    * show an informational box containing all the fields of the IP that could not be displayed.
+One problem with these two methods is that these fields can not longer be compared directly. If a user wants to see a particular field for many items in a list, it is now impossible because the data has been pushed to the InformationPopup.
+
+[Users] must be able to customise the data displayed in InterfacePanels by overriding priorities.

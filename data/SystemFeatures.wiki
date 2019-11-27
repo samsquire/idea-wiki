@@ -1,0 +1,47 @@
+﻿++ System Features
+
+These are the ideal features TheSystem posesses and reasons for them.
+
+    [Sharer]
+     * users can share files without a ModularBreakdown or UnecessaryComplexity
+
+    Dedicated
+    ONLY run a single application
+
+    [Targeter]
+     * users can quickly input and output
+
+    [Metering] and [Reports]
+    * [Users] really know what is happening.
+
+    [Update] [UpdateArchitecture]
+     * [Downlevelling] update procedures
+     * DownlevelBaseTasks
+
+    [Developer]
+     * users can create software
+
+    [Screenfilter]
+     * customise appearance of screen
+
+    [ServiceHelper]
+     * blur the knowledge required to make use of services
+
+    [Reports]
+     * make it easier for users to receive information
+
+    ProcessTree
+     * customers know what is happening and can customise it
+
+    SolutionSystem
+     * resolves transitory or trivial problems
+
+    * ObjectSystem
+     * allows the presentation of information of [Complexity] in a pleasant fashion
+
+    * DocumentingSystem
+     * means users will be able to record their actions alongside application logs
+
+
+
+    

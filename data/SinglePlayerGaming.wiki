@@ -1,0 +1,18 @@
+﻿++ Single Player Gaming
+
+Singleplayer gaming is where the only individual playing a game is a single person.
+
+Singleplayer games are regarded InadequatelyAdvanced by OfficiallyAcceptedCertification and IdealGaming. This is because the simplest multiplayer aspects are TrivialFeatures. As a result, purely single player should NeverHappen. The DefaultSoftware will only accept games that have a multiplayer aspects.
+
+++Standards
+SP games have the following MinimumFeature]s:
+    * [Replays]
+    * [GameGhost]
+
+SPG is generally regarded as dead since MultiplayerGaming is superior and more popular. For this reason, SPG must always implement the TrivialFeatures of indirect MultiplayerGaming:
+    * [HighScores]
+    * [Spectating]
+    * 
+
+single player gaming IS dead, complete collaborative:
+ - hiscores, be watched/recorded, tips/help, shadowing players, record breaking

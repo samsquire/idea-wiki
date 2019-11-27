@@ -1,0 +1,6 @@
+﻿++ Standards Abstraction
+
+[Standards] Abstraction is adding an abstraction Layers to an existing standard. Standards Abstraction is encouraged in the operating system by providing field customisation.
+
+++Examples
+    * Email: in a community framework (see InteractionFramework), email may be used for private messages with customised email headers that show context.

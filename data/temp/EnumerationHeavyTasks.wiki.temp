@@ -1,0 +1,29 @@
+﻿++ Enumeration Heavy Tasks
+
+EHT are [Tasks] and [Processing] that are [HeavyTasks] due to enumeration. Enumeration is avoided due to NoEnumeration.
+    * Parsing - NoParse
+    * [Polling] NoPolling
+    * [Initialization]
+
+NoEnumeration mean these should be used sparingly. Solutions include:
+    * OnlyPollOnce
+    * NoContinuousEnumeration
+    * OnlyDoHeavyTasksOnce
+
+((
+
+need direct route for everything
+ - delete word is not possible in word
+  - selecting everything and pressing delete is not acceptable
+ - compression as you type: spacebar means new word is being typed, add to word list and store as number on list
+ - dictionary should be minimum on textareas
+ - simple tasks should never ever lag the PC: typing in a textbox or area and updating the screen with this
+
+
+even if a local cached copy exists, it may be out of date and the server needs to be contacted to check if it is still up to date, this causes lag before render
+ - perhaps a information bar could explain this page is up to date to a certain degree
+
+pretend a file doesn't exist as protective measure
+
+pick application from list to add to firewall
+))

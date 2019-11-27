@@ -1,0 +1,24 @@
+﻿++ Unified File Systems
+
+UFS means that [Multiples] of different [FileSystem]s are joined together to present a single filesystem.
+
+Changes to this logical FileSystem will occur on the underlying file system the file is actually on.
+    * In Linux this is implemented by the Union FS/AUFS
+
+++Implementation
+
+    * Icons from different file systems can be used to represent the originating. A picture of a personal music player would represent the user's player for example.
+    * Users can add additional FS with an easy to add button.
+    * The dialogue should support advanced features such as adding automated saving between the file systems.
+    * 
+    * This page was created 07/07/2007. Windows 7 has since introduced this feature as 'Libraries'
+
+
+++Problems
+
+Conventional systems make [Centralisation] of UsersContent difficult. Tedious solutions such as FileSystemLinks or copies are usually used. UFS means that [Files] can be [Share]d and centralized from:
+    * [Remote] locations
+    * different medias
+    * different [Users]
+
+Windows 7 makes the mistake of treating its libraries as a distinct feature and not through a common [Portalling] display architecture. This makes it rather inflexible as [Users] have no control over folders. TheSystem accomplishes this through DirectoriesArePortals.

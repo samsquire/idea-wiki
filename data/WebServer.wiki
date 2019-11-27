@@ -1,0 +1,17 @@
+﻿++ Web Server
+
+WS are [Servers] offer web pages which are requested and transmitted to a [Browser] across the [Network], usually the [Internet].
+    * DynamicWebServers
+
+++Implementations
+
+[NativeImplementation]s must be easy to use. UserFriendly
+(( need a page about 'easy to use'/use friendliness
+
+Apache, a [Conventional] server will accept a request and continue receiving packets regardless of the extensive length of a HTTP command. NativeImplementation]s would drop the connection before it can be completed. ImpossibilityDetection can be used as a premeptive [Security] measure by dropping requests that are clearly impossible or invalid.
+
+For example, the maximum command can be calculated by using the folder hierarchy. Providing the file doesn't use query strings or accept form data, it is dropped immediately.
+
+++Requirements
+
+    * The server has complete control over the structure of a website. For this reason, AnyMapping is available so that all visible content is structured virtually. This means files, folders can be named arbitarily.

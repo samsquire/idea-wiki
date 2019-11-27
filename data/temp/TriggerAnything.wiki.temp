@@ -1,0 +1,19 @@
+﻿++ Trigger Anything
+
+DLA means that there should be [Triggers] for every event or state.
+
+++Implementation
+
+The ability to trigger everything is an important AvailableOption that allows [Users] to ImplementTheUnimplemented themselves. AutoInterface could be used to help create interfaces for the triggers they setup.
+
+++Examples
+
+System clock
+    * every second/minute/hour/day
+    * in x
+    * at x
+
+AnywhereInterface
+
+
+update irc, clients = bit torrent

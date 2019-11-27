@@ -1,0 +1,4 @@
+﻿++ No Unimplemented Trivial Features
+
+NUTF means that TrivialFeatures should never be left [Unimplemented] when they are so simple and trivial to implement. NUTF prevents InadequatelyAdvanced.
+    * [Conventional] systems suffer from this problem.

@@ -1,0 +1,14 @@
+﻿++ Action Merging
+
+AM is a HelpTheUser feature whereby multiple actions are represented as one by [Frontend]s. This feature is useful because it is often the case that [Users] do not think of the technical prerequisites of completing a task. This is often used to:
+    * prevent [Users] from being delayed from their goal
+    * prevent unexpected prerequisites from arising (ClearOnPrerequisites)
+    * prevent the interface from lying about what it will do NoLying
+    * SeamlessUsability
+
+[Users] select actions because they want the action they selected to occur. Other steps are superfluous to the user and interrupt the flow of the UserInterfaces.
+    * MergedActionFeedback ensured [Feedback] of merged actions is provided after selection.
+
+
+merged actions can be used to control certain behaviours
+ - opening a tab in a new window, the right click button would have a picture of a tab in the icon

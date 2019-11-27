@@ -1,0 +1,21 @@
+﻿++ Open
+
+Open is when data is loaded in some way.
+    * The StandardizedScreens for open is the [Chooser].
+      If a file that the application cannot open is selected, the appropriate application is loaded instead.
+    * [Open] occurs on [Save]d items.
+    * Displays [Loading] progress.
+
+Files can be opened programmatically in different modes. These have [Extensibility] so that new ones can be implemented.
+    * [Scanning]
+    * [Indexing]
+    * Read (low level)
+    * Write (low level)
+
+Files in LogicalMemory have a StandardRepresentations for clarity. For example, an overlay icon may appear ontop.
+
+++Base Opening
+    * open a file in hex (general opening)
+    * string viewer
+
+see FileHandling

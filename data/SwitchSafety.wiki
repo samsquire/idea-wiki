@@ -1,0 +1,5 @@
+﻿++ Switch Safety
+
+SS applies a delay to any [Users] context switches that are heavy in effect.
+    * applying an intensive filter to an image will have a 1 second delay before it begins so the user may cancel it
+    * changing to the wrong [Tabs] will not cause the tab to load before the delay. This means the user can continue what they are doing.

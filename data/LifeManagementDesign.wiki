@@ -1,0 +1,42 @@
+﻿++ Life Management Design
+
+The Life Management Design is a piece of advanced software that aims to integrate lots of things about my life. Different parts of the software include:
+    * content produced
+    * content managed
+    * services managed
+
+++Features
+    * Security levels
+    * anonymous social networking; limited surveillance
+    * software, configuration, operating system deployment:
+        remote bootup
+        internet bootup: I need to be able to go to any computer in the world, plug something in and boot from an image perhaps that connects to a remote site hosting files
+            perhaps a portable 3G hub
+        imaging: imaging any operating system legally, including windows
+        IPSec autoconfigured at the IP level
+        VPN network so that all computers can communicate in an artificial address space
+    * 
+    * 
+        
+        
+
+I want my social networking services to be managed by this software including twitter, blogs, Facebok and professional services.
+
+A lot of the software includes the ability to manage other software.
+
+All my hardware should be added and accountable for. My mobile phone, my laptop and my desktop are all computing hardware that are capable of being part of the collective unity system.
+
+
+Hopefully the software will be powerful enough to takeover as an operating system.
+
+
+++GUIs
+
+GUIs should be optimized to the display of information, if there is a highly populated tree, there should only be the number of objects currently displayed on the screen drawn.
+
+++
+
+Instant login - when a computer is turned on, the login details should be requested immediately. These should then be available to the operating system which will then attempt to login. There should be an interface to make this as fast and efficient as possible.
+
+DatabaseDesign
+

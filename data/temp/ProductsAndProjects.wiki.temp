@@ -1,0 +1,20 @@
+﻿++ Products And Projects
+
+PAP refers to the distinction between products and projects. It also highlights an important decision that must be made for the SystemUniverse to function correctly.
+
+++Discussion
+
+Projects are the continuous [Development] aspect of [Applications] moderated and driven by TheDevelopmentModusOperandi.
+Products are the finished projects that the end user interacts with and deals with. It includes branding. Questions must be answered in regard to the following:
+
+    * What will TheSystem expose to [Users] and how?
+
+If products are exposed, how will [Users] know what a product does from just its name? [Linux], a [Conventional] system creates a new noun for every new product name: Kate, Konqueor, Nautilus. Without opening or learning about the software, it is not possible to know which to use.
+
+    * Building product image is a large fun part of [Development], without product, no [Applications] will have any character.
+    * One aspect is to expose both to the user, a product name could appear and next to it, a category descriptor is displayed next to it but in a different colour. [Users] could select which should appear first. This is likely to be used in the MainMenu.
+
+
+use english words instead of technology names in software
+- be as generic as possible
+- eg wikipedia's names for technologies

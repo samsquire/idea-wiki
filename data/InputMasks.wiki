@@ -1,0 +1,22 @@
+﻿++ Input Masks
+
+IM are how TheSystem handles elements that should accept particular [Representations].
+
+[Applications] need a particular representation from the user in order to utilize it. Conventional systems implement this in two ways:
+    * demand a particular representation with validation
+    * process the input to obtain or extract desired format
+
+These are both inefficient and an IrrelevantCoding.
+    * String processing is often an [Reimplementation] and should not be.
+    * [Users] should not be expected to convert [Personal] representations to that the computer requires. The computer should be able to deduce the meaning automatically.
+    * If a particular representation is expected, there is no problem finding the correct representation. While effective, this is horrifically unfriendly to those not familiar with it.
+
+IM means that [Users] are in control of how the data is displayed. The SystemConfigurationScreen is likely to allow [Users] to select preferred representations.
+    * Defaults are likely to be based on locale and language.
+
+Rather than demand a particular representation, the element is rendered to imitate the expected format of the input:
+    * outlines of data
+    * through conventions: box outlines per segment
+
+input mask is the field element itself rather than string processing
+ - the analogy is a DownlevelToTheSystem

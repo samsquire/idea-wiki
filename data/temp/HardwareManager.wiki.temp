@@ -1,0 +1,14 @@
+﻿++ Hardware Manager
+
+TheSystem maintains an [Inventory] and [History] of hardware. This means that currently installed hardware is stored aswell as previously installed hardware. There creates a RealRepresentation of [Hardware].
+
+HM means that:
+    * previously used hardware can be quickly configured since it was already stored
+    * different hardware can have different configurations
+    * recommendations of the best setup based on all software/hardware to date
+
+HM can also helpwith UseTests, an awareness of the processor type will quickly rule out software. 
+
+remote hardware, what do you know and what you don't - authoring, windows, it's obviously not a power pc processor
+
+     * purchase price

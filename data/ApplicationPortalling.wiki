@@ -16,5 +16,5 @@ The [CapabilityStore] for uninstalled and installed can rendered as a StateList 
 
 ComprehensiveSystem and IndepthData mean that extensive information is available regarding applications. To present this data in a meaningful fashion, portalling is used to make it easy readable.
 
-file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/application_portal.PNG
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/application_portal.PNG
 Application UserInterfaces

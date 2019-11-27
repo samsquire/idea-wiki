@@ -1,0 +1,15 @@
+﻿++ Physical Representing
+
+PR is how PhysicalEndpoint]s are made easy to view and use. PR is to implement NoVisiblePhysicalEndpoints and RealRepresentation]s.
+
+    * PR is basically 'representing physical things '
+
+++Implementation
+
+To PR, a LogicalEndpoint] must be available for the PhysicalEndpoint to avoid exposing it. This is implemented through [Standardization].
+
+[Applications] install SystemIntegration so that they can be used without being opened. 
+
+    * [Remote] [Files], [FileSystem]
+    * Using SystemViewer to display: scanning, compression, [Processing]
+    * NetworkAdministration

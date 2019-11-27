@@ -1,0 +1,17 @@
+﻿++ Polling
+
+Polling is when data is collected.
+    * takes lots of resources: memory, CPU
+    * poor performance
+    * more active than [Notifying]
+
+++Examples
+    
+    Windows Add/Remove programs
+     * Application's directories are scanned to determine storage consumption and usage. As a result it is very slow. 
+
+++Related
+    * OnlyPollOnce limits polling
+    * NoPolling specifies polling should not be used.
+    * [Notifying] is preferred to polling.
+    * pulling in PushOrPull is similar to polling

@@ -1,0 +1,18 @@
+﻿++ Common Game Implementations
+
+CGI are CommonImplementations that [Games] often utilize.
+
+The DevelopmentInfrastructure should attempt to implement engines and libraries for all the following so individual developers do not have to.
+    * scoreboards
+    * game statistics (more advanced scoring systems created)
+
+
+
+++List
+
+create AI for a card game like vista developers do: hold competitions
+
+    * MatchMaking
+    * [Chat]
+    * GameBots
+    * 

@@ -1,0 +1,9 @@
+﻿++ Accident Safety
+
+AS means accidents are safe. TheSystem is accident friendly. AS is implemented as:
+    * SwitchSafety
+    * ReversibilitySystem
+    * UndoWillUndo
+
+    Keyboard presses are regarded as more accidental as selecting with the mouse.
+     * Selecting delete button on the keyboard will invoke a confirmation dialogue whereas deleting from the [UserInterfaces] will not. This is because the keyboard is easier to accidently press and either way, nothing is deleted permanently.

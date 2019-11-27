@@ -1,0 +1,5 @@
+﻿++ Poor User Methodology
+
+PUM is where [Users] use TheSystem or [Applications] in inefficient or poor ways. Specific examples include:
+    * RedundantMethodology
+    * OpeningApplicationsToAccessContent

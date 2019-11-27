@@ -1,0 +1,14 @@
+﻿++ No External Support
+
+TheSystem and [Applications] must not program NativeImplementation]s to support external variables. This is because:
+    * [Componentry] and [Configuration] should be used to support external
+    * IrrelevantCoding
+    * blocks FutureProofing
+    * violates InvisibleImplementation
+
+++Architecture
+
+Software that has requirements for particular software are examples of this.
+    * MYSQL
+
+Abstractions should be used for important resources or specific features.

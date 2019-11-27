@@ -1,0 +1,21 @@
+﻿++ Over Abstraction
+
+Over Abstraction occurs when there is too many [ImplementationLevel]s to pass through to complete a task. This results in the following when compared to an implementation on a LowerLevel
+     Performance decrease
+     ModularBreakdown
+     [Complexity]
+
+Solutions include:
+     * [Downlevelling]
+     * DownlevelToTheSystem
+
+++Examples
+
+The Linux packaging architecture is based on compressed archives. [Installation] require massive processing to decompress and update the respositories of the system.
+
+A solution to bypasses the abstraction is by copying the respository files AFTER [Initialization] (passive [Migration]) over. This is ImplementationBypassing
+     * this does not remove the abstraction layer, just temporarily bypass or shortens it
+     * this is [Directness]
+     * OA is like compiling again rather than copying the compiled output
+     * facilities should exist in the system to migrate repositories = StandardEstablishment of [EntityStore]s and [ComponentStore]s!)
+     * can still be used normally afterwards

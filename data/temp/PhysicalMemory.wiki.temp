@@ -1,0 +1,35 @@
+﻿++ Physical Memory
+
+PhysicalMemory is the physical [Hardware] behind [Memory]. PM is implemented as:
+    * RAM
+    * HardDrive (virtual memory)
+
+++Architecture
+
+Information regarding PM includes:
+    * manufacturer
+    * model number
+    * technology type: SDRAM, DDR
+    * speed
+    * price when tracked through the HardwareManager
+
+Knowledge of the motherboard, existing RAM and [Compatibility] means that TheSystem can determine the correct type of RAM. These details are CrossReferential to entity and information pages to HelpTheUser understand and for a ComprehensiveSystem. TS can also make recommendations on how much more memory would be useful by checking memory consumption statistics, such as the virtual memory efficiency.
+
+Information is viewable through [Portalling] UserInterfaces to make a ComprehensiveSystem. NoLying forces TheSystem is necessary so that it accurately represents how much memory is available. DataMapping is used to provide a RealRepresentation of the RAM by breaking down the consumption groups.
+
+The breakdown of memory consumption is stored in [Bases] as categories:
+    * video card: hypermemory
+    * operating system
+    * drivers
+
+[Portalling] of PhysicalMemory
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/installed_memory.PNG
+
+The actual breakdown of running application's is expanded by LogicalMemory.
+
+
+
+why do i only have Xyz available memory for use, what's taking it up? video card & operating system
+
+++Stored
+    * benchmarks

@@ -1,0 +1,27 @@
+﻿++ Upfront Consideration
+
+UC refers to the initial planning undertaken by TheSystem and anything in the SystemUniverse so that everything required for a project is considered and known so that it can be implemented.
+
+++Examples
+    * Icons, Sprites
+    * UserInterfaces
+    * Documentation
+    * [Help]
+    * [Wizard]s
+    * [InformationPopup]s
+    * Localizations/Translations
+    * Boxart
+    * Logos
+    * Testing
+    * Deployment
+    * Configuration management
+    * Project management
+    * Profiling
+    * Maintenance
+    * Quality assurance
+    * [DevelopmentPattern]
+    * Updates/Upgrades
+    * Versioning
+    * Change strategy
+    * Description
+    * Distribution

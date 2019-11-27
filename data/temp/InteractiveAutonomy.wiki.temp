@@ -1,0 +1,9 @@
+﻿++ Interactive Autonomy
+
+IA means an task completed through [Autonomy] is modifiable and changeable.
+    * [Autonomy] is not a PredecidedConfiguration or ExclusiveConfiguration.
+    * IA is added to the feedback of IndicateAutomatedActions.
+
+++Examples
+
+An automatically chosen [Configuration] is modified by the user selecting the [Feedback] of the AutomaticSetup. IA usually works by displaying the [Frontend] with the automatically selected options. The user can then modify them as if they set them.

@@ -1,0 +1,5 @@
+﻿++ Application Mode
+
+* user can customise how applications are run, this includes:
+
+* how errors are reported: silently/loudly etc

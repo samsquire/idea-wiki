@@ -1,0 +1,3 @@
+﻿++ Perspective Control
+
+PC means that in graphical modification [Applications], the user can modify the perspective of the picture through rotation.

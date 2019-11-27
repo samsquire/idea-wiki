@@ -1,0 +1,9 @@
+﻿++ Only Once
+
+Something should happen once and only once. This is accomplished via:
+    * Abstraction
+    * [Caching] [Cacher]
+    * UpdateNotReprocess
+    * ConfigureNotReimplement
+
+[category=paradigms]

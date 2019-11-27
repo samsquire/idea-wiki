@@ -1,0 +1,13 @@
+﻿++ Ideal Method
+
+IM is how TheSystem attempts to choose the best possible method of accomplishing a task. It is a specific promotion of UseBest and [Optimum] where there are multiple methodologies ([Algorithms]available to achieve the same goal but there is likely to be a more ideal method. This method depends on variables.
+
+    * [Compression]
+    * [Conversion]
+    * [Representations]
+
+++Examples
+
+    * Detect best file format based on colour information
+    * View all compression qualities of image
+    * 

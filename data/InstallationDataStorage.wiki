@@ -1,0 +1,21 @@
+﻿++ Installation Data Storage
+
+IDS is the data that must be stored in order to keep an application installed. This is handled differently by each of the ConventionalSystems.
+    * In [Windows] this is the Registry.
+    * In Linux this is through individual [Files].
+
+TheSystem aims to mitigate the problems of these systems with its own solution.
+
+++Discussion
+
+The architecture of [Applications] will be largely dependent on whether installation data should be treated differently to normal [Configuration].
+    * The installed applications need to be optimised for viewing and manipulations because they will be processed often when operating
+    * installed applications are more of a state that needs to be preserved than a configuration that is only processed at run time.
+    * installed applications are data rather than the configuration
+    * is the configuration architecture properly implemented if it is not powerful enough to handle state
+
+
+
+- using the registry for installation data
+- needs to be faster
+abstraction levels - a central repository for all storage mechanisms, file system is of a certain level

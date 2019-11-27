@@ -1,0 +1,18 @@
+﻿++ Log Durations Too
+
+[Logging] is useful as it specifies when an event begun. TheSystem should also store the duration of events. This can be accomplished by storing when an event begun and when it ended. This is a [Usage] statistic.
+
+Duration data for user interaction needs be smart. Otherwise when left idle, the duration would inflate erroneously. This can be accomplished by determining when the user is idle and when they are not. This means there are two duration figures available:
+    * time application is open (total)
+    * time the application is a specific state: the mouse is moving, the user is typing, scrolling
+Timeouts may have to be used to truly determine whether the user has finished.
+
+Logging durations for many events can hinder [Performance]. The duration of an event is mainly used for comparative purposes,  the accuracy is not always important. This is why [Desensitizing] the multiples to seconds, minutes or arbitary units of time can reduce this performance impact. 
+
+
+
+++Examples
+    * Time spent on web page
+    * Time editing document
+    * Time spent on starting up
+

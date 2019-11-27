@@ -1,0 +1,11 @@
+﻿++ Passive Until Active
+
+PUA means that the system will be passive until explicitly instructed to be active.
+
+++Example
+Copying a URL into the clipboard. The type of the file can determined in three ways:
+    * extension type
+    * server's type
+    * actual type
+The first is available from the RepresentationSystem is the file extension. The next requires contacting the server and the last needs a download of the file. UseTheInformationAvailable
+

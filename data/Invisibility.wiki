@@ -1,0 +1,10 @@
+﻿++ Invisibility
+
+Invisibility refers to the concept that something happened but is not observed. There are varying levels of invisibility. Invisibility is discouraged because it reduces UserControl and can lead to HelpLapse. TrivialFeedback, TriggerAnything and AlwaysFeedback aim to reduce the invisibility effect on conventional systems.
+
+++Examples
+    * InvisibleProcessing
+    * BackgroundTask
+    * IdleTask
+
+

@@ -1,0 +1,7 @@
+﻿++ Use Cases
+
+    * Grandad wanted to keep files on his laptop and desktop synchronized. He also wanted to ensure that they would be backed up to his external hard drive.
+    * Further abstractions which would have been nice include:
+        * if both the desktop and laptop are synchronized, the backup should be possible if the external hard drive is plugged into either.
+
+    * My music is scattered in different parts of my hard drive. I'd like to be able to have a central library of my music but without it being full screen. It should be easy for me to rate my music with stars and favourite songs and prioritize them.

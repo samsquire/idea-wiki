@@ -1,0 +1,8 @@
+﻿++ Automatic Downlevelling
+
+This is where obvious HigherLevel features are automatically delegated to a LowerLevel. This is accomplished via AutoMapping.
+
+see BringCloser
+
+++Examples
+    

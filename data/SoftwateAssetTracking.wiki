@@ -1,0 +1,21 @@
+﻿++ Softwate Asset Tracking
+
+SAT is a form of AssetTracking for [Applications] assets.
+
+[Fields] recorded include:
+    * licensing types
+    * versions
+    * prices
+    * transferability
+    * date purchased/last renewed
+
+++Uses
+    * aids moving to a different platform
+    * determining licenses, eg, all open source or non-commercial
+    * tracking licenses expiry
+    * determining what licenses exist and how many installations allowable
+    * calculate software costs per machine,
+     * originally proposed to detect piracy 
+
+
+todo:BetterName

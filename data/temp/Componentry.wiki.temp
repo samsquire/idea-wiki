@@ -1,0 +1,26 @@
+﻿++ Componentry
+
+Componentry is the collection of different [Components] in [Categories] that conform to [Standards].
+    * Componentry is encouraged by [Splitting], [Modularity]
+
+++Reasons
+Existence of componentry promotes HighStandards:
+    * FutureProofing
+    * StandardMultiples
+    * ReusabilityArchitecture
+    * UserVariety
+    * Customisation
+    * Modification
+    * adaptation/flexibility
+    * [Processing]
+
+++Examples
+    * Componentry applies to the input and output of applications
+    * Application Modules
+
+Users
+    * ApplicationComponentry
+    * GameComponentry
+
+++Laws
+    * NoAssumptions [Applications] should never arbitarily limit

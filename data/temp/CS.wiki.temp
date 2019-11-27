@@ -1,0 +1,49 @@
+﻿++ CS
+
+Aliy Fowler
+A.M.L Fowler
+amlf
+S100
+
+Gareth Owen
+G.H.O
+gho
+
+CO525
+XML Parsing
+URIs
+
+
+This feels like an Informations systems lecture
+ 
+Week 1
+    * Architecture
+Week 2
+    * Browser wars
+Week 3
+    * CSS
+Week 4
+
+
+++Big O notation
+
+Big o notation is useful to compare the different categories of algorithms. It reduces all specfics of the algorithm and finds the upperbound of a situation. 
+
+
+++Web Infrastructure
+
+Say you want to access a particular document located on a particular computer, you need a way to identify the distinct entities stored betweeen the computers. Attributes of a good identificable scheme would be that it is:
+    * inputable by common input devices, like a keyboard
+
+A URI is in the format according to a scheme, the scheme can change according to the type of resource:
+        http
+        file
+        gopher
+
+The fragment identifier allows more document specific identification from within the resource. This is completely dependent on the scheme that is being used:
+    * in HTTP, the fragment refers to the anchor segment of the page that will be focused when the the user clicks a particular page
+
+Queries are the segment of the URL that can change the resource returned.
+
+Top level Domains are a hierachy that is imposed on registered domains. There are so many domains that they became unmanageable to manage by any one institution. The infrastructure was then built to manage the mounting complexities:
+    * the Internet Assignment Numbers Authority (ICANN)

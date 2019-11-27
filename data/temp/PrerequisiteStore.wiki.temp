@@ -1,0 +1,11 @@
+﻿++ Prerequisite Store
+
+[Stores] what is required for something to work.
+    
+    * [Applications] and [Hardware] make use of these.
+
+++Architecture
+Prerequisites will usually consist of [Hardware] and [Applications]. Others such as [Files] can happen too. The ObjectSystem's ListStyle is used to produce [Feedback] to the user by making the prerequisites easy to understand. This is because it is important to NeverFailWithoutWhy and if possible, make a SuggestedSolution.
+
+++Reasons
+    * ClearOnPrerequisites

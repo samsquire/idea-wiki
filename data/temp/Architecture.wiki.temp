@@ -1,0 +1,19 @@
+﻿++ Architecture
+
+Architecture is how something is designed and operates.
+
+    * ArchitecturePortalling is used to represent architectures within TheSystem.
+
+Important factors of good architecture are:
+    * following [Fundamentals]
+    * [Extensibility]
+    * [Reusability]
+    * InterchangeableImplementations
+
+    * use XML for structure rather than data
+
+and AlternativeExpansion is used to do this.
+
+
+
+[icon=orgchart]

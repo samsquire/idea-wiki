@@ -1,0 +1,12 @@
+﻿++ Selective Implementation
+
+SI is where a generalized implementation is used selectively.
+    * SI are used for [Multiples] that require similar features because they operate on the same [Technologies] or principles.
+    * Allows parts of the implementation to be ignored.
+
+++Architecture
+CapabilityStore]s state what an implementation is capable of. When invoking the implementation, the capabilities to be used are specified.
+
+++Examples
+Uses of SI include:
+    * UserInterfaces - see GeneralizedInterfaces

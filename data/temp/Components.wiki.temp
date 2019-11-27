@@ -1,0 +1,13 @@
+﻿++ Components
+
+Everything is made up of multiple components. These components are integrated with the code in question. This includes of [Data], [Capability]s.
+
+The following apply to components:
+    * [Fundamentals]
+    * may be [Managed]
+    * can have [Configuration]
+    * SelectiveImplementation and SelectableImplementations - disable and enable
+
+
+
+[icon=component]

@@ -1,0 +1,3 @@
+﻿++ Text Is Portable
+
+TIP refers to the principle that text is a portable and can be manipulated and processed on any computer.

@@ -1,0 +1,19 @@
+﻿++ Abstraction Awareness
+
+AA strenghens abstractions. Abstractions are built ontop of [LowerLevel]s. AA is implemented by grouping these together.
+    * Opposite of EmptyAbstraction
+    * Aids ReversibilitySystem
+    * NoReimplementation and OnlyOnce
+
+AA is the opposite of InvisibleImplementation since knowledge exists to now group LowerLevel]s as one HigherLevel task. This can be desirable where greater interactivity and control is needed.
+
+storage of abstractions in system - documentation
+ * abstractions that send information uplevel
+ * developer: which abstractions need to be coded for? check list? task architecture: choose an abstraction practice file indicates the best (complicated/fast, simple/slow)
+ * hard disk -> multiple platters etc, info about?
+ * location of error among the implementation levels
+ * interaction doesn't have to be possible..just an awareness
+
+++Examples
+    * [Clipboard]
+    * FileHandling

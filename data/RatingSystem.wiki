@@ -1,0 +1,11 @@
+﻿++ Rating System
+
+The RS allows [Users] to rate content based on their opinions.
+
+++Architecture
+Things can be rated in various ways. The following is a list of examples:
+    * stars
+    * percentages
+    * thumbs up and thumbs down
+The default option is likely to be a star rating. The TitleBar will allow ratings to be collected. The open file of [Applications] will have the rating applied.
+

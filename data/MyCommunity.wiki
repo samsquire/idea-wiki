@@ -1,0 +1,61 @@
+﻿++ My Community
+
+MC is one of the SiteProjects that aims to encourage CommunityQuality and solve common [Conventional] community problems.
+
+This is accomplished through a series of custom features.
+
+++Background
+
+Various guides argue that successful communities have a well established and defined purpose and reason for existing. Potential examples for MC are:
+    * a technology discussion community
+    * software discussion
+    * video gaming
+    * off topic/social discussions
+    * criticism forums (conoisseurs of quality, hey that could be a name) (metacommunity)
+    * nice guys (no assholes here)
+    * young mature adults forums, no ego
+    * zero tolerance (no junk)
+    * 
+
+++Novelty
+
+Successful communities have something novel that others do not have. My theory is to facilitate participation by making it easier.
+    * form/templated posts
+    * [Wiki] text formatting
+    * integration of wiki-like features inside posts
+     * a post can be marked as a 'wiki', allowing other members to edit it.
+     * Users can send content to a wiki by easily selecting text of other authors and asking them to add it (or not). Authors can convert their own posts to the wiki without copying and pasting. The wiki should appear on the same page as the forum.
+
+++Punishment
+Temporary banning is used to enforce rules rather than notifying users that something cannot be done when they attempt it. Warnings are used in addition.
+    * locked topics do not prevent users from posting but when they do, the post is ignored and they are temporarily banned. "Locked topics are off limits! You are banned for 5 minutes!"
+
+++Overusage
+People generally reproduce the same content repeatedly. To prevent this:
+    * posts with phrases or quotes that are annoying are simply blocked from posting.
+
+++Topic
+Postings should always be kept on topic. Offtopic parts could be marked as such so that ontopic readers can follow without becoming distracted.
+
+++Errors
+Trivial errors should never lead to hostility:
+    * spelling
+    * grammar
+Criticism or mention of an error is likely to lead to temporarily banning or some other punishment.
+
+If mistakes are discovered:
+    * post is hidden until author fixes mistakes so that the post can be redisplayed
+    * users can correct spellings within the interface
+
+++Collaboration
+Posts are displayed to particular users who can help improve it. This could keep the quality of postings high since users must peer review posts before they are public. 
+    * peer review process, post is only displayed when number of people approve that post can be submitted.
+
+++Ideas
+
+collaborative websites are doomed if any stranger can post:
+ - perhaps a finegrained moderation tool: sent in exemplar work to become author
+ - email 3 random individuals with the anonymous exemplar for trial process, if passes, appears on website
+ 
+ forum collaborative database, simply write a table and it becomes a MySQL database
+

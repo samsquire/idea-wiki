@@ -1,0 +1,12 @@
+﻿++ System Interface
+
+TheSystem's UserInterfaces:
+    * MainMenu
+    * SystemTray
+    * Desktop
+    * SystemConfigurationScreen
+    * SystemViewer
+    * ObjectInterfacer
+    * ConfigurationPanel
+
+[icon=monitor]

@@ -1,0 +1,21 @@
+﻿++ History
+
+History is a breakdown of the past. Histories are important for:
+    * [Logging]
+    * ReversibilitySystem
+    * [DocumentingSystem]
+    * AcknowledgeThePast
+
+Histories can have [Synchronization] between multiple machines for [Centralisation].
+    * [Authoring] means that the source of this data from different machines is distinguishable.
+
+Histories can be SmartCache to avoid overload. Some events may have [Prioritizing] to avoid losing important events.
+
+Histories that refer to refer to [Remote] content acts as a StateList when it is displayed because it may or may not also be stored on TheSystem:
+    * HardDrive
+    * [Memory]
+    * [Caching]/SmartCache
+    * [Files]
+StatusRepresentations are used to display whether if it is stored and where. This is for AccidentSafety and to reference what can and cannot be accessed without [Network] connection.
+
+[Data] contained in a SmartCache should also indicate the permanence in the cache. If it is low down in the cache and is likely to disappear soon, the interface will reflect this.

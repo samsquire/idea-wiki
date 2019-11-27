@@ -1,0 +1,11 @@
+﻿++ Multiple Validation
+
+MV means that validation should occur at multiple stages, this is due to:
+    * StopAtSource, invalid [Data] should be stopped where it originates from
+    * ImpossibilityDetection
+
+For DynamicWebServers, [Errors] occurring from validation on the [Clients] side must be consistent with that on the [Servers] side.
+
+LayeredSecurityRepresentation
+
+consistent validation: clientside and validation must appear the same

@@ -1,0 +1,36 @@
+﻿++ Totals
+
+Totals are the sum of multiple values. Totals are to be represented on TheSystem as efficiently and effectively as possible.
+
+++Architecture
+
+Totals in TheSystem should have:
+    * clear descriptions
+    * [Encyclopedia] entries for indepth explanation of individual totals
+    * BaseInteraction such as [Filtering] of particular totals and [Search] within a group
+
+Conventional totals are useless. When presented by TheSystem in [Applications], [Encyclopedia] or [Reports], they should be as useful as possible.
+
+    * Useless totals are ones that present only a number and the description. An example is SafetyReport service, Mcaffee Site Advisor:
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/Bad%20UI/site_advisor_useless_totals.PNG
+
+These totals should be explained and ordered for human understanding and viewing. A pie chart, a summary of the constituents of the total.
+
+
+     * This is an important consideration for NativeImplementation]s of [SafetyReport]ers
+    * Amazon Market place offers feedback totals for sellers in percentages.
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/Bad%20UI/amazon_useless_totals.PNG
+     * This is an important consideration for the ProductSystem
+
+
+
+((onsave filters that run after a file is saved, eg, a PNG optimizer on an image application))
+
+
+
+
+
+[alias=NoUselessTotals]
+[alias=UsefulTotals]
+
+

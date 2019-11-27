@@ -1,0 +1,4 @@
+﻿++ Import
+
+Importing is using a [Share].
+    * using imports is [Internalisation]

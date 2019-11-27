@@ -1,0 +1,5 @@
+﻿++ External Data
+
+ED is [Data] that is isolated and separate from EmbeddedData. ED has [Extensibility] since it is exempt from the rules of ID.
+
+ * link table uses positioning rather than embedded HTML, eg, link starts at 400 characters, length of link is 200

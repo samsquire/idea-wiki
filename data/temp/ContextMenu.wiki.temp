@@ -1,0 +1,18 @@
+﻿++ Context Menu
+
+CM are menus that hold only items that are relevant to the context of which they were evoked.
+
+++Implementation
+
+[Conventional] systems require specialist tools to modify and customise context menus. This is a BaseTasks NoBaseTaskDownload means it is necessary for this to be possible without additional tools.
+    * edit context menu contents from right click
+
+Unlike ConventionalSystems, the CM of TheSystem will display contextual graphical icons to represent the result of actions. For example, right clicking a table or a grid on a cell will show the potential data types that can be stored in that cell and an icon for each.
+    * For "yes" and "no" this might be a green tick and a red cross.
+
+++Examples
+right click file, online scan menu,
+ - shows list of compatible web scanners that support said file size
+
+
+right clickable complex grids, with tickboxes icons etc

@@ -1,0 +1,8 @@
+﻿++ No Restart
+
+NR means that restarts, refreshes [Initialization] must never be used to re-initialize changes.
+    * ContinuousInitialization is an solution to this.
+
+++Reasons
+    * NoEnumeration
+    * HaveTo

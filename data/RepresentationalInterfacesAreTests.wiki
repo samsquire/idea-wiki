@@ -1,0 +1,53 @@
+﻿++ Representational Interfaces Are Tests
+
+RIAT is a new methodology for reuseable computing and interoperability. These are the principles that RIAT follows:
+
+    * Software operates on representations of problems and consequently data.
+    * Representations are interacted with interfaces.
+    * An interface is how software is tested.
+    * The tests are therefore the interface to the software.
+    * Another word for this AnalogicalEngine
+
+++The current environment
+
+    * Software is written.
+    * The code may or not be available.
+    * The code could be reused.
+    * The software may or not come with unit or functional tests.
+    * The interface and the tests are not synchronized with one another, they are maintained separately. The tests are limited in usefulness to the current instance of the code. It may not be useful to other users of the code.
+    * 
+
+++RIAT ecosystem
+    * Software is written.
+    * The internal and external interfaces have associated tests in some format.
+    * The tests double as the interface to the code, proving what the code provides.
+    * RIAT Sofware is completely interchangeable.
+    * A function that RIAT Software offers will be available to any system that supports a RIAT model.
+    * Software developers who want RIAT compatibility will write code toward public RIAT models. RIAT models are publicly available and extensible. They ought to combine internal unit testing with public functional testing.
+    * RIAT models are inherently useful.
+    * 
+
+++RIAT models
+
+    * A RIAT model is the representation of the tests that make up a representation of the software and interface.
+    * 
+
+++Examples
+    * Forum software:
+        *    
+        * {submit|edit|delete|move} a post to a forum
+        * 
+    * File sharing
+    * Image representation
+        * get pixel data, dimensions
+    * Graphical user interface
+    
+++Similar ideas
+    * CORBA: interfaces to objects but remotely
+    * WSDL
+    * Interface description languages
+    * REST
+
+++Change Sensitivity
+
+Interfaces have a large ChangeSensitivity as a change of behaviour will completely change the behaviour of software. Software evolves over time, as does the provided interfaces and behaviours of the software. The tests are therefore added and modified over time. The tests therefore represent the software's state and capabilities. The RIAT model means that the version of an interface is encapsulated by the tests that the software passes - not metadata that describes it. This makes compatibility to be detectable and automatable.

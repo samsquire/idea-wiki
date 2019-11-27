@@ -1,0 +1,5 @@
+﻿++ Only Poll Once
+
+OPO ensures that necessary [Polling] occurs OnlyOnce.
+
+The first poll acts as the source [Initialization]). Further updates should be [Notifying] based as a ContinuousInitialization, see UpdateNotReprocess.

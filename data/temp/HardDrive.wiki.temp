@@ -1,0 +1,20 @@
+﻿++ Hard Drive
+
+The HD is usually the primary storage on TheSystem. It is used for:
+
+    * [Caching]
+    * Storing user's files/applications
+    * Virtual Memory
+
+HD is incredibly slow compared to LogicalMemory. This means it means to be utilized well. This affects:
+
+    * ComputerStages
+
+This is why SmartResources is essential to maintain [Performance].
+
+++Partitions
+
+HD separate data into partitions. These partitions are formatted with different file systems where systems and data can be stored.
+    * ArchitecturalAwareness means TheSystem should at least recognise the file systems and any data about them.
+    * OutwardCompatibility means that TS ShouldBeAbleTo interface with these partitions, in the form of reading and writing. This is an InteractiveArchitecturalAwareness and is important for ExternalManagement.
+

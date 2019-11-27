@@ -1,0 +1,10 @@
+﻿++ User Area
+
+UA is what is accessible by [Users] and under UserControl:
+    * [PersonalOwnership]
+    * [PersonalSoftware]
+    * PersonalOwnership
+    * UsersContent
+
+UserInterfaces include:
+    * [Desktop]

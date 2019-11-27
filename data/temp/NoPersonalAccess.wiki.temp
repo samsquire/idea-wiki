@@ -1,0 +1,3 @@
+﻿++ No Personal Access
+
+NPA means that by default, [Applications] have no access to the [Users] files. This is an example of MinimumRights and enforces UserRule and UserControl.

@@ -1,0 +1,18 @@
+﻿++ Dynamic Data
+
+DD is VisibleData data that will constantly change.
+    * [Portalling] often results in DD.
+    * DataInterfacer is used to access DD.
+
+The user ShouldBeAbleTo obtain from DD in two ways. Live and Exact
+    * Noncurrent takes the information as it was at capture.
+    * Live obtains the current information
+    * Exact is a
+        * copy OR a reference to that particular information
+
+[Selection] of the 'Top 10' [Usage] list would either:
+    a) create a query to the top ten at that particular point in time
+    b) create a query to the top ten live
+    b) copy the top ten
+    
+Search the top ten files on the computer.

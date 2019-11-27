@@ -1,0 +1,11 @@
+﻿++ Task Externalisation
+
+TE is where existence of ongoing [Tasks] have [Externalisation]. This aids OrganisationArchitecture, MatchMaking and [Chat] as it allows [Users] to tell others what they are doing.
+
+Examples include:
+    * [Games]
+    * Audio - artist
+    * [Browser] - favicons
+
+[Users] must provide [Permissions] for the tasks that have externalisation. Settings of TE is likely to appear in the TitleBar.
+    * StandardRepresentations are likely to be used to present such information.

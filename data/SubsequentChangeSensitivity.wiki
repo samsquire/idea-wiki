@@ -1,0 +1,5 @@
+﻿++ Subsequent Change Sensitivity
+
+SCS refers to a phenomenon with software where changes have invariable results due to 'breakage', incompatibility and inoperation. TheDevelopmentModusOperandi of that TheSystem aims to mitigate SCS through FutureChangeAccommodation.
+
+    * branching from an unstable point in software development

@@ -1,0 +1,31 @@
+﻿++ Setting Up Email
+
+Mode: Setting Up Email
+
+Required Data
+     This data may be an ApplicationIndependentState.
+    * POP server
+    * SMTP server
+    * Email Address
+    * Number of unread emails
+    * Folder's unread emails
+    * Number of folders
+    * Email rule
+    * Account name
+    * account Password
+    * Email account name
+
+Error Situations
+    * Server does not seem to exist
+     SMTP and POP Sever cannot be contacted because the internet seems to be down
+     Account not recognized because password or user is wrong
+     
+
+Wizard Styles
+    * Outlook
+    * Windows Mail
+    * Thunderbird
+    * Outlook Express
+
+Log
+    * Configured email

@@ -1,0 +1,39 @@
+﻿++ Reversibility System
+
+The RS implements TotalReversibility and makes [Restore] possible. This is through:
+    * UndoWillUndo.
+    * UserTracking
+
+++Implementation
+
+ChangeSensitivity is needed to detect changes so they can be reversed. This is a ContinuousInitialization as opposed to NoEnumeration for [Performance].
+
+The RS is a [Passthrough] for all events and means it is already aware of the process, the application and the user who issued a change. However, without knowing more about the context of the change the sheer amount of changes will be impossible to manage and attrubute by a user.
+
+Here follows some solutions to the problem:
+
+    Lap
+     Notifications are made before and after the change requests.
+
+    [Batching]
+     All changes are compiled toegther and made at once as a batch.
+
+    Labeling
+     All change requests are labelled the same.
+
+AbstractionAwareness means that compound tasks can be reversed correctly.
+
+Reversibility is implemented with the following strategies:
+    * [Snapshotting]
+    * [Imaging]
+    * CopyOnWrite
+
+builtin snapshots AND imaging software
+ - snapshots of folders etc
+ - make one after the install of every application
+
+++Usages
+Users need to be able to be confident that they can reverse actions. The user interface provides both overviews and detailed outlook on changes
+    * Changes to software installations are reversible.
+
+

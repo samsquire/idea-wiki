@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="StandardEstablishment.idea" template="ideaRecord.md" source="idea.md"><Title>StandardEstablishment</Title><Description>There should be a standard place to put similar things even if they are of different types.</Description><Idea>StandardEstablishment</Idea></sam><![CDATA[]]>
+
+## Standard Establishment
+
+Standard Establishment means that there is an established source. SE are positive because they are of HighStandards. However, disadvantages to SE are:
+
+ * creates assumptions on Source - see NoAssumptions
+ * forced centralisation may make data brittle - see NoBrittleData
+ * local or remote
+
+Multiples are important with SE:
+
+ * StandardMultiples
+ * SE Source is changed to a different one SE (ImplicitImplementTheUnimplemented
+
+SE contents tend to be physical. CrossReferential means that logical references may be made however.
+AutomaticStandardEstablishment
+
+##Examples
+ * a folder at a specific location (NoBrittleData)
+ * a folder and its contents - the 'data' folder on game engines
+
+see SystemInformation for a list of SEs.<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

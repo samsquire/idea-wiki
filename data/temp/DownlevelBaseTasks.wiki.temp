@@ -1,0 +1,7 @@
+﻿++ Downlevel Base Tasks
+
+The [BaseTasks] should have [Downlevelling] applied to them.
+
+    * [Installation]
+    * NoBaseTaskDownload
+    * Faster

@@ -1,0 +1,40 @@
+﻿++ Directories Are Portals
+
+DAP is a principle that directories in the FileSystem are displayed and treated like [Portalling] in terms of flexibility and usability. [Conventional] [SystemViewer]s treat folders as PhysicalEndpoint]s, lacking any useful functionality or flexibility.
+
+++Implementation
+
+In order to make directories appear like portals, the following principles are used:
+    * the screen is divided into a PanelGrid
+    * each panel should represent something useful to the user
+
+Files and folders can be displayed in different ways:
+    * different size of icons
+    * different layout of icons
+    * embedded nesting of folder contents
+    * headings
+    * files of a certain type grouped
+
+Example panels might include:
+    * last opened files (a [History])
+    * most accessed files
+    * last modified files
+    * links to likely tasks (provided by TaskArchitecture)
+    cf Windows Common tasks
+    * deleted files
+    * grid lists
+    * UsefulColumns
+
+Customisation to folders should include:
+    * background images
+    * positioning of files, folders
+    * tagging
+    * 
+The content in directories in the FileSystem should reflect how the directory and how content is actually displayed.
+    * MergedDisplay
+ 
+
+
+
+++Unanswered questions
+Where should folder configuration be stored?

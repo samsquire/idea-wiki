@@ -1,0 +1,4 @@
+﻿++ Inadequately Advanced
+
+IA means that an [Architecture] or SystemDesign is insufficiently useful or an IntelligentImplementation. This means that a feature is missing where it really should exist but doesn't and there is no reason for its absense.
+    * IA should NeverHappen due to exclusion of TrivialFeatures because of NoUnimplementedTrivialFeatures

@@ -1,0 +1,10 @@
+﻿++ Indistinguishable Content
+
+IC is content that cannot be distinguished. IC has no barrier or limits between [Data]. This makes it easy to add irrelevant data. IC is difficult update, utilize and process because it cannot be found.
+    * usually StaticData rather than LiveData
+
+IC is prevented by disallowing its introduction in the first place. Limitless barriers mean that arbitary content is formed. [Standardization] can force correctness and HighStandards ensuring content is DistinguishedContent.
+
+++Examples
+    * instructions embedded into [Frontend]
+    * translations

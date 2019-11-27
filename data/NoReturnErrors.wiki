@@ -1,0 +1,5 @@
+﻿++ No Returning Errors
+
+* errors shouldn't be returned to the application but instead the OS,
+ * a failed action could be queued for later attempt
+  * use SuggestedSolution to fix

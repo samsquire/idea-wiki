@@ -1,0 +1,17 @@
+﻿++ Indicate Prior Interaction
+
+II is where any previous [Interactivity] are indicated. This includes:
+    * modification
+    * viewed/unviewed
+    * completion - AcknowledgeIncompleteness
+
+IndicatePossibleInteraction occurs before II.
+
+++Architecture
+In [Frontend]s, II is possible due to UserTracking. IPI is important since it creates a visual ProgressiveFeedback of [Users] interactions.
+
+[Logging] will otherwise provide an account of prior interactions.
+
+++Examples
+    * [Links]
+    * List [Navigation]

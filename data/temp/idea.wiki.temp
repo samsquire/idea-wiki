@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<document name="idea.md"><sam name="header.md"/><![CDATA[]]>
+DELETE WHERE {
+	:<Idea/> ?a ?b.
+}<![CDATA[&amp;lt;/sam&amp;gt;
+<sam type="sparql" name="]]><Idea/><![CDATA[.sparql">]]><sam name="idea.prefix"/>	
+INSERT DATA {
+:<Idea/> a owl:Class; a :Idea;
+	 dc:title &amp;quot;<Title/>&amp;quot;;
+	 dc:description &amp;quot;<Description/>&amp;quot;;
+	 dc:identifier &amp;quot;<Idea/>&amp;quot;.
+}<![CDATA[&amp;lt;/sam&amp;gt;]]></document>

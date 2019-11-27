@@ -1,0 +1,6 @@
+﻿++ Wiki Coding
+
+coding part of development and WYSIWYG should be like a wiki:
+ - click on uncreated function name/referenced filename and it is created with basic template/layout
+ - clicking on existing file should load up the file and/or display it
+ - backward forward for development windows

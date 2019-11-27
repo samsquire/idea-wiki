@@ -1,0 +1,10 @@
+﻿++ Process Tree
+
+* customise process tree - inputs outputs
+
+* shouldn't have to right click a file and crush it, should be possible to do so automatically, eg, on access
+* needs to be easier to quickly to use CL programs in UI
+ * http://www.neilturner.me.uk/2005/Feb/05/quickly_compress_png_images.html
+
+* image on web page, passes through different filters
+ * eg, PNG crush to save memory 

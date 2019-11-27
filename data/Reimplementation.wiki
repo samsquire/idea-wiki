@@ -1,0 +1,7 @@
+﻿++ Reimplementation
+
+Reimplementation is the act of creating something that already exists. This is discouraged, see NoReimplementation. Reimplementation is a result of LowStandardization.
+
+The most frequently reimplemented [Capability]s are the CommonImplementations
+
+[icon=copy]

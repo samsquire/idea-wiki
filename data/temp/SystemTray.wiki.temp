@@ -1,0 +1,14 @@
+﻿++ System Tray
+
+The ST is an InterfacePanel of the SystemInterface that gives quick reference or access to:
+    * running [Applications]
+    * [BackgroundTask]s
+    * [Hardware]
+
+The ST is under the UserRule, UserPower and NoPersonalAccess rules and software may not add itself inadventently as is common on ConventionalSystems.
+
+++Architecture
+
+The SystemTray uses 
+
+    * AnimatedInterface

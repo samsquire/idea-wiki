@@ -1,0 +1,9 @@
+﻿++ Reusability
+
+Reusability occurs when data can be created OnlyOnce and used again multiple times:
+    * HighStandards
+    * InvisibleImplementation
+    * FutureProofing
+    * StandardMultiples
+
+TheSystem uses the ReusabilityArchitecture to provide [Users] and [Resources] reusability.

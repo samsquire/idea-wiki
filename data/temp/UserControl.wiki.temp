@@ -1,0 +1,17 @@
+﻿++ User Control
+
+UC is when [Users] understand and are in control of what is happening in [Applications] and TheSystem.
+
+Maximum UC is implemented by:
+    * User requests
+    * ApplicationRules
+    * MinimumRights
+    * [Attention]
+    * [UserNotifications] - the user is aware of what is happening
+
+UC manifests itself with UserPower as the power users can influence on TheSystem and [Applications].
+
+++Examples
+    * [Volume]
+
+[category=paradigms]

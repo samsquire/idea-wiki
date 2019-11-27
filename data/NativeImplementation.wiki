@@ -1,0 +1,3 @@
+﻿++ Native Implementation
+
+IN is an implementation that is written completely for and in TheSystem environment and its [Standards] are DesignedIn.

@@ -1,0 +1,52 @@
+﻿++ Installation
+
+Installation should be implemented carefully so that it is impossible loss of data cannot occur.
+    * ReversibilitySystem
+    * InstallPackages
+    * [Installer]
+
+++Summary of Steps
+
+        * Check if TheSystem meets the system requirements and the [Capability] of running, it PrerequisiteStore.
+     * Collect all the [Configuration] of install upfront.
+     * Adds installer to InstallPackages repository. [Reusability] means InstallPackages may need to be used again in the future.
+     * Add to [Installer] [Queue]. [Conventional] systems discourage doing other activities on a computer during installation. The [Frontend] is large and takes excessive space. LetUserContinue is used to avoid this with the [Loading] WaitingArchitecture
+     * ReversibilitySystem uses ChangePreserving to ensure the installation is completely reversible. 
+     * Parts of the application are activated. SystemTray item may become available.
+     * Program added to menus like the MainMenu or [Desktop].
+
+++Requirements
+    * The [Installer] shouldn't simply erase the application's directory. The user may have files there. Either the installer scans for files remaining in the installation directory or it is made impossible to write to the Application's directory, see ApplicationRules and ReadonlyApplications.
+
+++Interfaces
+    * Antialiased boxart of software and render it amongst cell shaded/vector graphics on installation screen
+    * [Wizard]s are used to guide the user through installation.
+
+++Settings
+InputFirst is used to make installation [Wizard]s easier:
+    *  Installation options are configured before install commences
+     * the wizard's options are presented
+     * only when all data about the installation is collected,  - only the last step actually installs and makes changes to the system 
+     * this means that installs are:
+      * unattendable
+      * set and forget
+     * the settings of the installation can be saved and used again 
+
+ChangePreserving
+
+
+
+++Updates/Upgrades
+
+Before existing applications are updated or upgraded, a backup is created by the ReversibilitySystem and the state can be fully reverted.
+
+++Desired Features
+
+    * store InstallPackages on machine so applications may be reinstalled
+     * OR installed application and install package need to be [Multidirectional]
+    
+    * the physical location of an application's files and the database that refers to them is mirrored: 
+     * if application files are added to the install directory, the application is installed by detecting changes to the filesystem
+    
+    * installation, when restart is required, it can happen automatically
+     * left panel is modifiable, the "restart" is the last stage can be removed on right click 

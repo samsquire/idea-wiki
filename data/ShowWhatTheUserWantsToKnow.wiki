@@ -1,0 +1,10 @@
+﻿++ Show What The User Wants To Know
+
+SWTUWTK means that all UserInterfaces should be simple enough to understand what they mean and represent without too much explanation. (see DataSeparation)
+
+This user interface is of an unscrupulous anti-[Malware] application but demonstrates what the user wants to know:
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/Cool%20UI/avsc-3a.jpg
+
+On the left is a simple to understand StateList.
+
+show what the user wants to see - easy to understand lists cool UI in unscrupulous UI

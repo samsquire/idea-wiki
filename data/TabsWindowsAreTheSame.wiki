@@ -1,0 +1,11 @@
+﻿++ Tabs Windows Are The Same
+
+Tabs and Windows are often regarded as separate objects in ConventionalSystems. This is a mistake as it reduces the level of control that is available to [Users].
+
+    * Aids GrainedControl
+    * Viewing resource requirements of applications through tabs and Windows
+    * Especially useful in [Browser] to avoid embedded applications like Flash from wasting resources
+
+++Implementation
+
+RepresentationSubstitution essentially means that [Tabs] and [SystemWindows] would essentially be different representations of the same thing, the application's interface.

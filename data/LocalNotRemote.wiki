@@ -1,0 +1,16 @@
+﻿++ Local Not Remote
+
+LNR means that [Applications] should be predominantly local. This is encouraged by DesktopFirst.
+
+++Implementation
+
+[Users] on [Conventional] systems are increasingly delegating control of UsersContent to [Remote] sources. Reasons for this include:
+    * poor DesktopApplications
+    * complicated
+    * worldwide access
+    * better features available online
+
+LNR aims to avoid this by:
+    * NoBaseTaskDownload
+    * UserCentralisation
+    * SelfHosting

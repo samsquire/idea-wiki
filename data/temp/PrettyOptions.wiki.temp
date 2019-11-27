@@ -1,0 +1,14 @@
+﻿++ Pretty Options
+
+Options should be pretty in appearance. This means:
+    * icons
+    * colours
+    * [Comparison] tables
+    * [Checklist]s
+
+++Examples
+
+Wordpress has a list of roles and capabilities that are differentiated only by text. It is difficult to determine what is best since no effort is made to explain the differences.
+
+wordpress has a list of possible roles and capabilities
+ - why is there not a prettified list of them with descriptions?

@@ -1,0 +1,24 @@
+﻿<document>
+<sam type="subs" name="PointConsistency.idea" template="ideaRecord.md" source="idea.md">
+	<Title>Point Consistency</Title>
+	<Description>Keeping the same information consistent.</Description>
+	<Idea>PointConsistency</Idea>
+</sam>
+<![CDATA[<div class="content PointConsistency">]]>
+++ Point Consistency
+
+Point Consistency is how information is kept consistent between points. This can be as localised between memory and hard drive or remotely between machines. This is important in the following technologies:
+
+    * [Synchronization]
+    * the [Cacher]'s [Caching]
+    * [Configuration]
+    * LiveData
+    * [Protocols]
+    * [Update]
+    * UpdateAwareness
+    * between [Files]
+
+
+<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

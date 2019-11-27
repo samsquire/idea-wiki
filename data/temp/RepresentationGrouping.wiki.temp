@@ -1,0 +1,21 @@
+﻿++ Representation Grouping
+
+RG is where multiple [Representations] of the same content are stored together incase one of them is needed. This is good for:
+    * [Compatibility]
+    * ConfusingFormats
+    * RepresentationGrouping differs to SingleFileRepresentation
+    * RepresentOneOnce
+
+++Implementation
+
+RG prevents the need to create multiple independent [Files]. This is because all the contents are associated together. Instead, there is a common representation that the others stem from. 
+    * LogicalEndpoint - the instructions required to change the original into the different representations is stored alongside the master. This means there is no RedundantData.
+    * PhysicalEndpoint - each representations is stored as it is, with or without the original.
+
+++Examples
+A website displays a logo in multiple areas, it needs different sized logos. Rather than specifying the larger and smaller logo manually. It's more efficient to specify the representation group and ask for a particular member of the group, in this case the smaller or larger logo.
+
+when using a resource, eg a picture on a website
+ * just what the picture is should be referenced, where it is located on the filesystem should be ignored
+ * the picture subsystem should have a list of precreated pictures of multiple sizes/types
+ * the theme should determine the automatic size conversions

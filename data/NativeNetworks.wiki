@@ -1,0 +1,11 @@
+﻿++ Native Networks
+
+NN are the DesignedIn NativeImplementation]s for connecting TheSystem to other TheSystem]s. The NN is a SelectiveImplementation:
+    * File transfer
+    * InterfaceSharing
+    * NetworkAdministration, NetworkMonitoring (co-operative)
+    * DistributedProcessing
+
+[Conventional] running of RemoteSoftware is inefficient since it [Download]s the entire application. Running [Remote] [Applications] on NN needs an IntelligentImplementation that only transmit what is necessary.
+    * executable archives on Windows containing multiple languages and different hardware
+large application file running remotely will run-relevantly so that no unnecessary transfer occurs

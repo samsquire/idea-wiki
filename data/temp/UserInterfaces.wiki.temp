@@ -1,0 +1,109 @@
+﻿++ User Interfaces
+
+User Interfaces are [Frontend]s to [Backend]s which determine how [Users] interact with [Applications] or TheSystem.
+    * [UserInterfacer]s are specialized [Applications] that create UserInterfaces.
+    * See [UserInterfacing] for how users interface with interfaces.
+
+Most UI include the following [Technologies]:
+    * [Navigation]
+    * InformationPopup]s
+
+Interface related tasks include:
+    * InterfaceSharing
+    * PerspectiveControl
+
+++Architecture
+    * Frontend obtains the information.
+    * The backend distributes information or processes it.
+
+The frontend is almost always a graphical interface. The data is distributed to a backend which then processes the data:
+    Frontend -> Backend
+In [Network] [Applications], the data is further distributed to the [Servers] - which is another backend:
+    (Frontend -> Backend) -> Backend
+If the server has frontend software, it may be accessed with a frontend:
+    (Frontend -> Backend) -> Backend <- (Backend <- Frontend)
+
+The following requirements apply:
+    * Validation is not handled by the graphical logic of the [Frontend].
+    * The [Backend] has strict [Standards] on input and output.
+    * [Backend]s may be remote, on a [Network]
+    * Either end can be Push or Pull (see PushOrPull)
+
+The [Frontend] and the [Backend] are InvisibleImplementation]s. This is only possible if there is NoBrittleData. There are three strategies that can accomplish this:
+    * backends to interface - a choice of different backends
+    * frontends to backend - a choice of frontends
+    * an intermediary alignment table is designed to link the chosen engine and interface
+
+All methods provide interchangeability but intermediary provides the most.[Externalisation] exposes available information and is connected by [Absolute] references or through the intermediary stage.
+    * The RepresentationSystem provides all sides with the correct representation.
+
+++Internals
+Storing data in frontend structures is messy, like Visual Basic. Data needs to be accessible by the frontend to maintain LiveData and responsiveness. DataFlow is an issue here:
+    * is the data polled by the interface to update it
+    * added via an API? This is DataFlow.
+
+++Rendering
+How does a frontend render the output of an application?
+    * promote [Directness] by using data source inputs/outputs for the UI to read? 
+     * what if the user interface requires additional logic?
+
+[Neatness] requires that the interface be neat and tidy to [Users].
+
+++Concepts
+
+The following apply to interfaces:
+    * AlwaysFeedback
+    * TrivialFeedback
+    * ProgressiveFeedback
+    * IndicatePossibleInteraction
+    * CasualModification - The interface is edited like a Wiki.
+    [Frontend]s may be customized by the user. This means they can reposition elements, ordering and styles. 
+    * 
+
+* live requests/replies to be sent should be displayed
+
+++Communication
+    * user interfaces be designed to be compatible with a particular engine
+     * a instant messenger protocol engine 
+    or
+    * engines are written to be compatible with a user interface
+     * eg an instant messenger
+    
+    nozzles for data, data alignment (aligner), making the user interface understand the engine
+    * which should drive which? interface->engine or engine->interface
+
+++Interface Technologies
+    * SystemWindows
+    * PagedInterface#
+    * [Wizard]s
+    * ListStyle
+    * StagedInterfaces
+    * ThreeDimensionalIntegration
+    * GeneralIndicator
+
+[Paradigms]:
+    * InformationInterface
+    * ObjectInterfacer
+    * [Focus]: relevancies are easy to get to
+    * SaturatedMultiples
+    * ObviousInterface
+    * AutoInterface
+
+
+++Rendering
+
+* user interface cleanliness:
+ * will text fit?
+ * are fonts consistent?
+ * add appropriate tooltips etc
+ * truncate if necessary
+neat wrapper
+
+++Example
+
+* instant messenger user interface: addLine will add a line to the screen
+ * never ever append text to a control (messy)
+
+
+
+[icon=controls]

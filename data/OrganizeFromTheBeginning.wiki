@@ -1,0 +1,12 @@
+﻿++ Organize From The Beginning
+
+OFTB means that TheSystem will be organized from the beginning to help FutureProofing. This is possible due to:
+    * ComprehensiveSystem
+    * DistinguishedContent
+    * HighExtensibility
+    * TriggerAnything
+    * see http://www.ranum.com/security/computer_security/editorials/dumb/
+
+TheSystem deals with OFTB by having many NoBaseTaskDownload, NativeImplementation]s and DesignedIn [Capability]s. Examples include:
+    * Builtin [Security] software, PROCESSGUARD
+

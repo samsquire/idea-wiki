@@ -1,0 +1,16 @@
+﻿++ Complete Flow
+
+Complete flow refers to the concept whereby processes are specified by a flow of actions that need to be undertaken. This one approach in preventing [HelpLapse]s from occurring.
+
+It means when you decide to carry out a task the system will support you throughout the task and it will be contextual. The documentation would change according to what the user is doing.
+
+++Examples
+
+* If you are setting up a workstation, the flow of the [Help] and [Frontend]s would naturally progress through a natural flow that makes sense to the task:
+    * workstations
+    * servers
+    * network configuration
+    * development environments
+    * installing software
+* Adding accounts
+

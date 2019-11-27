@@ -1,0 +1,63 @@
+﻿++ Ideal Gaming
+
+This is a set of features and behaviours that aim to help games operate in a standard and useful convention. The features should be implemented by the [Games] themselves or through ApplicationCategories.
+
+++Standards
+
+[Games] that appear in the official repositories must at least support:
+    * [Spectating]
+    * [Hotseating]
+    * IndirectMultiplayerGaming
+
+These all have [SharedImplementation]s so there is not a task of [Reimplementation] and re TrivialFeatures so games in [Development] should have little problem with supporting these features.
+
+There is no requirement that the game acknowledges the above features from within the game. This is because the SharedImplementation]s enable them to be a ImplicitImplementTheUnimplemented.
+
+++Descriptions
+
+Games are treated like typical applications but are distinguished from them.
+    High SystemIntegration:
+     * Management must be possible outside the game. (see ExternalManagement)
+     * MatchMaking
+     * [Chat]
+     * Savegame [Files] are openable just like regular files
+     * NoDistance
+     * [Standardization]
+
+    GamePortalling
+
+
+
+++Features
+
+The IG concept promotes [Standardization] of CommonGameImplementations to:
+    * avoid [Reimplementation] (NoReimplementation)
+    * ImplicitImplementTheUnimplemented 
+
+Games need [Extensibility] and [Modularity] so that GameComponentry can be created.
+
+
+Making games challenging is an important aspect for game enjoyment. This is often accomplished through random play.
+    * Game setup is randomly selected. GameComponentry and game settings are selected at random.
+There are two types of map:
+    * handmade
+    * computer generated maps.
+Both can be randomly selected. The user may choose to hide the random choice or not:
+    * pick random map from list
+    * load the chosen map
+This randomness could also be combined where the player doesn't know whether a handmade or a random map will be used. Randomness can be applied to any maps - even those on map lists.
+
+multiplayer missions
+
+GameRepository
+    Centralised storage area for all:
+     * installed games
+     * game's [Componentry]
+
+GameManagement is the maintainence of game software. MatchMaking that has FutureProofing.
+    
+[Chat] capability must be available at all times in an open game. ArchitecturalBridging may be used for SystemIntegration of typical chat [Applications]. see UseATypicalApplication.
+     * Game Lobby 
+     * Loading Screen
+     * In Game
+

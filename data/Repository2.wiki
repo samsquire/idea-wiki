@@ -1,0 +1,644 @@
+﻿<document>
+<sam type="subs" name="repository.idea" template="ideaRecord.md" source="idea.md">
+	<Title>Repository of Ideas</Title>
+	<Description>A large list of links and short idea writeups</Description>
+	<Idea>Repository2</Idea>
+</sam>
+<![CDATA[<div class="content Repository2">]]>
+
+++Repository2
+anchor: top
+
+This is the repostory^2, a wiki for my designs and ideas.
+
+    * See RealLife
+    * [Repository2]!addnew
+
+++MetaRepository
+
+    * NeededSolutions
+    * PastedIdeas
+    * [Questions]
+    * ForumManualOfStyle
+
+++Contents
+
+    * TheSystemIntroduction
+    * TheSystem is the ultimate creation for this entire wiki.
+
+++Ideas To Do
+    
+    * ProposedProducts - software products
+    * SiteProjects - web applications
+    * MyCommunity - my online community
+    * PhysicalIdeas
+
+Need to make a priority list of small, easiest but most useful things to produce.
+
+++Ideas
+
+This is a horrifically messy list.
+
+++The Hierarchy
+
+These are distinct areas of abstraction.
+
+    * TheSystem
+        * [Basics]
+        * UserArea 
+        * [Files] 
+        * [Users]
+        * [Components]
+        * [Applications]
+        * [Subsystems]
+        * [UserInterfaces]
+        * [Networking]
+        * [Facilities]
+        * SystemServices
+        * UserServices
+        * ConfigurationPortal
+
+UseReferencesYouCanSee
+
+++Issues
+
+[Problems] are what cause InformationTechnologyFailure:
+
+    * ConventionalBackward
+    * ConfusingFormats
+    * InstitutionNetwork
+    * DilemmaticIntegrationScenarios
+
+++Laws &amp; Requirements
+    * IntelligentImplementation
+    * InvisibleImplementation
+    * TreatAdministratorsLikeUsers
+    * RememberEverything
+    * HibernationIsFast
+    * PlaceholdersRatherThanLinks
+    * IndicateFutureAction
+    * GoodExamples
+    * ClickToExplain
+    * [DefineRulesNotEscape]
+    * TextIsPortable
+    * TabsWindowsAreTheSame
+    * AnythingCanBeAFile
+
+++Strategy, Political &amp; Social
+
+    * RepresentationalInterfacesAreTests
+    * OfficiallyAcceptedCertification
+
+++Services
+
+    * DebateSystem
+
+++Concepts
+
+    * [Authoring]
+    * [Administration]
+
+    * [Ilities]
+    * [Outputs]
+    * [Technologies]
+    * [Standards]
+    * [Architecture]
+    * [Problems]
+    * [Actions]
+    * [Data]
+
+
+    * [Endpoint]
+    * [Documentation]
+    * [Help]
+    * DataCollection
+
+
+++Activities
+
+    * [Sizing]
+    * [Comparison]
+    * [Tracking]
+    * ComputerStages
+
+
+    * 
+    * SoftwareDistribution
+
+++Components
+
+    * NewInformationMultimediaEngine
+
+    * FrontendDesignConsiderations
+    * FrontendServices
+
+++Features
+
+    * PrettyOptions
+    * InterestingInformation
+    * [SuggestedSolution]
+    * ImpossibilityDetection
+    * RepresentationGrouping
+    * UpdateAwareness
+
+    * 
+
+++People
+
+    * LauraCloud
+
+++KnowledgeBase
+
+    * RealTechniques
+    * MIPs
+    * [Apple]
+    * BrowserArchitecture
+    * [Legislation]
+
+
+
+++Design
+
+    * [Paradigms]
+    * UsabilityAwareness
+
+    * FastStart
+    * GameDesigns
+    * MultipleRoutes
+
+++Ideas
+
+    * SimilarIdeas
+    * SamSquire
+
+    * [Algorithms]ff
+    * [Transitions]
+    * The compiler and language is the documentation of itself: i want to see what classes and commands are available without looking up documentation necessarily online
+    * better Email protocol
+
+
+    * AssetTracking
+
+    * LogicalDataStructures/ApplicationState/ApplicationIndependentState
+    * 
+    * IdealMethod
+    * IdeaLists
+    * ApplicationFacilities
+
+    * MyForumPlan
+    * CompleteFlow
+    * BuiltInEnemy
+    * CollaborativeMining
+
+++C2.com
+
+The C2 website often inspires me with ideas and these ideas are placed under this heading until categorisation.
+
+++Other Ideas
+++TO BE CREATED
+anchor: addnew
+
+MarkupControl
+
+
+InternetScorecard
+
+MacsAreBadComputers
+
+RestAction
+
+CallWrapper
+
+RDFStuff
+
+[DOMVM]
+
+LifeManager
+
+[Repository2]!top
+    Add below here
+
+
+Don't use Legacy as a term for what became before us - it's patronizing and makes things sound inferior.
+
+
+ThoughtDNA - competing thoughts
+SamSquire.com dashboard of my thoughts and ideas
+ - email based blog submission, "agent scripting"
+
+Claiming to be a "technologist" or a "programmer" just makes you a shameless self promoter
+
+Microblog articles - break up an article into 140 word paragraphs or sentences, then automatically publish them as a series of microblogs
+
+Menu sharing - standard data structure to add to menu at top
+
+Knowledge Tester: popup challenging knowledge periodically
+
+
+
+UniversityGrades
+AptitudeTests
+
+Known To Work: try a file or a test with the most recent version and then try again by decrementing the versions
+
+ZigZag interface for editing documents: add picture to left/right etc
+ vimzag
+
+
+
+
+TheCorporation
+
+DecentralizedSocialNetwork
+
+Standardized Vulnerability Format
+
+
+
+Sort Server: real time updates on-screen to sorted data,
+ such that a sorted list can be updated with new items as and when they are received.
+  
+Efficient bitmap block allocation, writing and displaying. For example, a common pattern is to add to the top of a list, causing everything to move downward or vice versa. This can be made more efficient by caching a bitmap of the list that is being moved without changes. Then redrawing it further down than the new content.
+ - Updating blocks of pixels rather than re-drawing them. Such only updating the pixel blocks where the 'last updated' time was. These can be generated and overwrite the old time.  Avoiding moving of graphical data.
+ - Append sprites in memory and the scenegraph display order is updated so that sprites are not drawn linearly but can start from any memory location.
+ For example,
+ 
+ <pre>
+ A list of items is on the screen. This is blocked as a single bitmap. A new item must appear, this is the new bitmap, bitmap 2. We can be more efficient by instructing the graphics card to redraw bitmap 1 at a different offset and bitmap 1 at the top. We don't have to regenerate the bit map or copy the old bit map anywhere, we just append the new bitmap to the end and draw it first. So on screen this would look like:
+ +-----------------+
+ |   Bitmap 1      |
+ +-----------------+
+ |                 |
+ |  Bitmap 2       |
+ |                 |
+ +-----------------+
+
+But in memory it would look like
+
+ +-----------------+
+ |                 |
+ |  Bitmap 2       |
+ |                 |
+ +-----------------+
+ |   Bitmap 1      |
+ +-----------------+
+
+</pre>
+Bitmaps are data.
+
+Games can generate good interface ideas that can be put into real products
+    * Computer resources system,
+    * Shows the spare capacity and the resources at our disposal
+    * 
+
+Computer world simulator game:
+    * Simulate the running of a network
+    * budgeting
+    * Employees
+    * Security practices
+    * hardware upgrades
+    * software styles: events, threading
+
+MultipleProblemSolution
+
+
+SocialApplications
+InstantPanels
+
+DoNotDoAnythingYouDoNotHaveTo
+
+The right column of most file viewers is useless until it is needed.
+
+
+LaptopIdeas
+PhysicalDoings
+
+JavaQuestions
+InternetModel
+
+WindowMerging
+
+Breakaway style interface 
+ - one security mechanism might protect you from full exposure
+  - break away shows which protective mechanisms remain
+  - instant view of how secure a system is
+  - shows how easy a system can be compromised
+  - shows the layered approach to security
+  - shows how surface area affects security
+security practice - protecting a high security item with a good security but another area has a weak password:
+ - wireless access point administration weak password
+ - wireless has strong passphrase key
+
+
+SynergisticComputing
+
+bit torrent backup
+
+
+ImplicitIntegration
+LotsOfDataClasses
+DataClasses
+
+ManyGamePermutations
+
+BadPosts
+
+Frequently Lost Folders list
+from phundug, http://www.halfbakery.com/idea/Frequently_20Lost_20Folders_20list#1168638048
+
+
+
+TheDevelopmentModusOperandi
+ProblemTypes
+ContentSigning
+ApplicationSigning
+AutomaticIcon
+
+challenge response feature of automatic network connections,
+ - keeping synergy running is hard (ie, requires user effort)
+
+PlatformAndEnvironment
+
+the system distinguishes tiers and layers, allowing the user to change the view of a piece of software between them
+  - what about a redistributable architecture?
+  - the ability to configure what the server and the client will be responsible for
+   - moving the data storage mechanism to the client would mean the data is stored locally for example
+
+
+
+
+
+
+
+
+
+MultipleRepresentationsOfFiles
+UserVerification
+EquivalentIndication
+SpeedDial
+
+
+
+'high performance websites':
+ - great upstart style/gant project diagram for breakdown of frontend and backend site download
+
+
+
+    * drag content to other monitor in network (for collaborative work)
+
+    * per content ignore system, mask posts as anonymous
+
+beowulf cluster
+
+
+design in XML, create binary format from XML
+InterpretatedLanguagesForDesign
+
+WikiCoding
+
+web browsers should be able to happily run 50 tabs without lag
+
+GameAgent
+
+
+obviously bug/mistake detection: one folder per project, eclipse infinite loop of folders
+
+ConcurrentAwareness
+
+standard data for a combo list, for other types of elements, a standard data format
+
+WidgetsAreRepresentations
+
+SmartCorrelation
+
+
+application scanner similar to secunia software inspector
+ - KNOWS when software is being installed...up to the minute liveness
+
+
+statistics packages:
+ - need to normalize certain information, obviously no referrer will be the highest, exclude no referrer from the results to make the chart easier to understand
+ - images obviously account for more bandwidth, don't account them unless asked for, group similar pages together: download, faq, screenshots, contact us etc
+ - integrate with user authorization, i want to see how much bandwidth a particular user costed me
+ - visitor types in Visitor Ville is a neat diea:
+ - time spent per pages:
+ assume continuous flow, the time between the last page visit and the current visit
+ file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/Cool%20UI/sales-shot.gif
+ 
+
+EfficiencyAwareness
+LimitationAwareness
+
+
+
+
+
+opera bugs:
+ - zoom out, search, zoom back in, yellow marks of previous search
+ - superantispyware will cause opera' hot list to fail and error user
+
+MultipleValidation
+
+
+ActionOrdering
+
+
+
+WebServer
+
+SubsequentChangeSensitivity
+
+FutureChangeAccommodation
+
+adverts detection &amp; blocking
+    - common 3 simple colour adverts, blue, black and green
+    - black takes 3 lines, blue takes 1-2 lines, green takes 1
+
+copy paste column heading for configuration:
+ - allow - green, tick
+ - deny - red, deny sign
+ - ask - blue, question mark
+reimports back in when pasted in
+    * Frontend elements simply copy and paste 'over' over frontend elements
+
+[Optimization]
+
+AnimatedInterface
+
+
+file upload element is mapped to a directory at a particular website
+
+general [Paneling] for file browser on on side of application
+ - embedded inside or outside of window?
+
+error checking for user space applications is implicit?
+
+great idea of Pspad, compare to disk
+
+word wrap is important for viewing data
+
+.text file extension
+
+[Language]
+
+share X times PER USER and THEN ask me for each consequent share attempt
+    * SHARE(times=10) X THEN SHARE(ASK) X
+How To Mix Representations With My Relationship Architecture
+
+default application groups, eg, email is email files, email protocols etc
+
+operating system principle - what you see is what you get (WYSIWYG) in web browsers especially
+
+FrontendReferences
+
+[Pluralisation]
+
+
+RepresentationPersistence
+
+copy&amp;paste IP from game window even though the native architectures requires no IP
+ - people may be using non-TheSystem so they cannot utilize SystemIntegration
+
+time management categories software should fit into them
+
+linking hierarchy
+ - create diagram to represent pages
+ - links are then automatically added based on link type or link logic per item
+
+everything can be represented as lists (bruce eckels books about lisp)
+
+ApplicationCrossovers
+
+
+local and static interfaces
+
+a static interface will be sensitive to sudden changes
+ - content that 'appears' over time will have to already be worked into the layout
+  eg, the space used for "you have mail" will be added at the top under the login bar where it would appear
+- only sends and asks for data regarding the interface's contents, not the interface itself
+
+click a link on a page that supposedly opens another application, instead open as a web page
+
+seamless style browser for phpbb etc
+
+
+
+RecoveryPartition
+
+you can log/index any of the bases if you really want to
+ - bad idea for some of them however since they are so fast/rapid
+
+issue URL
+    issues://sam's web server/5ACBD
+
+representation API so you read AND write to files
+
+data option/search - show value in search results
+
+server replay - sends out same data
+ - non server replay talk appears elsewhere
+
+URL links deform when pasted into IM software
+ - neatness filter detect potential problem and warn, cross reference to type of software that does it, IM software, then list of software that cause it
+ - solution too, build to practice file, so that nativeimplementations can never incur the problem
+- treat smiley like raw text and only render image (potentially confusing, so when copied and pasted, the smiley text is there)
+ - do not render smilies in URLs
+ - list of smilies, variants, what applications use what
+ smilies can be:
+ rendered globally around TheSystem, so the same smiley graphic is used
+ rendered per application
+ inserted into email as text or as graphic
+ view smiley usage statistics, per email, for a friend etc
+
+TemplatedFile
+
+ongoing functionality check
+
+ObviousStorage
+
+firefox importing architecture
+
+PromoteProjectsNotProducts
+ - but this means there is a lack of focus on marketing
+ProductsAndProjects
+
+pay for support
+
+pathing, see what else is available on server using the PATH
+
+entire site compressed file, once only templating
+
+StrictStandardsFriendlyEnvironments
+
+mapping for compressed archives
+
+something is not installed but can be seen on the system - how?
+ - control panel speech
+ - install on demand windows msi
+IndicateAvailability
+TransparentAddition
+
+calculate once and pass along - IJP recalculates stuff needlessly, called memoization
+
+interesting thoughts:
+ - fast-to-develop and fast-to-respond
+ - desktop app administration
+
+file branching: see contents of multiple files, mirror
+file piecins?
+ - even parts of embedded files - gif animation
+
+[Standby]
+
+ReduceSize
+
+
+UsefulMetadata
+
+TimedDisclosure
+
+email log / email wall
+
+website file container: this page links to these other documents
+
+[Tracking]
+
+[UserNotifications]
+
+
+
+UserProductivity
+
+[Representations]
+
+    * smart print architecture
+
+* relevancy hooks/manager etc
+ * audience of application - particular software or particular entity
+patch deloading
+ * memory patch
+
+RelevantLoad
+
+WebServer
+
+windows XP autoplay rules are pretty hidden from the user,
+ http://www.microsoft.com/technet/technetmag/issues/2007/02/WindowsConfidential/
+ need to have an interface explain the individual rules
+
+NeededSolutions
+RemoteSoftware
+SystemDesign
+
+
+++++Memory Securer
+Unsecured code is passed through a securer which makes the code debugging and reverse engineering more difficult.
+
+* WikiSettings
+
+[child_sort_order:natural][bookmarked: true]
+
+
+<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

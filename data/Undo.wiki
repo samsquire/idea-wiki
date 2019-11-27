@@ -1,0 +1,6 @@
+﻿++ Undo
+
+Undo is where previous actions are reversed.
+    * Implemented through UserTracking
+    * Undo is of the [Bases]
+    * UndoWillUndo

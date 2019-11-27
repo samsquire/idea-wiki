@@ -1,0 +1,47 @@
+﻿++ Reports
+
+Reports are NativeImplementation of a general InformationInterface that allows concise display and generation of information clearly. Reports map data to visual constructs, such as the following.
+    * graphs
+    * diagrams
+    * pie charts
+    * tables
+
+Reports enable data to be compiled in a convenient and understanding way. Report generation is an example of CommonImplementations with [Reimplementation]s for different [Applications].
+
+Existing implementations include:
+    * Pivot Chart
+    * Performance in Windows Administrative tools
+
+++Architecure
+Reports have a native format that allows sharing with other machines as [Files]. Reports can be stored in formats like HTML and plain text. The RepresentationSystem can handle these conversions.
+
+Reports can be designed from scratch or a template used. Reports are designed to either be:
+    * updated on demand
+    * updated routinely (using UpdateOnlyWhenNecessary for [Performance] reasons)
+Data may need to be archived over time and displayed as such, like hits to a WebServer.
+
+Fields used within a report have CrossReferential linking and LinkPreservation. The reports engine need not be aware of the meaning of the data it processes, but can maintain the links that does.
+
+Reports is implemented as an [Engine] that renders data according to inputs and render parameters. Typically, these inputs are from [Logging].
+
+ InformationInterface
+
+[UserNotifications] is used to inform the user.
+
+
+The user can select the information to be used in the report regarding hardware or software and setup how it is displayed. It is up to the user what is to be done with the data:
+    * collect once and save
+    * display and update
+    * log
+
+The may select one of the default layouts or make a new one with a drag and drop interface. The interface has options such as automatic information wrapping.
+
++++Multiple Monitors
+SystemInformation can be set to display on a different screen.
+
+++Technologies
+    * different types of graph software:
+     * tree graph, flowchart etc
+    * real time animation when changing graph styles 
+ 
+

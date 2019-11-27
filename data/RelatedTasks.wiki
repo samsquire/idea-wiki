@@ -1,0 +1,3 @@
+﻿++ Related Tasks
+
+RT refers to the property that often occurs when using conventional computer that a state of the computer may correspond to a particular task of the user. [Conventional]ly there is no [Granularity] between individual tasks. 

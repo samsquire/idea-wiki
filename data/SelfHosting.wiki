@@ -1,0 +1,12 @@
+﻿++ Self Hosting
+
+SH is a proposal that encourages LocalNotRemote by enabling [Users] to host UsersContent on the machine.
+
+++Implementation
+
+SH requires high [Security] so that TheSystem isn't compromised. Usually users will want to limit access to authorized people. SH is likely to have integration with [CommunicationSoftware] and PermissionManager to allow access to be controlled. Often the user may wish control to be completely private and inaccessible to the outside world.
+
+++Examples
+    * WebServer
+    * [Servers]
+    * Email Server

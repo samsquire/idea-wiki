@@ -1,0 +1,24 @@
+﻿++ Interchangeable Implementation
+
+II are implementations that can completely substitute one another. This is a result of [Standardization], HighStandards and good [Compatibility].
+    * In Java, this is implemented through 'interfaces' whereby there is an agreed standard to adhere to.
+    * POSIX is an operating system level example used by UNIX systems like [Linux].
+
+II are [Multiples] that can be switched between without loss of functionality. II are only II by default if they are RealTime, in that they do not store any lasting [Data]:
+    * [Processing] Scheduler
+    * [Scanning]
+    * [Search]
+    * [Seeking]
+Non realtime implementations require the following to be II:
+    * [Representations] with [Standardization]
+    * same [Configuration]
+    * DataClasses like LogicalDataStructures
+Examples include:
+    * AntiMalware - to use the same AM definitions
+    * [Browser]
+
+pluggable scheduler like Linux kernel developers suggested
+ - used for different tasks, at bootup/during operation
+ - choose from a list
+
+[alias=InterchangeableImplementations]

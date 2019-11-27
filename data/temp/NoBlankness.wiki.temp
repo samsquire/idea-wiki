@@ -1,0 +1,14 @@
+﻿++ No Blankness
+
+NB means that there should be no blankness in any situation. The reasons for blankness occuring is that there is nothing to display. Solutions for common examples include:
+
+[Loading] - if waiting for a task to complete, typically nothing is available to display instead. TheSystem must display ProgressiveFeedback in place of the [Data] or anything that can HelpTheUser. For example, the SystemViewer cannot display the remote [Files] until it receives a list of them.
+
+++Solutions
+
+Possible solutions include [Embedding] of relevant [Portalling]. For [Servers] this could present details while the data is loaded. For example, contact details would enable [Users] to request assistance. Mirrors could also be available.
+
+NetworkedGames use this strategy by presenting map details and scores to prevent players becoming bored.
+
+no blank windows, for loading etc, eg, windows communicating with FTP server
+

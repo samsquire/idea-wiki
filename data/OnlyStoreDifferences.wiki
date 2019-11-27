@@ -1,0 +1,6 @@
+﻿++ Only Store Differences
+
+OSD means that only the changes of two points are stored rather than complete copies. This saves space.
+    see SmartDifference
+
+Storing differences is indirect and against [Directness]. This is because files cannot be obtained natively. One solution to this is [Downlevelling] OSD to the filesystem.

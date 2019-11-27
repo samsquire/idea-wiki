@@ -1,0 +1,15 @@
+﻿++ Clipboard
+
+The clipboard is responsible for transfer between [Applications] through:
+    * Cut
+    * Copy
+    * Paste
+Data is stored in [Bases]. There is an AbstractionAwareness for Cut, since this is actually a copy, delete and paste.
+
+++Architecture
+    * CopyOnWrite - When data is placed on the clipboard, it is only referred to. When the data changes - it is copied.
+    * [RepresentationSystem] means that [Applications] specify the representation to be pasted. Pasting a URL into an image editing software is likely to load the image. Pasting the URL into the text box of the image editing software will paste the textual URL.
+
+
+++Requirements
+    * Usage of data is also recorded as a [History]

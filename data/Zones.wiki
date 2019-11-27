@@ -1,0 +1,19 @@
+<document>
+<sam type="subs" name="Zones.idea" template="ideaRecord.md" source="idea.md">
+	<Title>Zones</Title>
+	<Description>Zones are where things apply.</Description>
+	<Idea>Zones</Idea>
+</sam>
+<![CDATA[<div class="content Zones">]]>
+++ Zones
+
+Zones are areas on TheSystem that [Applications] use for StandardEstablishment and StandardMultiples.
+
+Zones BringCloser the important [Configuration] areas for [Users] to HelpTheUser. Zones are specificed by the ApplicationPurpose.
+
+    * [Games] use zones to organize GameComponentry.
+    * All [Configuration] is in zones.
+
+<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

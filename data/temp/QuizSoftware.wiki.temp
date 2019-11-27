@@ -1,0 +1,9 @@
+﻿++ Quiz Software
+
+Quiz software aims to allow the effective creation, distribution and result collection of quizzes.
+
+++Implementation
+TheSystem will need to create a basic quiz representation that is both expressive, flexible and extensible.
+    * The format should allow quizzes to be viewed in various formats. This might be vector based graphics (flash and animated vectors), page based, printable or textual.
+    * The creator can choose to or not include answers with the answers. They can further choose to protect the answers. In this case the answer is used to protect the answer, preventing users from cheating.
+    * Online submission would allow answers to be submitted to a server and the subsequent recording of answers.

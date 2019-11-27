@@ -1,0 +1,33 @@
+﻿++ InstallPackages
+
+InstallPackages contain [Applications]. InstallPackages are used by the [Installer] for [Installation].
+    * [Extraction] AND [Synchronization] must be easy for InstallPackages.
+
+++Contents
+    * [Documentation]
+    * ApplicationData
+    * ApplicationComponentry
+    * [Protocols]
+    * [Configuration]
+    * [Entity]s
+
+++Mapping
+    AutoMapping
+    The [Standards] of the package means [Externalisation] is possible. Maps out important [Zones] of the install package via [Mapping].
+     * context menu
+     * a selection dialogue
+     * the logical ObjectInterfacer
+
++++Factors of Installation Packages
+    * compressed archive
+    * metadata
+    * installation instructions
+
+
++++Requirements
+    * Installation Database
+     * rapid read
+    * Decompresser/Dearchiver
+    * Dependency resolution
+    * download manager
+    * Atomic Installs

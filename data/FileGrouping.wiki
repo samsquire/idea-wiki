@@ -12,7 +12,7 @@ Grouping files into units makes file identification and [Autonomy] easier. Use c
 
 [Batching] can be applied to groups. the file group for 'application' would open application management.
 
-    Concept Images:    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/systemviewer.PNG
+    Concept Images:    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/systemviewer.PNG
 
 ++Implementation
 

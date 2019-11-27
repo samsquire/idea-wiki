@@ -1,0 +1,47 @@
+﻿++ Directness
+
+Directness is an architectural decision which means that communication should be as direct as possible. Data should be easily processable when outputed. 
+
+    * Application outputs should be as low level as possible.
+    * Outputs should still be programmatically accessible
+
+Directness is implemented with DirectedLogic.
+
+++Idea
+
+Applications on existing systems use text outputs because this communicates with the user best. Unfortunately, this text has to be processed to be useful. This makes simple tasks or using system tools (Linux) require text processing. This happens to be inefficient, unscalable and inelegant. 
+
+Text is a second stage of output. This is because text outputs are not a direct communication - the data cannot be used without processing.
+
+    Conventional/Non-Direct
+     * output: Template containing data is outputted
+     * processed to extract data
+
+     * Individual update requests are sent (direct)
+     rather than
+     * database mirror - the database is dumped and sent (indirect)
+
+    Direct
+     * Separate output of
+      * templated string and
+      * data
+
+++Solutions
+    * use inter process message/communications
+    * use memory (pointers/references) and [Externalisation] of data
+    * templated text
+    * non-direct communication is discouraged or impossible.
+
++++Templated Text
+    * templated text is where the VariableInputOutput and the template are sent separately
+    * the variable data can be accessed programmatically and is direct
+
+++Preprocessing
+ParseCompile can be used to make templating more efficient:
+    * use conventional text output
+    * then determine what the text processing is obtaining data by searching the memory of the application outputting the data
+    * store the memory location and use in place of text processing in the future
+
+
+
+[category=paradigms]

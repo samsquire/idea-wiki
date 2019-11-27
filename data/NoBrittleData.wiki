@@ -1,0 +1,4 @@
+﻿++ No Brittle Data
+
+BrittleData is negative as it can prevent the [Fundamentals] from being possible.
+    * This can be as a result of poor PointConsistency.

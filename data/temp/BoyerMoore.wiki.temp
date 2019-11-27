@@ -1,0 +1,124 @@
+﻿++ Boyer Moore
+
+<html>
+<body>
+
+<script type="text/javascript">
+
+goodt = [];
+badt = [];
+
+M = "hello";
+N = "johbebebebebebeebbeehello hel said hell real o hello";
+
+br = "</br>";
+b = "<strong>";
+be = "</strong>";
+document.write(b+"Match: "+be+ " " + M+br);
+document.write(b+"N text: "+be+ " " + N+br);
+
+len = M.length;
+
+C = "";
+p = 0;
+for(i=len; i>0; i--) {
+ c = M.charAt(p);
+ 
+ C += c;
+ if (goodt[c] == undefined)
+ goodt[c] = i-1;
+ if (badt[c] == undefined)
+ badt[c] = p+1; 
+ p++;
+}
+
+ptable(goodt);
+ptable(badt);
+
+function ptable(table) {
+document.write("Printing a table"+br);
+for (key in table)
+ document.write(b+key+be+" [" + table[key] + "] " + br);
+}
+
+document.write("Found " + M + " at position " + search(N, M) );
+
+function search(N, M) {
+ p = M.length-1;
+ mp = M.length-1;
+ 
+while (p < N.length) {
+ n = N.charAt(p);
+ m = M.charAt(mp);
+ document.write("@  [" + n + "]" + br); 
+
+ // while the text is equal, keep scanning 
+prep = p;
+document.write(br + "M:"+br);
+  while (n == m) {
+   document.write("p: " + p + "(" + n + ")" + mp + "(" + m + ") , ");
+    p--; 
+    mp--;
+    n = N.charAt(p);
+    m = M.charAt(mp);
+  
+if (mp == 0) { 
+     document.write("Matched entire string");
+     return p;
+     break;
+    }
+
+  if (n != m) {
+   document.write("No longer equal" + br);
+   break;
+  }
+
+    
+
+   }
+document.write(br);
+
+   if (n != m) {
+   document.write("p: " + p + " (" + n + ")" + " mp: " + mp + " (" + m + ") " + " Mismatch"+br);
+    // mismatch mode, there are two kinds of mismatch:
+    // a match with a character that is inside the pattern.
+    if (goodt[n] != undefined) {
+     document.write("Known character"+br);
+     // skip to move
+     // mp = mp - goodt[n];
+     // now aligned
+     // compare ends first though
+
+     p += goodt[n];
+     mp = M.length-1;
+
+     
+     document.write("aligning ends: mp: " + mp + "("+M.charAt(mp)+")" + "p: " + p +"("+N.charAt(p)+")");
+     
+
+     continue;
+    }
+   else if (badt[m] != undefined) {
+    document.write("Skipping " + badt[m]);
+    // we need to skip past this completely.
+    p += badt[m];
+    continue;
+   }
+
+   }
+
+   
+
+  }
+
+
+  
+
+}
+
+</script>
+
+
+</body>
+</html>
+

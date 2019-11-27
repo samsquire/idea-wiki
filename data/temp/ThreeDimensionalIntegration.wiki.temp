@@ -1,0 +1,18 @@
+﻿++ Three Dimensional Integration
+
+Three dimensional integration means that TheSystem should offer 3d elements in its interface. ConventionalSystems have implemented some 3d features such as 3d desktops.
+
+++Implementation
+
+The interface should include 3d elements on a 2d screen rather than have the actual interface as a 3d environment. This 3d aspect will give some advantages:
+    * moderness
+    * freedom to express information
+    * GameInterfacesAreGood
+
+++Examples
+
+    * SystemManagementScreen uses extensive [3D] elements.
+    * pretty 3D icon in system tray
+
+ 
+[alias=3D]

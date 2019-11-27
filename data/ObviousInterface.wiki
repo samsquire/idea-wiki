@@ -1,0 +1,16 @@
+﻿++ Obvious Interface
+
+OI means that UserInterfaces should be obvious to operate. This is accomplished through:
+    * [InformationInterface]s
+    * RealRepresentation
+    * [Reports]
+    * DifferentRepresentation
+    * and SpecializedScreens, ConsistentSystem
+
+OI aids provides justification for the following scenarios:
+    * On the screen is a mention that an event transpired. If I click this event name, I should receive data regarding what happened.
+    * Adding [Hardware] should not require even a paragraph of [Help] to operate. It should only a matter of: adding, removing, disabling
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/installed_hardware.PNG
+
+This means that only the data and simple pure english icons should be used to manipulate the data.

@@ -1,0 +1,13 @@
+﻿++ Trivial Feedback
+
+TF is an AvailableOption where [Feedback] will [AlwaysFeedback] regardless of how trivial it is. TF is possible with DirectedLogic.
+
+    * [Open]
+    * Status
+    * [Update]
+    * [Protocols] and [Network] communication
+    * Discovery
+
+++Examples
+    * when a cookie is saved, the user knows about it
+    * DHCP: toast table with two sided arrows pointing to chosen dhcp server out of the possibilities 

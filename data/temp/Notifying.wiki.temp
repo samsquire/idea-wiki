@@ -1,0 +1,8 @@
+﻿++ Notifying
+
+Notifying is where users of data are notified. It is the opposite of [Polling] and is encouraged because of its [Directness] and NoPolling.
+
+    * makes LiveData possible
+    * Equivalent of pushing in PushOrPull
+    * used to [Watch]
+    * more passive than [Polling]

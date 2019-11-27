@@ -1,0 +1,9 @@
+﻿++ Information Popup
+
+IPU are when information appears on the screen. It is apart of [Help] and aims to HelpTheUser.
+
+    * [ToolTips]
+    * Balloons
+    * InterfacePanelOverflow
+
+IP must respect [Users] [Attention] by avoiding unnecessary covering up of data. A spacial [Awareness] means that new UserInterfaces will strategically render inbetween important elements. This means that text will not be covered but empty space will.

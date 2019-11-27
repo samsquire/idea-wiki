@@ -1,0 +1,11 @@
+﻿++ Source
+
+Source is where data originates. UseAnySource means that any source can be used.
+
+    * [Share]s
+    * Processes and threads (see [Processing])
+    * [Frontend]s such as windows
+    * [Applications]
+    * TheSystem
+    * [Files]
+    * [Network]

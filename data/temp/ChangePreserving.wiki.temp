@@ -1,0 +1,8 @@
+﻿++ Change Preserving
+
+CP is where the system promotes change, customisation and its preservation. If a change is made and reverted, this change is not implicitly erased. The user may return to these changes. CP is possible due to StandardMultiples. The following features are example of CP:
+
+    * Profiles
+    * Modes
+    * Histories
+    * Favourites

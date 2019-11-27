@@ -1,0 +1,5 @@
+﻿++ Draw Over Selection
+
+DO [Selection] is a selective method of objects of the screen by drawing over by dragging a virtual drawing tool over them as if in image editing [Applications].
+
+The reasoning for this feature is to speed up the selection process of a limited few as it would decrease the total number of clicks.

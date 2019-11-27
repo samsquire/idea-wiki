@@ -1,0 +1,20 @@
+<document>
+<sam type="subs" name="UserPower.idea" template="ideaRecord.md" source="idea.md">
+	<Title>UserPower</Title>
+	<Description>DESC</Description>
+	<Idea>UserPower</Idea>
+</sam>
+<![CDATA[<div class="content UserPower">]]>
+++ User Power
+
+UP means that [Users] have the power over how something will act. [Users] have lots of power over TheSystem which will not cause [Security] implications and where [Permissions] allow. This is implemented through:
+    * CasualModification
+    * [Attention]
+    * DeepCustomisation
+
+'tell me where to store it'
+- store application and related files either
+
+[category=paradigms]<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

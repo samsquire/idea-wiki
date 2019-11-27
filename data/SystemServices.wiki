@@ -1,0 +1,11 @@
+﻿++ System Services
+
+SS are the features that are available to [Developer]s and [Users] of TheSystem.
+    * In ConventionalSystems these would be implemented at a LowerLevel. In TheSystem these features are DownlevelToTheSystem.
+
+    * RelevancySystem
+    * UserTaskHelper
+    * InferenceEngine
+    * InternalErrorHandling
+    * CommercialIntegration
+    * RiskTracking

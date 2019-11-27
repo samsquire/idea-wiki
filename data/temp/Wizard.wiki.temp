@@ -1,0 +1,28 @@
+﻿++ Wizard
+
+Wizards are [UserInterfaces] that collect information for a specialised task. Wizards are StandardizedScreens and a SharedImplementation.
+
+++Features
+    * AcknowledgeIncompleteness
+[Fundamentals]
+    * Custom Wizards are when the user uses a wizard as a template and only modifies certain parts of the wizard. This is useful when the wizard creates a new entity.
+    * Wizard input has [Reusability]. At any stage of the wizard, the progress may be [Save]d so that it can be continued or it can be exported.
+
+
+++Appearance
+    * Each step takes on page and at the bottom are buttons to navigate the wizard. 'Previous' and 'Next'
+    * The left panel holds a list of the steps in order. An indicator shows the current step is.
+    * The title may change to indicate the active step. This can also be implemented as a breadcrumb [Trail].
+    * The left panel can be used for [Navigation].
+    * This menu may be a [StateList] if excessively long. This indicates the stages of the wizard completed. This adds OrderIndiscriminate so that users are not forced to complete the wizard in the predefined order with NoForcedSteps.
+    * CloseExplanation - the meanings of the formatting are explained close, like by putting mouse over it and displaying as a tooltip
+    * [Outsourcing] 
+
+++Architecture
+    * Wizards are [Multidirectional]. This means that they are only [Frontend]s to the [Initialization] of [Information] ([Backend]). This means the data can be reloaded and modified again from the wizard.
+
+Elements of wizards used for [Configuration] should be the same ones in the [Applications]. This is for a ConsistentSystem and [Reusability].
+
+* the wizard should just use the API of the more advanced [Backend]/editor
+ * wizard's outputs are customisable from the editor
+ * eg, i put the title in the wizard and i can modify it through either this wizard or the editor

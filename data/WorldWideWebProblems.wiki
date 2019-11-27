@@ -1,0 +1,29 @@
+﻿++ World Wide Web Problems
+
+The internet drives me crazy because there are some horrible technological limitations with the medium.
+
+The separation of text, videos, pictures and data from the physical display of this data is poor at best. CSS is under powered. Essentially the only abstractions that CSS provides:
+    * colour
+    * font
+    * positioning
+    * borders
+    * picture inclusions
+The web is a mix of design and software programming. How do we combine visual appeal with clean reusable abstractions? Inheritance is definitely something that needs to have as little limitations as possible. Inheritance is often used to produce reuseable rulesa and then override them when the need arises.
+    * The same as X but...
+    * AND inheritance rules, merges two property lists together.
+    * 
+
+Some elements of design can be abstracted for the user of the design system.
+    * font sizing
+    * colour schemes
+
+Non arbitrary categorisation and taxonomic schemes. Joomla is way to restricive in how it forces a scheme on it. There needs to be an advanced architecture designed that works with the real world model of categorisation.
+    * animal taxonomies
+    * 
+ 
+
+
+        * the ASDA website is a shit bitch BadWebsites
+        * 
+
+internet sucks, it's just a terminal, a thin/dumb/terminal client

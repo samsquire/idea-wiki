@@ -1,0 +1,13 @@
+﻿++ Zoomable Interfaces
+
+ZI is an implementation of GetInto allowing [Users] to access more information or features by [Focus]ing on elements in more detail. This usually involved opening additional objects about the requested element.
+
+++Implementation
+
+Every element and VisibleData on the screen is essentially a representation of something from one perspective. These elements will tend to refer to other objects through references or will contain data or encapsulate other objects. Since this is not relevant all the time, it is not displayed. ZI means this data is accessed, by 'zooming' into it. In [Conventional] parlance this is called 'drill down'.
+
+++Examples
+
+    * [Users] on a network are CrossReferential with IP addresses, email addresses. Accessing details of a user would show associated data.
+    * Opening a PropertyDisplay on a folder.
+

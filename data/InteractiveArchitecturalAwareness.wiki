@@ -1,0 +1,15 @@
+﻿++ Interactive Architectural Awareness
+
+IAA is where there is an intricate ArchitecturalAwareness that allows the architecture to be interacted with. Examples of IAA include:
+    * ProtocolDeveloper
+    * [Technologies]
+    * SystemsBridging
+
+++Architecture
+
+Installed operating systems can be invoked from TheSystem through the SystemConfigurationScreen:
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/system_management.PNG
+    * Emulate Now
+    * Reboot and Run
+    * Export

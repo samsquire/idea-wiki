@@ -1,0 +1,10 @@
+﻿++ Desensitizing
+
+Desensitizing (DS) is where DirectedLogic is removed to increase performance at the cost of interactivity and LiveData. DS usually refers to UserInterfaces.
+
+DS must be used carefully to avoid pereceived unresponsiveness. DS is especially useful for:
+    * when the machine is idle
+    * for long tasks
+    * ContinuousInitialization tasks
+    * unattended tasks
+    * Machines with tasks from [Outsourcing]

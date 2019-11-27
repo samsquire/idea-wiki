@@ -1,0 +1,13 @@
+﻿++ No Enumeration
+
+Looping is often used to act upon a list. However, sometimes it is unnecessary. (NoUnnecessary). Reasons why it should not be used include:   
+    * poor [Performance]
+    * easier for humans to modify
+    * equivalent to [Polling]
+    * inefficient on short number of items
+    * against SpecificTarget.
+
+ContinuousInitialization is the opposite to enumeration.
+
+    * UserNotifications the user's actions through an interface is faster than cycling through every option and setting it to its current option. This is UserTracking.
+    * Rather than processing data every time to sort it, the output is stored physically for OnlyOnce. Don't recalculate what you can store. (Alternatively, the data can be placed into a SmartCache)

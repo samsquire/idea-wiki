@@ -1,0 +1,25 @@
+﻿++ Reusability Architecture
+
+The RA enforces the [Reusability] of:
+    * [Data]
+    * states
+    * [Configuration]
+    * [Resources]
+
+RA enables the following to occur OnlyOnce:
+    * [Initialization]
+    * UserInterfacing: [Wizard]s, [Configuration]
+
+++Implementation
+The first stage of reusability is to place the data to be reused. This is accomplished through:
+    * [Save] to [Files]
+    * transmission [Network], NetworkAdministration
+    * [Share]s
+    * in [StandardEstablishment]s
+
+Reusability is important to NoReimplementation. Rather than reimplementing something already in existence, new parameters should be given instead and therefore adjustwhat already exists. This is ConfigureNotReimplement.
+
+The reusability is then the system with the following:
+    * ResponsibilityArchitecture
+    * SelectiveImplementation
+

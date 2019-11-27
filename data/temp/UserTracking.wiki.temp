@@ -1,0 +1,22 @@
+﻿++ User UserNotifications
+
+UT is where actions from the user are recorded as a ContinuousInitialization. This is important for:
+    * [Undo]
+    * NoEnumeration
+    * [Directness]
+    * ReversibilitySystem
+
+Some actions will cancel previous actions out. see UndoWillUndo
+UT is necesary to IndicatePriorInteraction.
+
+++Implementation
+
+UT is useful in [Configuration]. Typical configuration panels overwrite the file with a dump. This creates [Concurrency] problems:
+    * concurrent modification of configuration in other applications will be lost if either is saved
+The entire file will be rewritten even if the user only modified one value. This is inefficient. NoUnnecessary, SpecificTarget
+
+Insted, UT is used for NoEnumeration. Upon save, only the adjusted options are saved. This is possible because only the individual changes to the interface are recorded and this means the only the modified configuration can be added.
+
+After many actions, the record of changes becomes large. It is more efficient to switch to enumeration mode. User actions stop getting recorded and upon save, it is enumerated.
+
+* when logging user change of settings, do not use a compare algorithm or dump changes, simply remember what the user changed while in the interface

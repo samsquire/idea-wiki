@@ -1,0 +1,8 @@
+﻿++ Window Merging
+
+WM is an art or practice of keeping multiple pieces of information available on the screen for viewing without being completely hard coded.
+
+++Implementation
+
+    * DeleteFiles could potentially be an example of WM in action
+    * 

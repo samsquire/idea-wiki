@@ -1,0 +1,8 @@
+﻿++ Unimplemented
+
+No capabilities of doing. Opposite to DesignedIn. Disadvantages of unimplemented include:
+    * If something is not available it will be reimplemented so that it is. Against NoReimplementation
+
+Advantages of Unimplemented
+    * stops FrenziedFeatures
+    * stops EmptyAbstraction

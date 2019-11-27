@@ -1,0 +1,10 @@
+﻿++ Interesting Information
+
+Interesting information is information that [Users] may find interesting in regard to the computer.
+    * temperature
+    * fan speed
+
+The key to making this information interesting is displaying it in a special way.
+
+pc statistic monitoring, needs to be more reliable
+- temperature, fans

@@ -1,0 +1,8 @@
+﻿++ Managed
+
+The following apply to things that are managed:
+
+    * [Update] (Updating)
+    * Deleting
+    * [Installation] (adding)
+

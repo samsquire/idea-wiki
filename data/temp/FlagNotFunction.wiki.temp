@@ -1,0 +1,9 @@
+﻿++ Flag Not Function
+
+* use flags to indicate properties rather than functions that return them
+
+if (isUserConnected)
+
+and
+
+if ( isUserConnected() )

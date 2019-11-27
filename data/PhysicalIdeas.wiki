@@ -1,0 +1,4 @@
+﻿++ Physical Ideas
+    * Bed System - sheet folds off bed quickly, put clothes into bed cover and wash in one go, hangs out with clothes attaching easily for drying
+    * Time stick, watch that allows you to synchronize time with devices by touching a part of it or wifi
+    * I've had many physical ideas but tend to forget them.

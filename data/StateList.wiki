@@ -1,0 +1,26 @@
+﻿++ State List
+
+SL are lists that indicate some sort of state.
+    * creates [Frontend] [Interactivity] and ProgressiveFeedback.
+    * used for [Navigation], [Logging]
+
+
+++Architecture
+
+SL enables [Users] and [Applications] to review states of individual items. SL are stored in MachineReadable format and are rendered in InformationInterface as SmartItem]s. 
+
+Common lists containing states are likely to include:
+
+    * completion/progress - ProgressiveFeedback
+     * finished, IndicatePriorInteraction
+     * unfinished
+    * abilities, capability - CapabilityStore
+    * [Compatibility] - CompatibilityStore
+    * [History] PL are possible due to UserTracking.
+
+InterfacePanels are used to portray the individual item's state. This is frequently sourced from its [Portalling] and displayed in ListStyle.
+
+    Checklists aid [Navigation] and HelpTheUser prevent HelpLapse]s on what they need to do next.
+     * AcknowledgeIncompleteness
+
+Progress lists can link with the UserTaskSystem so they can be tracked and recorded officially.

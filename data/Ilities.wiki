@@ -1,0 +1,79 @@
+﻿++ Ilities
+
+Ilities are what computer [Applications] should strive for. This list was adapted from Wikipedia:
+    * http://en.wikipedia.org/wiki/Ilities
+
+++Ilities
+    * accessibility
+    * accountability
+    [Authoring], AccountableSystem, [Accountability]
+    * adaptability
+    * administrability
+    * affordability
+    
+    * agility
+    * auditability
+    * availability
+    * credibility
+    OfficiallyAcceptedCertification
+    * compliant with standards
+    [Standardization]
+    * composability
+    * configurability
+    
+    * customizability
+    DeepCustomisation, ConfigureNotReimplement
+    * degradability
+    * demonstrability
+    * dependability
+    * deployability
+    NetworkDeployment
+    * distributability
+    [Centralisation], SoftwareDistribution
+    * durability
+    * evolvability
+    * extensibility
+    [Extensibility]
+    * flexibility
+    * installability
+    [Installation]
+    * interchangeability
+    InterchangeableImplementations
+    * interoperability
+    * learnability
+    HelpTheUser
+    * maintainability
+    * manageability
+    [Managed]
+    * mobility
+
+    * modularity
+    [Modularity]
+    * nomadicity
+    * operability
+    * portability
+    * predictability
+    * recoverability
+    TotalReversibility
+    * relevance
+    * reliability
+    * repeatability
+    * reproducibility
+    * reusability
+    SharedImplementation, ReusabilityArchitecture, [Reusability]
+    * scalability
+    * seamlessness
+    SeamlessUsability
+    * serviceability (a.k.a. supportability)
+    * securability
+    [Security]
+    * simplicity
+    * stability
+    * survivability
+    * sustainability
+    * tailorability
+    DeepCustomisation
+    * testability
+    * timeliness
+    * understandability
+    * usability

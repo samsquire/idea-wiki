@@ -22,7 +22,7 @@ Authoring may have some requirements. This is where a PrerequisiteStore is used.
     
     Website
      A website is visited and since the website has metadata storing the "generator" of the website, the exact software is displayed which created it.
-    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/webpage_details.PNG
+    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/webpage_details.PNG
     
 ++Able to
 The ShouldBeAbleTo:

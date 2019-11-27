@@ -1,0 +1,8 @@
+﻿++ Predecided Configuration
+
+PC is when configuration is provided but limited to a set of options and they cannot be modified or added to easily. This is undesirable because it forces the user to make a choice between distinct choices.
+
+
+
+    * Calendar software - anniversary, birthday
+    * [Processing] profiles

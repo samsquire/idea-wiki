@@ -1,0 +1,27 @@
+﻿++ Integrated Advertising
+
+IA is the SystemIntegration of advertising with [Standardization] non-intrusive way. This is to avoid [Annoyances] and NoAnnoyUser associated with conventional advertising.
+
+++Implementation
+
+Solutions to [Issues] and [Errors] often include utilizing products. IA allows [Users] to understand the connection between products and problems by integrating them into TheSystem itself.
+
+When errors or issues occur, the [Frontend] usually offers [Links] to basic [Help] in fixing the problem. Conventionally this help is general and does not help users in making a particular choice for particular products. IA explains the general product in addition to specific examples.
+
+For example, when opening [Applications] TheSystem has not enough memory for, IssueDetection creates a warning that there is not enough [Memory] available. IA means that this warning may also contain:
+    * links to what [Memory] is and why it is needed
+    * product information
+
+IA obtains product information from ProductSystem. Unlike conventional systems that would impose a monoply over the advertized products, any product can be advertized since it is decided by TheSystem through automated comparison.
+
+    * Video Cards
+    * [Network] connection
+    * Opening filetype without installed application
+    * HardDrive
+    * Battery
+
+Factor [Prioritizing] means only the user [Optimum] choices are displayed:
+    * cost
+    * [Legality]
+
+ProductSystem uses [Pooling] from many different product databases to ensure neutrality and have ControlledCommercial

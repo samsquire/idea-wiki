@@ -1,0 +1,9 @@
+﻿++ General Indicator
+
+GI is when actions are tracked:
+
+green files for those opened/paid attention to, yellow for somewhat payed attention to and red for those which haven't
+show files/folders visited or not visited within:
+ - the current session
+ - since a certain date
+ - colour code based on whether all contents have been seen or not

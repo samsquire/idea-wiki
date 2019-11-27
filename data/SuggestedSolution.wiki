@@ -1,0 +1,18 @@
+﻿++ Suggested Solution
+
+SS is when the SolutionSystem deduces a solution from [Errors] and [Issues]. This is needed because of TryBeforeChecking.
+
+If the problem is clicked, [Portalling] is used to display [Help]. SS also uses CommercialIntegration and CollaborativeData to help [Users] solve problems. This includes:
+    * CommercialIntegration, [ReviewStore] for products that would solve the problem
+    * Communication with [Users] also with the problem.
+
+
+++Examples
+    * A file cannot be written because it is readonly.
+    * The user has permission to change the access privileges.
+    * Offer to change permissions
+
+    
+    * use LogTunnel to determine why
+perhaps it means the last interaction which could have caused it is found
+    * todo: find out what log tunnels are

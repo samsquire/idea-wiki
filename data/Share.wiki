@@ -1,0 +1,21 @@
+﻿++ Share
+
+Share refers to the interactiveness of [Applications] from the outside and making them available for others to use. This interactiveness can be in the form of [Configuration], to events or frameworks.
+
+    * using shares is an [Import]
+    * offering is an [Export]
+    * [Externalisation] refers to exporting implicitly
+    * [Internalisation] refers to importing explicitly
+
+The ShareArchitecture is how interactivity is added to [Applications].
+
+++Comparison
+    * Externalisation is likely to be faster than Internalisation because it is a NativeImplementation. These are also ImplicitImplementTheUnimplemented:
+     * StandardEstablishment
+     * StandardMultiples
+     * HighStandards and [Protocols] for strict interaction
+
+++Architecture
+The DisclosureSystem prevents [Security] issues regarding the sharing of sensitive information and is therefore an example of DelegateSecurity.
+
+    * application architecture: bindings, sharedmodules and config for them

@@ -1,0 +1,33 @@
+﻿++ Search
+
+Search is a BaseInteraction and is to be available everywhere.
+    * The search results are stored in a [History] for past recall. This may be a SmartCache to save space.
+    * Search results are DynamicData.
+    * Searches are stored in UserLists
+    * [Navigation] applies can apply in searching too. Especially BackForward.
+
+++Implementation
+When locating content with a search and the user accesses the content. The user may wish to remember what was searched to find it.
+
+Search is a [Processing] intensive task and SmartResources are necessary for it to be optimal. There are two strategies to search:
+    * summarize the data to be searched, [Indexing]
+    * enumerate on the spot, [Scanning]
+SmartResources is necessary to ensure the right solution is used at the right time.
+
+TheSystem will use a mixture of both strategies since this optimizes search.
+    * Prioritizing the sample speeds up scanning and indexing the most likely first.
+    * Scanning can prioritize a sample to be indexed. (see [Scanning])
+    * Using [Seeking] techniques
+
+This knowledge can make search reliable and useful:
+    * Certain file formats are found in certain places opposed to others.
+    * User's files searched first.
+    * Currently opened windows
+    * Prioritize high and low [Usage]
+    * The file types inside a folder are marked on the folder.
+    * Search most recently created/modified files.
+
+In all display based software, search uses [Scanning]. It is possible to specify a physical search region in these applications. If the user has an idea where to search it makes it easy to let the user specify. Elements contain text and it is better to search the one the user has selected rather than everywhere.
+ContentClassification also makes locating these elements easier, including patterns of elements such as a forum.
+
+The [Chooser] can be used to decide where to search for files if a particular location is preferred.

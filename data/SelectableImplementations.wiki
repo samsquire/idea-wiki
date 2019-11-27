@@ -1,0 +1,5 @@
+﻿++ Selectable Implementations
+
+SI means there is enough UserVariety (due to PromoteVariety) that [Users] can decide on an implementation with [Selection].
+
+For example a choice of web browsers and security software.

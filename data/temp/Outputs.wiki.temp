@@ -1,0 +1,15 @@
+﻿++ Outputs
+
+Outputs have GrainedSeparation. Outputs can be produced from:
+    * processes
+    * SystemWindows
+    * tabs (should the application break it up like this)
+
+[Data] that can be output include:
+    * [Externalisation]
+    * [Audio]
+    * [Errors]
+    * video
+    * [Files]
+    * 
+

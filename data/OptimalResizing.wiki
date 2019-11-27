@@ -1,0 +1,15 @@
+﻿++ Optimal Resizing
+
+OR is where TheSystem automatically resizes objects for them to be useful and avoid WastedSpace. OR is an important TheSystem feature as it encourages:
+    * NoManual
+    * prevents WastedSpace
+    * OptimalResizing is used for EfficientFrontendArrangement
+
+++Architecture
+
+The size of text and controls is possible for TheSystem to discern. The principle is that with this knowledge, UserInterfaces can be automatically sized according to this knowledge. The idea is that windows, tabs, buttons and other frontend elements should always be large enough for [Users] to see and use efficiently.
+
+Sometimes the [Optimum] size may not be possible because other elements on the screen. In this case, TheSystem must make a decision to provide the best possible size and InterfacePanelOverflow.
+ 
+
+[Conventional] systems have a ConventionalBackward of having to resize parts of the [Frontend] when TheSystem is perfectly capable of this.

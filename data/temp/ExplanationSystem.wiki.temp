@@ -1,0 +1,4 @@
+﻿++ Explanation System
+
+The ES explains what is happening currently. It is different to [DocumentingSystem] and [Logging].
+    * FriendlyConfiguration

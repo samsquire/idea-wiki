@@ -1,0 +1,18 @@
+﻿++ Implementation Indiscriminate
+
+II means that an different implementations should be indiscriminate. Implementations are treated the same as any other that fits into the same genre. An implementation's aim is to complete [Tasks] and TheSystem should standardize the completion of the task with [Users]. This includes:
+    * [Help]
+    * [Documentation]
+    * [Configuration]
+    * TaskArchitecture
+
+     * general documentation
+     * specific documentation
+
+     * eg, two different software accomplishes same task, the user choosed one and can continue the tutorial as if they are using them (II - they both do the same task, OI)
+
+++Example
+
+Multiple web servers exist but the user could choose any to fulfil the same [Tasks] of serving pages. This is possible because [Technologies] usually operate on the same principles.
+    * The installed web server adds architectural data to customize the generic [Documentation] and [Help] pages. A RealRepresentation is then created. After the server choice, the TA refers explicitly to the chosen server in question and its technical details.
+    * StandardizedScreens can offer implementation independent administration.

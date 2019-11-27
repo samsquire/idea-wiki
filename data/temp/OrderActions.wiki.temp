@@ -1,0 +1,11 @@
+﻿++ Order Actions
+
+OA is the [Ordering] of [Processing]. The interface that offers this is the [Stager].
+
+++Interfaces
+    * The user may select simply the first and last
+
+++Smart Ordering
+This is where conditions decide the order of actions.
+    * fastest task first
+    * most important task first

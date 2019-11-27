@@ -1,0 +1,15 @@
+﻿++ Remember Everything
+
+RE means that TheSystem should attempt to remember everything [Discarded] in a special area, DesignatedRefuseArea in order for:
+    * smooth usability
+    * [Undo], [ReversibilitySystem] and UndoWillUndo
+    * return to what one was doing
+
+++Implementation
+
+TheSystem's ReversibilitySystem maintains a copy of anything [Discarded].
+
+ - need session saver for windows, remember word files opened RememberEverything
+
+
+

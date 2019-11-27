@@ -1,0 +1,10 @@
+﻿++ Multiple Versions
+
+MV is the coexistence of different versions. 
+    * can result in OverIsolation
+
+[RelevancyHook]s that are provided by the RelevancySystem may be required to ensure that there is no unnecessary
+
+see [Multiples]
+
+   

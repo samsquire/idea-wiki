@@ -1,0 +1,24 @@
+﻿++ Problems
+
+Problems are [Tasks] that follow the same requirements consistently:
+
+    * [People]
+    * WorldWideWebProblems
+    * PointConsistency
+    * ModularBreakdown
+    * OverAbstraction
+    * [Malware]
+    * [Complexity]
+    * Customisation / Incompatibility / Standards
+    * FrenziedFeatures
+    * [Reimplementation]
+    * SelfContainedApplications
+    * LowStandardization
+    * CapabilityOverload
+    * 
+    * 
+
+More conventional problems are in ConventionalBackward.
+
+    * Invalid references - where PointConsistency become invalid
+    * WhereToStore

@@ -1,0 +1,12 @@
+﻿++ Tabs
+
+Tabs are StagedInterfaces that divide stages by labeled tabs.
+
+++Implementation
+
+The tab change [Architecture] is a SharedImplementation for maximum [Reusability]. Individual tabs are InterfacePanels which are specified during [Import]ation. This encourages RelevantInterface as tabs are utilized for different purposes in different applications.
+
+++Features
+    * Tab preview
+     * thumbnail pops out appears like mouseover
+     * main viewing area changes to display screenshot of tab

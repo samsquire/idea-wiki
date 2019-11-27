@@ -1,0 +1,10 @@
+﻿++ Application Crossovers
+
+AC is how [Applications] are able to integrate with others without knowing the actual implementation the recipient()s.
+
+AC makes software easier to use and flexible.
+
+++Examples
+
+
+    * would be how the system places game information next to the contact in the [Chat] or social networking applications

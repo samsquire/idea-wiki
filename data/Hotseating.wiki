@@ -1,0 +1,15 @@
+﻿++ Hotseating
+
+Hotseating is a MultiplayerGaming implementation that permits multiple players to share the same input to take turns against one another.
+    * Hotseating is a OfficiallyAcceptedCertification for all non-realtime multiplayer games.
+    * [Spectating] is also possible.
+
+Hotseating has a NativeImplementation to prevent [Reimplementation]s.
+
+++Implementation
+
+Hotseating is a slow gameplay technique and only tends to be used when the game doesn't support multiple inputs, such as non-realtime games.
+
+Games that support hotseating receive an ImplicitImplementTheUnimplemented of NetworkedGames. This is because the NativeImplementation of hotseating supports the issuing of turns through the [Network]. The inputs of the opponent are then synchronized over the [Network].
+
+Hotseating is practically unlimited by the number of players since it is only the controller of the input who determines the go. As the number of players increase, the slower the gameplay is. For this reason it is likely to be a BackgroundGame.

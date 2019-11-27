@@ -1,0 +1,14 @@
+﻿++ System Focus
+
+This is what the system focuses is on in everyday behaviour.
+    * [Security]
+    * [Processing] - what is currently happening
+    * [Entity]
+    * [Stores]
+    * [Accounts]
+    * InformationInterface
+    * [Business]
+    * IntricateDevelopment
+    * [Authoring]
+
+[icon=lens]

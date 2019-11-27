@@ -1,0 +1,7 @@
+﻿++ Users Awareness
+
+UA is the [Users]' [Awareness] for what is transpiring on TheSystem and in [Applications]. UA is accomplished through:
+    * [Logging]
+    * [UserNotifications]
+
+High UA correlates with UserControl and is therefore desired.

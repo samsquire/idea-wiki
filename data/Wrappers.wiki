@@ -1,0 +1,21 @@
+﻿++ Wrappers
+
+++Neatness Wrappers
+    TODO: make a better name or new concept 'information wrapper'
+    * make things look tidier and appealing.
+    * doesn't fix flaws with software
+     * adjusts output/input based on external unrelated factors that are making things appear unappealing
+     * fine tunes the inputs/outputs of a framework/engine etc 
+    * example: justify text rather than aligning it left, center or right
+
+++Security Wrappers
+    * enforces security:
+     * ensures only authorised people can access
+
+++Safe Wrappers
+    * Encapsulate unsafe functions making mistakes impossible. For example: shutdown, halt and reboot on Linux.
+    * Redirect commands: if shutdown was done before terminate, shutdown will be delayed until terminate.
+
+++Proposed
+    * Compatibility Wrapper
+    * speed wrappers (database readahead)

@@ -1,0 +1,8 @@
+﻿++ Total Reversibility
+
+TR means that the ReversibilitySystem ShouldBeAbleTo [Restore] any [Change]. This is only possible if ChangeSensitivity is high.
+
+TR is possible because:
+    * [History]
+    * [Logging]
+    * UserTracking

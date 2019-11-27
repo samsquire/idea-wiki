@@ -1,0 +1,18 @@
+﻿++ SystemInformation
+
+SI is [Information] that is a available regarding TheSystem as a NoBaseTaskDownload and RegardNormal. This information is important to IssueDetection. [Portalling] is used to present specific SI.
+    
+    [Hardware]
+     * Hardware sensors: temperature
+     * Control of fans, voltages
+     * Motherboard
+
+    * [Hardware]
+    * SystemManagement
+
+    [Files]
+     * Consumption: Largest files on disk
+
+
+
+[icon=question]

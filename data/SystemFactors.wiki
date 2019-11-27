@@ -1,0 +1,10 @@
+﻿++ System Factors
+
+All factors should be:
+    * ProgressiveFeedback, AlwaysFeedback
+
+++Factors
+
+    * [Security]
+    * [Performance]
+    * [Compatibility]

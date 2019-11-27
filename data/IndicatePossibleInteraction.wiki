@@ -1,0 +1,13 @@
+﻿++ Indicate Possible Interaction
+
+II means that all possible [Interactivity] should be indicated.
+
+In UserInterfaces this includes:
+    * Sounds - mousing over a button makes a sound
+    * Tooltips
+    * physical changing - colour changing, brighter, larger
+    * Cursor
+
+Indicating what is possible for [Users] is a HelpTheUser. [Help] is often provided aswell to explain what the interaction will do HelpLapse]s.
+
+IndicatePriorInteraction is what happens to the after the interaction.

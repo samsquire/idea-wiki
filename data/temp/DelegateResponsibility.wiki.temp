@@ -1,0 +1,7 @@
+﻿++ Delegate Responsibility
+
+DR is when [Responsibilities] are to be invoked on a different ImplementationLevel instead of the current.
+    * DR to TheSystem is to DownlevelToTheSystem DelegateSecurity
+    * DR [Update] to the UpdateArchitecture
+
+This is a strategy of the ResponsibilityArchitecture and aims to maintain OnlyOnce and prevent IrrelevantCoding.

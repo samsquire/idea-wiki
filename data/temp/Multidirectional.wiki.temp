@@ -1,0 +1,12 @@
+﻿++ Multidirectional
+
+Multidirectional means that something may go in more than one way. Enforcing multidirectional architectures means that nothing becomes stuck, FutureProofing.
+    
+    * Applications that follow instructions or generate rather than use/expose [Share]s are unlikely to be multidirectional. This is because there is no way to reverse the output. 
+    * Converters
+    * InstallPackages and [Applications]
+
+++Advantages
+    * Promotes NoBrittleData
+    * [Migration] and [Synchronization]
+    * Results in [Directness] and HighStandards

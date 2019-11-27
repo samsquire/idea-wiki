@@ -1,0 +1,5 @@
+﻿++ Update Not Reprocess
+
+UNR means that an update rather than re-[Processing] should happen to reflect [Change]s. This is implemented by [ContinuousInitialization]s.
+
+    * Conventional DynamicWebServers are offensive to UNR.

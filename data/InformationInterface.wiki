@@ -1,0 +1,36 @@
+﻿++ Information Interface
+
+An Information Interface is where the [Frontend] is used to provide information about things as opposed to empty data. Empty interfaces is when a subject is referred to but no more information is offered. II are possible because of the [CrossReferential] [Paradigms] of TheSystem.
+
+++Implementation
+Any reference to different information on the screen is implicitly created as [Links] to it. This implicit link creation means IrrelevantCoding is not needed in [Applications] [Development] to follow a ConsistentSystem. This includes:
+    * pathing
+    * [Files]
+    * explanation of what a file contains or does
+     * Installed Applications 
+    * installed applications, when was installed etc
+    * website details, host information etc
+
+todo: applications that open certain files/types etc, file portalling, not actually open the file, just data about it and why it was created?
+
+II need to IndicatePossibleInteraction and may do so by StandardRepresentations if they do not use text. This adds to the ConsistentSystem concept.
+
+++Architecture
+II are pivoted around [Information] the user wishes to operate on. This is why [Portalling] and DataSeparation exist. Web Interfaces tend to be information centric by
+    * offering many SpecializedScreens
+    * a SingleInterface
+
+Web pages set the example since they can allow information to be accessed quicker and easier than conventional desktop applications, regardless of the remote connection disadvantage.
+    * [Search]
+
+
+
+++Reference
+
+    * referenced text, eg, status bar: "Temporary file created."
+    * no formatting change to the word temporary file? or very slight, eg underline
+     * but when clicked, a context menu appears:
+      * show file, highlights in file explorer
+      * help: explain why temporary file exists
+      * show log
+

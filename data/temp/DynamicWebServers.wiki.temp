@@ -1,0 +1,44 @@
+﻿++ Dynamic Web Servers
+
+DWS are WebServer]s that output dynamic web pages rather than static [Files].
+    * NoManual
+    * OnlyPollOnce
+    * UpdateNotReprocess
+    * EnumerationHeavyTasks - parsing, polling, initialization, installation, 
+    * big upfront - do large job upfront
+    * No manual edit - users shouldn't be fiddling around copying pasting to add similar content
+
+Conventional DWS generate pages by parsing the page to be delivered. This is inefficient due to pointless parsing. NoParse [NativeImplementation]s of [WebServer]s aim to be more efficient with any of the following strategies:
+    * basing on proper DesktopApplications and converted to WebApplications by RepresentationConversion so that they are faster
+    * cached on first request and updated only when out of date
+    * [Authoring] is dynamic and static pages are used as output
+     Size restrictions mean that not all data can be statically stored because there is too much variety. Similar and static data which shared among all pages is cached. Database search results would not be cached whereas postings would. This is because the number of updates for a posting will be less than that of a search.
+[Users] can choose between the implementation that suits their needs.
+
+
+processguard like is default
+www needs to function on subdomains, like www.mail.sam.com/
+super custom HTML error messages, fine grained forbidden
+abstractionawareness means that even if using a logical drive that is at another location, the abstraction to applications is transparent but users need to be aware of incurred delays
+
+(( 
+model view controller will only make sense if easily abstracted
+ - could be a good operating system design paridigm:
+ the APIs to modify data
+can use the same templates that were used to make the static pages as the dynamic content
+login will have to be a higher up view if static
+
+))
+
+locally generated web page
+ - easy to manage
+ - generates static pages
+
+Server side languages permit dynamic content conventional systems.
+
+* typo3 script like language for generating web pages, functions and inputs where i want stuff
+ * eg, drop down box form html with inputs and actions applies to the action
+Web
+
+javascript minimizing:
+ - detect if user cached, if keeps requesting javascript files, instead start using inline code

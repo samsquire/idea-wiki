@@ -1,0 +1,21 @@
+﻿++ Protocols
+
+Protocols are strict [Standards] of interaction and communication that must be followed for [Compatibility].
+    * see [Protocol]
+    * Protocols must have HighStandards to function.
+
+Protocols can TriggerAnything. This means at any state of the protocol, events can be applied.
+
+The CompatibilityArchitecture allows protocols to be validated for compatibility.
+protocols should be 'validatable'
+
+++Important protocols
+    * Hypertext Transfer Protocol
+    * File Transfer Protocol
+    * Bit Torrent
+    * Internet Relay chat
+
+++Concepts
+    * Zoom Protocol
+
+ProtocolDeveloper is the [Development] tool used to create protocols.

@@ -1,0 +1,16 @@
+﻿++ Native Competition
+
+NC is the competition of NativeImplementation for SystemFactors. NC is possible due to [Extensibility], DeepCustomisation and CasualModification. NC is encouraged since it:
+    * PromoteVariety and improves UserVariety
+    * enables [Comparison]
+
+TheSystem benefits from friendly NC since it enables the CommunityNetwork to discover new ideas and make improvements.
+    * search scripts, the most efficient script returns the most results in shortest amount of time
+ - user competing to design the most efficient script
+    * AntiMalware scanning components
+    * [Indexing]
+
+separate scanners: memory, file, directory, processes, services etc
+ separate scanners for each which join a on-demand GUI for them
+
+ProductSystem ensures competition is constant and that the [Optimum] choice is always used.

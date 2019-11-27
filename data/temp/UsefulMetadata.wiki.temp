@@ -1,0 +1,12 @@
+﻿++ Useful Metadata
+
+UM means that [Data] collected regarding a file will be useful to the user. The BaseInteraction]s should be applyable to metadata. UM is accomplished through:
+    * ImplicitSearch
+    * InformationInterface
+    * CrossReferential
+    * ContextSearch
+
+++Examples
+
+    * EXIF image
+    * [Files]

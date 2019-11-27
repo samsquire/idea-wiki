@@ -1,0 +1,9 @@
+﻿++ Permissions
+
+[Entity]s such as [Accounts] have permissions.
+
+++Fine Control
+Full fledged permissions:
+     * Edit everybody's files
+     * Only yours
+     * Add files to directory but not modify them

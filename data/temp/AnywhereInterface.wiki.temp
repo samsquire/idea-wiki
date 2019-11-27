@@ -1,0 +1,14 @@
+﻿++ Anywhere Interface
+
+AI means that [Frontend] elements can appear on anywhere on UserInterfaces. AI is implemented through InterfaceRouting.
+
+++Architecture
+
+TheSystem has a SharedImplementation of the standard endpoints:
+    * StatusBar
+    * TitleBar
+    * SystemTray
+
+Each endpoint has a different design style and size wise. AI is possible due to the 
+
+standard event UI = click status bar, it appears in status bar, click system tray, appears as icon or toast - automatically resized and maybe designed specifically for the purpose

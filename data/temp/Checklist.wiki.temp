@@ -1,0 +1,10 @@
+﻿++ Checklist
+
+Checklists StateList]s where items are limited by two states. Examples include:
+    * [Compatibility] - compatible/incompatible
+    * Capability - capable/incapable
+    * Progress - done/incomplete
+
+Checklists are often utilized in place of more complicated UserInterfaces such as [Portalling] since it prevents HelpLapse]s and InformationOverload. As with most StateList]s, interaction will invoke more complicated UserInterfaces to GetInto more detail.
+
+Checklists are essential to ShowWhatTheUserWantsToKnow.

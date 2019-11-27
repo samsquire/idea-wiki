@@ -1,0 +1,33 @@
+﻿++ Game Repository
+
+The GR is a parent [Stores] dedicated to Games, serving as a host to all GameComponentry. The GR promotes:
+    * NoDistance
+
+++Implementation
+
+An [Inventory] of games allows the entire game collection of users to be displayed in GamePortalling. Both uninstalled and installed games can be added to this inventory. The idea is to present the [Users] complete collection of games rather than management of installed games since GameManagement handles this.
+    * GetInto means that clicking an already installed games will invoke GameManagement or GamePortalling.
+
+Adding an uninstalled game is a matter of:
+    * inserting a disc
+    * identifying the game and version
+    * adding it to the collection.
+Clicking an uninstalled game will invoke the [Users] data regarding the game and offer instructions on how to install ('Please insert game CD'). Associated data such as serial numbers, accounts and physical location could also be added.
+
+Even incompatible games can be added in this way: ArchitecturalAwareness means that these games are not exempt from the inventory.
+    * GetInto means that these games for other systems can be invoked through emulation or by restarting into this system.
+SystemsBridging gives TheSystem an awareness of the game's original and can therefore check the [PrerequisiteStore] of the game to see if the game will run. This can be implemented as a StateList.
+
+The GameRepository will display:
+    * storage space
+A DataMapping can be used to give a RealRepresentation of space consumption.
+
+++Information
+    PrerequisiteStore
+     * Determine whether TheSystem meets the requirements of the game
+       [Hardware] or [Applications] (game engines) wise 
+
+    ReviewStore
+     * opinions on mod/expansions
+
+    [Documentation]

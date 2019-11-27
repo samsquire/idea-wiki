@@ -1,0 +1,18 @@
+﻿++ Title Bar
+
+The titlebar is located at the top of windows and holds:
+    * close
+    * maximize
+    * minimize
+    * stick
+    * title
+    * icon
+    * ExternalConfiguration
+    * [Volume]
+    * RatingSystem
+
+Phillip Haines has mentioned a few ideas also created for TheSystem's titlebar and some new ones not considered. Credit for the 2nd and 3rd ideas were provided by him.
+http://stealthisidea.com/articles/gui-titlebar-tweaks/
+    * renaming files is possible from tabs and windows
+    * move file or icons with its [Icons]
+    * allow saving of unsaved files with the icon DefaultSavePath

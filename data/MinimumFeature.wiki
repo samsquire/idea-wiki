@@ -1,0 +1,4 @@
+﻿++ Minimum Feature
+
+MF means that any implementation, including SharedImplementation and [Applications] must include.
+    * MF often form the basis of the OfficiallyAcceptedCertification.

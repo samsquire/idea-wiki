@@ -1,0 +1,27 @@
+﻿++ Progress Bars
+
+PB are a ProgressIndication that represent progress over time in a bar format. This can be in the form of RealRepresentation or a generic diagram.
+
+++Architecture
+
+[Conventional] PB are rarely proportional because the involved elements are rarely equal, such as [Files]. This makes them useless in indicating progress and give time guidelines. NativeImplementation]s of PB should:
+    * indicate progress
+    * to give a guideline how much longer the task will take
+    * show how much work is completed in given time
+In addition, some progress bars can also:
+    * visually divide progress into stages, [Users] may be permitted to interact with this progress visually such as [ToolTips] and clicking on it
+    * indicate the [Processing] on pieces, such as after detecting a result, movement of the result into progress
+
+NativeImplementation]s of PB aim to be accurate and proportional.
+
+Methodologies of improving PB usefulness include:
+    * using exact scales rather than arbitary physical areas
+    * using equal element sizes, such as 1megabyte in data rather than [Files]
+    * using metaphors of the progress subject in question, filling up, running an indicator down a file
+    * progress should be obvious with movement, colour changes or [Animation]
+
+These representations can be combined into InterfacePanels for IndepthData.
+
+For an [Installation]:
+    * a scale can mark installation size in total file size, each step is 1MB of the total
+    * movement of [Files] from one area to another

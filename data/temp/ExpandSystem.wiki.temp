@@ -1,0 +1,47 @@
+﻿++ Expand System
+
+The ES handles is both the paradigm and subsystem that handles special 'expand [Update]s'. The ES obtains information about something that is not present but is available and offers this to the user.
+    * [Conventional] examples inlude AddOn managers and expansion managers
+    * Practically all application stores are ES
+
+This is so that the ExpandInformation [Paradigms] is fulfilled and HelpTheUser.
+
+ES needs to be ClearOnCapability on whether information is currently reachable. If the user is not connected to the internet or no sources exist. NoLying states that the ES should hide its features. The button that calls the ES should be faded out or hidden altogether.
+
+++Problems
+
+    * ES needs to somehow know what it is looking for. To obtain more information, at least some information must already exist.
+    * Need to indicate something is not currently available but can be.
+    * The expanding of file types requires the system to know about the file to begin with. need to use or access a file, You need to store as many file types as possible.
+    To know whether more exists you have to check. For example, in ApplicationManagement, the 'Documentation' icon shouldn't be clickable unless documentation is available. NoLying
+
+++Architecture
+
+The ES starts with little or no information and expands itself with more. Expansion works by downloading available information. Information is tiered because information is limitless.
+    
+    * An example is the sources available in a package manager.
+    * MinimumInformation - the very minimum amount of information that can be stored, means there is no EmptyAbstraction
+    * Tiers of data comprehensiveness may be explicitly set. [Applications] that use the GPL license means that the GPL licence document be downloaded. The history and authorship of the GPL however, will not be downloaded unless a higher tier is requested. Data Tiers are just file or structure mappings. The user can of course choose exactly what data needed from a list. [Categories]
+
+The ES is not necessarily permanent. JustUse means that information can be obtained with explicitly storing (NoFinalization). The information obtained will be placed into a SmartCache with UseSensitivity incase it is requested again.
+
+only relevant information: Clicking the version number of the application will show that there are X number of versions and version Y was the previous and if it exists, N is the next, the format of the version string means that this can be calculated
+IndicateAutomatedActions
+
+++Reasons
+
+There is not enough storage space and it is infeasible to store every descriptor for Entities on a system. It is unlikely they will all be required. The logical solution is to provide a mechanism to detect when it is required and then consult another entity that does.
+
+    * UseBest ShowBest RelevantInterface: show only applications that are compatible with the current installed versions
+
+++Examples
+
+    * Find out about if unsure - application entites, eg, [Authoring] of a project
+    * query/lookup server 
+
+* how to store file name descriptions?
+ * unlikely that people are going to use all file types or even encounter them in normal operation
+ * data tiers? full/descriptive etc
+ * have to download the upgraded version to access more info etc
+
+[icon=scroll]

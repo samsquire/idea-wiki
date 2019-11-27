@@ -1,0 +1,7 @@
+﻿++ No Have To
+
+The user should not [HaveTo].
+
+++Examples
+    * Saving a file before being able to convert it
+        solved by DifferentRepresentation and JustUse

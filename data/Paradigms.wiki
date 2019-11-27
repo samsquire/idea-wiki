@@ -1,0 +1,79 @@
+﻿++ Paradigms
+
+These are beliefs, styles and fashions of usage.
+
+++Quality
+    * [Intolerance]
+    * [Purity]
+    * UserControl
+    * [Standards]
+    * [Directness]
+    * [Neatness]
+    * OnlyOnce
+    * NoFinalization
+    * PassiveUntilActive
+    * ComprehensiveSystem
+    * ConfigureNotReimplement - configure a file to offer its sections
+    
+++Features
+    * NoBaseTaskDownload
+
+++Architecture
+    * [Slotting]
+    * ConsistentBaseTasks
+
+    * NoAssumptions
+    * NoParse
+    * NoEnumeration
+    * NoInterruptUser
+    * NoHaveTo
+    * NoPrimarilyManualNumericalConfiguration
+
+
+    * [Optimum]
+    * PointConsistency
+    * SafeEmbedding
+    * JustUse
+
+    * DifferentRepresentation
+    * StandardMultiples
+    * StandardEstablishment
+    * ConsistentSystem
+    * ClearOnSetting
+    * EasyMigration
+    * MinimumWrites
+
+
+++Development Related
+    * CodeForEveryPossibility
+    * IrrelevantCoding
+    * FlagNotFunction
+
+    * NoCapabilityBranding
+    * ControlledCommercial
+
+++Interfaces Related
+    * NoBlankness
+    * NoMixGeneralSpecificInformation
+    * NeverFailWithoutWhy
+    * ShowWhatTheUserWantsToKnow
+    * CrossReferential
+    * InformationInterface
+    * LiveData
+    * ListStyle
+    * AlwaysFeedback
+    * DataSeparation
+    * ObjectSystem
+    * ClearOnPrerequisites
+    * NoBrokenLinks
+
+++Operation
+    * UndoWillUndo
+    * DeepCustomisation
+    * UseATypicalApplication
+    * AllowAnytime
+    * ShowPurpose
+    * NoManual
+    
+++Specific
+    * IdealGaming

@@ -1,0 +1,12 @@
+﻿++ Application Base Tasks
+
+In addition to the BaseTasks and [Bases], these are the [Basics] tasks that [Applications]utilize:
+
+    * [Open], [Save]
+    * [Undo]
+    * [Configuration]
+    * [Logging]
+    * [Share]
+    * SharedImplementation
+    * [Installation], [Uninstallation]
+    * RepresentationSystem

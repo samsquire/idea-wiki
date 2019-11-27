@@ -1,0 +1,21 @@
+﻿++ File System
+
+FS are [Components] that implement the LowerLevel representation of [Files] and directories on a physical capacity such as HardDrive or PhysicalMemory.
+
+++Implementation
+
+FS have [Standardization] so that they are [InvisibleImplementation]s. FS provide an ImplementationLevel that only allows files to be stored. This prevents IrrelevantCoding in other [Applications]. This means FS can be entirely:
+    * Logical (a LogicalEndpoint)
+        * UnifiedFileSystems
+    * PhysicalEndpoint
+    * [Remote]
+
+
+
+As a result, FS have an ImplicitImplementTheUnimplemented:
+    * MaximumModularity
+    * ChangeableImplementation
+    * SelectableImplementations
+
+* make directories more abstract, like labels so that an application can always find its files
+*  better to call them groups

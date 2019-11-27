@@ -1,0 +1,20 @@
+﻿++ Migration
+
+Migration is the transfer from one place to another. This involves:
+    * [Extraction] from the source 
+    * [Initialization] (if necessary)
+
+++Implementation
+Migration can be implemented in two ways
+    * Active/HigherLevel/[Internalisation] - the migration is catered for inside the Application, it is programmed in, eg mysql mirror
+    * Passive/LowerLevel/[Externalisation] - the transfer is not programmed in, the [Files] used by the application can simply be transferred over, whether not the application explicitly designed the files to be copyable is irrelevant
+
+Both high and low levels of migration are emcouraged. Migration is  EasyMigration.
+    * StandardEstablishment
+    * StandardMultiples
+    * NoAssumptions
+
+++What
+    * [Applications] AND ApplicationData
+    * [Files]
+    * [Network]

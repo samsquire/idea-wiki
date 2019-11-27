@@ -1,0 +1,10 @@
+﻿++ Single File Representation
+
+SFR is a form of MultipleRepresentationsOfFiles where the TheSystem's stores one PhysicalEndpoint and represents only one LogicalEndpoint on the [Frontend]. Upon request, AutomaticConversion is used to produce the file in desired [Representations].
+    * SFR differs to SynchronizedFileRepresentations in that there is only ever a single PhysicalEndpoint.
+    * SFR is very similar to RepresentationGrouping although it refers to content rather than formats.
+
+++Examples
+
+[Applications] are often written to require particular format as input. If the PhysicalEndpoint of a representation is not in this format, it cannot be used without RepresentationConversion. The SystemViewer shows this file as a single element. Upon selection, TheSystem will use DirectConversion to make the file the correct format.
+

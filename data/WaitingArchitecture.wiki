@@ -1,0 +1,17 @@
+﻿++ Waiting Architecture
+
+The WA is how TheSystem registers [Processing] in terms of how long it takes before [Users] can use them.
+    * The WA is essentially what occurs after scheduling.
+
+
+++Architecture
+
+[Applications], [Processing] and [Tasks] that can take variable or specified lengths of time to complete will communicate with notify the WA. The WA then notifies [Users] when the waiting is over.
+
+The WA provides a [Frontend] of currently undergoing tasks.
+    * [Loading]
+    * Can be used by the ActionOrdering
+
+
+The idea of a SystemTray icon from Peter Chabada is an idea that the WA will facilitate. Although this will use the existing StandardActionRepresentations.
+http://chabada.sk/better-desktop/

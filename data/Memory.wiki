@@ -1,0 +1,14 @@
+﻿++ Memory
+
+Memory is the storage of information.
+     * PhysicalMemory is the medium where the information is stored.
+     * LogicalMemory is what is actually stored and its structure
+
+++ Memory Drive (aka Ramdisk, not a new concept, just a new usage)
+    * networked ramdrive
+     * load files/applications from hard drive to memory
+     * when the memory taken by this file is needed again, free up the memory
+     * online storage between computers, virtual drive
+     * thought chain:
+    more than enough ram -> install memory disk software -> use ram online as a temporary store
+    for a server perhaps

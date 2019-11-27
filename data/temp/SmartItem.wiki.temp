@@ -1,0 +1,23 @@
+﻿++ Smart Item
+
+SI automatically decides how to display items based on the contents. This is because the display of hinders how well its contents can be used. Lists should always be conveyed efficiently.
+
+Data in [Categories] specifically benefits from SI.
+
+    * ListHeaders
+    * [Tabs]
+    * navigation trees
+
+All display modes have BaseInteraction]s. It is also under UserPower and the user can change between.
+
+++Architecture
+
+Factors determine the choice of display modes include:
+    * amount of items
+    * number of categories
+    * amount of difference between categories
+
+Display modes also have various rules:
+    * Tabs are used for few and vastly different categories: 5 and under.
+    * SI doesn't force an ordering or division of the list, every item can be displayed at once if desired, likely in the format of ListHeaders.
+    * trees are used for highly hierarchical data

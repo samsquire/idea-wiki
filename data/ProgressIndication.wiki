@@ -1,0 +1,39 @@
+﻿++ Progress Indication
+
+PI is the indication of [Processing] and ongoing [Tasks].
+
+++Implementations
+
+There are two kinds of progress:
+    * Indefinite: cannot be determined
+    * Definite: progress is obvious
+
+Definite progress can be measured by:
+    * time
+    * [Complexity]
+    * number of [Tasks]
+
+[Frontend] elements can indicate one or more measurements and indefinite progress:
+    * ProgressBars - time/tasks
+    * [Animation] - [Search]ing, [Scanning]
+    * clock intersections
+
+++Example
+
+Connecting with a [Network] to [Download] a web page carries the following tasks:
+    * create low level connection to server
+    * make request to server and wait for response, indefinite time
+    * receive response and size of requested document, definite size
+The progress of these tasks are as follows:
+    * different stages of initial protocol connection, TCP acknowledge
+    * indefinite
+    * definite size progress
+
+Not all progress needs to be represented verbosely, the most important above is the indefinite type of contacting the server and content download.
+
+++Ideas
+
+eudora apparently has a per task progress bars
+ - information popup on taskbar with individual processes progress
+ - mozilla thunderbird fails if one error occurs from a queue!
+mail clients need to be responsive, the paned layout makes things slower: a list of messages rarely needs to be displayed all the time

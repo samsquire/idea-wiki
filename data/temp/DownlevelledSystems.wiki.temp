@@ -1,0 +1,11 @@
+﻿++ Downlevelled Systems
+
+DS are those [Architecture]s that have been DownlevelToTheSystem. The main advantage to DS is OnlyOnce.
+
+    * [Download] - [Conventional] [Browser]s and [Internet] applications will download the same content again between different applications. This is inefficient.
+    * [Email]
+    * [Accounts]
+
+
+opera: stupidly downloaded same file in a window and to hard drive...just let the window download then copy over to hd OnlyOnce [Download]
+    * cookies

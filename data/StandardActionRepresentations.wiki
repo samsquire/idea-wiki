@@ -1,0 +1,12 @@
+﻿++ Standard Action Representations
+
+SAR is a specific form of StandardRepresentations that refers to the representation of actions in TheSystem.
+
+++Examples
+
+    * copy
+    * paste
+    * delete/remove
+    * decompression
+    * provide password
+    * [Printing]

@@ -1,0 +1,5 @@
+﻿++ Patch Server
+
+Patch Servers issue patches.
+    * rsync like algorithm, delta encoding
+     *actually looks like zsync 

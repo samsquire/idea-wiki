@@ -1,0 +1,19 @@
+﻿++ Impressive Technologies To Learn
+
+In this page I list important technologies that I find interesting and should be learned.
+
+    * Modelling tools: UML, especially Eclipse IDE 
+    * Sonar server: detecting flaws http://sonar.codehaus.org/
+    * Datadraw: high performance relationships http://datadraw.sourceforge.net/
+    * CORBA, RMI, JMI
+    
+    * LookupTables
+    
+    Library_Books ( 
+        ISBN, Authors, Publisher, Date, Place
+            {Collection, Location
+                {BorrowerClass, LoanPeriod
+                    {BorrowerID, Name, Email, Address, Telephone, DateBorrowed, TimeBorrowed}
+                }
+            }
+    )

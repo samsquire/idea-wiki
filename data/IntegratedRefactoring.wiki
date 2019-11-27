@@ -1,0 +1,7 @@
+﻿++ Integrated Refactoring
+
+IR means that refactoring should be a built in and part of the [Developer] to make refactoring simpler and easier.
+
+The [Frontend] should aid refactoring:
+    * the ability to 'move downwards to subclass' or 'upwards to superclass'
+    * 

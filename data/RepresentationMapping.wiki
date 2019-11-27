@@ -1,0 +1,11 @@
+﻿++ Representation Mapping
+
+RM is a DataMapping for entire representations for the RepresentationSystem. This is important for:
+    * RealRepresentation
+
+++Architecture
+Representations are often composed of numerous but consistent formats. The complexities of all formats mean that they cannot all be feasibly displayed at once. Instead, all relevant individual format are rendered by DataMapping and are collaged together to create a map of the entire representation.
+
+Each format is represented at a lower detail and accuracy to be more relevant and prevent InformationOverload. This collage has a [Navigation] in the form of depth where [Users] can control 'zoom' into a particular format on the diagram.
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/data_mapping.PNG

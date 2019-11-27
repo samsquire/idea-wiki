@@ -1,0 +1,9 @@
+﻿++ Physical Endpoint
+
+Physical [Endpoint]s are static and absolute:
+    * fast
+    * difficult to interface, requires parsing (see NoParse)
+    * MachineReadable
+
+++Logic
+    * compiled application

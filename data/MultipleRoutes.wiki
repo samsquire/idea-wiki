@@ -1,0 +1,10 @@
+﻿++ Multiple Routes
+
+MR means there are multiples ways of completing the same task. MR is important to prevent HelpLapse.
+
+Routes are distinguished between manual and automatic.
+
+    * Where possible, when a manual route is used, TheSystem will inform [Users] that an automatic solution exists.
+
+routes to cd update install, automatically detect cd, or run wizard, "please insert cd"
+OTHER OS: eg, windowss, application on cd that opens a message saying: "this is an update cd for certain software, you must boot into..."

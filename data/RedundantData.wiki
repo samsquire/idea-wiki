@@ -1,0 +1,5 @@
+﻿++ Redundant Data
+
+RD is [Data] that is stored in more than one location. RD is bad and is remedied by:
+    * StoreOnce
+    * UseTheSameSource

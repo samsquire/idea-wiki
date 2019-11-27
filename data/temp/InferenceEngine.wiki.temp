@@ -1,0 +1,9 @@
+﻿++ Inference Engine
+
+use time to detect oddities, eg
+ - server requests are within 10 second within eachother EVERY time
+ - show time of day for different societies, eg, night time/day time and break down into ranges, such as school/work
+
+know that a recipient is capable of playing a .SWF file because they downloaded it for playing
+
+a content website offering content should be suspicious if a visitor downloads everything a few times, as expected and then suddenly only downloads particular content, in order

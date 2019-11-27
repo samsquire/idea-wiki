@@ -1,0 +1,19 @@
+﻿++ Internet
+
+The [Internet] is the largest [Network] that extends around the world. All network features apply on the internet aswell.
+
+Common software include:
+    * InternetSoftware
+    * CommunicationSoftware
+    * NetworkedGames
+    * CollaborateSolution
+    * [Wiki]
+    * [Forum]
+    * [Email]
+
+Important considerations are:
+    * DisclosureSystem
+    * [Permissions]
+    * [Security]
+
+see WebConcepts

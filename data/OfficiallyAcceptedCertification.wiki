@@ -1,0 +1,10 @@
+﻿++ Officially Accepted Certification
+
+OC is TheSystem's official infrastructure. [Applications] only enter the OC if they follow the [Paradigms] and SystemFocus. This includes the:
+    * ContentDistribution
+    * CommunityNetwork
+    * [Update]
+    * DefaultSoftware
+    * 
+
+ - what needs to be done to appear in official sources

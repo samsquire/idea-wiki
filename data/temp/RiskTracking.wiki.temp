@@ -1,0 +1,45 @@
+﻿++ Risk Tracking
+
+RT is how risks of TheSystem are tracked. Risks include:
+    * [Security] breaches [Malware]
+    * [Issues]
+    * Data disclosure (DisclosureSystem)
+    * Data loss
+    * Unauthorized access
+
+++Implementation
+
+TR uses StateList]s to display the following about any given risk:
+    * severity
+    * LogDurationsToo
+    * type
+    * solvability
+    
+Events that lead to a risk are registered in risk tracking
+    * an unsaved file is registered with data loss
+    * remembering your password means anyone the computer can get into the account that the password protects
+    * power failure means unsaved files are at risk
+
+The system will attempt to explain risks through a break down of risk categories. These risks typically include:
+    * 40% Hardware Failure
+    * 29% Human Error
+    * 13% Software Corruption
+    * 9% Theft
+    * 6% Computer Viruses
+    * 3% Hardware Destruction
+Mike Shea provided these http://www.adrdatarecovery.com/content/adr_loss_stat.html percentages.
+
+Each of these causes can be mitigated in various ways but the ultimate solution is to make [Backup]s. The system will provide a list of tasks that can be carried out to reduce risks. This would be similar to a [Checklist] where processes the user has activated are ticked in the colour green. Should any action require user intervention in the future, the UserNotifications. Essentially this is a Suite.
+
+DecisionTable
+Choosing what medium to make the backup is important
+    * it might regularly ask the user to make a backup by inserting a disc
+
+risk manager implements practice files and other documentative formats
+
+mike shea suggested solutions to each
+data loss is not just a single cause, and solution
+ - the system needs to distinguish these causes, linking them with the MalwareEncyclopedia, other [Encyclopedia] and provide a overview of the machine's ability to fight 'data loss'
+
+add appropriate risk to risk manager when user selects the 'remember password' option
+- security practice files

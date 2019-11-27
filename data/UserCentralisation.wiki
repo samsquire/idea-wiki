@@ -1,0 +1,9 @@
+﻿++ User Centralisation
+
+PersonalOwnership stored in a central location. This central location contains UsersContent which enables [Users] to mirror [Tasks] across multiple machines.
+    * SeamlessData
+    * InputOnce
+
+Advantages of centralisation include:
+    * EasyMigration
+    * 

@@ -1,0 +1,340 @@
+﻿++ Pasted Ideas
+
+InstallationDataStorage
+
+ApplicationRuntime
+
+linking libraries to applications, installation directory holds further directories for each version
+
+'use frontend'
+- web page dialog, use a generated web page as a frontend
+
+UserReasoning
+
+system performance metric
+ - system knows how well it performs
+
+store menus/configuration RAW
+
+'customise' in view menu to customise user interface
+
+sociology tools
+- make predictions
+
+wiki elements should be embedded into webpages not a type of software
+ - that's what the world wide web was supposed to be
+
+
+how to transfer data/get something done that would require data without knowing it
+- unknown file types
+- leaking the user's language to an application tracked via disclosure manager
+
+conditional security rules link of person<-->user
+
+user can customise the right click for menus in frotend manager etc
+
+ContinuousDecompression
+
+
+ability to list viruses scanned for and a mark next to detected ones
+
+no retries
+smart patching in memory
+
+- report transitory errors
+- avoid 'retry counts'
+ - use a timeout schedule where it is added to a standard timeout database that acts like a schedule
+- user interface for retries/timeouts, ability to cancel, orgin/reason/history etc, graphical timeout and highlight upon each retry or end of timeout
+ - ability to add timouts/retires at different layers
+ - watch TCP communication and packet failure
+
+applications can't steal/hold resources even if they are ended
+
+- upon deletion from a normal view, a deleted file is removed but scheduled to be erased officially later
+
+camera captures an image of a CD-ROM in the drive, eg, per software, 'requires CD dialog'
+
+outlined live picture of earth to show where is nighttime or lighttime
+
+blog format, restructure a blog into a forum style so that people can reply to each individual comment
+
+time release entry
+- delayed blog, write tons of general time-resistant posts
+- time links, links that activate when the link's target is active, eg 'Tomorrow I'll talk about <whatever' and whatever links when tomorrow comes
+
+reverse frames, not loop
+
+generated image captcha should have the same filename everytime...with a session for each image
+
+crash guard?
+
+programming language of high usability and performance
+
+spam filters check links to websites too
+
+strong integration of sourcecode and binaries
+- frontend code immediate update/WYSIWYG
+
+
+
+userspace antivirus technology that defends itself actively using the same rights as viruses (interesting concept)
+
+double click on words selects them
+- selects only text words inbetween speech marks
+- right click has a dictionary (optional)
+
+manuals are integrated with the application itself
+remember dropdown menu positions
+make dropdown menus large
+dropdown menus act like a RTS game where moving to the sides move it
+number each item on the dropdown menu so it can be pressed to select it
+
+error/bug report, send origin/event chain so that exact bugs can be matched and therfore not resent
+- bug variants
+ - cascade of effect
+ - effectual range
+ - based on bug report and origin/event chain, determine what else would reproduce the same bug
+- make it worthwhile for user to submit bug, if bug already submitted, show information regarding the bug and maybe workarounds
+- tight integration with actual software and software team
+
+print only the pages that are in colour
+ - printer capabilities
+
+ICT office software. loose data coupling
+- make an object, set what each value means or is derived of or referenced from
+- normalisation automated
+
+bug solving software like a forum
+
+software management software stores software like a shelf, software that isn't even installed
+ - software can then be installed by clicking it
+
+software that is under a certain size is copied to the hard drive for install
+
+software must be small and dependent on other libraries
+- nobody likes to use APis and engines, so developers them write a "reimplementation" compiler library that translates their style into the library/API's format
+
+sorting structures, how to sort
+
+LDS memory boundaries
+- serving data upon the stack for all applications to read?
+- halting problem? how to know if an input will crash
+- internal structures shouldn't be susceptible/vulnerable to time conditions, eg checking for something and having it change later
+- access is based on memory or prenamed reference objects
+ to access printer information is always in a certain prenamed object, eg, "printer"
+
+honey detect and log attacks
+- attempt attacks on a private network
+
+corroborate/collaborate
+- evidence, arguments
+- debate problem/solution software: collab or corroborate with other people
+ - plays a difference in games?
+
+
+make a mistake and reputation will plummet
+
+software code like cells
+- capable of doing everything but only use a few features
+- features are turned on on/off when executed if it is an application
+
+file system should handle more source control software features
+- repository: should be simple to export a repository of an entire project including/without documentation etc
+- File Management? certain files are handled differently
+
+code is heavily marked and titled:
+- not just physical source files but actual lines of code
+- should be possible for a developer to only have access to a certain aspect of code.
+- eg, everythink that handles a certain feature
+
+video recorder detects who is filmed using rfid nametags
+- adds subtitles to resulting video
+
+standard/centralised undo architecture for OS
+standard hook/architecture architecture, eg 'when this happens'
+
+crawler is basically a web browser and is able to parse dynamic code
+
+scan source code to determine what is going on by simplistic rules:
+- filling an array and emptying it, detects FIFO/LILO stack
+- abstractions
+
+addons screen is tabbed - "all","themes","extensions","utilities"
+ - ability to select multiple tabs by holding CTRL and displays the contents of the selected tabs
+
+render logic is separate from other logic:
+- file management
+ - source management
+ - picture management, eg render picture with image viewer
+
+onmouseover links: shows a box with full url in larger font
+- underneath, the information is split up: domain, cookies, security
+- page format, eg, is it dynamic
+
+switchable localisation engines
+
+microsummaries with context classification
+
+select multiple links by using shift
+
+web browser's options configurable via web browser
+
+timeline integration with calendaring software
+
+person makes a post on a new thing, users can post their own new things and then those links followed
+- eg, flickr, 5 shocking things of your life
+
+no silly names for software?
+re implement the wheel for as much as possible?
+get support of other technologies from the very beginning before reimplementing wheel
+
+entity-specific information
+- eg, memory usage of an extension
+
+incredibly easy to add new functionality to software
+- perhaps a powerful 'options' interface that isn't actually built into the software
+ - extensions are transparent and can be enabled like settings
+ - repository of extensions are single click enable/disable
+- "By default, build in functionality to hunt down every little extension that covers all that extra functionality."
+- http://slashdot.org/comments.pl?sid=200759&cid=16436527
+
+hooks
+- show list of usable/scriptable hooks: - eg "when page is changed"
+ - pretty icons and full length descriptions
+- scriptable
+- ability to use both the user interface or code separately and at full power
+
+problem page:
+"Problem: X cannot find the file that stores your configuration"
+Solution: Tell X where the configuration file is [button]
+Move configuration file to a default file location [button]"
+
+
+operating system written as an IDE for its development
+the developer's operating system
+- geared to rapid application development
+- users can add new features/code rapidly
+ - submit to official OS or submit as an extension/customisation
+ - eg, protocol editor as default: developer makes new protocol
+  - exemplar existing protocols in protocol editor
+   - math protocol in documentation
+
+threads/processes/object systems need to be simplified
+- the operating system needs to handle what should be made and done
+- as only the developer can program threads properly, frameworks/APIs that don't have threads programmed in are under utilised
+- written so that threads/processes do not need to be explicitly defined
+- software is written from the ground up
+ - to run on multiple core processors 
+ - to use a time based technology rather than concurrency APIs
+ - dependancy per code - what variables need to be set first etc
+
+
+
+
+
+function argument delegation
+- eg embedded components have arguments delagated to them
+
+database management software
+- view data in a application specific format as opposed to RAW
+- detects potential corruption made by manipulating data directly
+
+applications cannot go backwards in data chain
+- rendering data files in such a way that would be impossible to copy to other installations
+
+strict naming routines: a check will not write/edit/modify/fix any data, ONLY CHECK
+
+"unsolution": locking files
+
+weird solution to a simple problem: http://software.ericsink.com/entries/WPF_Animation.html
+- should never happen
+
+areality:
+transparent/semitransparent shields
+holographic - should be rare
+ - holographic ships/weapons
+ - 
+multiple layered shields
+atmospheric shields- block dangerous atmosphere
+ - buildup: beginners will face problems with dangerous atmospheres to hull and ship systems
+shield frequency/settings, won't block everything, needs to be configured
+block shields, thick shielding for certain areas, sensitive areas
+light shields, prevents light
+communication shields - prevents communication from escaping
+magnetic shields
+expansion shields - makes ship appear larger
+shield shape - different shapes have different quantities,
+ - shield plates/square
+shields need to be charged?
+ - short burst shields, capacitors
+idea from bath: propulsion interfering with shields
+needs to be impossible to focus on ONE attribute and win everytime
+- eg someone builds a tank car with highest speed so nobody can get it
+
+remember function an abstraction of the save function
+
+ingame qualifications for areality
+
+code coverage - testing each code paths.
+ - language that has inbuilt style that ensures possible outcomes are handled for
+ - write the code paths first
+  - controls flow/code paths are intrisnic to the language and dependencies are handled in this way
+
+group similar posts together and vote upon them
+send private message to original poster from inside post
+using curly brackets to truly divide logic up
+ - only do that if
+ - can cut across other structures
+
+3 step installs
+- download
+- install
+- configure
+
+installers have the ability to install dependencies and correctly configure them
+- derived software: PHP applications request you install a "web server" and "PHP"
+
+steps destined to fail will fail
+- eg search interface and no sections to search are selected
+
+installer
+- "just works"
+- very few dialogues
+- possible to close installer without dialogue
+ - remember user's page position and stored contents
+  - save in RAM or write to HD
+  - "touched pages"
+- table of contents indicating stage of install
+- the dependencies required are displayed and by default, the highest compatible version is chosen and is adjustable by the user, eg, wants to try out something with an older version
+
+cache architecture
+
+file formats
+- "creator code" for files/formats
+- standard icon for file and creation icon for file
+- should be possible to determine what application created the file, offer to install that software if possible
+ - like mac, open with original application; http://en.wikipedia.org/wiki/Creator_code 
+ - first thought: "guaranteed" to work with
+- configurable stages of format detection
+ - shared format extensions are identified for example
+
+configuration option and lists of functionality
+- provide implementation details at different levels
+ - standard texts, eg RFCs and ISOs
+ - guidelines of its implementation
+- implementation details from the implementor
+- a faster PDF like format which is of a proper full document style and easy to read, should be embedded and not opened with a different application
+- downloads information when requested OR if it is an offline install, download it all at once
+ - distributed download of application reference files, eg p2p or bit torrent
+- in builtin software management, file formats can be made in a file format editor (previous idea)
+
+
+when designing/making structures based on parameters, detect whether the structure already exists
+- eg, UTI
+
+
+
+
+debugmode wink
+mp3 tag
+bootvis

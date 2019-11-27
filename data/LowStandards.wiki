@@ -1,0 +1,11 @@
+﻿++ Low Standards
+
+Low Standards is:
+    * Low conformance with [Standards]
+    * low level of what is acceptable
+
+LS are avoided and its opposite is preffered: HighStandards.
+
+LS can result in:
+    * InformationUnavailibility
+    * EmptyAbstraction

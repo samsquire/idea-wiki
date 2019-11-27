@@ -1,0 +1,20 @@
+﻿++ Organisation Architecture
+
+The OA enables organisation of [Entity]s. It links together:
+    * [EntityStore]s
+    * MatchMaking
+    * [Inventory]
+    * [History]
+    * StagerSystem
+
+This is useful for:
+    * [Personal]
+    * [Games] (especially NetworkedGames)
+    * [Business]
+    * [Sharer]
+
+++Architecture
+
+The OA makes connections between entities through MatchMaking by utilizing the [Inventory]. The OA is a shell for data that correlates with eachother in a consistent and organized fashion. Examples include:
+    * social networking
+    * web applications

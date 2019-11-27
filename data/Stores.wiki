@@ -1,0 +1,9 @@
+﻿++ Stores
+
+Stores are [Database]s:
+     * specific to a purpose
+     * nestable or rerenceable, see CrossReferential
+     * derived from another store, see DerivedStore
+     * use the ObjectSystem to be [Managed]
+     * may not contain physical files, rather references to
+

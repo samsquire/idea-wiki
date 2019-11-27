@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="UpdateArchitecture.idea" template="ideaRecord.md" source="idea.md"><Title>Update Architecture</Title><Description>Everybody implements software updates differently. </Description><Idea>UpdateArchitecture</Idea></sam><![CDATA[]]>
+## Update Architecture
+
+The update architecture defines how updates work.
+
+ * see UpdateAwareness
+
+TheSystem's update architecture must be advanced. Requirements of the update architecture are to:
+
+ * resolve dependencies
+ * organize and schedule updates efficiently
+ * support various update methods, see Update
+ * versatile
+ * can be decentralised or centralised
+ * check, obtain and apply stages are interlinked but can have completely different implementations, ConnectRelevantTasks
+
+The UA should is to NoInterruptUser and not be an example of FrenziedFeatures.
+
+##Architecture
+Updates may originate on different mediums, an AbstractionAwareness prevents a HelpLapse by HelpTheUser to UseAnySource. A Wizard for updating would present choices of updating such as via CD. The product in question should mark itself if it offers CD and contact details on how to obtain them. Otherwise, the updates were created manually ('Create update disk'). This is an example of MultipleRoutes.
+
+Applying Updates from a CD has MultipleRoutes. The UpdateArchitecture can be invoked:
+
+ * Running a Wizard that asks Users questions about how they wish to update and when to insert the disc
+ * Automatically detecting the disk and invoking the update process.
+
+The different types of updates are strongly distinguished inside the update architecture.
+
+ * The information stored about an update means there is a trail of changes and so that the ReversibilitySystem can revert them. 
+
+The update process can be broken up into three parts:
+
+ * checking if an update exists
+ * obtaining the update, through Download
+ * applying the update
+
+UserRules permit the user to customize when and whether any of these stages take place.
+
+ * Conditional: 'when classed stable by users and/or developers' and 'as soon as possible'
+ * Categories: Update types such as Breakfix
+ * Deinstallation requiring
+ * Incompatibility
+ * Types of Update: Never download new betas but always update current betas
+
+The check and obtain stages can take place locally or Remotely, through Outsourcing. Decentralized file sharing Protocols are likely to be used for this since it spreads the workload across. Checking for all updates at central location is more efficient than checking many individual Servers. Aggregation of update information is useful to minimize this overload.
+
+ * wikis used to update application information manually
+
+Standardization of the update Representations and destination/hosting enables the update to be automatically aggregated or added to the central location. For example, a company hosts the update file on its website. External aggregation utilities also provide the ability to host additional information such as Chat, Forum and ReviewStore about the update.
+
+Some aggregation utilities may group software together and enforce that as what needs to be kept up-to-date. In addition to aggregation utilities, a collaborative network is where connected users utilize eachother to check for updates. This is especially useful if they are in the same network. Security principals such as checksums can be used to ensure the file is safe.
+
+The PracticeSystem determines ultimate practice for updating.
+
+ * the OS should always be kept up to date
+ * graphic program is of lower priority and risk than a firewall or something facing the Network
+
+Breakfixes can pose a HelpLapse for Users. StateLists would implement this with a list of disabled capabilities for the update's information and a cross when the update causes breakage
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/update_list__breakfix.PNG
+todo:Find Original Idea
+
+
+
+The UpdateArchitecture must clearly communicate lose of functionality and should provide enough information to make an informed decision:
+ * a project with high activity is likely to have a proper fix
+ * suggest replacement software where functionality still exists
+
+##Checking
+
+Checking for updates need to be:
+
+ * Lightweight and Efficient - it happens often, it should not require large amounts of bandwidth, RAM and CPU. Updates should have NoParse.
+ * Smart - Applications are complicated and have Components. The check must reliably decide what exactly is to be updated.
+ * Fast
+ * Simple
+
+UpdateAwareness describes special ways to check if an update is available.
+
+Conventional applications check for updates:
+
+ * downloading a plain text file through and comparing version numbers
+ * dedicated Frontend or Browser Embedding
+
+Multiple Technologies exist for issuing the check:
+
+ * Comparing differences: hash functions (MD5), length, dates
+ * StandardsAbstraction - Email, RSS, IRC
+ * custom Protocols
+
+Checking for updates is a PushOrPull problem. Polling mechanisms are the worst solution since average systems have a large amount of software installed and the checking creates unnecessary overload on SoftwareServers.
+
+Email as an update notification which bypasses the polling problem since the polling will occur regardless since the user has to check for emails anyway.
+
+The IRC protocol can be used to recognise when updates are available by joining channel for software product, distro or product grouping and listening for a message. A modified IRC daemon run by the Developers will not distribute connected client's information and no clients can communicate. (no client list, whois etc). This would be implemented through modification of the IRC protocol with ProtocolDeveloper.
+
+This efficiency of update checks can be improved through the following strategies that are especially effective on Polling mechanisms. UserControl means that these are also UserRules.
+
+ * Prioritizing updates - Applications with high Usage are checked more often or before others. Update types
+ * An artificial queue spreads the load of updates over time. Queue
+ * Outsourcing the update check
+ * Remembering and calculating the release cycle.
+ * Decentralization, P2P, such as Bit Torrent or a NativeImplementation
+
+##Applying
+
+The following requirements apply for applying the update:
+
+ * The UA needs to have minimal impact on the user when applying an update. Conventional applications state they are out of date and a new version exists from within, such as through a checker Frontend or the status bar. Sometimes built-in functionality will obtain and apply the update. The problem with this is that it is unnecessarily reimplemented (NoReimplementation) and is an IrrelevantCoding.
+ * The update procedure should not be inside the actual software itself. Instead, a notification should be available and the application specific update code should be specified in a standard fashion.
+ * Applications should be stable and ready to use when they are opened. There should be little delay when opening them. This is paradoxical since it is perfectly logical for an application to be updated when it is updated.
+ * Conventional applications check for and apply updates in the background. This can be pointless if the application is rarely used.
+ * Conventionally, no record of the update is kept or is unusable in non-standard format. The Configuration for the update is often only accessible from inside the application. The UA provides a standard Logging mechanism for software updates and enforces Accountability for updates through Logging.
+
+The application of the update will take place depending on the situation or UserRule:
+ * as a BackgroundTask or an IdleTask
+ * upon opening - only if it is guaranteed the application will take a short amount of time. This is based on the complexity of the update. ProgressiveFeedback should be available regardless of how long it will take.
+
+The entire update process must AlwaysFeedback for a ComprehensiveSystem.
+ * Update information such as version, filenames and update type are displayed during updates.
+ * This information is presented as a InformationInterface where versions and filenames are linked CrossReferential to their entities.
+
+Traditional update schemes rely too much on individual files, Clients should not have the awareness of these details unless they request them.
+
+Updates in progress are visible from StandardizedScreens, through Portalling.
+
+##Development
+
+Updates are an important part of software Development. The Developer suite includes software to create updates.
+ * The update generator compares files to determine best update strategy/type OR by comparing information such as file sizes/amount of change
+ * Patching old installers and the installed application itself
+
+##Choice
+
+BaseInteractions give control over the display of updates as an ImplicitImplementTheUnimplemented:
+
+ * sort by restart requiring updates/upgrades
+ * deinstall requiring update/upgrades
+
+
+ * patching/update system
+ * has to be really smart :)
+ * shouldn't rely on the authority of external organisations but at the same time should be possible to be unattended 
+
+sources for applications
+- applications on different medium
+- online
+
+use wiki to notify updates
+
+ad-aware component update is essentially what the UpdateArchitecture is all about<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

@@ -1,0 +1,22 @@
+﻿++ Data User Interfacer
+
+DUI is a UserInterfacer for SpecializedScreens that display [Data]. Conventionally these are property windows and lack depth. DUI are to ShowEverything that was collected with StoreAsMuchAsPossible so that TheSystem presents IndepthData.
+    * Available to [Clipboard]
+    * DynamicData
+    * DUI data is regarded as VisibleData
+    * [Data] stored in the DUI may be utilized by the DataInterfacer.
+    * Field representations can be modified by the RepresentationChooser
+
+++Architecture
+
+The individual fields and headings are InterfacePanels. This is because there is likely to be special actions associated with them.
+
+++Implementation
+
+DataMapping represents all the available information in a DUI:
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/data_mapping.PNG
+
+[alias=PropertyDisplay]
+
+
+

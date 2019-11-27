@@ -1,0 +1,53 @@
+﻿++ Game Portalling
+
+[Games] have [Portalling] for GameComponentry.
+    * Apart of the GameArchitecture
+    * Encourages users to create game content.
+
+++Portals
+
+All games have [Portalling]. The portal gives access to GameComponentry and can be invoked due to GetInto. SystemIntegration means that SharedImplementation]s may be added to the portal. An example is a list of contacts from [Chat].
+
+Mods are alterations to an original game. They can usually be placed into [Categories]:
+     * total conversions
+     * balancing
+     * updates/unlocks
+GP takes advantage of this by visually separating the mods through [Tabs]. If the user has too few mods, SmartItem is invoked since this categorizing is not worth it and it is best to just display it through ListStyle.
+    * In most game engines, the original game is implemented as a mod to the engine. An AbstractionAwareness means that the original game must not be displayed in the mod list.
+
+
+++Architecture
+Games are often backed by communities who create GameComponentry and have organized matches (MatchMaking) and content. Portalling to these communities are added so that [Users] can keep up to date. Examples include:
+    * watch recorded tornaments or join ongoing tornament
+    * request a map creation or feature - per community or central request server, a community states what it will do so the communities are co-ordinated.
+
+[Users] should be able to create GameComponentry with built-in [Frontend]s to promote customisation and sharing.
+
+In addition to GameComponentry specific [Categories], components can fit into more general categories, such as PersonalOwnership. 
+    * user ownership
+    * profile ownership - which game profile it belongs to
+    * game account
+
+
+
+Scores will only belong to certain [Users] [Accounts]. Recorded games belong to game profiles.
+
+[Ordering] is used to display GameComponentry with certain conditions. Conditions include:
+    * time played on
+    * storage consumption
+    * most/least often played
+    * favourites
+    * best at/worst at
+These properties can be combined to give fine grained ordering so that players have control over gaming. Examples of usefulness include:
+    * uninstalling large components they don't play often
+    * to decide on what they want to play.
+Often this will need to be ordered in multiple ways. For example, dual ordering would be to show the lowest rated games and those that take the most hard drive space at the top. This could be implemented with OrderPreservation.
+
+++Interfaces
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/gameportal.PNG
+
+dual ordering - lowest rated games AND taking the most hard drive space
+
+Mods
+view compatible mods for game
+

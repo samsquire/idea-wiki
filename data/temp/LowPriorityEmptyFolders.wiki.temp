@@ -1,0 +1,9 @@
+﻿++ Low Priority Empty Folders
+
+Folders with no files inside them are arguably of lesser importance in TheSystem.
+
+The SystemViewer should aim to take advantage of this fact by:
+    * ensuring they are not mistaken for folders with files inside
+    * grouping them together
+    * making them easy to find when saving as it is likely during a save one will want to categorise something
+    * do not change the view of files and folders too extensivwel between viewing and saving extensively otherwise users may be unable to find folders

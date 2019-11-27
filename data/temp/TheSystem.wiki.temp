@@ -1,0 +1,39 @@
+﻿++ The System
+
+TheSystem is the [Architecture] that this repository describes.
+
+    * SourceOriented
+    * SystemDesign
+    * SystemInterface
+    * [Paradigms] - how the system operates
+    * SystemFactors
+    * [Architecture] - what is the best way to make this happen
+    * SystemDatabase
+    * ApplicationPortalling
+    * OrganizeFromTheBeginning
+    * RepresentationSubstitution
+
+++Internals
+
+    * SystemComponents - important low level [Componentry]
+    * DefaultSoftware - what software should be installed by default?
+    * SystemApplications
+
+++Software
+
+    * SystemFeatures
+    * CoolTools - if possible, these are interesting features
+
+++Usage
+
+    * SystemInformation
+
+++Methodology
+
+    * SystemDevelopment
+    * SystemAwareness
+    * SystemFocus
+    * SystemPhilosophies
+
+
+[icon=system]

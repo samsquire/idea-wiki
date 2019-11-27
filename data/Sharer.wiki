@@ -1,0 +1,90 @@
+﻿++ Sharer
+
+The Sharer makes the distribution easy for users. 
+    * No [HaveTo]s
+    * NoBaseTaskDownload
+Distribution can be to other [Accounts] of the system, [Remote] [Users] or through the [Network] or [Internet]. 
+
+++Implementation
+
+The [Sharer] implements an [Email] style inbox where received files are placed into [Categories] according to the sender, metadata and the type of media. [BaseInteraction]s should be possible with the contents of the inbox. This interface is designed to record who sent the user what, when and how. Data can be viewed from within the [Sharer] due to [PlaceholdersRatherThanLinks].
+
+All files are physically stored on TheSystem somewhere. The [Sharer] must not force the storage area. The aim is to refer to the PhysicalEndpoint of the [Data].  It must also avoid the PoorUserMethodology of RedundantMethodology where [Users] might use the [Sharer] to open files they received from people.
+
+The OrganisationArchitecture can be used to create a Facebook style person reference system for each piece of content sent. Images could for example be tagged to refer to contacts in an address book. Emails could then be automatically sent to those tagged individuals to notify them.
+
+++Architecture
+
+Data will be shared in one of two forms:
+    * Static
+    * Active (live)
+Static data is data that is relatively unchanging. This means [Files].
+Active data is that which requires the co-operation of the recipient to receive. This is handled via the DataInterfacer.
+
+Some data will be available in both active and static formats. The choice depends on the representation.
+
+The sharer will distribute in two ways:
+    * with a NativeImplementation for file transfer between machines of TheSystem.
+    * using SharedImplementation]s UseATypicalApplication and no additional software is needed
+
+To begin the sharing process, [Users] essentially input:
+    * who the data will be shared to: particular recipients or everybody
+    * data to be distributed
+
+AutomaticSetup is used to HelpTheUser by abstracting the exchange process. This prevents HelpLapse since the [Users] have NoForcedSteps. SystemComparison is used to choose the [Optimum] [Protocols] by detecting the capabilities of the recipient. SR will use the protocol that the recipient already has the capabilities of accepting. Alternatively, if SR is on the recipient, this can be used instead.
+
+The AutomaticSetup may not always be suitable and may be modified by the user through InteractiveAutonomy. These are factors that may be further controlled:
+    * number of data accesses
+    * [Protocols] to use
+    * expiration
+
+By default, the default protocol is blank and only if the user does not specify the protocol is when AutomaticSetup is invoked.
+
+The transfer is an InvisibleImplementation so that any method can be used without the user having to learn how to operate any irrelevant implementations. This is unlike conventional data transfer where knowledge of the specific implementation is required. The sharer provides all the information required to initiate the transfer, which will always vary between them.
+
+SharedImplementation methods include:
+    * Across a [Network] through [Protocols]:
+        * FTP
+        * HTTP
+        * Bit Torrent
+    * MediaCreation, creating media
+
+If HTTP is used as the protocol, a new or active HTTP server is used to host the file.
+
+    * how the data is to be distributed
+
+Before a transfer can begin, a connection needs to be made. The connection requires details about the recipient and source. This includes:
+    * host connection details: IP addresses, user/screenames and paths.
+
+It is likely that the recipient may not have the required software to complete any transfers. The AlternativeExpansion provides strategies to abstract the initiliasation process:
+    * message containing connection detail fields and human readable instructions on how to connect, such as email or instant messenger
+    * run a web application which offers the files and include a path to it
+
+The functionality of each participant is analysed to detect any potential problems such as external blocks. Firewalls, routers would cause this to happen.
+
+++Interfaces
+    * [Sharer] has SystemIntegration into the SystemViewer and [Portalling]
+
+Throughout the share process, the TaskArchitecture provides:
+    * [Wizard]s
+    * [Portalling]
+
+Under the principle of ShareAnything, sharer allows the following to be distributed:
+    * [Portalling]
+    * [Files]
+    * [Frontend]s
+
+* sharer system has to be smart/highly usable, like a full featured suite
+
+* file sharing style interface for file system
+ * search
+ * download/transfers 
+
+* sending processes: send the entire application first, then the state information?
+
+++Synchonised Opening
+* opening of a file is synchonised between machines:
+ * stream/upload+download to parties who do not posess the file
+ * opening process is mirrored to all machines, eg a movie
+
+

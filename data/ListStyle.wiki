@@ -1,0 +1,13 @@
+﻿++List Style
+
+LS is a modern, informative and easy to use interface style. This is an InformationInterface.
+
+++Style
+    * large rows
+    * clear titling, subheadings
+    * large icons
+    * descriptions
+    * relevant references/links/buttons (see [CrossReferential])
+
+++Stager
+    * ordering

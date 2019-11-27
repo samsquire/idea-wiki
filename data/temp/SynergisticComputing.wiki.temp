@@ -1,0 +1,38 @@
+﻿++ Synergistic Computing
+
+SG is the idea that computing should be synergistic in the sense that multiple computers are more powerful than one.
+
+++Requirements
+
+All machines in a [Network] are grouped together to accept commands or provide information to every other. For security reasons, this is only possible if:
+    * TheSystem is installed from scratch on these computers
+    * The user of one system can prove he is a user of the other systems
+    * Network booting
+
+There are different levels of network involvement.
+    * simple knowledge of existence
+    * sharing of files (through [Sharer])
+    * network [Logging]
+    * streaming of files
+    * backup
+    * NetworkDeployment
+    * NetworkAdministration
+    * [Inventory]
+
+++Implementation
+
+When a network is created, either through AutomaticSetup or manually, computers who can see the network may join it.
+    * [Roaming] - files and services follow the user as he logins around the network
+
+The user should then be able to select various models for operating the network.
+    * distributed network control, whenever the user logs in, he has authority over the network.
+    * Master and agent control - there is one established machine that holds all data regarding the network.
+
+The following features should be available with minimum configuration:
+    * computer cloning: where computers can be cloned for backup purposes
+    * inventorizing: logging the contents of the [Network]
+    * distributed backups, where every computer has a backup of the other
+    * cluster computing
+    * centralized fileset but distributed storage
+
+computer cloning, inventory, backups cloud computing, cluster computing, inventory tracking are all relating tasks.

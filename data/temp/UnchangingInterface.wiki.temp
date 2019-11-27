@@ -1,0 +1,5 @@
+﻿++ Unchanging Interface
+
+UI are UserInterfaces that do not switch between stages, unlike StagedInterfaces. UI are important where obtaining is the purpose of the interface.
+
+The simplest UI is where a list of [Links] state 'Get' and when clicked, the list item stays where it is and turns into a progress bar. The interface doesn't switch to another.

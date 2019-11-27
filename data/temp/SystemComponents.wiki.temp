@@ -1,0 +1,37 @@
+﻿++ System Components
+
+SC are the [Componentry] that make up TheSystem and its data is apart of the SystemDatabase.
+
+    Tools
+    * [Sharer]
+    
+    Software
+    * ApplicationPortalling
+    * ApplicationManagement
+    * GameRepository
+    * [Developer]
+    
+    SystemPortal
+    
+    Data
+    * [Cacher]    
+
+    Utility
+    * SystemViewer    
+    * HardwareManager
+    * UpdateArchitecture
+
+    Help
+    * RelevancySystem
+    * ExplanationSystem
+    * ExpandSystem
+    * ReversibilitySystem
+
+    Internals
+    * ObjectSystem
+    * SolutionSystem
+    * RepresentationSystem
+    * MultipleManagement
+
+    Operation
+    * DocumentingSystem and [Logging]

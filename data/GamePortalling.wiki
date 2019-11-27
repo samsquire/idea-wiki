@@ -44,7 +44,7 @@ These properties can be combined to give fine grained ordering so that players h
 Often this will need to be ordered in multiple ways. For example, dual ordering would be to show the lowest rated games and those that take the most hard drive space at the top. This could be implemented with OrderPreservation.
 
 ++Interfaces
-file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/gameportal.PNG
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/gameportal.PNG
 
 dual ordering - lowest rated games AND taking the most hard drive space
 

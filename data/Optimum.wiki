@@ -1,0 +1,20 @@
+﻿++ Optimum
+
+Optinum means to be efficient and UseBest.
+
+++Software
+
+    * when the computer is not doing anything, there should be very few reads or writes
+    * detect best scheduling method based on system performance
+    * easy to see/meter/limit IO, CPU and network users
+    * modification to modules without harming - the linux scheduler obviously needs to be completely modular but also intricately modular, i need to change the way and the policy of an implementation WITHOUT unwieldy configuration files
+
+    * installers and software listings indicate what is optimum for a computer
+    * 32-bit and 64-bit
+    
+    * if a version of the software exists for the processor version, then advise user in getting it, otherwise wait until it is released
+
+
+
+
+[category=paradigms]

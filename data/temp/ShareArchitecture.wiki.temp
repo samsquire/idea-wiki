@@ -1,0 +1,16 @@
+﻿++ Share Architecture
+
+The SA is how SharedImplementation [Share]s. DirectedLogic is what is used to share.
+
+The SA has a high ChangeSensitivity since it is heavily relied upon. [Change]s can result can result in nonfunctioning or buggy [Applications]. For example, one application may designed to operate before the change and another one without.
+    * FutureProofing is a preventative measure to reduce the versioning required.
+    * MultipleVersions
+
+++Examples
+
+    [Browser]
+     DeepCustomisation allows people to use their own software. While not recommended and against [Standards]. Users may add customised widgets to their HTML. HTML Bindings to the SharedImplementation mean that they be rendered.
+
+    
+
+    

@@ -1,0 +1,19 @@
+﻿++ Implicit Integration
+
+II is a technique whereby processes upon multiple objects can be merged together based on the type of object in question without complete knowledge of the integration.
+    * A potential solution to some DilemmaticIntegrationScenarios
+
+++Use Case
+
+For example, if there is a File object and it is desired that an FTP client preprocess or postprocess the file after selection, uploading or downloading. For example, wanting to automatically compress a file before sending might be like this:
+    * the FTP client wants a FILE to send to the remote server
+    * the compression algorithm wants a FILE to send too
+    * the user or integration algorithm needs to somehow specify that the file should be compressed, to output a file and then send this output file.
+
+[Conventional] implementations use function [Hooking] at the code level or scripting to provide ability to pass control to different code when the process is running. This works but is not automated. The developer or user still has to specify a call to other [Applications] to provide the additional functionality. 
+
+++Implementation
+
+LoopMerging: merges two loops together so they may become interleaved
+AlgorithmicCombination: merging data structures together, i.e, branch removal, if two data structures are used together in some way
+BehaviourMerging: 

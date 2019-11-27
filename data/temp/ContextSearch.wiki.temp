@@ -1,0 +1,7 @@
+﻿++ Context Search
+
+CS is a type of ImplicitSearch whereby the information displayed to the user is displayed in context with the user. For example, clicking a date field will show information collected at various dates close to the selected date.
+
+++Examples
+
+    * clicking the 'Size' field of an email may show files of similar size, the same size or show the history of that file's size over time. There needs to be a clever way to program default data compilations explicitly. 

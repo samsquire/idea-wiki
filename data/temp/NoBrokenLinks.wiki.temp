@@ -1,0 +1,21 @@
+﻿++ No Broken Links
+
+[Links] are caused when the destination of a link is no longer available and cannot be accessed.
+
+BL should be avoided since they:
+    * lie to the user by implying that a link reaches accessible content (NoLying)
+    * break up navigation flow
+    * waste time and bandwidth
+
+Solutions to BL include:
+    * IndicatePriorInteraction by presenting the link as non-functional using a StandardRepresentations
+
+++Prevention
+
+One way to stop broken links is to prevent them from becoming breakable:
+    * when a link is created, the page the link refers to is retrieved and linked to that when the content becomes unavailable
+    * the link is removed and becomes normal text
+    * the cache of the user's browser is delivered as a mirror incase the link becomes broken
+
+never a broken link:
+ - when the user of the system pastes a link, the cache of the browser is given to the website rather than requerying it

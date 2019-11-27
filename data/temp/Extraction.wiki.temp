@@ -1,0 +1,6 @@
+﻿++ Extraction
+
+Extraction outputs a specific portion of an input. Extraction relies on [Mapping] to locate these portions.
+    * Extraction is imperative to [Migration].
+    * FundamentalExtraction - the idea that extraction should be easy and built in
+

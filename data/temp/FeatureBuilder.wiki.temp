@@ -1,0 +1,26 @@
+﻿++ Feature Builder
+
+FB is how [Development] for TheSystem is made faster by using builders to add to the infrastructure of TheSystem.
+
+++Examples
+    * ContextMenu entries
+    * [ConfigurationPanel]s
+    * [Wizard]s
+    * 
+
+I want an easy way to define actions that cause one another and what can be invoked from where.
+    * MultipleProblemSolution.
+
+FeatureBuilder works on the principle of representations of data and code that operates on them.
+    
+    
+    I have installed something (X) on my computer
+    X can Y Z
+    On Z show X Y
+    
+There has to be some kind of high level method of making features more maintainable and easier to use and represent in a computer system.
+
+    * DeleteAFile
+    * 
+
+[category=FeatureBuilder]

@@ -1,0 +1,23 @@
+﻿++ Update Awareness
+
+The UA describes a principle that TheSystem or [Applications] are aware of its updatedness. Aims of the principle are that:
+    * minimize the frequency of checking for updates
+    * minimize the time between the update release and the update check, [Security]
+    * minimize annoying the user
+    * reduce the uncertainty of an update
+    * [Applications] have different [Update] frequencies
+    * help DoNotScareTheUser
+    * MakeNoiseAboutThingsThatMatter
+    * avoid FalseEnd
+
+++Implementation
+
+The [Development] administrator responsible for development of the software may have established a consistent schedule for updates and realses. As a result, this information can be incorporated into the UpdateArchitecture so that a check corresponds with the schedule.
+
+Using the [History] of previous updates, predict the most likely time of the next update based on the average time between previous updates.
+
+
+use a time scheduled update
+ - the software admin agrees that a new software release occur on a friday night at 6PM
+ - the software will start checking/try to update every friday 6PM onwards
+ - 

@@ -1,0 +1,26 @@
+﻿++ WYSIWYG
+
+We've learned that a WYSIWYG is a misnomer because what you see is rarely what you get, especially with XHTML. Back when I was learning about the web and experimenting with the software, nothing really worked.
+
+Surely the best way to represent such a system is to merge the workings of the parser and the rendering modules as a state machine.
+
+For example, on one side of the screen is a rendered version of the text input (XML, XHTML etc) and another side shows the parsed tree representation. All three of these represents should mirror the same piece of information: the document and they should all be interactable.
+ - browse the tree by Xpath, could generate some interesting server side languages
+ - add nodes and manipulate the properties of the parsed version which then get reversed back into the original code, essentially, you know what you want something to look like at the end, then you should be able to interact with this directly.
+
+
+If you type <html> it's obvious I will be writing a html document so it's obvious what is valid.
+
+As I type, the system should be continually re-parsing what I am typing trying to come up with possibilities. 
+
+If I type a body tag - without first making a head tag, the system should be able to determine that I have missed a requirement which is the title tag and the head tag. It would then automatically insert this, just before where I put my body tag. It would let me continue writing my body tag and insert the end of the body tag.
+
+
+html ---- head ---- body ---- ?
+
+
+Internally the system would represent the structure of the document just like the scema does. It knows what must come in what order and the layout.
+
+How do you generate styles? 
+
+

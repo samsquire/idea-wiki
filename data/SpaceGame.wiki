@@ -1,0 +1,33 @@
+﻿++ Space Game
+
+* shields can be spread out or reinforced in specific directions
+ * front
+ * back
+ * left
+ * right
+
+* shields are strongest when the ship is stationary
+* firing draws energy from shields
+* accelerating draws energy from shields
+ * it doesn't damage shields, only make their maximum defence less
+
+bar on sides of ship determines strength
+
+can turn shields off to power up weapons
+
+control turrets multiplayer
+
+* call your team's ships for help who will attack the attacker of the last ship
+* global experience and per class experience, experience allows the ship to evade better or survive longer
+* capital ships can reverse while fighters cannot
+ * fighters have tiny turning speed whereas capital ships take a long time
+* auto attack the ship you are most effective against or one with lowest health etc
+
+* fighter shields will take 1 or 2 hits before going down
+* bots need to be smart in how they control ships
+* battles should last a while, fighter vs fighter
+
+* high detail pictures of weapons? ships etc?
+* 
+* planets and planet thumbnail?
+* multiple fighters? use a simple way to determine the abilities of each?

@@ -1,0 +1,32 @@
+﻿++ Replays
+
+Replays are essentially recordings where a [Games] state is recorded so that it can be reproduced exactly, it is a is form of UsersContent associated with GameComponentry.
+    * [Replays] must be supported to be a OfficiallyAcceptedCertification
+    * OrganisationArchitecture may store logs of matches. The recording of the game may also be added. This may be the user's matches or downloaded matches.
+
+++Architecture
+
+Replays come in two formats:
+* video format
+* engine format
+
+Replays are captured in a lossless format that can be replayed back by a game engine. This format can also be converted into real video [Representations] for distribution.
+
+Either format can be distributed as streams and as files.
+    * CommunicationSoftware allow [Users] to share accomplishments as files and achievements with friends.
+    * Game [Servers] are likely to stream the game for replaying.
+
+In lossless format, the recording can be fully customized:.
+    * different object perspectives ingame can be viewed, players, vehicles, objects
+    * viewing angle can be changed
+    * playback speed, zooming, rewind/forward
+
+This enables editing of the original recording to portray it in different ways. When converting to a lossy video format for distributing, there should be an option to embed the original lossless format inside it. This is because the lossless format is much smaller than the lossy format.
+
+++Features
+When watching a replay, it may be desirable to look elsewhere on the map, it is when possible to move around the map to look at something else where the previous focal point will then be paused.
+
+
+Recordings are also used for entertainment and the user may wish to record a particular event. The event may take multiple attempts. The engine can HelpTheUser by creating a checkpoint and allowing [Users] to return to this checkpoint to retry recording. Then it asks if you wanna save it = was it good?
+    * centralised scoreboarding, keysending multiplayer, singleplayer online ghost for score based games
+    * clan stats

@@ -1,0 +1,10 @@
+﻿++ Desktop
+
+The Desktop is the main screen of TheSystem. DesktopFirst specifies that DesktopApplications are preferred. Default components of the desktop include:
+    * MainMenu
+    * SystemViewer
+    * SystemTray
+    * Running applications (taskbar)
+    *
+
+

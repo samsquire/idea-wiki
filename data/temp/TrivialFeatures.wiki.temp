@@ -1,0 +1,3 @@
+﻿++ Trivial Features
+
+TF are features that are simple and trivial to implement. These should never be [Unimplemented] due to InadequatelyAdvanced, ImplementTheUnimplemented and NoUnimplementedTrivialFeatures.

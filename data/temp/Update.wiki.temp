@@ -1,0 +1,36 @@
+﻿++ Update
+
+An update is where something is changed.
+     ApplicationData
+
+Updates are important in:
+     * [Applications] including [Games]
+     * PointConsistency - when the outdates version is updated to keep synchronization
+
+The update process is handled by the UpdateArchitecture.
+
+Updates can be obtained and applied in different ways. These behaviours depend on the update being applied. Alternatively, [UserRule]s can be created for them.
+    * as a BackgroundTask, large update
+    * an IdleTask, large update or if heavy [Processing] is required
+    * when the application is opened giving a progress ('application is updating'), small update, important if the user must be aware of the update
+
+The last one promotes ContinuousInitialization and SpecificTarget
+
+++Update Styles
+    * Upgrade
+    * Addition
+    * Patching
+
+++Update Types
+    * bugfix
+    * upgrade
+    * security
+    * feature
+
+SmartDifference can make updates smaller and more efficient.
+
+++Update Implementation
+    * Overwriting files with new files
+    * Replacing only what is changed
+    * Starting anew
+    * Overwriting memory

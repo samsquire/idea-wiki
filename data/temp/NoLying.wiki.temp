@@ -1,0 +1,8 @@
+﻿++ No Lying
+
+No Lying is where TheSystem should not lie. This refers to:
+    * ClearOnCapability
+    * ClearOnPrerequisites
+    * ReliableInterfaces
+    * poor PointConsistency
+

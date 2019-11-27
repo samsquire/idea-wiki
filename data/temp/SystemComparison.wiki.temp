@@ -1,0 +1,17 @@
+﻿++ System Comparison
+
+SC allows systems to be compared in an easy way. SC determines all the features of each System through UseTests and rules and displays which are the same and different.
+
+SC makes troubleshooting easier.
+    * [Compatibility] between a client and a server.
+    * NetworkAdministration.
+
+
+
+* need to see what protocol the server uses: eg CVS or SVN
+ * if everything links to a HTTP server, then the context classification can parse files:
+  * slow parse: parses the actual page (not recommended)
+  * context classification 
+  * scan HTTP page for URL
+* need to be able to see what features that server provides
+ * client is compared to server to check how compatible they are. alternate manager suggests alternatives that are more compatible

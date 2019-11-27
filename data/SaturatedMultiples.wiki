@@ -1,0 +1,18 @@
+﻿++ Saturated Multiples
+
+SM is where multiples are saturated into one. They are useful in making multiples easier to understand and act upon. This is used because:
+    * HelpTheUser
+    * OnlyOnce, NoUnnecessary and NoForcedSteps
+
+To avoid visual clutter, after dealing with an individual item, it can be:
+    * removed
+    * minimized from the list
+    * reduced
+    * automatic scroll and sort where the undecided items are always at the bottom and the list automatically scrolls to keep them in view.
+Otherwise the user must constantly scroll to view undecided items.
+
+advanced search and selection tools on saturated multiples screen
+
+++Uses
+    * [Logging]
+    * Similar dialogues actions are saturated into one dialogue with [Navigation] and [BaseInteraction] for its items. For example, if user issues a command to delete a group of readonly files, all the entries are presented in a single dialogue.

@@ -1,0 +1,7 @@
+﻿++ User Preservation
+
+UP is how TheSystem preserves [Users] interactions:
+    * ChangePreserving
+    * Time sensitive tasks
+
+Switching between time sensitive tasks causes [Users] to lose their positions. Users may have to pause, suspend or stop the time sensitive task before switching to something else. NoManual and HelpTheUser means that this shouldn't happen. Instead, this happens automatically. Only when the user returns [Attention] is the task is continued. The sudden change may confuse the user. Time sensitive tasks can be rewinded to give context back to users.

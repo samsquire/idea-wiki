@@ -1,0 +1,21 @@
+﻿++ Implementation Level
+
+An IL is
+    * how general/specific something is
+    * [Complexity]
+    * abstracted
+    * is a set of [Components] to make [Componentry]
+
+* if a framework is installed, i should see a list of all components that run on it
+ * it should act like a shop, i can choose what to add to it
+ * eg, a game framework, i download more games for it
+ * if the size of the development (SDK) and actual framework is small enough, download both
+ * if user attempts to develop with framework, download dev version if it isn't installed
+ * three components: game+development+framework, if the user tries to download game, how complicated should it be to download the framework automatically?
+
+++Contents
+    * [Downlevelling]
+    * [Uplevelling]
+    * LowerLevel
+    * HigherLevel
+    * ImplementationBypassing

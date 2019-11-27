@@ -1,0 +1,29 @@
+﻿++ Try Before Checking
+
+TBC is where an attempt is made rather than checking to see if something will work. The OS will check in place of the application. This gives the application less power and increases [Security] and reduces [Complexity]. The SolutionSystem is used to fix failed attempts.
+
+    * is where logic is not checked for by an application but instead the OS
+
+++Advantages
+    * there is no IrrelevantCoding
+    * [Directness]
+
+
+++Disadvantages
+    * there is CodeForEveryPossibility
+
+delete over time
+- unregister from existing files list and gradually erases the file over time
+
+
+++Comparison
+
+    Checking before trying:
+     if ( hard_drives[current_drive].freesize >= file.size )
+     hard_drive[current_drive].placefile(file) ;
+ 
+    Without checking before trying
+     hard_drive[current_drive].placefile(file) ;
+
+
+

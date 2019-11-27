@@ -1,0 +1,13 @@
+﻿++ Interactivity
+
+Interactivity is the exchange between [Users] and/or [Applications]. All interactivity is in two stages:
+    * Before the interaction - IndicatePossibleInteraction
+    * After the interaction - IndicatePriorInteraction
+
+[Frontend] interactivity is implemented through:
+    * speed
+    * many UserInterfacing techniques
+    * StateList
+
+
+Interactivity is a problem in conventional RemoteSoftware due to [Network] delay and limitations.

@@ -1,0 +1,22 @@
+﻿++ File Grouping
+
+FG is a feature for [FileSystem]s that allows [Files] to be grouped arbitrarily or based on rules.
+    * FG is used extensively by the SystemViewer and ObjectInterfacer
+
+++Reasoning
+
+Grouping files into units makes file identification and [Autonomy] easier. Use cases include:
+     * an [Applications] files are grouped together, the group is classed as a unit
+     * a user wishes to loosely associate some files together without physically separating them
+     * similar files grouped together based on file type, the name of the application and play button will open the application
+
+[Batching] can be applied to groups. the file group for 'application' would open application management.
+
+    Concept Images:    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/systemviewer.PNG
+
+++Implementation
+
+File groupings can be created by explicit assignment or implicit predefined rules.
+
+
+

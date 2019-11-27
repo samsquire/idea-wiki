@@ -1,0 +1,44 @@
+﻿++ Match Making
+
+Match Making is how games are played with people online. Games have various factors and everybody has their own preferences
+
+++Typically
+Typically, match making displays a list of available games and allows you to sort them by map and other variables. When a game is joined: you are either:
+    * put inside a game channel and you can chat with other people in the game before the game begins loading
+    * or the game immediately starts loading and you join
+
++++Problems
+The problem with the above is:
+    * the player must open the game completely - the problem with this, is that you do not know about the game you will join before you open it, this is a waste of time
+    * you have to choose a particular game, let it load and then play, if you want to join a different game with the same map etc, you have to reload
+    * people will not be able to access the game channel if it is full
+
+++Solution
+The complexities of MatchMaking means [Downlevelling] is needed. SystemIntegration of MM can solve this. A standardised software could provide:
+    * Game Channels
+    * Games Lookup [Centralisation]
+
+++Features
++++Load map and then Load a Game
+    * Choose and load a map
+    * Display open games running this map
+    * Download gamestate
+    * Join game
+This feature means that games can be switched ingame without having to re-load maps.
+
+* matchmaking and application updating for games
+* application state
+ * installed/missing files etc
+ * files with dependencies/non essential files
+ * patch/update installed
+
+
+++Richard on Left for Dead (ahref)
+most servers are overloaded because steam neglected to release the dedicated server software early and still have a demo thats mutiplayer and open to anyone
+
+as a result the servers that should have switched are still running demo shit
+
+it should be that the players get handed the full game but with locked doors on the stuff they have to pay for therefore its the same system and the same servers so no one loses out
+
+it may be this way im not sure but i doubt it because otherwise thed be lots of games where halfway through the campaign half your team leave with the message "sorry guys we dont own the next semi-destroyed building"
+

@@ -1,0 +1,36 @@
+﻿++ Cross Referential Help
+
+CRH is a method of providing help references to [Users] achieved from following TheDevelopmentModusOperandi and ParallelSimultaneousDevelopment. This is achieved by showing [InformationPopup]s and sidebars (attached to a window edge) that link to various resources.
+
+++Implementation
+
+Every piece of help documentation could possibly be deemed relevant to [Users] trying to use [Applications]:
+    * annotated screenshots
+    * tutorials
+    * articles
+    * interface recordings
+    * documentation
+    * pre-created templates
+
+In order to achieve this CrossReferential integrity, every part of a [Frontend] can be explicitly referenced by the above sources of help. This means:
+    * SystemWindows
+    * dialogues
+    * ConfigurationPanel
+    * InterfacePanels
+    * individual buttons, controls or widgets
+
+This means there needs to be a standised way to make these references, like a particular button on the interface. This reference must have FutureChangeAccommodation where widgets change locations and are updated between versions. A button may not do what it did before or it may have changed positioning. Another consideration is making this localization neutral. Help materials must know when they are no longer relevant.
+
+CRH may be activated through some kind of contextual help button or simply pressing something in the interface. The sidebar will be poplated with help materials that specify this interface element.
+
+Clicking the 'New' menu item in an authoring application may present various guides and tutorials that would be relevant to a user pressing new for the first time would want. This would include things like:
+    * Tutorials on 'how to' do use a certain feature
+    * Pre-created templates or easy-to-add objects to help start the user off
+    * 
+
+ConventionalSystems like [Linux] have extensive information and guides spread across many websites but are not linked to [Applications] themselves. These guides are therefore not 'learnable' from simply using the software.
+
+The sidebar's elements will use a sorting mechanism will need to treat the significance of these references intelligently:
+    * a small tutorial that only refers to this button is more important than one that is long. Activation of this interface element may accommodate for a large percentage.
+    * recorded interface usage
+

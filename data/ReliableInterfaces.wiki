@@ -1,0 +1,4 @@
+﻿++ Reliable Interfaces
+
+This is where an interface is ClearOnCapability and ClearOnPrerequisites. This can be further split up into:
+    * AccurateInterface

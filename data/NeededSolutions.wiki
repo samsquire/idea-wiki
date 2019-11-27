@@ -1,0 +1,35 @@
+﻿++ Needed Solutions
+
+* need a superior escaping system
+
+* character sets confusing mess
+ * low level functions immune to character set issues
+ * character sets further up
+ * i SHOULD be able to see different languages on my machine - not garbage
+ * i shouldn't have to install software to do so
+
+* got to be a better strategy than epochs?
+ * future immune epoch?
+ * will have overhead 
+
+* must be a better CLI, overlay titles/labels indicating what input is
+ * why is the order of the data relevant?
+
+* using the same application more than once: should you have to repeat the name multiple times?
+ * computers are supposed to make repetition easier
+ * features like && are short term fixes/workarounds
+
+
+
+determining whether the monitor is ON or not - can the computer tell?
+
+
+* copy restriction 
+ * yes, reading a file means it could be copied http://blogs.msdn.com/oldnewthing/archive/2006/12/06/1223600.aspx
+ * file system copy logging, tracking copies
+ * what is to stop someone copying and pasting from inside the application that opens the file
+
+
+simple problems:
+ * text editing, edit LARGE files easily
+ * efficient regular expressions

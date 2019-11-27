@@ -1,0 +1,17 @@
+﻿++ Alternative Manager
+
+AM is what implements AlternativeExpansion to provide the user with a selection of choice and comparing equivalents. The AM incorporates the following:
+    * ReviewStore
+    * SocialApplications
+    * 
+
+Examples of components which may have alternatives are:
+    * [Applications]: web browsers, web servers, ftp servers, email clients
+    * [Configuration]: PracticeSystem
+    * AestheticControlOfAppearance
+    * 
+
+
+how alternatives are 'managed', 
+ - plan to move to an alternative in the future, the manager detects any potential problems in moving - choose a format everybody likes, eg SQLite
+ - reasoning why an alternative was not chosen, eg 'too expensive'

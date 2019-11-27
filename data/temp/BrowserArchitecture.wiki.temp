@@ -1,0 +1,28 @@
+﻿++ Browser Architecture
+
+Web browsers are the client component to the world wide web architecture. Browsers also act as the graphical user interface for human users, called 'user agents'.
+    * contact web server
+    * send a request for information (the path part of the URL)
+    * receive information
+    * render the information on the screen
+
+++XML
+
+
+    * XML declaration is invalid. should appear as <?xml version="1.0"?>
+    * there is no root element, the cds appear in root space
+    * no namespace in case the XML will be placed somewhere else
+    * title overlaps cd tag, closing cd tag needs to be moved downward because tags must close in the order they were opened
+    * /disccol/cd[1]/artist is not a closed tag!
+    
+valid version:
+file:///C|/Documents/Shared/Projects/xml/disccol.xml
+
+Reference site: http://xmlwriter.net/xml_guide/xml_declaration.shtml
+
+++GOTCHAS
+    * XML declration must be in the order of VES (version, encoding, standalone)
+    * namespaces must be in Xpaths as 'prefix:'
+    * you cannot have a namespace with the same name as its prefix
+
+

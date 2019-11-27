@@ -1,0 +1,32 @@
+﻿++ Games
+
+Games are EntertainmentSoftware [Applications] that fit into the gaming ApplicationCategories.
+    * GameDesigns are some games I have designed.
+    * GameConsiderations 
+    * GameFacilities are what ought to be available to game developers.
+    * The GameArchitecture determines how games interact with TheSystem.
+    * DefaultGames are the games installed by default.
+
+++Types
+There are two types of gameplay:
+    * SinglePlayerGaming
+    * MultiplayerGaming
+
+++Architecture
+The following facts apply to games:
+    * have ApplicationData.
+    * adopt a DerivedStore for game-specific components, see GameComponentry.
+    * RegardNormal
+    * usually utilize an [Engine]
+
+++Installation
+
+[Conventional] games install content to the HardDrive and utilize CD content at runtime. Some games allow limited features without the CD and a restart of the game is required to access the CD content. [NativeImplementation]s of games have LiveData means features become available and enable them. NoRestart
+
+++Game Concepts
+    * [Loot]
+
+++Game Problems
+    * map destructables: take a screenshot of the item and place it underneath if it isn't 3d
+
+[icon=console]

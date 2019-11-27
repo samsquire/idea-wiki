@@ -1,0 +1,19 @@
+﻿++ Security Screens
+
+SS are StandardizedScreens that presents the status of [Security] for the TheSystem.
+
+Covnentional systems have little [Centralisation] for security. The Windows Security Center is able to check for firewall, automatic updates and anti-virus but is often inaccurate.
+
+The SS is able to present statuses for all SecuritySoftware.
+
+++Implementation
+
+SS are GeneralizedInterfaces for [Reusability]. This is because most security have the same properties:
+    * is on/off
+    * is up to date yes/no
+    * autoupdate is on/off
+The PracticeSystem is used by the ExplanationSystem to present the current status as good or bad. This HelpTheUser determine where changes are necessary. For example, OFF is bad and will be rendered in red according to the practice specification. The status of each SecuritySoftware is presented in a simple and SingleInterface:
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/securityscreen.PNG
+
+GetInto means that clicking elements of the StateList will UseATypicalApplication and [Focus] to the relevant [Configuration].

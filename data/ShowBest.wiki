@@ -1,0 +1,3 @@
+﻿++ Show Best
+
+SB means UserInterfaces should only display the best possible options. This is used to HelpTheUser to select the best option. This promotes UseBest and RelevantInterface.

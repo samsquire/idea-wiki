@@ -1,0 +1,11 @@
+﻿++ Relevancy Hook
+
+This hook is triggered when something becomes relevant. This is used in the UpdateArchitecture, ExpandSystem to ensure actions only happen if they need to.
+
+++Information
+
+There is much software stored about [Applications] on [SoftwareServer]s but not all of it necessary or required. The RH remembers the information that makes something relevant and can act upon it.
+
+     CompatibilityStore - Incompatibilities in software are only important when the user installs the affected software.
+     [Hardware] - Hardware specific information is not required if the hardware is different to TheSystem. If a bug is specific to processor architecture, it will not be downloaded.
+     Audience

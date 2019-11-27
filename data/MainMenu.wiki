@@ -1,0 +1,17 @@
+﻿++ Main Menu
+
+The MM is on the taskbar and holds:
+    * installed applications
+    * BaseTasks
+
+Single instance [Open] [Applications] do not need to appear in the MM if they are already open since they are already on the taskbar.
+
+Conventional MM are [Files] on the FileSystem. PhysicalEndpoint]s are BrittleData since they have poor PointConsistency. This often results in broken [Links] and create visual clutter. TheSystem uses LogicalEndpoint with special [Representations] so that broken links are impossible. NoBrittleData
+
+It is likely the MM is a normal menu with heavy [Configuration] due to ConfigureNotReimplement. As a result, normal menu APIs are used to change it.
+start menu is a logical endpoint, an API - NOT a filesystem
+
+TotalReversibility means that all entries created in the MM are removed.
+
+ - filesystems are impossible to manage efficiently this means
+ - no scanning for known and safe applications etc

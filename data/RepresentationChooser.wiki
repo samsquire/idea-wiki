@@ -1,0 +1,26 @@
+﻿++ Representation Chooser
+
+The RC allows CasualModification that permits [Users] to select which representation the RepresentationSystem should use.
+
+++Implementation
+
+VisibleData is displayed in a particular representation. [Users] can change the representation by interacting with the data. To invoke the RC a button is pressed. This is likely to be a right mouse click or the middle click. A list of possible representations is displayed and the user can make a choice.
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/representation_chooser.PNG
+
+The size field can be represented in many ways:
+    * in a particular unit: bits, bytes, kilobytes, megabytes, gigabytes
+    * relative to a size, a hard drive, floppy disk
+    * against a scale
+    * DataMapping
+
+The date field can be represented as:
+    * RealRepresentation: a calendar strip (in RelativeReference)
+    * English RelativeReference and FriendlyData
+
+Rules would be configured to use a particular representation depending on the data itself.
+    * Kilobytes/Megabytes/Gigabytes should be used if there is under 1024
+    * Relative references are within one week: 29/05/07 and Last Tuesday (the date now is: 4/6/07
+
+InterfaceRouting enables the RC to route representations to different areas. For example, if bytes are displayed in the true field, the bits are routed to its ToolTips for IndepthData.
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/UI_routing.PNG

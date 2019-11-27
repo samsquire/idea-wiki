@@ -1,0 +1,15 @@
+﻿++ Networked Defence Architecture
+
+The NDA is where DefenceArchitecture [Pooling] for multiple machines on a [Network] is used for [Centralisation]. The NDA is apart of NetworkAdministration and NetworkMonitoring.
+
+The NDA is equivalent to the Retina Event Manager, Security Console.
+
+++Implementation
+
+NativeNetworks running Cooperative NetworkMonitoring 
+
+    * view infections of all connected machines
+
+This is to:
+    * identify trends
+    * RiskTracking

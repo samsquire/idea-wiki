@@ -1,0 +1,6 @@
+﻿++ Safe Customisation
+
+SC is an AccidentSafety and makes customisation safe by being completely reversible. ReversibilitySystem is responsible for this. SC can be implemented as CopyOnWrite.
+
+If default [Configuration] is modified, both the default and the modification can be set as the configuration in use.
+

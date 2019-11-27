@@ -1,0 +1,17 @@
+﻿++ No Parse
+
+NP is one of the [Paradigms] that states that parsing should be avoided. Parsing is a LogicalEndpoint and reduces [Performance] but has the advantage of being dynamic and easy to modify.
+
+Parsing is where NoEnumeration applies and should be replaced with ContinuousInitialization if possible. Parsing promotes lump, all at once processing. ParseCompile is a parse in combination with [Initialization] it reduces the speed impact but retains the flexibility of parsing.
+
+NP is especially important in the ComputerStages.
+
+* shouldn't parse text on startup - should be like reading a book, instructions (executing) or enumerating a list
+a solution:
+ * precompile text config files/parse once
+  * linked config file and database:
+   * when database is modified, the appropriate config files are
+   * when config files modified, the database is updated
+ * database is used in the future as opposed to text files - text files are for user friendliness
+
+[category=paradigms]

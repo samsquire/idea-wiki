@@ -1,0 +1,9 @@
+﻿++ Relevancy System
+
+The RS ensures something is relevant to the system. This is accomplished via a RelevancyHook. The RS is important for:
+    * [History]
+    * [Cacher]
+    * Dependencies
+    * [Multiples]
+
+When the relevancy system has decided something is not in use it can either be deleted or placed into a SmartCache.

@@ -1,0 +1,22 @@
+﻿++ Complexity
+
+Complexity is how intricate and difficult a task is.
+
+reduced by:
+    * HighStandards
+    * [Splitting]
+
+how to avoid complexity but retain features?
+* static or dynamic
+
+* when applications need to save data have them use the save architecture instead of direct file system APIs
+  * Application Drivers - application specific frameworks built ontop of the save architecture 
+
+* make decisions based on complexity theory, big O notation etc
+
+Some ideas are continuations of previously existing ideas in another wiki format.
+
+++Complexity stages:
+  * load the most complicated stages into memory so they take less time in the future
+
+[icon=question]

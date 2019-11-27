@@ -1,0 +1,10 @@
+﻿++ Hooking
+
+Hooking is a check for something.
+
+++Examples
+    * Keyboard Shortcuts
+
+++Conflict
+ * i set global keyboard shortcuts hooks that conflict with another application or lower implementation of it
+  * how does OS deal with the problem?

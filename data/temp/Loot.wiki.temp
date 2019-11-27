@@ -1,0 +1,30 @@
+﻿++ Loot
+Loot are items that are obtained after an opponent is defeated or during battle. 
+* Most games are unrealistic where all loot is dropped at the very end of the battle.
+* Most games reward the player who dealt the most damage. This is unfair and instead, the following factors combined determine which player gets the loot.
+
++++Player
+
+* *Damage*: closer players will inflict more damage and sacrifice more health.
+    * *Sacrifice*: players who sacrifice more in order to defeat the opponent should be rewarded as they prevent allies from doing so instead. The player's increased damage is balanced with the fact that the player will also have to endure more.
+    * *Distance*: players of closer proximity to the opponent have the advantage of being closer to the items.
+* *History*: good players are more likely to receive loot than bad players.
+* *Record*: player who have rarely received loot are more likely to receive loot than those who have already.
+
+
++++Loot
+* *Location*: the storage position of the item. An item in line of fire is more likely to be freed and items of complicated location are more difficult to free or recover from battle whereas loose items are.
+ * *Fixed*: Items that are attached in a complicated way to an opponent.
+ * *Loose*: Items that are temporily attached in a simple way to an opponent. 
+* *Weight*: heavier loose items is easier to free from an opponent.
+
++++Opponent
+* *ModesAndStages* 
+ * *Mode*: the opponent's mode can determine how and who gets an item
+  * *Diruption*: disrupting the mode of the opponent can lead to a different stage or mode that  gives more chance of freeing a loose item
+ * *Stage*: the stage of the opponent's item can determine whether and who gets the item if it is dropped.
+  * *Attack*: attacking a loose item in mid-attack will have more chance of causing it to drop.
+* *Damage*: a weaker opponent will find it difficult to retain loose items.
+* *Killing blow*: the killing blow can cause items in mid-stage to lose control and accelerate in a relevant direction and to a believable distance.
+* *Critical hit*:
+

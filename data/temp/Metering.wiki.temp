@@ -1,0 +1,19 @@
+﻿++ Metering
+
+Metering is [Logging] amounts over time. Meters result in data which can be rendered as tables and graphics.
+    * DynamicData.
+    * can be added to the SystemTray, can be displayed alone or in/as [Reports]. 
+
+Metering aids [Logging] for:
+    * ComprehensiveSystem
+    * IndepthData
+    * SystemComponents
+    * SystemFeatures
+    * BaseTasks
+
+
+
+++Architecture
+
+Metering is setup automatically for internal reference but it is ultimately UserRule and its sensitivity can be reduced or increased. For example, [Network] usage will be metered by default to record how much is transferred per connection. [Users] could increase the sensitivity to record:
+    * the traffic of individual [Applications], ports, to particular IP addreses

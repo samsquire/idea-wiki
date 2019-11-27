@@ -1,0 +1,5 @@
+﻿++ Let User Continue
+
+LUC is a principle that [Users] should be allowed to continue using a computer while it is [Processing] or they are waiting for something [Loading]. LUC is achieved through:
+    * WaitingArchitecture
+    * Small ProgressiveFeedback

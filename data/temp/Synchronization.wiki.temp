@@ -1,0 +1,22 @@
+﻿++ Synchronization
+
+Synchronization is a consistent [Migration] which involves [Autonomy] in keeping [Multiples] up-to-date.
+    * NoBaseTaskDownload - mirroring information between two locations should not require specialist software
+    * Only changes are transmitted for efficiency, see OnlyStoreDifferences
+
+++Implementation
+
+Synchronization is not ExclusiveConfiguration, this means it can be invoked at any time by applying or removing. Any number of [Entity]s ShouldBeAbleTo be kept synchronized:
+
+    * [Files]
+    * [Configuration]
+    * UserLists
+    * UsersContent
+    * [Bases]
+    * [Accounts]
+    * [Indexing]
+    * [Applications] and ApplicationComponentry
+    * [Network]s
+    * machines on the network
+    
+

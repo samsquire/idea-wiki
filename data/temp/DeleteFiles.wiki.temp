@@ -1,0 +1,14 @@
+﻿++ Delete Files
+
+Mode: Delete Files
+
+Deletion of an arbitrary grouping of files
+
+Show list of files
+    * SmartItem
+    * UsageFrequency - most used files showed first to indicate importance
+
+Log
+    * Deleted [Files] ShowDeletedFiles
+    * Deleted all but 1 file in [Directory]
+    * 

@@ -1,0 +1,4 @@
+﻿++ Trail
+
+Trails are a visual [History] for movement between objects in the ObjectSystem.
+    * Used in [Paths]

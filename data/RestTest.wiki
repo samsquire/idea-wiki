@@ -1,0 +1,14 @@
+﻿++ Rest Test
+
+The web interface exposes a HTML interface to a JSON/HAL website.
+
+ * urls can be resources/collections of objects
+ * you specify what actions are possible for each page
+ * the interface allows items to be added to the page
+ * 'click the x and then y happens'
+ * actions on the resource determine the next resource
+
+ * life engine style box for entering a URL
+ * URL is then parameterizable
+ * things can be marked as collections
+

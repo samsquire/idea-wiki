@@ -1,0 +1,11 @@
+﻿++ Relevant Interface
+
+RI means that UserInterfaces should only display what is relevant. This is essentially an application of UseBest and NoUnnecessary for [Frontend]s.
+    * [Ordering], [Sorting] and [Categories] can be used to help present [Users] with a RI
+    * 
+
+++Implementation
+
+When carrying out a process invoked from an interface such as adding elements to it, the interface should remain as relevant as possible and should not stray far from the current task. This is accomplished by:
+    * [Focus] where only particular elements are utilized or through
+    * UnchangingInterface

@@ -1,0 +1,24 @@
+﻿++ Hibernate
+
+Hibernate writes data in the [Memory] to the HardDrive so that when turning the computer back on, the state can be recovered.
+
+In the [Conventional] system Windows, hibernate dumps the entire [LogicalMemory] to disk, excluding some system components. This is unnecessary since not all the information of running [Applications] needs to be dumped. The application binary itself, numerous caches and intermediate stores of information that already exists on disk.
+
+The only information that really needs to be dumped is the application being used and its ApplicationIndependentState. Web browsers would dump the
+    * currently opened page
+    * the position within the page
+    * contents of forms on the page
+They do not need to dump the entire rendered DOM trees for each individual page as this can be re-calculated on load.
+Music players would dump:
+    * position within file
+    * file
+    * playlist
+    * volume and other temporary settings
+When restoring the state, the applications running are opened and fed the ApplicationIndependentState data.
+
+Another optimisation is to close [Applications] that can easily be reopened and do not need state to be carried over. Examples include servers and [Subsystems] as their state is already on the HardDrive. This would increase [Performance] on the dump and possibly even on the loading.
+
+system hibernate needs to:
+    * iterate through all running applications to run their hibernation routines
+    * storing a concentrated data dump is much more efficient than emptying an entire binary (and caches) to the hard drive
+    * 

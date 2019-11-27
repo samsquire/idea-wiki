@@ -1,0 +1,38 @@
+﻿++ Use Any Source
+
+This means that any [Source] should be usable in [Applications] or by TheSystem. JustUse is an implementation that promotes UAS.
+
+UAS means the promotion of data usage from any source:
+    * data from the [Network] or [Internet]
+    * VisibleData, DynamicData and InteractiveText
+
+UAS creates NoForcedSteps if [Users] want to use a source without [Save].
+
+++Implementation
+UserInterfaces create AbstractionAwareness by ensuring that the [Users] understand the source has yet to be [Save]d.
+    * The save button may be larger than usual.
+    * Differentiate the interface to avoid accidents when the user believes it is saved. AccidentSafety, IndicateSource
+
+[Frontend]s contain data which can be manually [Import]ed into other [Applications]. Common UserInterfacing concepts are likely to allow the dragging and dropping of a frontend into another. SpecificTarget and [Directness] promotes this because they allow the specific transfer of large amounts of information. Conventional systems require the data has to be stored in the form of [Files].
+
+Processes hold data in LogicalMemory which can be utilized elsewhere. ApplicationIndependentState is the best example of this.
+
+The connections possible due to the DataInterfacer].
+
+UAS means that implementations can be used in ways they were not originally designed. As any source can be used, this includes [Protocols].
+
+++Examples
+
+    * The FTP protocol is designed to transfer files. It utilizes both a command stream and a data stream. At the end of the day, the file is an abstraction, the FTP protocol can be used as a 
+
+use FTP as a command protocol, doesn't always have to store as file
+ - use streams live
+
+
+* applications, processes, threads, windows, interface elements inputs since they are abstracted
+
+    * an entity that might take a few minutes to download will show a download dialogue for example
+
+    * need a way to say 'i want this'
+    * applications will open documents of information that is not saved
+    * the save button should be larger

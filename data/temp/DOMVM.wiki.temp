@@ -1,0 +1,7 @@
+﻿++ DOMVM
+
+The DOMVM is a virtual machine optimized for constructing a dynamic view of the DOM but also emitting strings.
+
+ * This is accomplished by having a tree kept in memory while the server is running for the site.
+
+ * Unlike a normal DOM tree, this dense DOM tree only stores the nodes that can potentially change due to user or database activitiy. This way the DOM can be cached easily.

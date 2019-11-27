@@ -1,0 +1,15 @@
+﻿++ No Manual
+
+No Manual is a solution to HaveTo. It means that the user should never specify or carry out manual tasks when a computer can accomplish them faster and more accurately.
+
+    * HelpTheUser
+    * BringCloser
+
+++Updates
+
+If the UpdateArchitecture cannot offer any [Update]s when the user checks for one, there should not be a HaveTo which forces the user to check regularly for them. Instead, HelpTheUser there should be a notification feature where the user is notified when an update is available.
+
+++Examples
+    * NoManualResizing
+
+[category=paradigms]

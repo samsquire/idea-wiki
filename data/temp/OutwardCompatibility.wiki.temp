@@ -1,0 +1,14 @@
+﻿++ Outward Compatibility
+
+OC is [Compatibility] to [Applications] external to TheSystem.
+    * InteractiveArchitecturalAwareness
+    * Adds ExternalManagement
+
+The biggest usage of OC in TheSystem is:
+    * ArchitecturalBridging
+
+OC is implemented in two ways:
+    * ActiveCompatibility
+    * PassiveCompatibility
+Both can ImplementTheUnimplemented.
+It is not certain which is desired since both have benefits. It is likely these will become an [Awareness] and a Distinguished Property - software decisions can be made based on them, comparisons , thesystem can differentiate them and knows the difference, detection

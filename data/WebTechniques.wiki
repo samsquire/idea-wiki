@@ -1,0 +1,17 @@
+﻿++ Web Techniques
+
+    * Relative protocol // in URLs prevents mixed encrypted/enencrypted warnings
+    * Http Only helps avoid cookie stealing
+    * Post-Redirect-Get
+    * X-FRAME-OPTIONS / SAMEORIGIN
+    * Sandbox attribute on Iframe http://www.whatwg.org/specs/web-apps/current-work/#attr-iframe-sandbox
+    * Content security policy
+    * Server side Safe Browsing API on server side
+    * Content type and content encoding
+    * Escape for Javascript and HTML separately
+    * Avoid including untrusted scripts
+    * HTML attribute escaping
+    * Each request should contain difficult to generate per-request tokens
+        * Tie tokens to current page, state and action
+    * Returning users usually have same password
+        * Correlation between web browser fingerprint. 

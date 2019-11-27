@@ -1,0 +1,17 @@
+﻿++ Shared Implementation
+
+Shared Implementation are modules that are [Share]d via [Externalisation] by the ShareArchitecture.
+
+SI are stored in LogicalMemory for [Performance]. Applications may require different MultipleVersions of SI. Loading multiple versions harms performance and creates OverIsolation redundancy and against OnlyOnce. Preventative solutions UseBest:
+    * the requirements of software that are already loaded are chosen over those that aren't
+    * the [Sorting], [Ordering] presents the best choices first.
+
+If a better solution is not available, [SmartCache]s mean loading multiple versions is done efficiently and not wastefully.
+
+Physically, SI are stored in StandardEstablishment]s.
+
+++Components
+
+    * [Navigation]
+    * [Search]
+    * BaseInteraction

@@ -1,0 +1,7 @@
+﻿++ Update Only When Necessary
+
+UOWN means that updates should only occur when absolutely necessary.
+ 
+++Examples
+    * updating UserInterfaces only when they are visible (see [Attention])
+    * outputting to a file only when the change is needed

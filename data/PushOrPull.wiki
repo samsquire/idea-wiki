@@ -1,0 +1,28 @@
+﻿++ Push Or Pull
+
+Communications can be divided into two groups. There are advantages and disadvantages to each. It refers to the distritbution of information: 
+    * Pushing is where information is delivered to all nodes from the server.
+    * Pulling is when all nodes request information from the server.
+
+Push or Pull is important for 
+
+    * [Protocols]
+    * PointConsistency
+    * [Internet]
+    * [LiveData]
+
+Care should be taken to avoid polling. see NoPolling and [Notifying]
+
+++Push
+like [Polling]
+Send out to all nodes
+Requires the central to know clients
+    * Central -> Clients
+
+
+++Pull
+[Notifying]
+Nodes request.
+Requires clients to know central
+    * clients all request
+    * Clients -> central

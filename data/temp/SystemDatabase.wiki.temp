@@ -1,0 +1,33 @@
+﻿++ System Database
+
+TheSystem is likely to use [Database]s for its operation.
+
+++Databases
+Databases include:
+    * [Bases]
+    * [Indexing]
+
+++Architecture
+The database format can operate in two ways:
+    * Centralised database format for everything, components are per table, similar to Windows Registry. Easy to manage but inflexible.
+    * database subsystem managing different databases formats, difficult to manage but more flexible.
+
+    * physical storage of database
+
+
+++Requirements of Database Subsystem
+    * Upscale and Downscale well
+     * without adjustments from user
+     * physical storage representation adapts based on usage
+    * Tweakable in terms of Performance: Read/Write
+    * Ultra lightweight
+     * efficient APIs
+     * specialised APIs/functions/names
+        * eg file system/memory cache
+    * Minimum Overhead/configuration
+    * EasyMigration, [Backup] and [Synchronization]
+    * Strong UI support
+    * Hand modifiable
+
+++Type of Startup
+    * loading different engines to support different database formats is likely to delay startup

@@ -1,0 +1,8 @@
+﻿++ Grained Control
+
+GC means that [Configuration] can apply to:
+    * [Accounts], [Users]
+    * [Applications], threads, windows, processes, windows, StagedInterfaces
+    * [HardDrive]s, [Paths]
+
+GC is often accessed from inside the context and is modified through context menus or ExternalConfiguration.

@@ -1,0 +1,8 @@
+﻿++ Readonly Applications
+
+The directory where the application is stored is read only. This locks executables in a consistent state.
+    * Forces applications to use appropriate locations for intermediate files
+
+    * [Multidirectional] [Installation] [Initialization] for [InstallPackages]
+     * Easy [Migration], NoBrittleData 
+    * User cannot place files into application directories

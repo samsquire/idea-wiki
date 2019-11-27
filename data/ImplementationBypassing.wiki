@@ -1,0 +1,7 @@
+﻿++ Implementation Bypassing
+
+IB is where [ImplementationLevel]s are bypassed by undermining it with a LowerLevel answer. IB is a cure to NoBrittleData and OverAbstraction.
+
+    * map data into memory rather than user interface apis
+
+For IB to be useful the implementations must be [Multidirectional] and a [ContinuousInitialization].

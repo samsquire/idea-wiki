@@ -1,0 +1,37 @@
+﻿++ Processing
+
+Processing is carrying out [Tasks]. TheSystem indicates [Processing] by providing [Feedback]. Process requirements include:
+    * Processes are NoBrittleData
+    * May have [Instances], It is possible to run two installers in parallel.
+    * [Concurrency]
+    * Processing must be handled effectively: SmartResources
+
+The following actions ShouldBeAbleTo take place on processes:
+    * Pause
+    * Continue
+    * [Synchronization] - synchronize output data
+    * [Migration] - transferrable to another machine
+These are effectively the [Basics].
+
+Processing can occur in different styles:
+    * DistributedProcessing
+    * InvisibleProcessing
+
+Conventional systems break down processing into threads. These threads are dedicated to a task and act in [Concurrency] with the main [Applications]. Both threads and processes need to be lightweight on [Resources] and efficient. Threads are typically impossible for [Users] to interact with and have high [Complexity].
+    * ComprehensiveSystem means that TheSystem will BringCloser threads through [Portalling] and ArchitecturalAwareness with ApplicationPortalling. For example, a threaded application will present a ListStyle with a description of what each thread does. [Errors] can rapidly be traced back to the source in this way.
+
+threads are apart of the interface so they are not complicated
+
+++Concepts
+    * processes are stored LowerLevel, such as the hard drive
+
+++Multiple Processors
+
+Users may wish to know how multiple processors are handled. [Feedback] must indicate usage of processors. Competant users may wish to exercise UserPower over processor usage.
+    * [Conditional] Underclocking
+    * Assign different processor to different tasks
+
+     * impression that existing multiprocessor strategies are poor and inefficient
+     * modes of multi-processor architecture
+     * ensure user can choose strategy
+      * kernel on one processor, applications on another

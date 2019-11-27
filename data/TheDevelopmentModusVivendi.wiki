@@ -1,0 +1,37 @@
+﻿++ The Development Modus Vivendi
+
+The DMV decrees the social interactions during development. DMV differs from TheDevelopmentModusOperandi by referring explicitly to the psychological and social nature of computer developers. It attempts to mitigate the problems with [Conventional] existing development projects.
+    * The DMV is the 'Second Foundation'.
+
+++Principles
+
+The DMV intends to take into consideration the opinion and psychological pressures of users and developers in order to facilitate the social processes hindering projects. This is through careful discussion of these issues and the building of solutons that solve them.
+
+Problems will be discussed and various solutions to them identified. The ideas and implmentations will be put to vote and consensus from [Users] and from developers alike. This is to provide balance to the process. The [Complexity] of each implementation must be identified for realistic decisions to be made.
+
+    * EmptyInfrastructure
+
+If TS is to be open source like [Linux] or BSD, TS needs a powerful infrastructure to support development.
+
+    * silly project management is relying on humans to synchronize documentation to code etc
+
+The developer community is likely to have a powerful intranet with the SoftwareConsolidation of:
+    * [Forum]
+    * [Email]
+    * [Chat]
+    * IssueSystem
+    * [Wiki]
+    * SoftwareServer]s
+
+TheSystem requires a large infrastructure that includes:
+    * [SoftwareServer]s
+    * NetworkMonitoring
+    * NetworkAdministration
+    * NetworkDeployment
+    * DistributedProcessing
+    * ContentDistribution
+
+[Conventional]ly, systems will be run by individuals and only co-ordinate through CommunicationSoftware of the [Internet]. Rarely do these systems create a true [Network] of individuals. The CommunityNetwork for TheSystem [Users] solves this by ensuring ContentDistribution and communication can occur efficiently.
+
+    * MakeToolsForEverything
+

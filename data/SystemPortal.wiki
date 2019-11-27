@@ -1,0 +1,18 @@
+﻿++ System Portal
+
+The SP is similar to ApplicationPortalling except it is for TheSystem. The SP aims to present important ongoing [Configuration]:
+
+    * [Servers] running
+    * Discovered from [Indexing]
+    * Virtual Private [Network]s
+
+[Search] is also available from the SP. The following information is searchable from appropriate [Indexing]:
+    * [Configuration]
+    * [Files]
+    * [History]
+    * UserLists
+    * SystemInformation
+    * [Documentation]
+    * [Tasks]
+
+InterfacePanels for results are presented in ListStyle

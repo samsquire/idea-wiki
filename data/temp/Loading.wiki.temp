@@ -1,0 +1,22 @@
+﻿++ Loading
+
+Loading is an [Initialization] that [Users] cannot avoid.
+    * Loading should AlwaysFeedback in the form of ProgressiveFeedback.
+    * Tasks with a high loading cost have SwitchSafety
+    * Loading must have NoBlankness, Network viewing on Windows shows an empty window with a loading curosr
+
+[Users] shouldn't have to watch a progress bar until finished, UserNotifications can notify when complete.
+
+++Architecture
+
+time recording between stages 
+[Loading]
+ - generic stage representation, 'download page contents'
+ - specific, 'connect to (IP address)'
+ time duration from connecting to fully rendering/just render
+
+++Examples
+    * [Games]
+    * [Bootup] and [Startup]
+
+Compact Discs shouldn't take so long to load without ProgressiveFeedback. The paridigm should be insert disc, use as soon as possible.

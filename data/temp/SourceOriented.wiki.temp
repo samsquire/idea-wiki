@@ -1,0 +1,15 @@
+﻿++ Source Oriented
+
+SO means that unlike conventional systems that are file oriented, TheSystem is pivotal around sources. All [Applications] offer a way to get the data from the application currently open in the application. It is unknown how this will be visible or utilized.
+
+    * Files are still sources
+    * [Paths] and [Links]
+
+The concept is to reduce needless usage of the [Chooser].
+    * visible [Paths] from inside the application, web browser, SystemViewer
+    * TitleBar [Paths]
+
+The ContextMenu of the titlebar path is the same as right clicking the file directly.
+    
+
+[icon=water drop]

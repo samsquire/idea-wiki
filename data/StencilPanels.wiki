@@ -1,0 +1,13 @@
+﻿++ Stencil Panels
+
+SP refers to a methodology of making UserInterfaces smooth and easy to use by making interface elements act like stencils. A stenciled panel is one where a section is partially visible and the rest hidden.
+
+++Implementation
+
+When the obfuscated panel is activated, it will become visible without movement of the original visible area. This can be accompanied by an animation effect, such as a fade-in.
+    * Reflowing stencil panels may even cause elements around the interface element to move to accommodate them.
+
+++Examples
+
+    * Placing the mouse over or clicking an InterfacePanel will cause the full panel to display, providing more information.
+    * MSN contact card attempts to use SP but fails miserably because it doesn't display in a predictable area. It has an annoying close button too.

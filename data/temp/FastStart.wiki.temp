@@ -1,0 +1,24 @@
+﻿++ Fast Start
+
+FS means the machine is able to return to a usable state quickly. [Conventional] systems are slow at starting up.
+
+This applies to returning from:
+    * [Standby] or [Hibernate]
+    * ComputerStages
+    * BackgroundTask]s
+    * IdleTask]s
+
+++Architecture
+FS is possible by avoiding CPU or HardDrive intensive tasks. This means:
+    * NoParse - use ParseCompile instead
+    * [Concurrency] and SmartResources
+    * Reading [PhysicalEndpoint]s rather than LogicalEndpoint]s
+    * 
+
+
+++Examples
+    * In Windows, it is faster to return from hibernation than [Bootup].
+
+turning a computer on should never take longer than restoring from hibernation, which is rather instantaneous. 
+
+LogicalEndpoint

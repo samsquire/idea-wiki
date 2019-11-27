@@ -1,0 +1,10 @@
+﻿++ Input First
+
+IF means input should be requested all at once rather than a ContinuousInitialization. This applies to [Tasks] that are a mixture of requesting input and lasting a duration.
+IF cannot work for input that has a dependency.
+    * contacting the network and checking if the user wishes to accept.
+The input has a dependency on the previous action and must occur afterward. [Installer]s have no such dependency.
+
+[Wizard]s use IF to streamline tasks. This is so that tasks can be left unattended after giving them all the data they require.
+
+todo: page that means TS can be used alone, unattended given work to do

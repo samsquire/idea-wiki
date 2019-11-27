@@ -1,0 +1,17 @@
+﻿++ Installer
+
+Installers are responsible for [Installation] of a system. There are two strategies in use:
+    * DownlevelToTheSystem, DesignedIn Installer
+    * Keep [Unimplemented], rely on Third party installers
+
+Both strategies operate on InstallPackages in different formats.
+
+Whichever strategy is used, the following requirements apply:
+    * installers are [Instances]
+    * runs with least privileges/userspace
+    * command line/scripting
+
+show installer icon in system tray
+* native install architecture or third party installers?
+
+desktop deployment - installer does one thing only and does it well

@@ -1,0 +1,6 @@
+﻿++ Compatibility Store
+
+Stores the compatibilities with other software.
+    * SolutionSystem
+
+CS can only store what is the CapabilityStore.

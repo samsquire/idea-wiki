@@ -1,0 +1,5 @@
+﻿++ Static Data
+
+SD is [Data] that is not updated automatically. DD is the opposite of LiveData. SD is discouraged because it leads to:
+    * IndistinguishableData
+    * Inconsistent system

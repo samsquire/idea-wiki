@@ -1,0 +1,18 @@
+﻿++ Directed Logic
+
+DL is logic that has [Directness] and are predictable.
+
+These technologies are examples of DL:
+    * [Hooking]
+    * [Watch]
+    * [Notifying]
+    * [Passthrough]
+    * ContinuousInitialization - SpecificTarget
+    * ChangeSensitivity
+    * Bindings
+
+DL is assigned by [Triggers].
+
+These do not:
+    * Using time to judge when tasks are finished rather than wait for reply or signal
+    * [Polling]

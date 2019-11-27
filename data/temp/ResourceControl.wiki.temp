@@ -1,0 +1,50 @@
+﻿++ Resource Control
+
+RC has [Centralisation] to maintain NoDistance. [Users] can select the SmartResources usage.
+
+++Implementation
+
+RC includes:
+    * packet sniffing, port monitors, firewalls, bandwidth monitors
+    * AccessModes
+    * [Metering]
+
+To manage resources effectively on conventional systems, [Users] either utilize:
+    * underpowered DefaultSoftware
+    * additional [Applications]
+ComprehensiveSystem means that RC is one of the BaseTasks and therefore a NoBaseTaskDownload.
+
+Resources have associated factors:
+    * availability: when the resource becomes available and unavailable
+    * speed
+
+GrainedControl is available for these factors.
+    * Artificial controls may be created for [Security], [Permissions] for [Administration] to maintain a level of service
+
+
+SmartResources may not always select the best solution automatically. [Users] sometimes require control over how they are utilized. The SmartResources architecture can handle all conditions but only with the help of the user.
+
+Not many users care to use [Prioritizing] features, even if they exist because it takes too long. The [Stager] is often used to accomplish the [Prioritizing] CommonImplementations. [Prioritizing] is existent in the system but more simpler provisions are also necessary. Exemplar tasks that involve the control resources include:
+    * the user wants something immediately or to do something faster
+    * give exclusive rights so that nothing can interfere with resource performance
+    * it doesn't matter how long this takes to complete, don't let it interfere with other tasks
+
+
+((  
+
+show images with width and height lines on axes
+spidering - DO NOT FOLLOW ANY 'GET' with delete query string
+))
+
+
+
+Resources such as the [Internet], [Network] and temporary [HardDrive]s are not always accessible. The RC will use this to decide which resources to utilize. For example, SystemComponents such as the ExpandSystem and UpdateArchitecture need the [Network]. Activities will be carried out as soon as possible before the resource is lost.  
+
+TriggerAnything means that [Triggers] can be used for RC:
+    * close sharing application when download/upload complete
+
+resource control
+- downloading in parallel is inefficient if i want something immediately
+- i should be able to give exclusive resources to a process to make it complete faster
+- resource usage information must be available from one place
+- stop sharing using bit torrent when share ratio reaches 1

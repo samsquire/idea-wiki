@@ -1,0 +1,9 @@
+﻿++ Lots Of Data Classes
+
+LODC means that TheSystem should have lots of different DataClasses for usage by [Users], [Developer]s and [Applications].
+
+To avoid an EmptyInfrastructure, DC will need to be maintained and updated efficiently between versions and amendments. TheDevelopmentModusOperandi should ensure progression is achieved.
+
+    * types of people, occupations, relatives and friends
+    * objects in real life: dvds, games
+    * 

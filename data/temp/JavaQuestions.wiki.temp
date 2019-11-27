@@ -1,0 +1,30 @@
+﻿++ Java Questions
+
+What is the difference between an Interface and an Abstract class? 
+ - An Abstract class is one that contains abstract methods, which are methods that lack implementations
+ - An interface cannot declare an implementation for a method because every method is implicitly abstract
+ - An Interface can only declare constant fields.
+
+What is the purpose of garbage collection in Java, and when is it used?  
+Objects cost memory to instantiate and memory is finite. Garbage collection is necessary to ensure that the system does not become overloaded with objects that are not necessary or are needed. When an object is created, it is assigned to a variable. When an object is no longer assigned, the object is regarded as inaccessible. An inaccessible object is therefore void and deleted from memory. If there were no garbage collection, the system would quickly run out memory.
+
+Describe synchronization in respect to multithreading.
+Resources cannot be accessed by separate threads at the same time as it would result in unexpected behaviour. Synchronization ensures that access to a data structure is synchronized in the sense that all threads decide to access it or modify it when others have finished with it.
+
+Explain different way of using thread? 
+Threads can be created by instantiating a Thread passing a reference to the object that extends it or the class can implement the Runnable class.
+
+What are pass by reference and passby value? 
+Passing by reference means that an object is not actually passed to a method but its address is. This is because Non-primitive objects are stored on the heap at particular memory addresses. Every variable that refers to the object uses this address to get to the object. Pass by value means that the data is physically copied to the method and is therefore separate.
+
+What is Hash Map and Map?
+Difference between Hash Map and Hash Table?
+Difference between Vector and Array List?
+Difference between Swing and Awt?
+What is the difference between a constructor and a method? 
+What is an Iterator?
+State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.
+What is an abstract class?
+What is static in java? 
+
+What is final?

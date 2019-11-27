@@ -1,0 +1,9 @@
+﻿++ Object System
+
+The ObjectSystem is a standard architecture for object structures.
+    * ObjectInterfacer
+
+
+++Metaphors
+The oS means that metaphors can be made.
+    * empty folder to

@@ -1,0 +1,7 @@
+﻿++ No Self Contained Software
+
+* SCA creates [Distance] since [Administration] of the applications requires specific tools designed for the application. This is because there is BrittleData that is specific to the application itself.
+    * Causes in [Reimplementation] which could have otherwise
+
+
+    * Difficult to utilize as a SharedImplementation and [Import]

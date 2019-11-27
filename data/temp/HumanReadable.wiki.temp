@@ -1,0 +1,7 @@
+﻿++ Human Readable
+
+HF is where [Data] is easily readable for [Users]. HR is the opposite of MachineReadable as it is difficult for a machine to read [Users] raw input.
+
+++Implementation
+    * FriendlyData
+    * Standard

@@ -1,0 +1,46 @@
+﻿++ Protocol Developer
+
+The PD is a [Developer] for [Protocols]. It permits the modification and creation of protocols.
+    * The PD creates protocols
+    * The UniversalModeller decides how they will be used
+
+++Architecture
+
+The designer interprets protocols by:
+    * versions
+    * variations
+    * validity
+    * compatibility with different versions and systems
+
+Protocols are highly modular. Different states can be added and created. (splits?) When modifying or basing protocols on others, the protocol designer ensures that if base compatibility exists, it is displayed as via customisation modifiers.
+
+Custom modifiers are strings that begin with the parent name and list all customisations following it.
+    * HTTP+Updater
+     means that the base functionality and compatibility of the HTTP protocol exists, plus 'Updater', the name of a user protocol
+
+Only when the derived compatibility disappears, through an extreme change for example, the parent string is removed. Customisations may be grouped under a single name to make the CM shorter. CM are based on word processor derived styles.
+
+For example, adding a new header to the HTTP protocol would not make the protocol lose functionality. Only those who do not understand the customisation would not understand.
+
+++User Interface
+
+The UserInterfaces for PD is a RealRepresentation. [Portalling] is used to make protocol design easier:
+    * Protocol flow is flowchart
+    * Data structures are tree-like (RepresentationSystem)
+
+++Examples of creatable protocols
+    * Bit Torrent backup protocol
+     *  
+    * LAN copy and paste
+
+    * 
+
+needs to be simple to design a protocol:
+- 'protocol designer'
+- plot documentation of a protocol, plot common protocol types, logic, create safe code/protocol file(a protocol/framework of its own) based on a protocol API/framework
+- plot data types/lengths/requirements
+- implementation level: how far has the protocol implemented
+- states of the protocol
+- classes/packets
+ - application level protocols etc
+- protocol designer is apart of the IDE but separately executable (eg, like GIMP where there is no master window)

@@ -1,0 +1,11 @@
+﻿++ Prioritizing
+
+Prioritizing is where an item is regarded as more important as another. Prioritizing is specified through:
+    * OrderPreservation
+    * Ordered Lists
+
+Priorities include:
+    * [Usage]
+    * [Security] implications
+    * critical
+    * Risk

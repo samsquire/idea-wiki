@@ -1,0 +1,6 @@
+﻿++ Marking
+
+    * software, frameworks, libraries is marked based on strategies,:
+    * fails fast
+    * offensively programmed
+    * defensively programmed etc

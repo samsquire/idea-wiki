@@ -1,0 +1,20 @@
+﻿++ Logical Memory
+
+Logical Memory is what entities and [Applications] are present in PhysicalMemory.
+    * Deleted [Files] that are still open 
+
+
+++Architecture
+
+Like PhysicalMemory, DataMapping is used to provide a RealRepresentation of [Data] in [Memory].
+    * show information regarding what is actually stored in the PhysicalMemory currently
+
+++Memory Mapping
+[Users] can decide what is to be kept in memory for [Performance]. This UserPower is implemented through interacting with existing [Frontend]s or through the data maps.
+
+* user chosen
+ * tickboxes beside possibilities, organised into tabs
+  * eg, a frequently used file, a database, an application
+
+* automated
+ * user rarely lets a day between each opening, automatically place it into memory?

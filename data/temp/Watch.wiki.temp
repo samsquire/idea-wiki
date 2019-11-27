@@ -1,0 +1,8 @@
+﻿++ Watch
+
+Watching is a passive check for change. This is used for the ReversibilitySystem and [Files] to detect changes. It is a [Notifying] [Hooking]. It is important for [Autonomy].
+
+++Example
+
+    * Watching contents of a folder to change to update internal representation.
+    * Notify when file is added to a folder.

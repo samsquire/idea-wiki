@@ -1,0 +1,19 @@
+﻿++ Occam Concurrency
+
+PAR i = 0 FOR n
+    WHILE TRUE
+        BOOL any:
+        in[i] ? any
+        
+ - Every channel's input is endlessly swallowed simultaneously at whatever rate they come in independent of the other channels.
+ 
+ WHILE TRUE
+    PAR i = 0 FOR n     
+        BOOL any:
+        in[i] ? any
+            
+
+ - Every channel may be swallowed once and must then wait for every other channel  to be swallowed before it may be swallowed again (The PAR block must terminate before it can be executed again)
+ 
+ 
+        

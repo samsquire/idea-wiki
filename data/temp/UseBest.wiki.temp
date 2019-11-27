@@ -1,0 +1,19 @@
+﻿++ Use Best
+
+UB means TheSystem should attempt to use the best option if multiple are available.
+
+UB is implemented by:
+    * SolutionSystem
+    * SuggestedSolution
+    * UpdateArchitecture
+    * SoftwareServer
+    * [Download]
+
+++Examples
+
+[Network]
+    * if it is up to the system to handshake and decide on protocol - it should try a better protocol first - TryBeforeChecking
+
+
+[category=paradigms]
+[icon=graph]

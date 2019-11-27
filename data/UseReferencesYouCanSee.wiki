@@ -1,0 +1,9 @@
+﻿++ Use References You Can See
+
+URYCS means that if you see a reference to some information then you can use it. This is an example of HelpTheUser.
+
+++Examples
+
+    * A file path is technically a reference to a particular a particular point in a tree. Each branch represents a folder and is represented on the screen by its name. It should be possible to interact with each branch individually as if it were a full path. Considering that each branch is also a container for files, it should be possible to GetInto these folders and subsequent files.
+    * This is to Open File Neighbours
+

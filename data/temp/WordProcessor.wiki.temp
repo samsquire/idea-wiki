@@ -1,0 +1,10 @@
+﻿++ Word Processor
+
+* word processor and spacing, should be more fluid in how you can drag paragraphs etc around on a page
+ * read word processor file's text, render 3d image of it, use it as a map in a game
+
+
+what you see is what you get should really apply to word processors to:
+ - i want to copy this to somewhere else should be easy...highlight all that is wanted an paste elsewhere, included borders etc
+  - indenting shouldn't be number based, perhaps on the left of print view i should see square lines to represent the fact that it is indented
+  - split up a shape easily and fill contents

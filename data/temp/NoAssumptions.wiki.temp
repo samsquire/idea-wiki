@@ -1,0 +1,24 @@
+﻿++ No Assumptions
+
+No assumptions or forcing may exist in [Architecture]s. Assumptions can lead to HaveTo and ModularBreakdown. No Assumptions means basically 'no finite limit'. see NoForcedSteps
+
+++Networking
+Should not be limited by the client and server model. Other models exist and it should require little configuration, if any to make software work with a different model.
+
+    [Synchronization] and [Migration]
+     It is never expected that the data will be transported to multiple machines - it is difficult to synchronise without specialist software.
+    * MYSQL cannot replicate data across in the [Directness] fashion 
+Solutions: EasyMigration, FundamentalExtraction,
+
+++Configuration
+Software assumes that a particular configuration style will be used and is difficult to customise
+    * using a configuration directory rather than a config file
+    * apache assumes particular configuration file style
+
+++Examples
+    * Single instance applications, see [Instances]
+
+
+* config server
+
+[category=paradigms]

@@ -1,0 +1,10 @@
+﻿++ Animation
+
+Anmimation is the movement of UserInterfaces elements. Conventionally, WebApplications utilize animation more than DesktopApplications. This is backward since WA are less powerful than DA. TheSystem will hopefully utilize:
+    * smooth animation
+    * 3D models
+    * vectors
+
+smooth animation of desktop applications: very important
+
+need a clean way to add to a scrolling text interface - adding to the top means the top is always visible but that's implicit knowledge

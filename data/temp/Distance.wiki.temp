@@ -1,0 +1,12 @@
+﻿++ Distance
+
+Distance refers to an implementation that distances it away from TheSystem. Video games are renown for creating their own self contained environment.
+    * NoReimplementation and NoDistance are preventative HighStandards
+
+BringCloser effectively nullifies distance and is therefore its desired opposite.
+
+++Examples
+    * Savegames not openable as files
+    * Configuration impossible out of game
+
+

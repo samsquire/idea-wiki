@@ -1,0 +1,11 @@
+﻿++ Multiple Management
+
+MM handles the inevitable clause where [Multiples] need to use the same resource and change it accordingly. The SM permits this to happen without inconsistencies and [Multidirectional].
+    
+    * 'Break Apart' - the data can be forked and copies are isolated
+    * the data can be merged again
+
+The relationship of the shared files is recorded and tracked with a [History].
+
+++Architecture
+ChangeSensitivity and SmartDifference of the resource.

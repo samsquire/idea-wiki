@@ -1,0 +1,19 @@
+﻿++ Internet Model
+
+    * Internet refers to internetworking.
+    * A network can be anywhere, disparate physical locations can be linked together. For example, VPN software allows locations to be linked together so that computers on each network can communicate with one another. Examples are Leaf networks, Hamachi or Open VPN
+    * The difference between and internet and the Internet is that the Internet spans the entire world and is the most common usage of the term. However, an internet can be any interconnection of networks.
+    * While the architecture of networks may be different, in terms of physical location, hardware and software, there must be a common factor. A common factor would is the communication convention
+
+    * Arpanet was produced in the early 1970s as a way for research institutions like universities to communicate research over disparate locations. Eventually this evolved and Arpanet became larger.
+    * The early Internet was mainly UNIX based. Other architectures had to adopt the same standards and protocols in order to communicate properly.
+
+    * Internet Society - leadership organization for policy, education, standards etc
+
+    * Internet Architecture Board (IAB) is responsible for overseeing the development of the internet. This is possible due to the Internet Research and Internet Engineering Task Forces.
+        * Research Groups (RGs) work under the IRTF, in the ISRG (internet steering research group)
+        * Working Groups (WG) work under the IETF
+
+The design of the internet is administered by various organisations. These are the
+
+Internet

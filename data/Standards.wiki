@@ -1,0 +1,22 @@
+﻿++ Standards
+
+Standards refer to an established way of doing or handling something. TheSystem implements standards which can be derived by the user with DeepCustomisation because of UserControl.
+
+    * Standards tends to have official documentation. TheSystem is capable of using both machine and human readable representation of standards. The ExpandSystem permits this information to be obtained. This allows behaviours to be compared to standards.
+    * An Implementer of standards indicates what standards it follows through a CapabilityStore and what [Technologies] it uses.
+
+++Implementation
+     * StandardEstablishment
+     * StandardMultiples
+
+Not all [Architecture]s will follow standards however.
+
+++Conventions
+Conventions are assumptions on a standard behaviour but not necessarily official.
+    * An example of a convention is a .md5 file with the same name of the checksummed file
+
+++Problems
+    Problem:
+      How can you program a standards abiding web browser if it is open to interpretation?
+    Solution:
+     Build a web server with no extra features but conformance - servers web pages then leave it as a task to make it secure etc, SHOULD BE FASTER than apache etc

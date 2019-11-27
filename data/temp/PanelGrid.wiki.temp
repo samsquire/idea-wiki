@@ -1,0 +1,11 @@
+﻿++ Panel Grid
+
+PG refers to how InterfacePanels have a DeepCustomisation that permits them to be moved around the screen in a grid format.
+    * [Portalling] tends to use PG extensively
+
+[Conventional] examples include: My Yahoo, Excite UK, Google Personalised home, Facebook.TheSystem's PG aims to be more flexible than these conventional implementations.
+    * the grids can be of varying sizes
+    * the number of columns and rows should be customizable
+    * individual InterfacePanels should  be permitted to take up space of multiple panels.
+    * InconsistentSizing
+

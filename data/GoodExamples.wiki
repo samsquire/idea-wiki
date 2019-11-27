@@ -1,0 +1,6 @@
+﻿++ Good Examples
+
+GE means that if [Applications] or TheSystem is to provide exemplar usage, it should provide examples that have good practice.
+    * This is provided by the PracticeSystem.
+
+wordpress, poor and boring tag examples, have good examples

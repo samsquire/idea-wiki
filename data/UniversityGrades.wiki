@@ -1,0 +1,21 @@
+﻿++ University Grades
+
+YEAR 2 - 68%
+Algorithms, Data structures and Complexity 78%
+Dynamic Web 71%
+Distributed Systems and Networks 60%
+Operating Systems and Architecture 81%
+Software Engineering Practice 54%
+Database Systems 72%
+Advanced Programming Techniques 78%
+Cognitive Neural Networks 53%
+
+YEAR 1 - 74%
+Managers and Organisations 71%
+Introduction to Object-Oriented Programming 91%
+Introduction to Information Systems 72%
+Foundations of Computing I 57%
+Computer Systems 93%
+Foundations of Computing II 48%
+Functional Programming 65%
+Further Object-Oriented Programming 100%

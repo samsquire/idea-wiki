@@ -1,0 +1,8 @@
+﻿++ Exact URL
+
+Exact URL is a strategy to strictly manage the [Paths] on a WebServer. All pages are given an [Absolute] path to be reached by.
+
+    * Prevents need for parsing
+    * Makes interesting path structures possible.
+
+exact domain string matching so parsing isn't really required

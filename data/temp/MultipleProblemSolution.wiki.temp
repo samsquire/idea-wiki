@@ -1,0 +1,16 @@
+﻿++ Multiple Problem Solution
+
+MPS refers to the trait of a solution or implementation  that is able to solve multiple problems with one basic architecture.
+
+++The Interrelationship Manager
+
+This is a system that I believe will be flexible enough to solve a few common problems.
+    * the relationships between file formats
+    * the relationship between formats and applications
+    * a path name
+    * computer information such as filenames, file paths and network addresses in files, databases
+    * the inheritance behaviours of thing
+    * the relationships between software versions
+    * package management
+    * feature
+ 

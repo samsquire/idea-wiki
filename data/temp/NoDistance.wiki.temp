@@ -1,0 +1,10 @@
+﻿++ No Distance
+
+ND means that [Distance] should be avoided.
+
+++Uses
+
+     * create a game, without running the game
+      * games integrate with network monitor when installed  
+     * a chat
+      * chat networks/clients integrate with network monitor

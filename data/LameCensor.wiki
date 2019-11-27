@@ -1,0 +1,16 @@
+﻿++ Lame Censor
+
+The LC is a strict censor for the SiteProjects.
+    * prevents annoying phrases
+    * reduces spam
+    * 
+
+bad word detection:
+ - you used 'xD', this annoys too many people and is tagged by the lameness filter
+
+++Detection
+    * malapropism
+    * lame word, annoying phrases and statements detection
+    * http://en.wikipedia.org/wiki/Thought-terminating_cliché
+    * frequent mistake detection
+    * sarcasm

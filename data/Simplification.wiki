@@ -1,0 +1,8 @@
+﻿++ Simplification
+
+Simplification usually applies to [Protocols]. It is a collection of actions that make them more MachineReadable and [Directness]. It involves:
+    * ImplementTheUnimplemented
+    * [Mapping]
+    * [Extraction]
+
+An example is ContentClassification.

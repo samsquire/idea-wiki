@@ -1,0 +1,9 @@
+﻿++ Smart Resources
+
+SR is the usage of [Resources] efficiently. This can be accomplished through:
+    * scheduling
+    * parallel processing - [Concurrency]
+    * [Ordering]
+    * [Prioritizing]
+
+[Awareness] of [Processing] types is a strategy to utilize resources optimally. If TheSystem knows that one application is memory bound while another is CPU bound, they can run concurrently without issue.

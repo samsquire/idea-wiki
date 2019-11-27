@@ -1,0 +1,18 @@
+﻿++ System Design
+
+SD refers to a SystemDevelopment stage where the [Architecture] of TheSystem is planned and followed.
+
+
+
+++Designs
+
+    * designing an OS
+     * what is best architecture? everything is a file?
+    * The multiple user environment is optional. Be a sole user of a multi-user capable OS
+    * StagedInterfaces - view memory consumption of each
+Memory accountability
+
+* OS - specialised partitions for different system components or a single partition with comprehensive location schemes
+
+* software hot swappability
+ * more recent requests are made via the updated software whereas current ones are let to use the old ones

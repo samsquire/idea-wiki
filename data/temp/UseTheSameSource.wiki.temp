@@ -1,0 +1,21 @@
+﻿++ Use The Same Source
+
+UTSS means that [Multiples] should utilize the same source rather than having RedundantData in [Reimplementation]s.
+    * UTSS is encouraged to prevent SelfContainedApplications.
+
+++Implementation
+
+If multiple applications share the same resource:
+    * no RedundantData
+    * [Centralisation]
+    * InputOnce [Users] do not to input multiple times.
+
+UTSS can happen in two ways:
+    * agree to use a standard interface
+    * join the same data together with the DataConnector
+
+UTSS is apart of SoftwareConsolidation to avoid SelfContainedApplications. UTSS is especially applicable to [Servers] because they are conventionally SelfContainedApplications.
+
+[Forum] and IssueSystem software normally use a user database of their own. UTSS means that they can utilize the same user database. This means that [Users] do not need to create two accounts, only one.
+
+[Applications] utilising a shared [Source] have access to the information from other [Applications]. This permits ApplicationCrossovers.

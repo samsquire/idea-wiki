@@ -1,0 +1,12 @@
+﻿++ Save
+
+[Save] is apart of the FileHandling and refers to storing [Data] on the HardDrive, usually in the form of [Files].
+    * The StandardizedScreens for saves is the [Chooser].
+    * [Open] is what occurs to a saved item.
+
+++Architecture
+When [Applications] save files, TheSystem will also record a reference to this application in the metdata. This is so that when the file is [Open]ed, the original application that created it used to open it in the future. This is an AbstractionAwareness that prevents HelpLapse]s when the default is not the same as the application that created it.
+
+AutomaticStandardEstablishment is a feature configured by TheSystem or through UserRule in [Configuration]. 
+
+* save file architecture, AutomaticStandardEstablishment - ensures files saved to correct places

@@ -1,0 +1,11 @@
+﻿++ Volume
+
+Volume is the loudness of sound from speaker [Hardware]. Volume is under UserPower and UserControl. GrainedControl prevents infringment on [Users] [Attention].
+
+This means
+    * Users may use the context menu on a [Browser] tab and mute the sound for example.
+    * Volume may be disabled per [Links] through the context menu if the user wants to avoid potential sound.
+    * Controllable per application through TitleBar.
+
+volume synchronization:
+ - volume up on something else makes other application volume go down

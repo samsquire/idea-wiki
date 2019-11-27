@@ -1,0 +1,31 @@
+﻿++ Software Consolidation
+
+SC is how TheSystem implements SeamlessUsability and SeamlessData for [Applications]. It allows [Users] to use the [Capability]s of multiple [Applications] in a simple and seamless way. SC is implemented in three ways:
+    * FeatureMasking - substitute a native feature for another
+    * UseTheSameSource - using the same data in two separate applications
+    * forum software with bug tracking database, forum permissions in one letter style IRC
+
+    * PM system plugin, everybody has to add a plugin to their own system to interact with the PM system
+
+how do you integrate seamlessly
+
+software MERGING
+
+we need software consolidation:
+ - issue tracking
+ - profit portfolio management
+ - project management
+
+making development easier 
+ - auth module so you add log in functionality quickly, should be able to use the same database
+ - data relationships? a user makes many posts but has a single profile
+ - practice system helps you configure the database better: password hash type, password length
+BB Code and Wiki formatting modules
+i want to easily join together the account subsystems of a IRC server and a forum?
+ 
+wiki documentation for issue system
+
+feature masking - combine software applications together
+seamless routing of data between software - i WANT to use the same database for all techs
+ - per thread administrator
+ - single sig/avatar per page

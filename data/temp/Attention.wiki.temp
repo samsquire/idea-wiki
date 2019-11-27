@@ -1,0 +1,58 @@
+﻿++ Attention
+
+Attention is what is active and [Users] are using.
+
+++Requirements
+
+    * [Applications] and TheSystem cannot disrupt the user.
+    * UserInterfaces cannot appear infront of another unless explicitly ordered by the user.
+    * Keyboard shortcuts cannot be hijacked by other UserInterfaces, conventionally known as focus.
+
+++Architecture
+
+Anything that can break the attention of the user is controlled. This includes:
+    * UserInterfaces
+    * Sounds, Audio
+    * Screensaver
+    * BackgroundTask]s, Scheduled Tasks
+    * [UserNotifications]
+    * [Reports]
+    * [Metering]
+
++++Regions
+Some UserInterfaces may have an attention region which cannot be intersected by any other interface. TheSystem positions windows so they do not infringe on this zone.
+
+If absolutely no screen space is available, the interfaces are added to a [Queue] to prevent dirupting the user. When space becomes available and attention is lost, important parts of the queue will unravel and are displayed as SaturatedMultiples.     
+    * RelevancyHook]s ensure that only the important events stay on the queue.
+
+The queued messages are adjusted to be a RealRepresentation, AccurateInterface realistic/accurate and have an AbstractionAwareness:
+    "While you were <verb> <what>, the following events occured:"
+
+Full screen mode is an example of this when most of the screen is reserved. UserPower means that the user can customize how this works. The user may:
+    * break attention and unravel queue temporarily
+    * create [UserRule]s that permit certain applications from breaking attention
+
+Sometimes not all space has the same importance in full screen applications. This means that the user can override the application and permit overlap of certain parts. The user creates a mask which specifies where interruption can and cannot occur. Such masks can be distributed by the user and included with applications.
+
+It is not decided how the regions will function:
+    * the alerts are automatically scaled to fit the free space
+    * if enough space is available it asserts itself
+    * an icon appears
+
++++Task Switching
+
+Upon switching tasks, UserPreservation ensures that the user does not lose attention by using the appropriate act to prevent loss. For example, switching tasks while a video is playing will pause it. When the window is switched back, the video is unpaused.
+
+
+++Examples
+    * video playing
+    * video [Games]
+
+
+full attention applications such as videos will prevent the OS from running screensaver
+- switching windows pauses and unpauses when returning
+ 
+* music - nothing can play when music is playing, the OS blocks other applications from playing
+ * video cannot be moved or overlapped by other applications
+
+[icon=lens]

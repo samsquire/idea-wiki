@@ -1,0 +1,3 @@
+﻿++ Specialized Screens
+
+SS are UserInterfaces that operate on particular information in a specific way.

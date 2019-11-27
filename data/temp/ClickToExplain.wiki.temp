@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="ClickToExplain.idea" template="ideaRecord.md" source="idea.md"><Title>ClickToExplain</Title><Description>DESC</Description><Idea>ClickToExplain</Idea></sam><![CDATA[]]>
+## Click To Explain
+
+CTE is a feature that is built into the Help of TheSystem that is designed to HelpTheUser.
+
+CTE works on the principle of an InformationInterface. All references to a computing technology or concept or an instance of such should be CrossReferential to an adequate explanation of it. This is implemented through Links and the CommonInformation provision.
+
+##Implementation
+
+The reference to a concept should link to the correct Encyclopedia page that explains the concept using as much detail and explanation as possible.
+
+##Examples
+
+on the technical specification of an installed hardware device
+ - clicking a technology name explains the technology using both text and animations
+
+Clicking the 'SATA' representation (a logo or text, depending on StandardRepresentations) of a hard drive will open a document explaining SATA. <![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

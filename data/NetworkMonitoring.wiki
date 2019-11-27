@@ -1,0 +1,25 @@
+﻿++ Network Monitoring
+
+NM is determining the status of machines on a [Network] and is used for NetworkAdministration. NM provides essentially a great StateList for the entire network and individual nodes.
+
+Collectable information includes:
+    * Latency
+    * Available [Resources]/Utilized [Resources]
+    * [Servers] and states
+    * Traffic
+    * versioning
+
+Three types of NM are supported by TheSystem:
+
+Passive NM involves listening for broadcasts to determine what is active. This is the least powerful monitoring but has a high [Security] and has the least disclosure. DisclosureSystem
+
+Active NM involves probing machines on the network to determine their statuses. This is powerful but wastes bandwidth and is rather aggressive.
+
+Co-operative NM is a NativeImplementation of NM where nodes of the network share their own state due to NetworkAdministration or NativeNetworks. This is the most powerful and reliable but only for TheSystem nodes. Since the client is enabled, NetworkAdministration and InterfaceSharing may also be available. Additional information includes:
+    * network usage
+    * [Resources]
+
+agent software for network administration not always necessary,
+ - use tool to configure WMI for windows machines
+
+network wide genuine software scan, not available yet

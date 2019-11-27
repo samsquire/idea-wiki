@@ -1,0 +1,33 @@
+﻿++ Live Data
+
+LD is how everything should stay current whereever it is used. It is accomplished by:
+    * [Notifying] [Hooking]
+    * [Directness]
+    * [Watch]
+see PointConsistency and ChangeSensitivity
+
+Removing LD is known as [Desensitizing].
+
+++Implementation
+
+To display things live there must be a ChangeSensitivity between the data and what is changed. In conventional systems, once the data is rendered it takes time before it is updated for changes. [Polling] is out of the question so it must be a [Notifying] mechanism.
+    * Only visible data is updated.
+    * Invisible data is marked for update so that it will be updated when made visible.
+In a list, a particular row's column entry may be changed and therefore need to be updated. It is then marked and updated when necessary.
+
+If a range of rows are invisible, only this information is noted so that it doesn't have to be written to all of them.
+
+reading data for display registers you for updates when visible
+ - invisible windows have low priority of updates or no update at all
+
+++Reasons
+[UserInterfaces] cannot lie if the data is live. (NoLying, AccurateInterface, ReliableInterfaces)
+
+++Examples
+    * A help file is open and a keyboard shortcut is referenced in it.
+    * this keyboard shortcut is customised/changed
+    * the help file reflects the customisation and changes to it
+    * variable information such as this is interactive as it can be right clicked to open options regarding changing it
+
+    * Applications that require the presence of data must be aware when the data becomes available. For example, [Games].
+

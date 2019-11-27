@@ -1,0 +1,44 @@
+﻿++ The Development Modus Operandi
+
+The DMO is the stategic approach to development specifying that TheSystem is aware of the development process, decisions and approaches in order to avoid common pitfalls in [Conventional] impementations.
+    * DNO differs from the social side of development as it refers to the semantics of a problem
+
+++Description
+
+In short, the DMV states that:
+    * Build a new architecture that doesn't already exist to solve problems. This can be a meta-architecture that aids development or in the final implementation.
+    * Architectures should be aware of themselves.
+    * Variations, types and distinctions should be accommodated by the design.
+    * Be aware of problems of development and accommodate them into the architectural design.
+    * Promote SeamlessUsability of development.
+    * A clear protocol for everything that can be turned into meta-architectures
+    * Mitigate ComplicatedMetaArchitectures
+    * Understand, learn and build new architecture around the mistakes, bugs and flaws of other [Conventional] projects.
+
+The [Development] environment is aware of the nature of building implementations. Various DevelopmentPatterns and common [Problems] are known by the development tools.
+    * If a developer creates something that is known to be bad practice, the developer will be warned and informed how to fix it. (see PracticeSystem)
+    * Tedious practices will be [Autonomy]
+    * MakeToolsForEverything means each part of development will have tools to facilitate it.
+
+The reasons for problems in other architectures will be discovered and documented. The environment that development takes place on will then be adapted in order to prevent the problem from occurring forevermore. There are various strategies for this to be possible.
+
+If there are different aproaches to implementing something, these will inevitably be explored and documented according to TheDevelopmentModusVivendi rules. The environment forces these components to have metadata applied.
+    * [Configuration] settings, what should be visible in the configuration screen?
+    * 
+
+
+
+TheSystem will collect data about usage by default. This is to ensure decisions are made on good statisics. The DistributedStatistics makes this possible.
+
+
+
+++Examples
+
+Various principles are examples of DMO:
+    * GoodInterfaces
+     * GoodErrors
+    * Types of configuration
+
+(race condition during processing/editing files, add file to queue
+fail2ban processes text files looking for bad requests rather than adding them when they are made
+)

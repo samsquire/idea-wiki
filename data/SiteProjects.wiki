@@ -1,0 +1,53 @@
+﻿++ Site Projects
+
+The SP are a collection of websites that will interoperate and be housed under the same theme.
+
+These facilities will be used in each project.
+    * LameCensor
+    * CommunityQuality
+    * ReferralReward
+
+++Site Parts
+    * CrowdCloud
+    * FormatLabs
+
+    * debate
+    * analogy website
+    * consumer power
+    * brand engine
+    * company engine
+    * theoreticize: what the world be like, with, without, like, with laws
+    * Describe The Perfect: describe a dream of how things ought to be. Should be very appealing. Written in a number of paragraphs, such as 4 or 5.
+    *  Social modelling: users make a model of something complete with rules such as a computer network, 
+    * EmailNotificationStandard
+
+++Included Sites
+What projects should appear?
+    * MyCommunity
+    * system tray icon database
+    * mutual dislike (rather than shared like recommendation)
+    * software usage polls
+    * What Is This?
+     * Unified account and login
+     * Easily post question or picture
+     * File system of each website uses UnionFS across hosts
+     *
+     post picture and answer what it is, played as a guess game or as a genuine question
+    * CollaborateSolution
+    * Book review website equivalent of IMDB:
+    * create fanfiction into visual series
+    * software annoyances database
+use wiki to store opinions in the form of a blog, so i can have consistent pages of opinions and use histories to show change of opinions
+    * a wiki explaining what makes a song catchy
+    
+    video game website
+    software website
+    
+    artist's impressions (for book characters)
+    - drawing website like deviantart
+    - on the spot polling so user's decide which artist's impressions reach the top spot on the book/character page
+    
+    
+    send email to request account creation
+    
+    content distribution site portals, eg - vmware video contest..only permit vmware on this particular portal, youtube like portal for a specific thing

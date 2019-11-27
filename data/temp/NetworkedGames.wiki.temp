@@ -1,0 +1,44 @@
+﻿++ Networked Games
+
+NG are [Games] that can interact with the [Network].
+    * NG includes SinglePlayerGaming and MultiplayerGaming.
+
+++Implementation
+
+NG must tackle problems:
+    * Information loss, lost packets
+    * Lag
+    * Low speed connections
+    * Cheaters
+    * [Componentry] and Player PointConsistency
+
+++Architecture
+NG may register a [Paths] mechanism so they can be invoked from anywhere. This is especially useful for the GameArchitecture, [Browser] and OrganisationArchitecture. Paths may appear like so:
+    * areality://127.0.0.1
+
+The NGA is a [SharedImplementation] that offers the following features:
+     * Lobby
+     * Game [Protocols]
+     * MatchMaking (OrganisationArchitecture)
+     * [Chat]
+    
+    PointConsistency of [Componentry] across players
+     * The UpdateArchitecture may need to be invoked to ensure everybody has the same versions.
+
+++Integration
+SystemIntegration means that NoDistance can be applied to [Games]:
+    * game creation alerts - system toast "Game has been made with specified requirements" OrganisationArchitecture
+    * chat [Protocols], channels
+
++++Game Communications
+CommonCommunicationImplementations are needed to permit players to communicate.
+    Reliable and Secure game communications.
+     * Use public key encryption.
+     * Incoming and outgoing data makes no sense, perhaps use a random pattern that the client and server keep in sync but isn't transmitted.
+     * Use lots of decoys.
+
+    Distributed Gamestate
+     * eg bittorrent 
+
+    Distributed Sort
+     * server pushes data to fast nodes, fast nodes push data further on

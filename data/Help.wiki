@@ -1,0 +1,60 @@
+﻿++ Help
+
+Help is incredibly important. The system supports help through the following [Paradigms].
+    * HelpTheUser
+    * FrenziedFeatures
+    * DistinguishedContent
+    * No EmptyAbstraction:
+     The help features must be included with all software, otherwise the whole help concept is useless.
+    * MinimumInformation
+
+    Features
+     * [Documentation]
+     * [Wizard]
+     * ToolTips
+     * InformationPopup]s
+     * 
+
+++Architecture
+
+Conventional UserInterfaces include introductory help and explanations.
+    * This is discouraged by InformationOverload because it may not be understood.
+    * Its usefulness is reduced to clutter after it is read once.
+This is why it will not need to be displayed directly on the interface. DataSeparation means that help need not be directly apart of the interface. Interfaces should be self explanatory so help panels are not necessary. The help that is provided should be an add on to the current interface:
+    * InformationPopup]s
+    * [ToolTips]
+
+Help instructions have nothing to do with the actual [Code] of [Applications]. To prevent this, [Help] is a separate and DistinguishedContent. Conventional systems often add help at the [Code] level, this makes an inconsistent system. This spawns StaticData and IndistinguishableContent.
+    * SystemTray [ToolTips] BOCLEAN says 'right click for options'
+
+Help is not always static, it can be dynamic. Additional help can be obtained via the ExpandSystem. SystemIntegration means that the occupation of [Accounts] can be used as a communication feature. Error messages could include the administrator's names and details in dialogue. CrossReferential [Links] then offers to contact the admin via message or email.
+ * idea invoked from, hardware bug http://blogs.msdn.com/oldnewthing/archive/2006/03/30/564809.aspx 
+
+Help exists for every conceivable action in TheSystem. It is infeasible to create this manually, instead, help is automatically generated based on information available. [Frontend]s have preconditions for completion. This can be expanded in a human readable form through help pages or [Wizard]s. The following demonstrates how the automatic generation of help occurs:
+    * The route to the [Frontend]
+    * Identify the MinimumInformation necessary for completing the [Tasks]
+    * Identify the InputMasks
+    * 
+    * Use templates to describe each step:
+        Open X, Tab Y
+        
+    * ...or generate a [Wizard] that only displays the requested information inputs
+    * ...or place onscreen guides for each step and highlight the necessary input areas
+    * SettingUpEmail
+can be grouped into tasks and for this reason, the TaskArchitecture is used to help guide users through every topic. This is automatically generated based on 
+
+Conventional help systems use screenshots to document features and give instructions. This is StaticData as the screenshots will not be consistent to the real [Applications]. RealRepresentation means that real [Frontend] elements and screens are rendered into the help. This preserves the [Users] customisations such as themes. As a result, [Help] screenshots do not need to be updated after cosmetic changes due to reusage.
+    * already written down somewhere: render real elements from application in help for consistency (eg, themes)
+
+
+help system is like the task architecture, every small little option has a help for it: changing the proxy server, clicking this in the help opens the config at the proxy server part
+- perhaps these little tasks are automatically generated
+
+
+
+++Examples
+    Implementers
+     * TaskArchitecture
+
+
+[icon=question]

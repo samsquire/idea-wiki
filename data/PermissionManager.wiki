@@ -1,0 +1,23 @@
+﻿++ Permission Manager
+
+PM is apart of [Administration] and gives [Users] the ability to assign [Permissions].
+
+++Implementation
+[Accounts] with high [Permissions] can control [Accountability] through AccessModes.
+
+UserInterfaces have are essentially a [CapabilityStore] of functionality they offer. These capabilities are mapped to [Permissions]. UI that utilize disabled capabilities cannot function. This makes it possible to use UserInterfaces for feature removal easier by clicking what is to be disabled. InterfaceSharing can be used to collaborate on this aswell. To prevent HelpLapse, disabled functionality can be handled in different ways:
+    * remove all references to the ability from UserInterfaces. It makes sense to remove the non-functioning elements from the [Frontend] for an AccurateInterface.
+    * graphically disable
+    * notify user what is disabled and reason why
+    * contact administrator
+    * request based, ask administrator for access who will accept/decline
+
+LiveData and CloseExplanation means that UserInterfaces should be ReliableInterfaces and AccurateInterface.
+    * the [Help] and [Documentation] should the explanation why a functionality doesn't exist because the administrator blocked it and the SolutionSystem is to be used to help them enable it. This is necessary because otherwise [Users] may become confused that a documented feature is not available.
+    * CloseExplanation means that the explanation that permission is denied is near to the disabled content. At the bottom of the interface may be a note that parts have been disabled. When the user clicks on disabled functionality, the [Help] or [Documentation] is opened. On hovering, an InformationPopup states.
+
+original idea: admin preventing access to interface items
+
+
+
+

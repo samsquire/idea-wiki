@@ -1,0 +1,13 @@
+﻿++ Logical Endpoint
+
+Logical [Endpoint]s require [Processing] to reach.
+    * easily interfaced, modify, customise
+    * slow
+
+LE are user friendly.
+
+++Examples
+    * interpreted programming language
+    * sorting a list
+    * starting up
+    * configuration file

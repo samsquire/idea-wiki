@@ -1,0 +1,41 @@
+﻿++ Hardware
+
+Hardware is not entirely abstracted from TheSystem. Much SystemInformation [Stores] are used to hold hardware data that make it easy to be [Managed].
+
+    * see HardwareManager
+
+    * HardwareEncyclopedias and/or HardwarePortalling
+
+* physical representation of different technology throughputs and speeds
+ * ECC RAM correcting awareness
+ * amount of RAM required detection
+
+
+
+++SystemInformation
+The ExpandSystem means this [SystemInformation] can be gathered even when the hardware cannot identify itself.
+
+The following information tends to be stored about hardware:
+    * installation date
+    * manufacturer
+    * name
+    * category
+
+CrossReferential means the above information will be linked to the appropriate [Entity] in its EntityStore. Information about hardware that is not installed or has never been used can still be [JustUse]d.
+
+This information can be used to judge compatibility, capability and prerequisites for [Applications]. [Games] for example will require a high PhysicalMemory and other [Resources].
+    * see GameRepository
+
++++Exemplar Entity Stores
+    * ReviewStore - reviews regarding hardware
+
+++Reasons
+Users should not HaveTo install software to show information about their hardware. 
+see NoBaseTaskDownload.
+
+++Common Hardware
+
+    * [Resolutions]
+    * PhysicalMemory and [Memory]
+    * HardDrive
+

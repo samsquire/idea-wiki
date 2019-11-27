@@ -1,0 +1,16 @@
+﻿++ Indicate Automated Actions
+
+IAA means [Applications] and TheSystem should indicate automated actions or the status of them.
+    * Prevents HelpLapse and maintain UserAwareness.
+    * Reinforces UserControl over how things are operating.
+IAA is especially important for AutomaticSetup.
+
+IAA allows automated actions to be disabled and to learn.
+    * Disable an automated action for a particular item where the automated action occured.
+
+AccidentSafety
+IAA creates a visual reminder to stop the risk of relying on automatically stored information in addition to NoForcedSteps.
+    * Indication of an automated event that will not take place is necessary to prevent assumptions.
+    * If the machine will automatically retrieve, as the decision gets closer, the UserInterfaces display a notification and a reason why. The user can cancel it and will then learn not to.
+
+++Examples

@@ -1,0 +1,42 @@
+﻿++ Security
+
+The OS is focused on security (SystemFocus) by implementing many different layers of security.
+    * SecuritySoftware are the [Applications] that help implement sepcific security mechanisms.
+    * SecurityStandards describe how security should be approached when creating software for the TheSystem's ecosystem.
+    * ApplicationRules
+    * PasswordChecker
+    * AccessModes
+    * [Permissions]
+    * ImpossibilityDetection
+ and RelevantInterface - users who do not have permission to do something never know about it
+
+Exemplar security problems:
+    * Worms - the OS
+    * Spyware/Adware - inputs, eg web browsers
+    * Viruses/Trojans - anything that can be executed
+    * Privacy - outputs DisclosureSystem
+
+[Conventional] systems like [Linux] and Windows require complicated interfaces to be created.  Security controls in TheSystem are OrganizeFromTheBeginning for [Reusability] and NoReimplementation. This includes firewalls, application rights.
+ - rather than linux which requires complicated interfaces to be created, systrace
+
+++Central Repository
+Repositories of security problems are maintained remotely or externally and the system can employ these to prevent vulnerable software. Upon the discovery of vulnerable software, tactics include:
+    * Disabling
+    * Removing
+    * Replacing with InterchangeableImplementation
+    * [UserNotifications]
+    * [Update]
+    * locked up
+[Autonomy] means these tactics can be combined: it is more suitable to disable until [Update]s are available. Recommended decisions can be infered from the PracticeSystem and ultimately it is in UserPower. The decision would usually be based on:
+    * versions - which versions are vulnerable and which are confirmed safe
+    * stability
+    * desired reliability of machine
+    * severity of vulnerability
+
+++Security Issue Disclosure
+The disclosure system should be semi-automated. When a problem is confirmed by a human, it is rapidly communicated to all the affected [Applications] servers. The surge of traffic would be problematic to the application server who initially receives the information. ("Flooding algorithm")
+
+++Responsibility of Updates
+The responsibility of updating is a mixture between those responsible for [Administration] and the [Applications] themselves.
+    * responsibility of the application to contact its library/dependency servers to see if there are any security problems. this reduces traffic and is better than storing a long list of applications affected
+    * applications register on the library server for a notification. increased traffic. could be distributed

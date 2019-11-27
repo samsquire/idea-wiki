@@ -1,0 +1,49 @@
+﻿++ Systems Bridging
+
+SB is an ArchitecturalBridging that adds [Compatibility] towards conventional systems such as Windows, Mac and Linux. SB permits these systems to be administered, such as changing [Configuration].
+
+++Architecture
+
+[Portalling] and SpecializedScreens are used to make the UserInterfaces more relevant to the target system. SB is achived in two ways:
+    * reusing a NativeImplementation by ReusabilityArchitecture
+    * reimplementing, such as a dedicated [Applications] or redesigning UserInterfaces
+        (see NoReimplementation)
+
+The NativeImplementation reuses the DesignedIn UserInterfaces to keep a ConsistentSystem. System differences mean that not all features are available so that GeneralizedInterfaces can be used. This is important for ClearOnCapability and RelevantInterface for only displaying features that the target system is capable of. 
+
+Either strategy can be made to mimic the bridged system for a RealRepresentation:
+    * Ordering and positioning of elements is passed to the NativeImplementation.
+    * Dedicated [Applications] reimplement the interface
+
+[Users] may choose to use redesigned UserInterfaces by obtaining them through AlternativeExpansion or through CasualModification.
+
+The terminology and how UserInterfaces' elements are changed may even be different and ShouldBeAbleTo be reflected. This is a UserRule since [Users] may prefer either TheSystem's or the native UserInterfaces.
+
+Bridging is [Multidirectional]. Features, abstractions and configuration machine may be implemented on TheSystem. This can be an inheritance of style, layout or stages. This is known as FeatureMasking.
+    * Windows drive letters.
+    * [Paths] separators
+    * File structure
+
+TheSystem uses UserCentralisation to make running multiple systems easier.
+    * updates for other systems integrate with the native UpdateArchitecture, BringCloser the update check
+    * centralize files, everybody use partition that can be written to
+    * install file system driver in systems so the NativeImplementation can be read
+
+++Examples
+    * ImplementTheUnimplemented shows that administration can be better than the NativeImplementation. [Mapping] can optimize the [Configuration], enabling it to be searched. This is an ExternalManagement.
+    * 
+
+bring forward abstractions/configuration, eg drive letters on windows, styling, windows folder structure
+
+
+run software that syncs systems, eg, a driver in windows that can read TheSystem's file system
+
+in partition manager, link to OS name, CrossReferential
+ virtual machine, emulatate/run
+
+systems in SystemConfigurationScreen
+central admin - centralize files etc
+notify when application is available on other system
+updates
+
+(application expansion)

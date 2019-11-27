@@ -1,0 +1,14 @@
+﻿++ Audio
+
+Audio is an important [Capability] in systems. As a result:
+    * it counts as a form of [Attention]
+    * GrainedControl of [Volume]
+    * [Ordering] 
+
+
+++Playlists
+
+Playlists are a type of OrderActions where the [Ordering] of audio files are played one after another.
+
+Conventional playlist implementations are BrittleData since they refer to exact [Files]. This makes sharing useless. ShareAnything means that playlists should be sharable. NativeImplementation of playlists will not be be sensitive to [Paths] and sharable.
+completely sharable playlists - sharable

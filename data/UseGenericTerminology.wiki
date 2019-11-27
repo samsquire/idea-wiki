@@ -1,0 +1,5 @@
+﻿++ Use Generic Terminology
+
+UGT means that TheSystem uses generic terminology of features rather than inventing brand names or coining new terms. This is to:
+    * HelpTheUser learn and understand
+UGT is encouraged since it is necessary for OfficiallyAcceptedCertification and the opposite is discouraged by NoCapabilityBranding.

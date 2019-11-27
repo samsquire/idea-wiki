@@ -1,0 +1,4 @@
+﻿++ Recovery Partition
+
+boot partition has partition and recovery modification software
+ - self sufficient distribution

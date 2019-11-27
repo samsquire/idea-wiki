@@ -1,0 +1,26 @@
+﻿++ System Development
+
+SD regards [Development] of TheSystem. SD is not limited to a single stage.
+
+++Stages of Development
+These are the various areas that require development effort:
+    * SystemDesign
+    * SystemComponents
+    * SystemDatabase
+    * SystemInterface
+
+++Methodology
+TS has various methodologies to guide its development
+    * ThePerfectStart
+    * TheDevelopmentModusOperandi determines how architecture will be implemented.
+    * TheDevelopmentModusVivendi outlines how developers will function in the project.
+
+++Implementation
+
+(see SystemDesign for design decisions)
+
+++Infrastructure
+
+
+
+[icon=orgchart]

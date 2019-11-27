@@ -1,0 +1,17 @@
+﻿<document>
+<sam type="subs" name="NoInterruptUser.idea" template="ideaRecord.md" source="idea.md">
+	<Title>Stop Interrupting Users</Title>
+	<Description>Software needs to stop interrupting us work.</Description>
+	<Idea>NoInterruptUser</Idea>
+</sam>
+<![CDATA[<div class="content NoInterruptUser">]]>
+++ No Interrupt User
+
+[Applications] and TheSystem should not interrupt the user needlessly. Only the following allow the user to be interrupted:
+
+    * [Security]
+    * AccidentSafety
+
+<![CDATA[</div>]]>
+<sam name="fulltable.md"/>
+</document>

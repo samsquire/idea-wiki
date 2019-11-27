@@ -1,0 +1,15 @@
+﻿++ Development Interfacers
+
+DI are [UserInterfacer]s that promote and provide the PlatformAndEnvironment for software [Development].
+
+    * [Developer]
+    * ProtocolDeveloper
+    * 
+
+Some FrontendServices in DI include:
+    * ConnectedCode
+    * IntegratedRefactoring
+
+++Project Panel
+
+    * lists bugs, eg debian's critical bug count

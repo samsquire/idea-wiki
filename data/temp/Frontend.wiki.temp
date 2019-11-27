@@ -1,0 +1,15 @@
+﻿++ Frontend
+
+The frontend is a client to a [Backend] and is responsible for obtaining and displaying data for it. Both [Clients] mainly have frontends but [Servers] can aswell.
+    * UserInterfaces are a [Frontend].
+    * Many different frontends can drive the same [Servers].
+
+Frontends have multiple representations. The RepresentationSystem converts frontends from the NativeImplementation to:
+    * text-based command line
+    * static web application based
+    * AJAX web application based
+
+InputMasks serve as the input elements of frontends.
+
+need a GUI language that can be dynamic and hold information
+- HTML is not the answer

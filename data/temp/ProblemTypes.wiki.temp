@@ -1,0 +1,15 @@
+﻿++ Problem Types
+
+PT means that detectable problems occurring inside the TheSystem possess types. This is because not all errors and problems are equal.
+
+    * LoggingIsLightweight
+
+++Implementation
+
+In order to avoid [HelpLapse]s during errors, the type of error will effect what is displayed by TheSystem. Two major types of errors are:
+    * User Error
+    * Developer Error
+User errors are caused by the user attempting something that is impossible or incorrect. This should occur rarely because of NoLying and ReliableInterfaces
+    * Efficiency Problem (see PerformanceMetric and LimitationAwareness)
+        caching, throughput, starvation
+    * 

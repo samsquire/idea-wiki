@@ -1,0 +1,68 @@
+﻿++ Task Architecture
+
+Task Center?
+
+The Task Architecture allows users to complete taks using [Technologies]. Technologies require explicit configuration to use. The problem is, users do not want this [Complexity]. The TA allows TheSystem to HelpTheUser while ensuring NoForcedSteps or [HelpLapse]s.
+
+    * The TA doesn't stop user from configuring [Technologies]. It keeps [Configuration] relevant to stop [HaveTo]s and HelpTheUser. This isn't an excuse for a HelpLapse however.
+    * Not all Tasks are one-off.
+    * [Multidirectional] tasks mean that the task data is preserved. This prevents a [HelpLapse] by maintaining a bidirectional metaphor. This means they can be adjusted once created.
+    * The TaskStore holds everything required to complete a task.
+
+Only the information required by the step in the TaskStore is requested.
+
+++Implementation
+
+Tasks have dependencies. Setting up a web-enabled Photo Album may entail the following:
+    * Photo Album: Web Server -> Server Side Scripting -> Photo Software -> Server Side Photo Album
+
+This combination is stored in the TaskStore. The web server and server side scripter is likely to be used in other tasks and so is this photoalbum combination:
+
+    The user selects the 'make a Website':
+     Web Server -> Server Side Scripting
+     * Photo Album (already got)
+     * Blogging  (already got)
+     * Content Management (already got)
+
+Completed tasks will satisfy capabilities in the CapabilityStore which means other tasks with requirements (from the PrerequisiteStore) become visible. This means that users can continue completing tasks under an existing one.
+
+    "Now you have a website, the following tasks are open to you"
+     * Password Protect my photo album
+    "Now you have a database, the following tasks are open to you:"
+     * Setup [Accounts]
+    "Now you have a virtual network you can set up the following useful programs"
+     * File [Synchronization]
+
+++Interfaces
+
+    Task Selection Screen
+    * [Categories]
+     * Servers, Utility (backup)
+     The user selects the task they wish to complete and a [Wizard] collects the information required.
+     The following task shows that the user has already created a Photo Album.
+    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/task_architecture.PNG
+
+    Task Wizard
+     On the last stage of the wizard, perhaps newly available options are offered to the user.
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/photo_album.PNG
+
+    Task Interfacer
+     Tasks are nested in order of completion. If the user explicitly created Photo album, web server will not appear at the top - Photo album will.
+
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/task_center.PNG
+
+    ???
+     ??? such as web sites and photo albums have their own [Stores] ObjectInterfacer which is linked from the Task Interfacer
+     is a web server a shared service? shared system?
+     same applies to photo albums - a centralised place for them?
+
+    Net Boot
+    * net boot/PXE: requires TFTP server, DHCP server and more config files to setup [AutoService] and [Technologies]
+     * modular, efficient but difficult to start off, the user wants to setup netbooting - not a file server or a DHCP
+      * new idea: indirect configuration? to set X you need Y, but you don't know what you need to setup in Y
+
+++Examples
+    * task architecture, designing and building a website
+ - url structure
+ - wiki guides - many ways of making round corners

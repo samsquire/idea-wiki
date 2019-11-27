@@ -1,0 +1,30 @@
+﻿++ High Scores
+
+High scores is a feature of SinglePlayerGaming and MultiplayerGaming that lists single or multiple individual's scores to date. When a player gets a score higher than the highest in this list, it pushes the other scores down and becomes the top score.
+
+High scores are used to:
+    * compete with with yourself, friends and other people
+    * to compare skill levels, practice
+
+++Problems
+
+[Conventional] scores typically reward a certain attribute rather than a balance of specific attributes. Alternative scoring that should be recorded in [NativeImplementation]s include:
+    * time spent playing
+    * skill related - accuracy
+    * player mistakes - deaths, friendly fire, 
+    * player usages - retries
+    * play style - sticks to a certain area, good at surviving, coward 
+    * accomplishments - kills, flag/post accomplishments
+    * figures - damage dealt, damage received, misses, hits
+
+To promote CasualModification, [Users] can create their own ranking and scoring systems that use information collected by games. In this way, there are multiple verions of score tables where players compete for different things.
+
+++Architecture
+
+The GameArchitecture stores all a player's scores and keeps a [History] of them.MultiplayerGaming allows scores to be generated from [Remote] players, these are delivered through score update [Protocols] such as [Email], [Chat] or a centralized score server. Score servers collect scores from large numbers of players and allows large scale competition. Score servers permit [Centralisation] so that a [Users] scores carry with [Users] and are not tied to the individual's computer.
+
+Within the the scoring UserInterfaces, scores are categorized so [Filtering] can be used to view the player's own scores. [Users] can subscribe to other user's scores and will then see them. Scores are viewable through GamePortalling.
+
+
+
+todo:BetterName

@@ -1,0 +1,7 @@
+﻿++ Media Creation
+
+Creating Media such as floppy disks, CD roms, DVDS is handled via the SystemViewer or TaskArchitecture.
+
+    * Compilations are saved automatically in a compilation store [History] with limited number of slots based on time or [Inventory]. This prevents it taking too much storage space and clutter.
+    * The user can use the compilation store to do the same compilation again.
+    * If the compilation's files are missing, the user is warned and a search is offered. Alternatively, the user can put in the initial compilation and use it as a source by copying it to hard drive or if with two drives, copy them across.

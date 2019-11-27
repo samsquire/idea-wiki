@@ -1,0 +1,17 @@
+﻿++ Network Cacher
+
+NC are [Cacher] nodes on [Network] [Caching] content.
+    * Essential for ContentDistribution
+
+++Implementation
+
+NC prevents unnecessary retransmissions by storing content as it is accessed. Individual nodes do not need to refretch [Data] from it's original source, further downloads are obtained from NC nodes. The [Data] can be:
+    * stored on individual nodes - DistributedDataNetwork
+    * on [Servers] for [Centralisation]
+
+NC is especially useful on [Network]s where nodes are not permitted outside access through [Firewall]s.
+
+Both strategies require [Passthrough]s to the holder of the data, so they can obtain it the cached data. NC can use a combination of the the two strategies to prevent overload by [Outsourcing] caching [Tasks] to particular nodes.
+    * the server may refuse to deliver the content and instruct the node to request it themselves.
+
+To maximize efficacy, NC is default in NativeNetworks in that it doesn't require explicit [Configuration]. As a result, small LANS benefit greatly where ContentDistribution is managed by itself.

@@ -1,0 +1,16 @@
+﻿++ Implicit Implement The Unimplemented
+
+This refers to an implementation that was not created explicitly and as a result of the ImplementationLevel. This is encouraged as makes good use of available abstractions without reimplementing (see NoReimplementation) and enforces [Directness].
+    * [Multiples] choice -> StandardEstablishment and StandardMultiples
+    * A [Conventional] explanation of IITU is 'ForFree'.
+
+see ImplementTheUnimplemented
+
+++Reasoning
+
+Architectures should be designed with IITU in mind. [Users] benefit from IITU from:
+    * UserPower/UserControl/[Reusability] using components in ways the developer never intended or intentionally programmed in
+    * Fewer InformationInterface
+    * Encourages [Autonomy], such as generation of [Help] messages, [Documentation]
+
+[alias=ForFree]

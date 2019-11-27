@@ -1,0 +1,7 @@
+﻿++ Resolutions
+
+Resolutions are the dimensions of a display.
+    * ResolutionNeutral means that the resolution should not effect TheSystem or its [Applications]
+
+* determine what font size and how many lines can fit on the screen, in windows and in dialogues and make the maximum the smallest and most readable. Make sure it is functional, appealing and scales well.
+* The OS and its software automatically scales by moving items around. Make sure user is informed of changes.

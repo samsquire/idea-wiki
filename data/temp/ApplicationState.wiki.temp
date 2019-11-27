@@ -1,0 +1,13 @@
+﻿++ Application State
+
+AS refers to the state that an application is in at a current point in time.
+    * Users change an applications state through usage.
+
+SystemPhilosophies mean that [Fundamentals] should apply to the AS. This is accomplished through LogicalDataStructures.
+
+++Examples
+    * the currently loaded file(s), data or addresses
+    * the connections to various computers
+    * the playlist in an [Audio] or media player
+     * the current position within that playlist
+     * save to disk playlist position, eg, song 15, continue where last left off later

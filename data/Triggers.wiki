@@ -1,0 +1,18 @@
+﻿++ Triggers
+
+Triggers are events or states of TheSystem, [Applications] and other architectures. DirectedLogic is placed into triggers which are invoked when the trigger is reached.
+
+[UserNotifications] is the [Users] representation of triggers.
+
+++Architecture
+
+[Applications] use [Externalisation] to expose the [Triggers] they offer. TheSystem or [Users] may place DirectedLogic into triggers so that when triggered, the directed logic fires. Triggers can be conditional.
+
+Triggers can be divided into active and passive.
+    Active triggers are processed everytime the trigger is invoked.
+     * [Passthrough]
+     * [Hooking]
+    Passive triggers are only processed if the trigger is invoked:
+     * [Watch]
+
+[Portalling] is used to represent [Triggers] and [Desensitizing] is administered in this fashion.

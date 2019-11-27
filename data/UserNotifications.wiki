@@ -1,0 +1,10 @@
+﻿++ User Notifications
+
+UN gives users [Awareness] of [Change] through ChangeSensitivity. This enables reminders and [Autonomy] of an events and states.
+
+++Types of Alerts
+    * Email - Scheduled emails can be set up to routinely send information. Custom fields or attachments can be used so that diagrams can be rendered instead of attaching images. StandardsAbstraction
+    * Popup, InformationPopup
+    * Instant Messenger ([Chat])
+    * Actions - such as shutdown
+    * Dialogues

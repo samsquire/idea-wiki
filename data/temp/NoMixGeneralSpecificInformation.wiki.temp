@@ -1,0 +1,12 @@
+﻿++ No Mix General Specific Information
+
+Generic and Specific information should never be mixed together.
+    * Web sites frequently mix database record information with generic explanations without dividing up information. Examples include process and security database listings.
+
+++Solutions
+
+Clear DataSeparation of the context specific and generic data.
+Generic data are CrossReferential [Links] so that they can be clicked if [Users] wish to view more.
+The generic term is used will invoke a InformationPopup with a simplified explanation of what it does, a [Checklist].
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/malware_information_popup_checklist.PNG

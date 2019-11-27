@@ -1,0 +1,10 @@
+﻿++ Grained Separation
+
+Grained separation means that [Data] can be separated using many different variables. For example:
+    * The [Logging] of [Applications] over:
+        * over a certain time period
+        * while a certain application was running
+        * while person logged on
+    recently opened files list stored for every application
+
+[alias=Granularity]

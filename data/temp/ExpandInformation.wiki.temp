@@ -1,0 +1,9 @@
+﻿++ Expand Information
+
+EI means TheSystem should be capable of expanding the amount of information stored. This is because storing the information initially permanently is infeasible because
+    * it would take a lot of space
+    * it may not even be used
+This is why an expandable information architecture is required.
+    * information should be obtainable on demand when it is needed.
+
+Information is expanded using the ExpandSystem.

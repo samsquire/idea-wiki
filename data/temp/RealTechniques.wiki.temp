@@ -1,0 +1,45 @@
+﻿++ Real Techniques
+
+    * WebTechniques
+
+    * Use virtual machines to test backups
+    * Always completely format a virtual disk
+
+++Security
+
+    * Antivirus: Disable delete on detection, false positives
+
+++System Administration
+    * never use RAID with same batch numbers
+    * Use Software RAID
+
+++Network performance
+    * Ensure that the switch can carry all the traffic of each line at once
+    * 
+
+Source: http://it.slashdot.org/comments.pl?sid=1671876&cid=32424942
+    * Increase number of dirty pages before flushing and use a logged file system so they cannot be possibly lost
+    * Channel bonding
+    * NoTimestamping
+    * Jumbo frames on storage networks
+http://it.slashdot.org/comments.pl?sid=1671876&cid=32425940
+    * disabe interrupt moderation on network hardware, increases CPU load but increases capacity of packet handling
+Reduce traffic:
+    * firewall
+    * squid
+    * privoxy
+
+Profile network traffic with:
+    * ntop
+    
+    
+++Cross browser
+    * on firefox, changing anchor fragment results in new page history
+
+++Website performance
+
+    * serve javascript and images from a cookieless domain
+    * deflate is faster than gzip
+    * concatenate the javascript and css
+    * set a very long expire time for items in cache
+    * update source when something changes

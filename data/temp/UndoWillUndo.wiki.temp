@@ -1,0 +1,33 @@
+﻿++ Undo Will Undo
+
+In existing applications, an "undo" operation cannot be manually done. Manually undoing something is not registered and removed from the application's undo stack. When the user manually "undoes" something, it is registered as a new "undo".
+
++++ Examples
+
+++++ WordProcessor
+
+Where undo doesn't undo:
+    * Document not modified
+    * User adds letter to document - document is modified
+    * User removes this letter from document - document is still modified
+
+Where undo should undo:
+    * Document not modified
+    * User adds a letter to document - Document is modified
+    * User removes this letter from document - Document not modified
+
+++++Protocol Designer
+
+    * protocol is compatible with standard/what it is based upon
+    * protocol is modified so that it is incompatible and is marked such
+    * the incompatibilities are removed
+    * protocol is marked as compatible again
+
++++ Methods
+
+++++Comparison
+Compare the current version with the previous
+    * checksum each difference, if equal to last, the difference is negated
+
+++Ideas
+ability to undo folder movement, lock folder positions on desktop etc, don't want to accidently sort and lose a heavily customised positions

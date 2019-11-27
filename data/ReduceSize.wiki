@@ -1,0 +1,3 @@
+﻿++ Reduce Size
+
+attempt reduce file to size

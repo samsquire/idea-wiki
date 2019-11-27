@@ -1,0 +1,16 @@
+﻿++ Standard Multiples
+
+SM means that the ability to support [Multiples] has [Standardization].
+    * NoAssumptions where typical applications sometimes only allow a default and provide no way of switching to another 
+    * PromoteVariety and UserVariety
+
+++Implementation
+
+SM is usually implemented [Slotting] the multiples. This can through:
+    * [Files] - eg, configurations are stored in files
+    * Folders - eg, theme's data stored entirely in a folder
+
+++Examples
+    * EntityStore
+    * ComponentStore
+    * ReviewStore

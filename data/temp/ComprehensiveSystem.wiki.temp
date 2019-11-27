@@ -1,0 +1,12 @@
+﻿++ Comprehensive System
+
+CM is one of [Paradigms] which means the user knows what is happening on a system. This works through:
+    * BringCloser
+    * [Downlevelling] HigherLevel functions and features.
+    * DesignedIn
+    * NoBaseTaskDownload
+
+The [Memory] on traditional machines is abstracted away. Special tools are required to view and edit it such as debuggers. CS means that LogicalMemory and its data structures of running software are viewable natively.
+
+    * [Bases]
+    * [Applications]' LogicalMemory: 

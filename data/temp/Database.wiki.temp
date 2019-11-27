@@ -1,0 +1,15 @@
+﻿++ Database
+
+Databases are repositories of [Data].
+
+++Usage
+    * SystemComponents rely on the SystemDatabase
+    * [Servers]
+    * [Applications]
+
+++Examples
+    * [Bases]
+    * [Entity]
+    * [Components]
+    * SystemInformation
+

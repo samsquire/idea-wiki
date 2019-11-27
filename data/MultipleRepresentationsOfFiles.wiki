@@ -1,0 +1,15 @@
+﻿++ Multiple Representations Of Files
+
+MROF is where the same [Representations] have an automatic PointConsistency across [Files]. SFR aims to HelpTheUser in [Versioning] their files as different formats without forcing them to manually save (see NoManual) and update. 
+
+++Implementation
+
+[Users] often want the same file in multiple [Representations]. SFR means that a chance in one representation will reflect in a different representation of it. Slightly differing strategies to MROF include:
+    * SingleFileRepresentation with AutomaticConversion OnTheFlyConversion
+    * SynchronizedFileRepresentations
+
+
+file equivalence grouping
+ - represents various representations of a single file, eg the PDF file and the word processed document
+ - or single file expands to multiple formats
+ - could use the versions of imagery idea

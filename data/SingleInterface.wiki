@@ -1,0 +1,7 @@
+﻿++ Single Interface
+
+SI is where UserInterfaces only present one window and do not spawn additional windows. SI is core to [InformationInterface]s and [PagedInterface]s. SI would be a ToggleAndDemand customisable feature:
+    * SI on or off by default
+    * middle click to force open in current window or as new window
+
+Conventional [Applications] have child dialogues open from a parent. SI is used instead so for [Directness] and BringCloser. Data should be modifiable from where it is. This is CasualModification and an example of UnchangingInterface. It also reduces extra IrrelevantCoding.

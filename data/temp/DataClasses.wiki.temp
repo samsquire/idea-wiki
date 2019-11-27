@@ -1,0 +1,8 @@
+﻿++ Data Classes
+
+DC are definitions of data structures and the potential interactions with them.
+
+++Examples
+    * CommonInformation
+    * StandardRepresentations
+    * ApplicationState/LogicalDataStructures

@@ -1,0 +1,10 @@
+﻿++ Good Interfaces
+
+GI is a methodology for creating good UserInterfaces according to TheDevelopmentModusOperandi.
+
+++Principles
+
+    * Only good messages should be allowed in the system. This can be aided by TheDevelopmentModusVivendi
+    * Certain phrases, long and complicated words will be prohibited. A [Dictionary] look-up could detect this.
+    * Only tell the user what they need to know but make it easy to find more. RelevantInterface, [Errors] have ProblemTypes to ensure relevancy
+    * 

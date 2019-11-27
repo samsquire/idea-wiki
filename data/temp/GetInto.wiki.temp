@@ -1,0 +1,15 @@
+﻿++ Get Into
+
+GI means that any mode should be accessible from its visible represention. This is a BringCloser. This means:
+    * clicking an [Applications] name opens it
+    * clicking InterfacePanels will open the full panel
+
+GI also applies to those of different architectures, InteractiveArchitecturalAwareness mean that another architecture can be invoked. This can be by:
+    * restarting the system into this architecture
+    * running it in emulation.
+
+++Implementation
+
+GI is possible through:
+    * ContextMenu]s
+    * ZoomableInterfaces

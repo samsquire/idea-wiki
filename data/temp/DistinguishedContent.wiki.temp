@@ -1,0 +1,10 @@
+﻿++ Distinguished Content
+
+DC is content that is distinguished from other content. This means it can have its own [Representations] and is processed in a different or particular way. DC makes [Data] easier to use, find, more MachineReadable and processable. DC can can have [Standardization] easier than IndistinguishableContent.
+
+    * [Scanning] not required
+    * supports ContinuousInitialization and UpdateNotReprocess
+
+++Example
+    * HTML help file
+    * StandardRepresentations

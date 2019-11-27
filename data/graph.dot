@@ -1,0 +1,558 @@
+digraph RGL__DirectedAdjacencyGraph {
+    "BaseInteraction.idea" [
+        fontsize = 8,
+        label = "BaseInteraction.idea"
+    ]
+
+    "*./BaseInteraction.md" [
+        fontsize = 8,
+        label = "*./BaseInteraction.md"
+    ]
+
+    "fulltable.md" [
+        fontsize = 8,
+        label = "fulltable.md"
+    ]
+
+    "cliautocomplete.idea" [
+        fontsize = 8,
+        label = "cliautocomplete.idea"
+    ]
+
+    "*./CLIAutocomplete.md" [
+        fontsize = 8,
+        label = "*./CLIAutocomplete.md"
+    ]
+
+    "ClickToExplain.idea" [
+        fontsize = 8,
+        label = "ClickToExplain.idea"
+    ]
+
+    "*./ClickToExplain.md" [
+        fontsize = 8,
+        label = "*./ClickToExplain.md"
+    ]
+
+    "cms.idea" [
+        fontsize = 8,
+        label = "cms.idea"
+    ]
+
+    "*./ContentManagementSystem.md" [
+        fontsize = 8,
+        label = "*./ContentManagementSystem.md"
+    ]
+
+    "DocumentingSystem.idea" [
+        fontsize = 8,
+        label = "DocumentingSystem.idea"
+    ]
+
+    "*./DocumentingSystem.md" [
+        fontsize = 8,
+        label = "*./DocumentingSystem.md"
+    ]
+
+    "encserver.sparql" [
+        fontsize = 8,
+        label = "encserver.sparql"
+    ]
+
+    "*./EncryptionServer.md" [
+        fontsize = 8,
+        label = "*./EncryptionServer.md"
+    ]
+
+    "header.md" [
+        fontsize = 8,
+        label = "header.md"
+    ]
+
+    "idea.prefix" [
+        fontsize = 8,
+        label = "idea.prefix"
+    ]
+
+    "MacsAreBadComputers.idea" [
+        fontsize = 8,
+        label = "MacsAreBadComputers.idea"
+    ]
+
+    "*./MacsAreBadComputers.md" [
+        fontsize = 8,
+        label = "*./MacsAreBadComputers.md"
+    ]
+
+    MDMake [
+        fontsize = 8,
+        label = MDMake
+    ]
+
+    "*./MarkdownMakefile.md" [
+        fontsize = 8,
+        label = "*./MarkdownMakefile.md"
+    ]
+
+    "NoInterruptUser.idea" [
+        fontsize = 8,
+        label = "NoInterruptUser.idea"
+    ]
+
+    "*./NoInterruptUser.md" [
+        fontsize = 8,
+        label = "*./NoInterruptUser.md"
+    ]
+
+    "NoUnnecessary.idea" [
+        fontsize = 8,
+        label = "NoUnnecessary.idea"
+    ]
+
+    "*./NoUnnecessary.md" [
+        fontsize = 8,
+        label = "*./NoUnnecessary.md"
+    ]
+
+    "nounc.svg" [
+        fontsize = 8,
+        label = "nounc.svg"
+    ]
+
+    "noun.dotml" [
+        fontsize = 8,
+        label = "noun.dotml"
+    ]
+
+    "PointConsistency.idea" [
+        fontsize = 8,
+        label = "PointConsistency.idea"
+    ]
+
+    "*./PointConsistency.md" [
+        fontsize = 8,
+        label = "*./PointConsistency.md"
+    ]
+
+    "Portalling.idea" [
+        fontsize = 8,
+        label = "Portalling.idea"
+    ]
+
+    "*./Portalling.md" [
+        fontsize = 8,
+        label = "*./Portalling.md"
+    ]
+
+    "repository.idea" [
+        fontsize = 8,
+        label = "repository.idea"
+    ]
+
+    "*./Repository2.md" [
+        fontsize = 8,
+        label = "*./Repository2.md"
+    ]
+
+    "*./SamServer.md" [
+        fontsize = 8,
+        label = "*./SamServer.md"
+    ]
+
+    "SmartCache.idea" [
+        fontsize = 8,
+        label = "SmartCache.idea"
+    ]
+
+    "*./SmartCache.md" [
+        fontsize = 8,
+        label = "*./SmartCache.md"
+    ]
+
+    "SoftwareDistribution.idea" [
+        fontsize = 8,
+        label = "SoftwareDistribution.idea"
+    ]
+
+    "*./SoftwareDistribution.md" [
+        fontsize = 8,
+        label = "*./SoftwareDistribution.md"
+    ]
+
+    "StandardEstablishment.idea" [
+        fontsize = 8,
+        label = "StandardEstablishment.idea"
+    ]
+
+    "*./StandardEstablishment.md" [
+        fontsize = 8,
+        label = "*./StandardEstablishment.md"
+    ]
+
+    "SystemViewer.idea" [
+        fontsize = 8,
+        label = "SystemViewer.idea"
+    ]
+
+    "*./SystemViewer.md" [
+        fontsize = 8,
+        label = "*./SystemViewer.md"
+    ]
+
+    "UpdateArchitecture.idea" [
+        fontsize = 8,
+        label = "UpdateArchitecture.idea"
+    ]
+
+    "*./UpdateArchitecture.md" [
+        fontsize = 8,
+        label = "*./UpdateArchitecture.md"
+    ]
+
+    "UserPower.idea" [
+        fontsize = 8,
+        label = "UserPower.idea"
+    ]
+
+    "*./UserPower.md" [
+        fontsize = 8,
+        label = "*./UserPower.md"
+    ]
+
+    "UserRule.idea" [
+        fontsize = 8,
+        label = "UserRule.idea"
+    ]
+
+    "*./UserRule.md" [
+        fontsize = 8,
+        label = "*./UserRule.md"
+    ]
+
+    WikiMake [
+        fontsize = 8,
+        label = WikiMake
+    ]
+
+    "*./WikiMakefileCreator.md" [
+        fontsize = 8,
+        label = "*./WikiMakefileCreator.md"
+    ]
+
+    "Zones.idea" [
+        fontsize = 8,
+        label = "Zones.idea"
+    ]
+
+    "*./Zones.md" [
+        fontsize = 8,
+        label = "*./Zones.md"
+    ]
+
+    "*./idea.md" [
+        fontsize = 8,
+        label = "*./idea.md"
+    ]
+
+    "*./ideatTemplates.md" [
+        fontsize = 8,
+        label = "*./ideatTemplates.md"
+    ]
+
+    "*./ideatable.md" [
+        fontsize = 8,
+        label = "*./ideatable.md"
+    ]
+
+    "insertideas.sparql" [
+        fontsize = 8,
+        label = "insertideas.sparql"
+    ]
+
+    "theideatable.xq" [
+        fontsize = 8,
+        label = "theideatable.xq"
+    ]
+
+    "ideaasxml.sparql" [
+        fontsize = 8,
+        label = "ideaasxml.sparql"
+    ]
+
+    "*./index.md" [
+        fontsize = 8,
+        label = "*./index.md"
+    ]
+
+    "idealist.sparql" [
+        fontsize = 8,
+        label = "idealist.sparql"
+    ]
+
+    "*./nested.md" [
+        fontsize = 8,
+        label = "*./nested.md"
+    ]
+
+    "myideas.rdfa" [
+        fontsize = 8,
+        label = "myideas.rdfa"
+    ]
+
+    "ideasearch.sparql" [
+        fontsize = 8,
+        label = "ideasearch.sparql"
+    ]
+
+    "BaseInteraction.idea" -> "*./BaseInteraction.md" [
+        fontsize = 8
+    ]
+
+    "*./BaseInteraction.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "fulltable.md" -> "*./ideatable.md" [
+        fontsize = 8
+    ]
+
+    "cliautocomplete.idea" -> "*./CLIAutocomplete.md" [
+        fontsize = 8
+    ]
+
+    "*./CLIAutocomplete.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "ClickToExplain.idea" -> "*./ClickToExplain.md" [
+        fontsize = 8
+    ]
+
+    "*./ClickToExplain.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "cms.idea" -> "*./ContentManagementSystem.md" [
+        fontsize = 8
+    ]
+
+    "*./ContentManagementSystem.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "DocumentingSystem.idea" -> "*./DocumentingSystem.md" [
+        fontsize = 8
+    ]
+
+    "*./DocumentingSystem.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "encserver.sparql" -> "*./EncryptionServer.md" [
+        fontsize = 8
+    ]
+
+    "encserver.sparql" -> "*./SamServer.md" [
+        fontsize = 8
+    ]
+
+    "*./EncryptionServer.md" -> "header.md" [
+        fontsize = 8
+    ]
+
+    "*./EncryptionServer.md" -> "idea.prefix" [
+        fontsize = 8
+    ]
+
+    "*./EncryptionServer.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "header.md" -> "*./ideatable.md" [
+        fontsize = 8
+    ]
+
+    "idea.prefix" -> "*./ideatTemplates.md" [
+        fontsize = 8
+    ]
+
+    "MacsAreBadComputers.idea" -> "*./MacsAreBadComputers.md" [
+        fontsize = 8
+    ]
+
+    "*./MacsAreBadComputers.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    MDMake -> "*./MarkdownMakefile.md" [
+        fontsize = 8
+    ]
+
+    "NoInterruptUser.idea" -> "*./NoInterruptUser.md" [
+        fontsize = 8
+    ]
+
+    "*./NoInterruptUser.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "NoUnnecessary.idea" -> "*./NoUnnecessary.md" [
+        fontsize = 8
+    ]
+
+    "*./NoUnnecessary.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "nounc.svg" -> "*./NoUnnecessary.md" [
+        fontsize = 8
+    ]
+
+    "noun.dotml" -> "*./NoUnnecessary.md" [
+        fontsize = 8
+    ]
+
+    "PointConsistency.idea" -> "*./PointConsistency.md" [
+        fontsize = 8
+    ]
+
+    "*./PointConsistency.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "Portalling.idea" -> "*./Portalling.md" [
+        fontsize = 8
+    ]
+
+    "*./Portalling.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "repository.idea" -> "*./Repository2.md" [
+        fontsize = 8
+    ]
+
+    "*./Repository2.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "*./SamServer.md" -> "header.md" [
+        fontsize = 8
+    ]
+
+    "*./SamServer.md" -> "idea.prefix" [
+        fontsize = 8
+    ]
+
+    "*./SamServer.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "SmartCache.idea" -> "*./SmartCache.md" [
+        fontsize = 8
+    ]
+
+    "*./SmartCache.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "SoftwareDistribution.idea" -> "*./SoftwareDistribution.md" [
+        fontsize = 8
+    ]
+
+    "*./SoftwareDistribution.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "StandardEstablishment.idea" -> "*./StandardEstablishment.md" [
+        fontsize = 8
+    ]
+
+    "*./StandardEstablishment.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "SystemViewer.idea" -> "*./SystemViewer.md" [
+        fontsize = 8
+    ]
+
+    "*./SystemViewer.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "UpdateArchitecture.idea" -> "*./UpdateArchitecture.md" [
+        fontsize = 8
+    ]
+
+    "*./UpdateArchitecture.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "UserPower.idea" -> "*./UserPower.md" [
+        fontsize = 8
+    ]
+
+    "*./UserPower.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "UserRule.idea" -> "*./UserRule.md" [
+        fontsize = 8
+    ]
+
+    "*./UserRule.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    WikiMake -> "*./WikiMakefileCreator.md" [
+        fontsize = 8
+    ]
+
+    "Zones.idea" -> "*./Zones.md" [
+        fontsize = 8
+    ]
+
+    "*./Zones.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "*./idea.md" -> "header.md" [
+        fontsize = 8
+    ]
+
+    "*./idea.md" -> "idea.prefix" [
+        fontsize = 8
+    ]
+
+    "insertideas.sparql" -> "*./ideatable.md" [
+        fontsize = 8
+    ]
+
+    "theideatable.xq" -> "*./ideatable.md" [
+        fontsize = 8
+    ]
+
+    "ideaasxml.sparql" -> "*./ideatable.md" [
+        fontsize = 8
+    ]
+
+    "*./index.md" -> "header.md" [
+        fontsize = 8
+    ]
+
+    "*./index.md" -> "fulltable.md" [
+        fontsize = 8
+    ]
+
+    "idealist.sparql" -> "*./nested.md" [
+        fontsize = 8
+    ]
+
+    "myideas.rdfa" -> "*./nested.md" [
+        fontsize = 8
+    ]
+
+    "ideasearch.sparql" -> "*./nested.md" [
+        fontsize = 8
+    ]
+}

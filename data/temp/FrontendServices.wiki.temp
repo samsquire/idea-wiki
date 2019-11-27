@@ -1,0 +1,8 @@
+﻿++ Frontend Services
+
+FS are what features are available to [Frontend] designers when they make UserInterfaces.
+
+    * WriteInto
+    * [Animation]
+    * DrawOverSelection
+    * StencilPanels

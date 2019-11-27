@@ -1,0 +1,52 @@
+﻿++ Logging
+
+Logging is recording [Data].
+    * LogDurationsToo
+    * StoreAsMuchAsPossible
+    * [Usage]
+    * [Metering]
+    
+++Requirements
+    * Prevents DatalessTemplates.
+    * MinimumInformation of the information must always be logged.
+    * Do not log as plain text
+
+++Strategies
+    * Flags
+    * Events
+    * Dumps (against [Directness])
+
+++Format
+Traditional systems use plain text for logging and parse if further features are desired. This is not [Directness]. A log format can be optimised in storing recurring events and hold a consistent pattern. This can then be converted into plain text.
+
+++Implementation
+
+Logging can be implemented on different [ImplementationLevel]s:
+    LowerLevel:
+     * call libraries
+     * mark parts of code
+     * logic for settings
+
+    HigherLevel:
+     * intercepted of actions
+     * easily configurable
+
+The representation of the log can be converted with the RepresentationSystem:
+    * RSS logging (StandardsAbstraction)
+    * HTML
+
+++Referential
+The system offers as much information as it can through CrossReferential and [InformationInterface]s:
+    * If more information is available about an identifier, there are links to it
+      the IP address in a log file might link to a [Entity] about the remote machine
+
+++Interfaces
+
+Logs are similar and repetitive due to many entries. This creates an InformationOverload. SaturatedMultiples solves this by saturating similar logs together.
+
+Rows with repeating data can be recognised and combined into one. Instead of writing the data multiple times, it is written once onto the interface and when scrolled, it sticks on the screen or stays in the vertical middle.
+
+gantt chart for server processing needed
+
+using the times of a log file entry to easily show more information about problems
+( the time can be used to trace relevant errors )

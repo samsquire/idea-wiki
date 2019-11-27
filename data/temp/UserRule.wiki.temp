@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<document><sam type="subs" name="UserRule.idea" template="ideaRecord.md" source="idea.md"><Title>UserRule</Title><Description>Computers were built for users, not the other way around. BLAH!</Description><Idea>UserRule</Idea></sam><![CDATA[]]>
+## User Rule
+
+User Rules are choices that are made by the user that determine how something will act. This is how Autonomy is implemented.
+
+
+
+ * Whether an application will ask the user to update<![CDATA[&amp;lt;/div&amp;gt;]]><sam name="fulltable.md"/>
+</document>

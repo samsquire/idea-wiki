@@ -1,0 +1,7 @@
+﻿++ Toggle And Demand
+
+TAD is where options are available and either can be set as the default. To invoke a different option on demand, the user presses a keyboard button or a different mouse button.
+
+++Examples
+    * Middle click mouse
+    * 'open in new window' on a list of items when holding shift will open in separate windows, nonshift opens them in same tab - because it makes sense

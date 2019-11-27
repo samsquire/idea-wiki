@@ -1,0 +1,9 @@
+﻿++ Live Preview
+
+LP means [Users] can see a [Change] before it happens.
+    * Provides a PreviewBeforeChange
+    * AccidentSafety
+
+LP is only possible due to LiveData.
+
+Office 2007 implements this for many properties. However the LP is hidden by the dialogue windows and it is horrifically laggy.

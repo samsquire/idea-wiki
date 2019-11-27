@@ -1,0 +1,11 @@
+﻿++ Code Ideas
+
+++Delayed Calculation/Lazy Programming
+    * ways of implementing:
+     * smart calculation caching rather than specifying
+     * joint-values that update when the constituents of the derivative change
+     * template, having to embed equations with variables without having them evaluate, evaluate on call
+     * compound code, code/equations made up of different peices
+
+
+programming too reliant on order of data

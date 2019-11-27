@@ -1,0 +1,65 @@
+﻿++ Mapping
+
+Mapping is standardising information in the system by relating information to eachother or making abstractions. It makes information easier to use and access.
+    * makes a DifferentRepresentation to the native
+    * creates [Awareness].
+    * is passively/automatic
+    * like a passive spider
+    * can use data from the [Cacher] by using [Caching] or available [Logging]
+    * can be called upon by [Applications] such as web browsers
+    * automatic mapping is AutoMapping
+
+Mapping is also CrossReferential. The mapped information should have [Links] to the RealRepresentation but this might not always be possible.
+
+++ Examples
+    * [Browser]
+    * [Protocols]
+    * [Files]
+
+++Remote Machines
+Remote machines are often mapped. By retaining information about a remote machine's contents, ImplementTheUnimplemented is possible.
+
+For example
+     FTP mapping would involve converting the text received from the FTP server to an object to make ObjectSystem files to render with the SystemViewer.
+      HTTP mapping would involve tracking the user's web server requests to gradually construct the list of files on the remote system.
+    
++++Structure
+The structure of remote machines tends to carry a meaning or hold information. This is useful in autonomy and navigation. Navigational aids such as a sitemaps can be generated.
+    * redirects can be remembered so they do not happen again.
+    allows ConditionalFeatures and [Autonomy]
+        * a certain structure on the remote machine will cause different local handling, eg [Download] a file to a different folder
+    
++++Search
+By far one of the most useful features is [Search]ing. Storing the directory structure and file names and [Indexing] them makes it possible to search on a protocol that doesn't natively support it. If however a NativeImplementation of search exists, the results should be combined like a metasearch engine. (should be possible to combine remote file search and native search together)
+    
++++Filenames
+Filenames in sequences such as image001 and image002 can be detected or specified by the user. Sequential abstractions can then be applied like so:
+    * Images -> Photo Album
+    * Songs -> Playlist
+Registered sequences make [Autonomy] possible. If the system is aware a particular file in a sequence exists, discovery attempts of more files such as by incrementing the number can be used. If a success then the system is aware of a sequence or a larger one.
+
+Metadata can be used to make these connections aswell, a folder that consists primarily of images for example. This can be used to make decisions for ConditionalFeatures and [Autonomy].
+
+++Structure Mapping
+This is where useful directory structures can be mapped to descriptions, componentry etc. [ApplicationPurpose] makes use of this mapping.
+    * Games in the Start Menu equivalent will have links to important mappings such as Maps and Mods. Zoning
+
+++Format Mapping
+The structure of a format is mapped for easy [Extraction] to JustUse. UseAnySource.
+
+++Input and Output
+The mapping of VariableInputOutput means it can be more readily modified by the user.
+    * URL format
+     * Server Queries
+     * variables and meanings etc 
+
+
+* copy rather than redownload if already downloaded and md5 files
+* error lookup - filesystem error: file not exist different to FTP error
+
+* mapping IP address and ports to folders
+ * i do not want to run my source control as a network service, just locally
+  * optionally connect to a remote one 
+  * map subdomains of remote folders
+
+[icon=desert]

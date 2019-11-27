@@ -1,0 +1,18 @@
+﻿++ Standby
+
+Standby is a low power mode state where hardware components are turned off to conserve power. Standby enables a FastStart since the system is not turned off completely and only has to load the components that were switched off.
+
+    * [Hibernate] is slower than standby but as it fully turns off.
+
+++Architecture
+
+There are different strategies to standby, through disabling different components. In the Windows documentation, the strategies are divided into levels ranging from a few components to lots of components. Each of these levels has different startup costs.
+
+The Hybrid Hibernate feature of the [Conventional] Windows system, Vista activates hibernate first, where data is written to disk and then enters standby mode. If for any reason the computer loses power within this mode, the state is then recoverable from the hibernation file.
+
+ 
+system state should be revealed to the user, a friendly table of what each does for example
+ - S0-S5
+ 
+ the hybrid safe boot: write memory to disk and go into low power usage
+http://linux.slashdot.org/comments.pl?sid=228005&cid=18472291

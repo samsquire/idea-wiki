@@ -1,0 +1,9 @@
+﻿++ Linux
+
+what is right/wrong with linux
+- amarok is very powerful but overcomplicated and confusing
+- links do not exist where they should - the left side places bar which shows common places can be customised, edited/added
+- silly errors - 'nothing on clipboard'
+- help documentation had error messages in it
+- stupid dialogues would ask to save even if nothing had changed
+- linux is so slow

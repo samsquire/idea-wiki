@@ -1,0 +1,9 @@
+﻿++ Treat Administrators Like Users
+
+TALU means that administrators should not be denied the UserInterfaces that [Users] take advantage of.
+
+    * a logging page disguised as news, should indicate the availability and unavailability of new features
+    * in admin control panel, 'new feature' appears in a similar interface to a news list or post list when a feature is added through mod/update
+    * administrators benefit from [Documentation], [Help] and [Encyclopedia]s too
+
+[icon=person]

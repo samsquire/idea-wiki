@@ -1,0 +1,16 @@
+﻿++ Snapshotting
+
+Snapshotting is where parts of TheSystem are stored so that they can be [Restore]d at a later date. [Conventional]ly snapshotting is implemented by commercial applications. Snapshotting is a NoBaseTaskDownload and DefaultSoftware since it is a trivial task. Snapshotting is used for:
+    * ReversibilitySystem to implement TotalReversibility
+    * Testing
+    * [Versioning]
+    * [Multiples]
+    * [Backup]
+Snapshotting can be controlled by the user through SpecializedScreens like [Wizard]s. Snapshotting is a LowerLevel featureso that ExternalManagement is possible. 
+
+Snapshotting has AutomaticSetup for important events such as:
+    * before installation
+    * when changes occur
+    * on demand
+    * upon computer startup
+Auomated snapshotting is frequently a SmartCache to avoid taking too much space.

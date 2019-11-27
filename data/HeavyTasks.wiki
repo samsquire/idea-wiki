@@ -1,0 +1,28 @@
+﻿++ Heavy Tasks
+
+HT are [Processing] and [Tasks] that can:
+    * take lots of [Resources]
+    * reduce [Performance]
+    * cause [Desensitizing]
+
+Common HT include:
+    * using [HardDrive]s
+    * [Scanning]
+    * [Search]
+    * [Polling]
+EnumerationHeavyTasks
+
+For these reasons, HT should:
+    * be avoided
+    * occur rarely
+    * occur in a fashion that effects [Users] least.
+Methods of accomplishing this include:
+    * NoEnumeration
+    * OnlyPollOnce
+    * ContinuousInitialization
+    * UpdateNotReprocess
+    * [Passthrough]s
+    * OnlyDoHeavyTasksOnce
+    * SmartResources
+    * [IdleTask]
+    * InvisibleProcessing

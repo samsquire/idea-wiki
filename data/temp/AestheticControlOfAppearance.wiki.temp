@@ -1,0 +1,7 @@
+﻿++ Aesthetic Control Of Appearance
+
+ACOP is a UserControl principle where [Users] should have control over appearance. This includes:
+    * positioning
+    * size
+    * colours
+

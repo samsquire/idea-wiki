@@ -1,0 +1,12 @@
+﻿++ Application Entities
+
+Application Entities include:
+    * [Legality] - LicenseStore
+    * authors
+    * [Documentation]
+    * CapabilityStore
+    * CompatibilityStore
+
+The following Entities are likely to be downloaded with the ExpandSystem as they may not always be required.
+    * ReviewStore
+    * Screenshot

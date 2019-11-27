@@ -1,0 +1,5 @@
+﻿++ Never Fail Without Why
+
+Means that software should never fail without a reason why and this reason should be accessible somehow.
+
+[category=paradigms]

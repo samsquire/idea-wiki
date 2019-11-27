@@ -1,0 +1,16 @@
+﻿++ Tracking
+
+Tracking is the monitoring of multiple [StateList]s over time. Tracking forms the basis for:
+    * [Logging]
+    * [Reports]
+    * [Metering]
+
+Therefore it is important to:
+    * RiskTracking
+    * ResourceControl
+    * NetworkMonitoring
+    * GeneralIndicator
+
+Tracking occurs on a [Notifying] basis as opposed to [Polling] due to the problems of PushOrPull.
+
+[icon=lens]

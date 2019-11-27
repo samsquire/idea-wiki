@@ -1,0 +1,8 @@
+﻿++ Isolate Everything
+
+IE means that all [Applications] are completely isolated from one another for [Security]. This is possible through:
+    * GrainedControl
+    * GrainedSeparation
+
+++Examples
+    * Every program runs in the context of its own user. Any attempt to do something dangerous or strange will cause an alert.

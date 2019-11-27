@@ -1,0 +1,6 @@
+﻿++ Purpose Store
+
+Stores [Purpose]s. These exist because of ShowPurpose. Purposes can range from full blown descriptions to CrossReferential links.
+    * [Problems] and [Technologies]
+
+    

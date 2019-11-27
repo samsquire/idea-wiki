@@ -1,0 +1,47 @@
+﻿++ Compatibility Architecture
+
+The CA uses [CompatibilityStore]s and [CapabilityStore]s to check for [Compatibility] and to UseBest options. The CA is also important in CasualModification, NoUnnecessary and DeepCustomisation.
+
+Compatibility can be:
+    * Blocked - where [Security] or control is important
+    * Enable
+    * Leave - ignore unles
+    * Conditional - [Permissions], Time
+
+++Architecture
+[CompatibilityStore]s of [Applications] and TheSystem can be modified to specify what compatibilities should exist. CA compares the CapabilityStore of the source and of the target to determine whether they are compatible.
+
+If they are, [Links] are added to the target so that the target's requirements are fulfilled. Only what is required to fulfil compatibility is added to maintain [Multiples] and prevent:
+    * ExclusiveConfiguration where compatibility is exclusive to an application
+    * PredecidedConfiguration where applications would dictate capabilities.
+Recurring compatibilities are stored OnlyOnce and for [Reusability]. 
+
+    * Conflicts occur when compatibility is blocked and another unblocks it.
+    * Byproduct compatibility occurs when multiple CO specify the same but only one is selected.
+
+The interface should clearly communicate these factors when resolving compatibility.
+
+Compatibility spans across multiple ImplementationLevel]s. Each level effects the one above and below it. At a LowerLevel, the CO contents are:
+    * a representation
+    * [Protocols]
+    * a [Configuration] value
+
+Many are often grouped by:
+    * Operating System
+    * [Applications]
+    * [Standards]
+    * Convention
+
+++Interface
+CA is an easy UserInterfacer for [Users] to interact with since it only requires selecting or deselecting the compatibility desires.
+
+    * HelpTheUser by creating a RelevancyHook that checks whether the compatibility remains true. When a user's action nullifies a compatibility, the interface is updated accordingly. [UserNotifications] can also be used to notify when compatibility is lost.
+
+ [Standards] dictate that web [Servers] must accept a range of date representations. A CapabilityStore exists for all [Browser]s that state all the representations used. This is for DeepCustomisation when users may wish to accept a completely non-standard format.
+
+    * Removing compatibility by unticking a browser means the server will not understand requests in the format that the browser transmits.
+    * Byproduct compatibility may mean that browsers are implicitly supported due to the similar requirements. If two browsers use the same implementation, it is practically impossible for users to deselect one since the compatibility alone will not differentiate them.
+    * If however there are [Authoring] and SystemComparison clues that can determine the browser, this could be used to force the incompatibility.
+
+The browser in this instance is a list of how this particular browser works. Compatibility will span multiple levels and the user may customise what specifics to exactly of this browser to accept. Expanding the browser will present further tick boxes of compatibility.
+

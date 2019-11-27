@@ -1,0 +1,52 @@
+﻿++ New Information Multimedia Engine
+
+    * Duplicate of NextGenerationWeb
+    * [review:dupe]
+The NIME describes a special [Engine] and format that aims to provide a mechanism for representing [Information] in a powerful way.
+
+++The Block Approach
+
+The Block approach is a concept used by different areas of the NIME:
+    * how the GUI is rendered and displayed on the client
+    * how the server side processes content for delivery
+
+++Frontend Rendering
+
+The GUI is composed from a number of [InterfacePanel]s that constitute as blocks on the screen. The client renders these blocks in the most efficient way possible and can load and unload them to save on memory and CPU usage.
+
+++Backend Processing
+
+A block may produce data consistently or different data everytime it is requested. This lends itself to caching easily. The outcome of a screen is the result of the data for each block.
+
+++Requirements
+    * Better than [Conventional] document/multimedia engines, XHTML, HTML, Silverlite, Flash
+    * High [Performance]
+    * Display
+        * Mathematical
+        * Chemical
+        * Vectors
+        * Animations
+        * Cut-through
+        * Maps
+        * Three dimensional Models
+        * Typographic headings
+    * Uses RepresentationalInterfacesAreTests
+    * Gradients
+    * Special effects
+    * Rolling Hardware profiles for compatibility, hardcoded
+    * 
+
+++Design
+
+The NIME should be designed so that it can run on a number of different hardware systems with acceptable loss of fidelity that is appropriate for the device. For example a mobile phone may not be able to display the same effects as a full powered desktop computer.
+
+When the user requests document|file|page|record| the following happens:
+    * the server sends back a stream containing all the on-screen elements that need to be displayed
+    * the client buffers the items that need to be displayed and begins to create the elements on the screen and any associated data structures needed for them
+    * the server then sends the data that each element should contain
+
+
+
+The order of the on-screen elements received may be optimized:
+    * whatver needs to be immediately displayed is sent first so the client can begin displaying them while more information is received.
+    * elements that may be needed soon are also sent to the client.

@@ -1,0 +1,12 @@
+﻿++ Intricate Development
+
+Intricate development is one of the [Paradigms] that means to open up [Development] to users. It means the user can develop with TheSystem. Development is seen as one of the BaseTasks.
+    
+    * If the user sees something they do not like they can change it or start anew.
+    * UserControl is central.
+    * The system should be self-sufficient (PlatformAndEnvironment). compile portalling
+    * FeatureBuilder
+
+++Related
+    * DeepCustomisation
+    * [Developer]

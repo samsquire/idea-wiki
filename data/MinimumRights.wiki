@@ -1,0 +1,7 @@
+﻿++ Minimum Rights
+
+MR means few [Permissions] are given to complete [Tasks]. This is a [Security] precaution.
+    * Keeps [Applications] equal and maintains UserControl by preventing [Attention] theft.
+
+Implementations of MR include:
+    * ReadonlyApplications

@@ -1,0 +1,42 @@
+﻿++ Defence Architecture
+
+The DA is the DesignedIn NativeImplementation for [Security] SystemIntegration. The DA brings together:
+    * SecurityScreens
+    * SecuritySoftware
+
+The DA across [Network]s is the NetworkedDefenceArchitecture.
+
+++Implementation
+
+The DA allows all SecuritySoftware to report to a single system for [Data] [Centralisation]. The graphical representation of this data is provided by SecurityScreens.
+
+Conventional systems use a panel per application. This causes FragmentedInformation where [Logging] and application status is fragmented over incompatible [Representations]. This is also IrrelevantCoding for the individual applications.
+
+As a result of [Centralisation], [Logging] is contained in the same place allowing for rapid [Reports] and analysis.
+
+The DA is inaccessible by [Applications] for [Security] reasons. Running applications cannot determine the existence or lack of security applications.
+
+[Documentation] and IndepthData can be constructed for installed security applications and concepts. This includes:
+    * [Malware] encylopedia
+    * General Information: How firewalls work and what do they do
+    * Specific Information: How a particular security application functions
+ProductSystem is used for available software
+
+[Help] is ImplementationIndiscriminate so that it will provide the relevant documentation to security software.
+
+For example, advice to make a firewall rule would have [Links] to the actual application documentation with this information.
+    * CollaborativeData
+    * ContentDistribution
+
+The DA exposes [Security] as a RealTime process. This means it isn't something that is run occasionally like conventional ondemand [Scanning]. SystemIntegration and ShowWhatTheUserWantsToKnow means the DA will:
+    * subtly inform [Users] of defensive and [Security] procedures
+    * present IndepthData when something does happen or when requested
+    * ability to view [RealRepresentation]s
+
+
+Distributed Defense Network
+
+ - need a cool interface similar to the eeye demonstration video, watch attacks in real time and traffic delivered to real nodes
+- simulation of attack by othernodes to check if is infected
+ graphical representation of node on diagram accurate: laptop, desktop etc
+viewing security data in spreadsheets etc, use natively installed spreadsheets

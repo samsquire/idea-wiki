@@ -1,0 +1,6 @@
+﻿++ Unecessary Complexity
+
+The user wants to something but is prevented from doing so because it is over complicated.
+
+* [HaveTo]s
+* NoBaseTaskDownload

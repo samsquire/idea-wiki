@@ -1,0 +1,17 @@
+﻿++ Game Interfaces Are Good
+
+GIAG is an observation that many UserInterfaces in [Games] are:
+    * well designed
+    * easy to use
+    * fast
+    * easy to learn
+    * colourful
+    * fun
+
+This trend can be used to help design interfaces in TheSystem so that:
+    * information is quickly communicated
+    * ObviousInterface
+    * pretty
+
+game designers often make brilliant user interfaces: they are functional, pretty and simple
+ - TheSystem interfaces should be designed as if it was a game

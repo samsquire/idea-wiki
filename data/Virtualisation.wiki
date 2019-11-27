@@ -1,0 +1,3 @@
+﻿++ Virtualisation
+
+* run virtualised machines that act as if the host: a virtualised application running in the taskbar of the host

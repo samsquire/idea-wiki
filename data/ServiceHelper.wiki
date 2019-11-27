@@ -1,0 +1,18 @@
+﻿++ Service Helper
+
+The SH offers a list of available services of an [Entity]. This information can be discovered locally or provided remotely.
+    * Locally: Port scan detects common services
+    * Remotely: A system running remotely returns a list of running services or the domain name system is used.
+
+++Interfaces
+The service helper is implemented as a 'Service Browser'.
+    * The ObjectInterfacer renders a list of the services available with icons and descriptions. 
+    * Entities are CrossReferential [Links] such as [Logging]
+    * Clicking the service opens the appropriate application, (UseATypicalApplication)
+
+    * service browser:
+     * type in remote address and a list of services offered are displayed (service scan)
+      * large icons and description
+      * when clicked, the appropriate application opens
+       * eg, IP address is typed in and 4 services are offered: HTTP (web pages), HTTPS and FTP
+        * due to the protocol logic installed, the HTTPS is nested inside the HTTP object because HTTPS is based on HTTP 

@@ -1,0 +1,11 @@
+﻿++ Embedded Private Messaging
+
+EPM is a technique to streamline PrivateMessaging in [Posting] such as in [Forum]s.
+
+Embedded PM relies on EmbeddedData inside a particular post. This data is  a marking with a keyword or tag:
+    * <priv=nam> </priv>
+    * take advantage of how people often speak directly to eachother, @name for example
+
+It is likely there will be different modes of the private message:
+    * notify intended recipient of targeted response
+    * hide/display message from everybody but intended recipient

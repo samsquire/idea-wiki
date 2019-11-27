@@ -1,0 +1,8 @@
+﻿++ Responsibility Architecture
+
+The RA is a LowerLevel [Architecture] for [Responsibilities].
+    * Responsibilities can be intensive [Tasks] and should ideally occur OnlyOnce.
+
+++Architecture
+Responsibilities are [Tasks] that needs to be completed. Applications specify what responsibilities exist and when they are applicable. The RA will execute them with these parameters efficiently. This is [Componentry] for common tasks and aims to stop IrrelevantCoding.
+

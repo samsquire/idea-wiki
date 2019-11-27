@@ -1,0 +1,8 @@
+﻿++ Strict Standards Friendly Environments
+
+SSFE means that native [Representations] should follow absolute strict standards for validity an the friendliness should come from the environment and the interface.
+
+    * In markup languages like XHTML and structure languages like XML, it is rather strict in what is valid. Any tools that make use of XML in TheSystem would make errors
+    * [Linux] and Unix systems have a principle of being liberal in data input but produce strict outputs.
+
+forced compatibility, script MUST be in certain encoding

@@ -1,0 +1,13 @@
+﻿++ Let Me Choose
+
+Peter's http://blogs.msdn.com/oldnewthing/archive/2008/01/14/7103585.aspx#7118799 post to Raymond Chen's blog stated that users do not need the choice to install software to arbitary locations. He developed his thoughts on his blog, the Sunrise programmer http://sunriseprogrammer.blogspot.com/2008/01/game-installers-picking-directory.html.
+
+My hard drive is organized into partitions, games, music, documents and software - so they are separated from one another. If your software chooses to force an installation to C:\Program Files, you ruin my layout. I curse its programming and see if it can be easily moved to G: (games) or S: (software).
+
+Please give me the option to select where to install files!
+
+I know that real users 'next' through entire installers and that this makes the choice scream pointless to them. What about people like me? 
+
+One complicated solution is to specify where you want what software to go where. Software marked 'GAME' should go to g:, everything else to s:. The normal user cares not where things go, but I am sure to configure this to my liking. I would never have to use a directory selection dialogue again!
+
+This brings us to the topic of Raymond's post, where would you put this option? Perhaps a simple environmental variable, like %GAMESDIR%? How would we get third party installers to agree to this 'convention'?

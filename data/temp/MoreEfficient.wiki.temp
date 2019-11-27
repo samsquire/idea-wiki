@@ -1,0 +1,7 @@
+﻿++ More Efficient
+
+More Efficient is how to make existing [Technologies] more efficient via DeepCustomisation. Sometimes it can involve breaking [Standards] to UseBest.
+
+++Ideas
+    * partially compiled XML
+    * remove checks from memory rather than skipping them when redundant

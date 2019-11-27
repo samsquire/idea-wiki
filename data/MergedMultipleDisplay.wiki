@@ -1,0 +1,39 @@
+﻿++ Merged Multiple Display
+
+MMD is an ImplicitImplementTheUnimplemented that allows a single [Frontend] to be used in place of many. In [ConventionalSystems this is poorly handled as there is a single [Frontend] for each instance. MMD saves screen space, pointless clickthroughs and aids batching.
+    * see NoUnnecessary
+    * ClickThrough
+
+++Architecture
+
+[Frontend]s cannot be merged automatically since it is not possible to determine the best InterfacePanels for everything. Additional logic will be built into [Frontend]s during [Development]. This logic will provide the rules for creating multiple instances of that interface.
+
+It is likely that a [Frontend] will be designed for a single instance and another for multiple instances. This means there must be provisions to support the following:
+    * single instances
+    * a few instances
+    * many instances
+    * infinite instances
+
+This enables [Users] to deal with and interact with many different instances of a [Frontend] at once.
+
+++Implementation
+
+One principle of MMD was to use the physical positioning to help decide how to generate the display. If the same [Frontend] is overlaid onto itself, there would be InterfacePanels that occuply the same positions. UserInterfacer will have rules on how to mutate the [Frontend] depending on the type of InterfacePanel.
+
+In ConventionalSystems like [Windows], the [Frontend] architecture only accommodates the existence of multiple items. It is not uncommon to find SystemWindows that house a single [Tabs].
+    * PropertyDisplay
+
+MMD allows [Conventional] concepts to be constructed from LowerLevel foundations. [PropertyDisplay]s for example are often used to display various properties about files. TheSystem will build these from commonly available InterfacePanels like file name, size, various dates and path. These may essentially be StandardRepresentations or CommonInformation.
+
+A large architectural decision is determining the relationship between:
+    * InterfacePanels -> do they represent CommonInformation/StandardRepresentations
+    * Are there multiple instances of CommonInformation, date modified, accessed and created are all of the date format, they must be referenced somehow
+    * CommonInformation can be used for data warehouse style searching, clicking a date modified will show various events that occurred around that time. It will be necessary to filter between computer and user's personal events
+    * .
+    * 
+
+
+++Examples
+
+    * Multiple people adding you
+    * PropertyScreen

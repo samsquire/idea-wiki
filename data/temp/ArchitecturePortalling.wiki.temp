@@ -1,0 +1,10 @@
+﻿++ Architecture Portalling
+
+TheSystem is [Portalling] that aims to provide a RealRepresentation for architecture if the information is available. Examples include:
+    * CommonImplementations
+
+The ExpandSystem is used to learn about the various architectures. AP is an AutoInterface and shouldn't require explicit programming.
+
+++Examples
+    * The [Internet] stack.
+    * The browser cache, TheSystem cache and ISP is displayed as a serious of boxes connected together.

@@ -1,0 +1,3 @@
+﻿++ Restore
+
+Restore is when the ReversibilitySystem returns to an original state.

@@ -1,0 +1,10 @@
+﻿++ Pokemon Game
+
+add full stop to key list so that action keys work in opera (sideeffect being that delete makes user talk)
+toggle individual keys disable/enable
+
+
+    * Funnies, press elevator button more than once, "stop playing with the elevator!"
+    * sign on gym statue: wins out of attempts
+
+MYSQL as database and PHP web app score viewer

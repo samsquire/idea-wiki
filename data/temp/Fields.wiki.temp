@@ -1,0 +1,4 @@
+﻿++ Fields
+
+Fields are values in [Frontend]s. Fields can be clicked to invoke [BaseInteraction]s:
+    * clicking the category of an attack will list all that match the same field

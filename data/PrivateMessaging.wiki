@@ -1,0 +1,12 @@
+﻿++ Private Messaging
+
+PM is how [Users] communicate privately to other users.
+
+++Implementation
+
+PM systems is often accessible by:
+    * inputting name of a recipient
+    * clicking the PM [Links] next to a recipient's name
+
+TheSystem uses both of these methods and uses StandardRepresentations for communication.  
+    * An original method used is EmbeddedPrivateMessaging.

@@ -1,0 +1,8 @@
+﻿++ Concurrency
+
+Concurrency is how actions may take place at the same time.
+    * [Instances]
+    * DistributedProcessing
+see [Processing]
+
+Existing systems use threads and processes. These vary in performance and are used in different purposes. The problem is that it must be explicitly specified which will be used. Concurrency is among the [Bases] to make it simpler in [Development].

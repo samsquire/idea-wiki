@@ -1,0 +1,46 @@
+﻿++ Disclosure System
+
+The DS is responsible for tracking and controlling disclosure of information. Disclosure occurs when data is transmitted from one entity to another. This can be across the network, in the form of files or through [Share]. The DS gives control over information for both [Security] and privacy.
+
+The DS has ties with [Accounts] since users can choose which entities they wish to disclose to.
+
+++Architecture
+
+For all entities there is a list of all possible available information. This information is then split into two groups:
+    * information that has been previously disclosed
+    * information currently disclosed
+
+     Outgoing
+    DS tracks all external disclosures and remembers what resulted in them. Users can prevent the disclosure of information from its interface.
+
+     Incoming data
+DS can determine what information is withheld and remember what was made available. This is used for:
+    * [Mapping]
+    * ArchitecturalAwareness
+
+[Share]s permit sharing to make [Data] available to other applications. This is regulated through the 
+
+++Examples
+    * Preventing version numbers from transmitting is an example of the DS. This is important from a [Security] standpoint as attacks can be targeted at specific versions of [Applications]. Alternatively, ObscurityCycling can be used.
+    * Personal details can be be protected by the DS. Entering personal details into a web browser for example will incur a confirmation from the DS when the form is submitted.
+    * Titlebars text can be sensitive and may only be disclosed to some applications.
+
+
+disclosure system prevents swapping sensitive data
+
+exposure detection using server questions
+ * who can connect
+ * disclosure of information
+ * version of running applications
+ * if any servers are running (open ports = surface for attack)
+ * what is accessible
+
+symantic antivirus shows version information to any client
+ - this is dangerous as internal employees have additional criteria to attack
+ - instead, there should be no information at all, acknowledgement of the software or status of update, this would be up to the administer
+ 
+a data sensitivity framework/API ensures interfacable data is protected
+- data's sensitivity is known by the system and protected as such
+- sensitivity is a framework in itself, different types of data: location, time, posession
+- example of an unsensitised framework is mozilla http://weblogs.asp.net/jezell/archive/2006/08/25/Stealing-History.aspx
+- more compatible/generalised data [Interfaces] makes data unsensitive

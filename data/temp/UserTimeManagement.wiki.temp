@@ -1,0 +1,9 @@
+﻿++ User Time Management
+
+UTM is PersonalSoftware that helps [Users] use time better. Not everybody organized time in the same way or at the same detail, for this reason TheSystem will utilize multiple detail levels, such as Stephen R. Covey's four generations.
+
+    * Reminders
+    * [Calendar]
+
+The UTM is utilized by the UserTaskSystem for time sensitive tasks.
+

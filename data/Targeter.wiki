@@ -1,0 +1,8 @@
+﻿++ Targeter
+
+Targeter is a way of passing inputs/outputs by clicking rather than selecting or dragging.
+
+++Examples
+    * to save to folder, click the folder to save to
+    * Ordering
+    * Kill a process (idea from Linux)

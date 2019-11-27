@@ -1,0 +1,7 @@
+﻿++ No Capability Branding
+
+NB means branding of [Capability] is avoided. [Applications] cannot enter OfficiallyAcceptedCertification if branding is used for capabilities. This is because brand names:
+    * prevent brand names from becoming mainstream
+    * confusing [Users]
+    * make [Extensibility] difficult.
+This does not effect [Applications] names. TheSystem will always UseGenericTerminology.

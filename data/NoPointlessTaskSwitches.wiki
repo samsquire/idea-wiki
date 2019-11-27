@@ -1,0 +1,3 @@
+﻿++ No Pointless Task Switches
+
+NPTS means that when users are using a piece of software, they should not be forced to switch to a different application to do something else.

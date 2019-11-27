@@ -1,0 +1,11 @@
+﻿++ The Perfect Start
+
+TPS refers to how development of TheSystem will work. The stance is that quality can be maintained if it starts with high quality to begin with.
+
+++Approaches
+
+Concepts from Steve Maguire:
+    * As Steve Maguire says in Writing Solid Code, the software should effectively be self-testing. Any error or problem should be obvious in the development environment.
+    * The same algorithm will be written multiple times to ensure correctness against itself.
+    * Netscape is said to be self-testing.
+    * Algorithms should be written to make sure things work properly and without bugs.

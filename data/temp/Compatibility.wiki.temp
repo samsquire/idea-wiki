@@ -1,0 +1,11 @@
+﻿++ Compatibility
+
+Compatibility is a highly important in the SystemFactors. Compatibility is heavily divided to make implementation easier:
+
+    * PassiveCompatibility - NativeImplementation
+    * ActiveCompatibility
+    * OutwardCompatibility
+
+TheSystem is DesignedIn to have compatibility between [Code] and binary [Applications].
+
+Compatibility is handled by the CompatibilityArchitecture with a CompatibilityStore.

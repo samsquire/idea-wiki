@@ -1,0 +1,21 @@
+﻿++ Externalisation
+
+Externalisation is the implicit [Share] through [Export]ing.
+    * Applications externalise their formats, CapabilityStore, [Protocols], [Memory] for use
+    * Not the same to a LowerLevel
+    * Externalised applications are not dependencies or derivatives
+    * SystemIntegration is an example of Externalisation.
+    * NoReimplementation and NoDistance
+
+The opposite to Externalisation is [Internalisation].
+
+++Examples
+[Conventional] examples are:
+    * DDE messages
+    * Ethernet broadcasting
+    * interprocess broadcasting
+    * Windows Management Instrumentation
+
+    * ApplicationComponentry
+    * ApplicationData
+    * GameRepository

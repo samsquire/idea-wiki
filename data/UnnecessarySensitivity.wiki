@@ -1,0 +1,13 @@
+﻿++ Unnecessary Sensitivity
+
+US is unnecessary sensitivity to UserInterfacing. This means:
+    * Pressing a link to the page already on
+    * Trying to open an already open application. see [Instances]
+TheSystem avoids US by [Desensitizing] when necessary.
+    * Removing sensitivity when a button is pressed
+
+TheSystem is aware that the application is already open. It doesn't need to be reopened again. Conventional systems will open the application which will detect it is already open and close itself. This is IrrelevantCoding and unnecessary. Instead:
+    * if the application is document based and can run multiple documents, a fresh document is opened within the application and is focused. [Applications] can register the action of wanting additional instance which will be delivered as messages rather than completely reopening.
+    * if the application cannot support multiple instances, the already open application is focused.
+
+links to an application will not function if application is already open because it is the system's responsibility from allowing the same application to open twice, NOT the applications'

@@ -1,0 +1,16 @@
+﻿++ Implement The Unimplemented
+
+This is where there is sufficient [Technologies] available on a system to create a NativeImplementation of [Unimplemented] features on a system. There are two types of ITU:    
+    * Explicit ITU - where [Developer]s create the functionality
+    * ImplicitImplementTheUnimplemented
+IITU is the preferred ITU.
+
+++How
+This is accomplished through the following:
+
+    * [Mapping] - ftp search
+    * ShareArchitecture
+    * [Uplevelling]
+    * DeepCustomisation
+    * [Externalisation]
+    * [Componentry]

@@ -1,0 +1,9 @@
+﻿++ Copy On Write
+
+Copy on Write means that upon a write, instead of modifying the original - a copy is created which is modified instead. This preserves the original while allowing a mofification to be present.
+    * Copy on Write can be used as a crude [Backup] solution.
+    * MultipleManagement 
+    * Used for ChangePreserving
+    * AccidentSafety
+
+might be a good idea on files too, not just config (checkbox)

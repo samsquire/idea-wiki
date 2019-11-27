@@ -1,0 +1,7 @@
+﻿++ Information
+
+Information is data in context.
+ 
+     * InformationInterface
+     * [Feedback]
+     * AlwaysFeedback

@@ -21,7 +21,7 @@ When a file is offered it is treated in the same way across TheSystem. This is b
 
 ++Concept Interfaces
 This treats a file in the same way the SystemViewer treats them. On the left pane is icon of file and on the right are available actions.
-    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/file_offering.PNG
+    file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/ideas/file_offering.PNG
 
 see [Download] and [Save]
 

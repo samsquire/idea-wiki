@@ -1,0 +1,15 @@
+﻿++ Inconsistent Sizing
+
+IS means that InterfacePanels and [Frontend]s can support odd sizing.
+
+In [Conventional] sytems, like [Windows], list items can only take consistent sizes.
+
+++Examples
+In this [Frontend], there are two columns but the column on the right orientates itself in the middle of the left columns for cleanliness.
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/frontend_sharing.PNG
+
+
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/file_interface_panel.PNG
+
+

@@ -1,0 +1,33 @@
+﻿++ Legal System
+
+Legality is a NativeImplementation to help users act and enforce legality. Legality implements Digital Rights Management and allows individuals and organizations to protect themselves.
+
+    * CapabilityStore are generated based on
+     * [Permissions] 
+
+++Architecture
+Different types of legalities exist and they help with the informing of users, these include:
+    * Copyright - links to the copyright in EntityStore
+    * Trademark - links to appropriate store
+    * Licenses - links to license in LicenseStore
+    * Warranty/Guarantee
+This above information is candidate for ExpandSystem since it is not necessary for operation but may be beneficial. The links will work but not be stored due to a UseAnySource.
+
+The legal documents above have [Representations] which are MachineReadable and are made HumanReadable with OnDemandFriendliness. This permits colour coding, highlighting and additional help.
+
+Documents sometimes have metadata regarding legalities embedded inside the document. This information is preserved with Legal [Marking]s that are applied on all forms of the document - inside [Files] or in [Memory].
+
+Legalities are pilable in the sense that legalities will not disappear if they are embedded in another document. This is because the entire document is scanned with extraction information. CrossReferential means that if a source of some information is inclosed, the legalities can be resolved from the true source. Incompatible legalities will warn the user.
+
+In the event that there is no usage metadata embedded in the document, the marking can only be that the legalities are 'unspecified'.
+
+The PracticeSystem contains a baseline legal specification specified by [Users] that can determine warn or prevent [Users] from agreeing to terms.
+
+
+
+[Applications] licenses 
+file:///C|/Documents%20and%20Settings/sam/My%20Documents/Pictures/Ideas/legality_dialogue.PNG
+
+* scan for copyright information on pages/documents
+legal document, ask question and get response
+[alias=Legality]

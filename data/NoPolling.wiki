@@ -1,0 +1,9 @@
+﻿++ No Polling
+
+[Polling] should be avoided.
+     * Polling must not to be used to achieve LiveData.
+
+see PushOrPull
+
+++Links
+     * http://blogs.msdn.com/oldnewthing/archive/2006/01/24/516808.aspx

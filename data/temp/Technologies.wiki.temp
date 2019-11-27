@@ -1,0 +1,25 @@
+﻿++ Technologies
+
+[Problems] are solved with technology. Technologies tend to stick to [Standards] so they do not create the problem of Incompatibility.
+
+    * Technologies can tweaked and modified with the DeepCustomisation
+    * link bin, inbox of links sent from people (email, IM, link bin)
+    * where the actual link is specified,
+     * outbox: there is a checkmark or cross if the recipient visited
+    * phish check, email to real site to determine if email is valid and was really sent by them
+    * [Technologies] are packaged in the TaskArchitecture
+
+    * PointConsistency - [Caching]
+    * [Compatibility] - [Virtualisation]
+
+
+
++Technology Store
+     * stores list of problems and systems that solve them
+     * needless continuous server requests  = Caching
+      * generic technology settings, eg Hard drive space or persistence
+      * choose a cache architecture
+
+
+
+[icon=plug]

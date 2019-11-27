@@ -1,0 +1,34 @@
+﻿++ Social Applications
+
+SA refers to applications that involve people interacting with one another and encouraging socialising.
+
+[Conventional] social applications are often web based. Examples are:
+    * Twitter
+    * Facebook
+    * Myspace
+    * Orkut
+All these systems suffer from problems that prohibit people from getting involved.
+    * vendor lock-in
+    * centralization
+
+The perfect SA has the following properties:
+    * decentralized servers
+    * immunity to censorship
+
+The most accurate SA is Google Wave and Flock.
+
+++Implementation
+
+SA should be integrated into TheSystem's platform to encourage 
+    * jokes
+    * news
+    * link clicking
+    * riddles
+    * limericks
+    * poems
+    * GoodQuestions
+    * dinner parties
+    * parties
+    * restaurants
+    * shops
+    * classfieds
