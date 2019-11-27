@@ -1,0 +1,5 @@
+﻿++ Calendar
+
+calendar consolidate everything to one inteface when requested:
+ - show when emails received in relation to other emails and events
+ - ability to show week/day/month underneath eachother to see if there are any patterns of messages

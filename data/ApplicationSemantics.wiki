@@ -1,0 +1,14 @@
+﻿++ Application Semantics
+
+The ApplicationSemantics are how [Applications] of the TheSystem are to interact with the system.
+    * This is contrary to the ApplicationRules which describes limitations.
+
+application could be movable anywhere without breaking
+
+++Folder Structures
+
+    * NoFinalization and DeepCustomisation of folder structures of installed and non-installed applications. This means they can moved and manipulated. If renaming an applications file causes an application to stop working = NoBrittleData
+
+
+++Developer Integration
+IntricateDevelopment adds SystemIntegration of the [Developer]. AM shows data about [Applications] in [Development]. The [Authoring] should also be made clear. This would be placed on a different tab to differentiate it from the other software. [Developer] should also be present, labelled 'New' or 'Create Application' to ease users into UserDeveloping.

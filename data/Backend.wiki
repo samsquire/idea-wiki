@@ -1,0 +1,9 @@
+﻿++ Backend
+
+The backend are essentially [Servers] to a [Frontend]. This includes:
+    * [Engine]s
+    * [Framework]s
+
+An example of a backend is a command line application.
+
+[icon=hub stack]

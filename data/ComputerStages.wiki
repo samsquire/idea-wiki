@@ -1,0 +1,16 @@
+﻿++ Computer Stages
+
+The CS are what happens when a machine is switched on.
+    * CS is a [SystemAwareness].
+    * [Portalling] exists for each stage for a ComprehensiveSystem.
+
+++Stages
+    * BIOS
+    * [Bootup]
+    * [Startup]
+    * [Standby]
+    * [Shutdown]
+
+Since LogDurationsToo means that the duration is logged, this information can be used for [Portalling]. Graphs represent the time taken boot stages and those individual components.
+
+To maintain MinimumWrites, [PhysicalEndpoint]s are to be used as much as possible.

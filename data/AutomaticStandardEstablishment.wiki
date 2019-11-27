@@ -1,0 +1,7 @@
+﻿++ Automatic Standard Establishment
+
+An Automatic StandardEstablishment is where the the contents is correctly placed. This is used to maintain HighStandards and a ConsistentSystem. The ApplicationPurpose information is used by the ASE so applications also have the advantage of correctly placed files.
+
+Files may only function if placed into a StandardEstablishment. The ASE means that the file will be automatically placed or Initialization without user intervention to HelpTheUser and promote NoManual and NoForcedSteps. Sometimes the user may wish to store the file elsewhere. In this case, a logical link to the SE is created.
+
+ASE is used in conjunction with SmartCache and [Download] to ensure that items may be used correctly.

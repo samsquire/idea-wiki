@@ -1,0 +1,10 @@
+﻿++ Community Network
+
+CN is a DistributedDataNetwork responsible for TheSystem ContentDistribution.
+    * AntiMalware
+    * [Documentation]
+
+unified fs for user's content:
+ - central authority server hash sums?
+ - user seeds own content? what about changes?
+ - 

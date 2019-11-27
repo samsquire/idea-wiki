@@ -1,0 +1,37 @@
+﻿++ Chooser
+
+The chooser is of the StandardizedScreens that permits [Users] to choose an area on TheSystem. Chooser can be used for:
+    * [Save]
+    * moving
+    * copying
+    * opening
+In [Conventional] systems the equivalent of Chooser is only used for saving and opening.
+
+A consistent selection dialogue maintains a ConsistentSystem. The chooser should HelpTheUser as much as possible since it will be a frequently visible screen by presenting many shortcuts.
+    * see DefaultSavePath.
+
+Often [Users] will have active [Tasks] that are related (see RelatedTasks), LiveData allows these to be displayed in addition to the [Embedding] of the SystemViewer. The following data is likely to be displayed:
+    * folders where currently opened files reside
+    * open folders
+    * UserLists
+    * opened folders with the least time between opening and choosing
+    * opened folders with the least time between opening and switching
+    * recently closed folders from the DesignatedRefuseArea
+One implementation of this is not to force the input into the actual Chooser dialogue. The rest of the desktop including the taskbar is a potential source and destination of data. Applications may
+
+[Ordering] of the most likely choices makes it easier for users to make the choice. For example, the folder with the most things open inside is more relevant than one with only one open object.
+
+
+
+If the user opens a file then immediately comes to the chooser elsewhere, it is likely that this folder where this file is in is desired by the user.
+
+Although a [Save] to a file is the typical action, chooser can BringCloser other actions such as:
+    * [Sharer]
+    * MediaCreation
+
+
+Chooser is also a launch pad for the TaskArchitecture. [Users] may wish to offer content on [Servers] for example.
+
+
+show currently opened folders in folder selection window - the folders with most things opened are displayed first
+

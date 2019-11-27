@@ -1,0 +1,12 @@
+﻿++ Conventional Backward
+
+CB refers to the typical backwardness of [Conventional] implementations. TheSystem aims to deal with these problems.
+
+++Examples
+    * UnnecessarySensitivity
+    * NoUselessTotals
+    * see [Windows] and [Linux]
+
+processors can calculate millions-billions instructions per second yet they're so slow
+    * SelfContainedApplications
+    * 

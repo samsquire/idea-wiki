@@ -1,0 +1,21 @@
+﻿++ Dataless Templates
+
+Dataless Templates are where software uses a neat template to present data, but not all data is availble and appears empty.
+
+    * DT is a side affect from [Directness] - where information is simply not available and assumptions have been made that the data will always exist
+    * OverAbstraction - multiple layers of data passing
+
+++Problems
+    * DT is pointless and frustrating to users
+    * reduces [Purity]
+
+++Examples
+    [Authoring]
+     The authoring information may not always be available, so rather than showing a DT - "no information could be found", HelpTheUser and make a CrossReferential to a SoftwareServer portal that lists any software that will be able to detect authoring, instead check whether any software is available, if yes - display "no information could be found, you may need to expand to detect authoring"
+    
+    * log files - where not all information has been logged and there are lot of empty fields
+    * help files - sections exist but contain nothing
+
+++Solutions
+    * hide empty fields or dataless files
+    * make it impossible to open if there is little data

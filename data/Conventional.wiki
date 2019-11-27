@@ -1,0 +1,7 @@
+﻿++ Conventional
+
+Conventional refers to the typical systems and existing methods:
+    * [Linux]
+    * [Windows]
+    * Mac
+[alias=ConventionalSystems]

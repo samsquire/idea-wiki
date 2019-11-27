@@ -1,0 +1,14 @@
+﻿++ Absolute
+
+Absolute has advantages and disadvantages.
+
+++Advantages
+    * [Compatibility]
+    * MachineReadable
+
+++Disadvantage
+    * Unfriendly
+    * Forced
+    * non-interchangeable
+
+[icon=controls]

@@ -1,0 +1,3 @@
+﻿++ Connected Code
+
+CC is where distinct pieces of code are connected together through interactions. CC is related to WikiCoding and CodeIsNotText.

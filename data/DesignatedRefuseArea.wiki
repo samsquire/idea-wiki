@@ -1,0 +1,24 @@
+﻿++ Designated Refuse Area
+named by Joshua Lawrence Limbirons
+
+The DRA is where [Discarded] items are stored for a [Restore] according to the ReversibilitySystem.
+
+++Objects
+
+    * SystemWindows
+    * [Tabs]
+    * applications
+    * folder windows 
+    * deleted objects from inside the application
+
+++Implementation
+
+When a change is about to be made, the DRA must store the discarded object. For efficiency, it must do this without wasting [Memory] or HardDrive space. One method is to OnlyStoreDifferences.
+
+TheSystem will not necessarily physically move [Discarded] content to a StandardEstablishment. A better strategy is often to leave it where it is and mark it as deleted and add [Links] inside the DRA.
+
+TheSystem may represent the DRA in a standard way. Potentialities include:
+    * a standard toolbar that is above every other, such as the taskbar
+    * a per-window DRA
+    * both
+

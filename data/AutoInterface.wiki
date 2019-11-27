@@ -1,0 +1,22 @@
+﻿++ Auto Interface
+
+AI is where UserInterfaces are generated automatically. This takes into consideration:
+    * positioning
+    * importance
+    * length of time to complete
+    * ordering
+    * flow
+AI is used for the DataInterfacer.
+
+Many tasks are simple stack based object manipulation: add, edit and remove. An interface can be generated for this given information regarding:
+    * the format of data
+    * the length of data
+This is a useful wrapper for simple command line programs such as HTPASSWD where users are added, modified and deleted. This could even be part of an architecture where simple rules are written:
+    * obtain stack
+    * add to stack - append to file, substitution of (NAME:PASSWORD), or format file
+    * remove from stack
+    * edit stack
+
+    * generate cluttered interface on system commands using rules of frequency and important to determine what comes first
+
+[icon=monitor]

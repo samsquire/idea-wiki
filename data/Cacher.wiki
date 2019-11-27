@@ -1,0 +1,13 @@
+﻿++ Cacher
+
+    * priorities of swap partitions
+
+++Clever Cache Control
+
+* use last modified date AND dates on the page to determine when to update cache
+  * if the page hasn't been modified for 3 years, it is unlikely to be updated within the next update cycle
+  * use a probabiliy engine, take into consideration: when people sleep, eat, wake up, most productive hours etc, personal profile, location and other demographic to determine when page is most likely to be updated
+  * a blog post that is added every 7am for example
+ * using memory/hd to store cache
+
+     * probability system, cache system learns from % how often the site is modified

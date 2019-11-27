@@ -1,0 +1,26 @@
+﻿++ Application Independent State
+
+APS is [Data] that is not specific to any particular application. APS are representations that can be utilized by any application.
+    * ApplicationState
+
+Examples of APS include:
+    * URL
+    * Position - time into a video
+
+++Architecture
+
+[Applications] specify what APS they can accept.
+    * Web browsers will accept URL addresses
+    * media applications accept the position.
+
+APS is especially important when [Errors] occur and the application crashes. [Users] are given the choice to:
+    * open again in the same application
+    * open in a different application
+    * save the ABS
+
+application independent state:
+- time into video
+- url
+option to save upon crash or open in another application
+
+^ may be needed for networked games, only send the player's positions

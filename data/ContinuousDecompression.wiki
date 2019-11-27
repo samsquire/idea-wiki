@@ -1,0 +1,12 @@
+﻿++ Continuous Decompression
+
+CD is a strategy to decompression that uses ContinuousInitialization rather than EnumerationHeavyTasks.
+
+++Implementation
+
+When a compressed object is encountered, the requested component is requested, decompressed and used. Whenever the next component is needed, it will also be decompressed and used.
+
+    * CD is used by the SystemViewer to navigate compressed objects. In order to support applications and modifying the compressed object, it is necessary for a [Passthrough] to intercept further read commands and decompress those too. DilemmaticIntegrationScenarios
+
+on the fly decompression
+- when running from a compressed folder, READ commands are preceded/rerouted by an automatic decompress on the fly so the user may not have to decompress manually as it will be done automatically.

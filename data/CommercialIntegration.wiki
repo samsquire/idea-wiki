@@ -1,0 +1,43 @@
+﻿++ Commercial Integration
+
+CI means that TheSystem should promote [Business] of [Applications] by providing them secure methodologies.
+
+The commercial market of software on conventional systems is typically trivial:
+    * security software
+    * themes
+    * management
+    * virtual private networks
+
+ComprehensiveSystem, NoBaseTaskDownload and a large UserVariety mean that commercial [Applications] are non-trivial. If a trivial application is released, it is likely to be eclipsed by a freeware version. The idea is to delegate the high skill requiring and complicated [Applications] to companies which can afford its [Development].
+
+++Implementation
+
+[Users] need to be aware of commercial products before they are interested in buying. For ControlledCommercial, IntegratedAdvertising is used to help expose products to [Users] in a fair and understandable way.
+
+Conventional systems offer no commercial support, it is easy to use software without paying. To be successful, commercial software has the following requirements:
+    * allow usage before purchase
+    * impossible from using longer than permitted
+    * can be activated without redownload
+    * no unauthorized sharing or copying
+    * able to transfer from computer to computer
+    * enforce licenses
+
+[Legality] allows licenses to be gently enforced throughout TheSystem. Features of TheSystem that will breach the license will be intentionally not accessible. While unfair terms can be created, the legality system ensures [Users] are aware of all clauses.
+
+Solutions must meet the above requirements. Methods of activation include:
+    Serial Numbers
+    Unique number is used to activate the software.
+    Serial Image
+     Embedded data used to activate software.
+
+All methods include:
+    Hardware Fingerprinting
+     The hardware which the software is installed on is used to identify the user.
+    Encryption
+     Application's data is encrypted and only decryptable with information only obtainable from a serial number, image or central server.
+    Central Server
+     The central server is contacted to verify the registration. Requires [Internet] connection.
+
+Methods of preventing multiple usage include:
+    * notifying the server when installed and disallowing installation of already installed applications
+    * uniquely identifiable applications themselves

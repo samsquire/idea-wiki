@@ -1,0 +1,20 @@
+﻿++ Accountability
+
+Accountability is how accountable an event or subject is. The accountability questions are handled by the following questions below:
+
+    * who - [Authoring]
+    * what
+    * when
+    * why/[Purpose]
+
+This is very important for:
+    * [Accounts]
+    * AlwaysFeedback, [Feedback]
+    * avoiding InformationUnavailibility and DatalessTemplates
+    * MinimumInformation
+    * MinimumWrites
+    * [Security]
+
+++Examples
+
+ - every write should be accountable to the user, user invoked writes etc

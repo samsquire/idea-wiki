@@ -1,0 +1,74 @@
+﻿++ Configuration
+
+Configuration is information that affects the operation of [Applications] or TheSystem. This is a:
+    * StandardEstablishment
+    * StandardMultiples
+
+The following apply to configuration:
+    * [Open]
+    * [Save]
+    * [Migration] and [Synchronization]
+    * SafeCustomisation
+
+In [Applications] there are three distinct types of configuration:
+    * InternalConfiguration
+    * ExternalConfiguration
+    * ComponentryConfiguration
+
+See ApplicationRules.
+    * AvailableOption
+
+++Implementation
+
+[Backend]s utilise configuration to determine how they function. [Loading] a configuration usually requires a parse, although the NativeImplementation of configuration will be in a ParseCompile format for maximum flexibility and [Performance].
+
+Conventionally in configuration is only loaded on application or TheSystem's [Startup]. This is requires extra steps and is rather manual. NoForcedSteps and NoManual. This can be solved in multiple ways:
+    * LiveData is used so that configuration options can be reflected immediately.
+    * Where LiveData cannot be used, detect when the configuration is modified and indicate it has yet to be reloaded with a red background. Notifying the user that it will not reflect until it is loaded and offer to reload.
+
+Conventionally, when [Loading] CFG on demand it suffers low [Performance].
+    * Apache's per directory CFG file called .htaccess is checked for existence, opened and parsed to deal with every request. (It also has to read parent .htaccess files for inheritance across folders)
+One of the ways to deal with this is to UpdateNotReprocess the [Configuration] by only loading CFG OnlyOnce, when it is saved or modified.
+
+when apache uses htaccess in a deep directory, it checks every folder in the path for the file
+ - rather than check every time, TheSystem can set a memory flag to indicate that the file is updated when it is written, this way the disk never has to be read
+
+
+CFG is important to [Users] since it gives UserControl. It is important it has a TotalReversibility and for this reason, all configuration is a CopyOnWrite.
+
+CFG [Frontend]s will not be coded at once like conventional CFG panels. Each configuration item's frontend will be designed individually so that it is broken down into [Components]. To make up a panel, the layout and ordering of these is specified and each is added.
+
+Unlike conventional dialogue based panels, [Portalling] is used for [Configuration]. This means panels are designed specifically for the CFG and therefore maintaining ComprehensiveSystem and IndepthData.
+
+BaseInteraction]s are possible from within CFG panels to HelpTheUser.
+
+
+
+settings widgets are implemented per setting, then added together on one interface
+
+++Requirements
+    * Poor configuration should not crash applications. Instead it should raise [Errors] or [IssueDetection]
+    * [Performance] needs to be optimal. Apache's htaccess is parsed for every request. Performance is increased with LiveData and ParseCompile.
+    * [Cacher] [Watch] for configuration - when config file changes, update cache
+
+++Capabilities
+    * Configuration can be installed for software that is not installed. The software will use the configuration if it is ever installed. NoBrittleData. The application name is CrossReferential to its appropriate Entity page.
+    * [Extraction] of [Applications] configuration such as InstallPackages, even of those not installed UseAnySource
+    * Configuration render: render configuration file with its comments in documentation style and have toggle buttons. (Syhunt Hardening Tool)
+    * [PracticeSystem] best practice - different organisation's believe different settings are best, organisation=entities
+    * FriendlyConfiguration
+    * UserTracking is used for configuration [Frontend]s.
+
+++History
+[History] UserInterfaces provide [Logging] of changes including:
+    * date/time (relative dates)
+    * user supplied information from DocumentingSystem
+    * the change, "z changed from x to y"
+
+* config files in directory
+ * enumerate all config files to create user interface 
+
+record all user's interactions with interface and write on save rather than looping
+
+[alias=ConfigurationPanel]
+[icon=cog]

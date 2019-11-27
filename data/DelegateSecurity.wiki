@@ -1,0 +1,5 @@
+﻿++ Delegate Security
+
+DS means that [Security] is a DelegateResponsibility to TheSystem. [Applications] should not use [Internalisation] to validate requests and [Security] themselves. This would be reimplementing (NoReimplementation) and an IrrelevantCoding to the application.
+
+    * The DisclosureSystem handles the security of [Share]s.

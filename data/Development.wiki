@@ -1,0 +1,49 @@
+﻿++ Development
+
+Development is the production of [Applications]. TheSystem aims to keep development close to the operation of the system, see IntricateDevelopment.
+
+    * Installed or running [Applications] allow their features to be accessible by other [Applications] through their [Backend]s. This is incredibly useful for development as it reinforces NoReimplementation and reusability for the ReusabilityArchitecture. This makes development faster. These are otherwise known as [SharedImplementation]s and there is a StandardEstablishment of them.
+
+There are different aspects of development.
+     * [Code]
+     * DevelopmentStyle
+     * DevelopmentInterfacers
+     * [Marking]
+     * [Refactoring]
+     * CodeIdeas
+
+The user can develop software with the [Developer].
+
+++Development Process
+    Planning
+     * Specifications
+    
+    Code Testing
+     * scenario
+     * units
+     * whitebox
+     * blackbox
+     * regression
+
+    Constraint based programming
+    Problem frames
+    Design by contract
+    [Versioning]
+    
+    Factoring
+    
+    Releasing
+     * [Componentry]
+     * InstallPackages
+     * [Installation]
+    
+
+++Procedures
+The following procedures are used to make development more efficient:
+    * Test Driven Development (TDD)
+    * Code Coverage
+    * GUI Testing
+     * GUI pathing system, "route to do"
+
+high level development environment, not at runtime
+binary archives should contain source if the license forces it

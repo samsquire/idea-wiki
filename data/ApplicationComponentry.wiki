@@ -1,0 +1,28 @@
+﻿++ Application Componentry
+
+Application Componentry refers to:
+    * the various [ComponentStore]s of [Applications]
+     * individual [Components] inside the ComponentStore
+
+The AC:
+    * any type of [Data]
+    * similar or standardised
+    * can apply to multiple applications or specific applications
+    * components may also have the same ApplicationData [Stores]
+
+++Exemplar Component Stores
+Inside the following Component Stores exist individual components:
+    * Extension/Plugin/Addon
+    * [Themes]: Appearance Modifications Skins/[UserInterfaces]
+    * ReviewStore
+    * [Documentation]
+    * PrerequisiteStore
+For example, inside the Extension store will be many Extensions.
+
+++Architecture
+
+[Applications] tend to require some sort of [Componentry]. Rather than implementing the [Componentry] logic itself (IrrelevantCoding and CommonImplementations), the AC architecture manages components on behalf of the Application. (see [Managed])
+
+An AC aware system allows:
+    * storage for components
+    * API to components

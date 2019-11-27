@@ -1,0 +1,21 @@
+﻿++ Default Games
+
+[Conventional] systems such as Windows and [Linux] distributions have [Games] preinstalled. TheSystem should also follow this tradition with the inclusion of simple games.
+
+All the DG have the OfficiallyAcceptedCertification, HighStandards and MultiplayerGaming features.
+
+    * Card Games (likely implemented as an [Engine])
+     Solitaire, Hearts, Freecell
+    * Memory games
+     remembering cards
+    * Sidescrolling shooter
+    * Chess
+    * common board games
+    * 
+
+
+++Architecture
+
+All of the default games should run on [Engine]s and be fully configurable. To keep file sizes low, they are likely to use the same graphics and artwork. They may even have the same theme.
+
+Another possibility is to use the same storyline for these games. Artwork for a fictional world can be used in both a side scroller, an RPG and a [FPS].

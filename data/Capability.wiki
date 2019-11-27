@@ -1,0 +1,8 @@
+﻿++ Capability
+
+Capabilities are essentially features.
+    * A comprehensive list of an [Applications] capabilities is stored in a CapabilityStore.
+
+[Problems] relating to capabilities include:
+    * CapabilityOverload is when too many capabilities exist
+    * FrenziedFeatures is when capabilities are overadvertized

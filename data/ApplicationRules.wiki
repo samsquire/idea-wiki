@@ -1,0 +1,29 @@
+﻿++ Application Rules
+
+These are implementation rules for [Applications]:
+
+    * TheSystem gives applications MinimumRights.
+    * ReadonlyApplications
+
+    JustUse
+     * Applications can UseAnySource
+
+    [Security]
+     * Application can only write to the configuration and its output directories
+
+    UserControl
+     * impossible for applications themself to overwrite file associations
+     * No folder permissions by default, applications must ask
+
+    [Configuration]
+     * Applications can modify InternalConfiguration but not ExternalConfiguration.
+     * Only the user may.
+     * StandardizedScreens are used if an application wishes to modify external configuration
+
+
+* file system belongs entirely to the user?
+* applications cannot write to filesystem
+ * specialised partitions - should make access faster
+ * config partition, OS partition,
+ * record system as database and file system for files?  
+

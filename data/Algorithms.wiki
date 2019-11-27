@@ -1,0 +1,29 @@
+﻿++ Algorithms
+
+Algorithms are first class citizens in TheSystem, they are available to [Developer]s because they are the fundamental building blocks of software.
+
+++Algorithms
+    * [Sorting]: quicksort, insertation sort, selection sort
+    * path finding
+
+This is a list of algorithms that I have came across and have used:
+
+++Used but not remembered
+    * A* Path finding
+
+Quicksort
+    * Selecting a central value of the list and calling it the pivot.
+    * Loop from the beginning of the array from the beginning and from the end backward
+    * When you find an item larger than the pivot on the left side and an item smaller than the pivot on the right, swap them around by adding them to a left list and a right list.
+    * Repeat the process on the produced lists until the list is only 1 item large.
+    * Concatenate the lists to create one ordered list
+
+    * Probably easier using proper lists
+
+++Remembered
+Binary chop search
+    * Select the central value of an ordered list
+    * Compare the value to be searched against the central value
+    * If the central value is greater than the sought value, dismiss values above the middle
+    * If the central value is less than the sought value, dismiss values before the central point
+    * Repeat on each remainder of the list until only the sought value remains

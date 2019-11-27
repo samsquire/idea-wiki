@@ -1,0 +1,11 @@
+﻿++ Animated Interface
+
+AI refers to a [Frontend] that moves, changes animates to help communicate actions and changes in TheSystem. Animation is one of the CommonImplementations and subsequently a SharedImplementation.
+
+++Architecture
+
+
+++Implementation
+
+SystemTray
+

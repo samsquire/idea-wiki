@@ -1,0 +1,6 @@
+﻿++ Conditional Features
+
+Features can be enabled or disabled based on conditions. This gives UserControl and [Autonomy].
+    * CF is possible because of [Externalisation]. Exposed data of an open website for example means that per-website rules can be made.
+
+[icon=push]

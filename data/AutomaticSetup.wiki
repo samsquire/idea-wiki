@@ -1,0 +1,8 @@
+﻿++ Automatic Setup
+
+AS is a combination of automatic HelpTheUser that creates [Configuration] for the user.
+    * AutoService
+    * AutoAccount
+    * AutoSize
+
+AS should IndicateAutomatedActions and be InteractiveAutonomy.

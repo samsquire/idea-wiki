@@ -1,0 +1,33 @@
+﻿++ Authoring
+
+Authoring refers to the [Entity]s that author something. Common entites would be a people, [Accounts], application or particular machine. 
+    * Authoring information is to be accessible as [BaseTasks].
+    * Specialist software should not be required.
+This is a candidate to DownlevelToTheSystem because NoBaseTaskDownload. 
+
+++Reasons
+    * The user should be informed about what they see or use. They need to know how or who created it.
+    * In the case of an [Applications], sometimes metadata or autodetection routines can be used to detect what application created it.
+    * TheSystem should remember what application was used to make a file and treat it as such (candidate idea for separate page)
+
+++Implementation
+Uses CrossReferential to link information together which creates an InformationInterface. References to authors will use the ObjectInterfacer to render an interfac that describes it. Applications for example would have links to the software so that the user can obtain it. ExpandSystem is also necessary because it is impossible to determine the authoring of everything without specialised details or [Applications].
+
+Authoring may have some requirements. This is where a PrerequisiteStore is used. If particular [Hardware] or software is required to author, then they are displayed.
+
+++Examples
+ 
+    DVD
+     The user inserts a DVD into TheSystem and then wants to know more about how it was made. The user is informed that a DVD burner and DVD burning software is required.
+    
+    Website
+     A website is visited and since the website has metadata storing the "generator" of the website, the exact software is displayed which created it.
+    file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/ideas/webpage_details.PNG
+    
+++Able to
+The ShouldBeAbleTo:
+    * Sort an author list by what software they use, authors of a particular page, by favourite author
+    * Show a list of updates from an author
+
+using the bit torrent version string to fingerprint versions
+ - makes sense to test the most common versions first

@@ -1,0 +1,8 @@
+﻿++ Bring Closer
+
+This is where [UserInterfaces] are brought closer from a HigherLevel or StandardMultiples into one.
+
+    * The modification and display of data is on the same interface. No Edit buttons.
+    * Merging intermittent displays together.
+
+ContentClassification uses this so that an irrelevant web browser does not have to be opened for a web page after using dedicated interfaces. Otherwise it would not be a ConsistentSystem.

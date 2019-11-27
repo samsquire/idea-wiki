@@ -1,0 +1,10 @@
+﻿++ Data Interfacer
+
+The DI handles the route of data transmission for [Users], [Applications] and TheSystem.
+
+    * When [Applications] are opened without input, the DI is invoked to request this information. AutoInterface creates an interface to ask for this efficiently.
+
+    * DI can UseAnySource
+
+    * The DI can issue data accesses for both [Internalisation] and [Externalisation] based tasks.
+    see DataConnector

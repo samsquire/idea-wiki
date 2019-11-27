@@ -1,0 +1,27 @@
+﻿++ Componentry Configuration
+
+CC is the [Configuration] of [Componentry] of an application. It can be modified from ExternalConfiguration.
+    * CC is mostly important for ApplicationComponentry and SystemComponents.
+
+++Architecture
+
+Conventional applications are often designed to use a particular componentry. This cannot occur in TheSystem due to NoExternalSupport. The component will install modifications into the application instead.
+
+[Configuration] must be accessible and interfacable from inside [Applications] since this is where they have the most context. This is a problem since it forces reimplemention of component handling in addition to the TheSystem's NativeImplementation.
+
+Firefox extensions for example are updatable, uninstallable and can be configured from inside application.
+
+Solutions include:
+    * Making the application responsible for exposing its component architecture.
+    * NativeImplementation is the standard.
+
+
+
+CC is likely to use [Externalisation] to provide particular configurations to the InternalConfiguration.
+
+++Questions
+    Should an Application be able to change its componentry's configuration?
+    
+     * external module config 
+     * HTML use shared module via bindings or hosting 
+     * capability store

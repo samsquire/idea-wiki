@@ -1,0 +1,5 @@
+﻿++ Always Readable
+
+AR means that [Data] inside [Paneling] must always be readable in some way.
+    * This is one of the FrontendDesignConsiderations.
+    * InterfacePanelOverflow is the inverse of AR

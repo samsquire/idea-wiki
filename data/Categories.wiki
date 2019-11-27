@@ -1,0 +1,12 @@
+﻿++ Categories
+
+Categories are how items can be placed in different groups. TheSystem provides many categorising features.
+
+Categories make good [Navigation] tools.
+
+++Interfaces
+    * [Tabs]
+    * Hierarchical Trees
+    * ListHeaders
+
+[icon=hub stack]

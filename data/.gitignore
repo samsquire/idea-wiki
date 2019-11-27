@@ -1,0 +1,5 @@
+*.d
+merged/
+generated/
+output/
+sections/

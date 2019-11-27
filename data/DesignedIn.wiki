@@ -1,0 +1,3 @@
+﻿++ Designed In
+
+Designed In means something is implemented and is native.

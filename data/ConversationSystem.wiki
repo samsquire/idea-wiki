@@ -1,0 +1,42 @@
+﻿++ Conversation System
+
+My name is Improfane and I am author of IJP, a Pokemon fangame. A conversation system creates the impression of communication between a player and an NPC. I couldn't find any usable chat bots that were easy to customize so I created my own. I was inspired by Starcontrol II ( Ur Quan Masters) and The Sims Bustin' Out on Game Boy Advance.
+
+Programmed in Javascript, this CS can be ported into practically any language. The first thing is to create a list of possible expressions - everything that can be said in a conversation:
+
+convo_strings = [
+"It was fascinating",
+"Hello",
+"I found it rather boring. I guess you're into that?",
+"I certainly did. It was fascinating.",
+"Yes, but only for educational purposes",
+"Yeah it was good. Did you go?",
+"I made a mission to visit landmarks, I've been to most of them"
+"Hi, have you ever been to Stonehenge?",
+"Any particular reason?",
+"That's a shame",
+"Ahh! Like me then",
+"Oh? Not for me, can't get enough.",
+"I went",
+"Well... what did you think of it?"
+] ;
+
+Using this list of strings, I decide what to begin with:
+    Hi, Have you ever been to Stonehenge?
+After this, I decide on what the possible responses are for the user:
+    I went
+    Yeah it was good. Did you go?
+    I made a mission to visit landmarks, I've been to most of them
+    Yes, but only for educational purposes
+    I found it rather boring. I guess you're into that?
+Replies to these statements are:
+    Well...what did you think of it?
+    I certainly did. It was fascinating.
+    Ahh! Like me then
+    Oh? Not for me can't get enough.
+    That's a shame.
+
+These possible responses then fragment again with possible replies. This can then conintue infinitely.
+
+
+

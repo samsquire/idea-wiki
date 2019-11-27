@@ -1,0 +1,13 @@
+﻿++ Administration
+
+Administration includes the following tasks:
+    * Updating TheSystem and [Applications] - UpdateArchitecture
+    * Installating software - [Installation]
+    * Ensuring [Security] and [Permissions]
+    * [Configuration]
+
+TheSystem aims to make administration easy through
+    * [Portalling]
+    * NetworkAdministration
+    * InterfaceSharing
+    * PermissionManager

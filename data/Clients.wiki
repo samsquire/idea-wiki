@@ -1,0 +1,10 @@
+﻿++ Clients
+
+Clients are the frontend to [Servers]. They are composed of [Frontend]s and [Backend]s. see UserInterfaces.
+
+++Architecture
+
+SystemComparison determines what functionality provided by the client is not implemented by the server. For this reason, a [Checklist]s are used to explain this to the user. ListStyle and ClearOnPrerequisites and ClearOnCapability.
+    * colour coded for different levels of compatibility
+    * ticks/crosses or quantitive information
+This is a StateList.

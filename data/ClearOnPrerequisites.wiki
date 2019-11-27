@@ -1,0 +1,5 @@
+﻿++ Clear On Prerequisites
+
+TheSystem must be aware of what is required so that the user can also be aware of what is required. This applies to all [Tasks] and [Applications].
+
+[category=paradigms]

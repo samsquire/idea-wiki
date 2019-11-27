@@ -1,0 +1,10 @@
+﻿++ Architectural Bridging
+
+AB is a type of InteractiveArchitecturalAwareness for [Bridging] completely separate [Architecture]s.
+    * creates massive OutwardCompatibility
+    * ImplementTheUnimplemented
+    * adds a PassiveCompatibility
+
+The most important AB is arguably SystemsBridging.
+
+

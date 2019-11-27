@@ -1,0 +1,7 @@
+﻿++ Auto Service
+
+AutoService is where a service automatically provided without user intervention.
+
+++Examples
+    * Bit Torrent making, links to bit torrent files in SystemViewer
+

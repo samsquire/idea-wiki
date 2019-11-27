@@ -1,0 +1,113 @@
+﻿++ Browser
+
+A browser is InternetSoftware that renders web pages.
+    * The browser is a SharedImplementation and its [Embedding] is possible.
+
+++Embedding
+[Embedding] in browsers is important to handle multimedia. NativeImplementation]s may be also be overriden through embedding.
+    * A textarea may be replaced with a text editor which is more powerful - UseATypicalApplication
+    * Syntax highlighting may be useful on other websites. ConditionalFeatures
+
+++Mapping
+[Mapping] is used to HelpTheUser and provide DifferentRepresentation]s.
+    * Machine readable HTML elements can be mapped to have DifferentRepresentation from a StandardizedScreens. ([Portalling])
+     * named anchors, numbered lists, citations, acronyms
+    * Mapping accessible resources of the remote machine.
+    * ContentClassification is used to map the non-machine readable parts of the page
+    * Supported ideals: human readable anchors
+    * Mapping representations such as tables allows them to be queried. table querying html
+    * view hidden HTML Comments
+    * unlinked addresses are detected as addresses
+
+++Indexing
+[Indexing] of websites, individual pages and elements makes [Search] possible.
+    * normal fields of a webpage: drop-down menus
+    search normal fields of a webpage, like drop-down menus
+    * entire website
+    * embedded content: images of a certain size
+    * 
+[History] can be indexed for simple useful:
+    * protocol
+    * file type
+    * dimensions
+    * date
+    * mapped URL data
+
+++Features
+    TrivialFeedback
+     * To promote ProgressiveFeedback and AlwaysFeedback trivialities such as [Loading] a webpage
+     * Show the requests that are transmitted
+     * Show comments, hidden text in respective places. Font colour white on white background can be pointed to.
+
+    ContextMenu
+     Provides features to interact with page elements.
+     * 
+
+Addresses are often embedded on pages but not linked. These addresses should be detected and easy to interact with. Conventional systems require their selection and a right click. The link is often illegal due to multiple lines or spaces. To HelpTheUser, the following is automatic:
+    * when clicked, the link is tested, if it is correct
+    * convert to clickable link
+    * correct the link by removing spaces
+    * treat as if clicked from current page so that relative links work
+
+web browser 'go to url', detect URLS in article and check if they exist or are broken
+- even relative links
+
+++Interfaces
+DataUserInterfacer should be available per page and page element. This VisibleData can act as a link or [Source] by being CrossReferential. This means that it can be used to access very specific content. For example, the ShowEverything may even display the element position on the page. A non-standard reference could be used such as:
+    http://samswebsite.com/er.html@@2
+    http://samswebsite.com/er.html?s=qry%{element:6}
+
+
+    Links
+     * Indicate whether link is relative or absolute. Tooltips or the status bar can be used to do this.
+     * ShowEverything means that both the absolute and relative URL need to be displayed.
+
+    Page [Download]
+     * In the center is a live updating thumbnail of website as it is downloading and rendering. Around the thumbnail are progress bars, statistics and request information. Once the page is rendered, the thumbnail becomes full size. 
+     * progress loading per image?
+
+    DataUserInterfacer
+     * IndepthData is available for every element on a page and the page itself.
+
+    In the TitleBar, StatusBar and tab titles the following options are likely to be visible:
+        * [Volume]
+
+    Instant Save
+     The website is preconfigured to save items to a certain area, so just clicking on images in a certain way will save them.
+
+    Engulf Data Interfacer
+     Makes an opaque box around the object in question so that only the object is visible and provides data about said object.
+
+    StoreAsMuchAsPossible means that data such as
+     * pings/status requests, eg http 304, content not modified
+     * Render links with StandardRepresentations for their status. A link the user previously followed to a 404 would have an icon representing the 404 error next to it. This is an example of IndicatePriorInteraction.
+     * General statistics, efficiency of web servers
+
+
+    URL/Address bar
+     * URL appears in the middle of a page if blank as it is typed in large writing
+     * URL in a large format, similar to the fields on Wordpress' edit page
+
+Web pages are often minimalistic in nature and are frequently designed only to support particular resolutions. AutoSize is used to resize UserInterfaces to fit the page's content and be ResolutionNeutral.
+
+++Configuration
+
+Content negotiation isn't very well implemented into web browsers. It tends to put the browser in control rather than the user. (see UserControl)
+     * StandardizedScreens for preferred file formats and language - perhaps when the browser is opened
+     * [Stager] is used to help order for the negotiation.
+
+     Localized Configuration
+    The multiple representations of [Frontend]s mean that [Configuration] panels can be rendered from the browser itself rather than opening an additional irrelevant windows. This is an example of SingleInterface.
+
+++Development Process
+    * Read and understand existing browsers code for a while, program a standards abiding web browser standards using existing code
+     * Show renders in different interpretations: eg, firefox, IE, opera way
+
+++Links
+    * use internal lightweight links object like internet explorer 7
+     * security
+     * efficiency
+
+obfuscation of [Paths]
+
+[icon=lens]

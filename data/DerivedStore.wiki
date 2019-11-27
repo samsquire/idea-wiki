@@ -1,0 +1,11 @@
+﻿++ Derived Store
+
+A derived store is based on another and shares parts of it. Stores are derived by:
+    * renaming
+    * inheriting
+
+++Why?
+Stores are derived because:
+     * Consistency between [Applications] is important
+     * [ApplicationCategories] of [Applications] will use different names for the same [Stores].
+     * Behaviours can be slightly different and it makes more sense to derive than to remake.

@@ -1,0 +1,7 @@
+﻿++ Centralisation
+
+Centralisation is where something is accessible at a central location. This is important for multiple subsystems:
+    * [Bases]
+    * UserCentralisation
+
+UserInterfaces wise, centralisation means that [Portalling] is accessible from one area, such as the SystemConfigurationScreen.

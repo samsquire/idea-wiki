@@ -1,0 +1,58 @@
+﻿++ Decentralized Social Network
+
+The DSN is a new architecture for social applications. These are some features of the DSN:
+
+    * *Decentralized*: Unlike traditional social networks which are controlled and accessed at one location the DSN can be ran how you like: on your PC, on your server or on the move.
+    * *Distributed*: The workload of the network is distributed between all nodes.
+    * *Simple*: The protocol should be simple to understand, to implement. The data model should be easy to explain in a minute.
+Concepts:
+    * Personal Data Ecosystem - you control the data, you decide when it is disclosed
+    * Vendor Relationship Management
+    * Social networking
+    * Group purchasing
+
+++Standard
+
+The social network is composed from a basic model:
+    * *Identity*: An identity is a person or organization running the software.
+    * *Packets*: Packets carry data between members of the network. They are the enevelopes that hold .
+    * *Announcements*: Announcements inform *Peers* that something is available.
+    * *Outpackets*: Outpackets are outgoing packets that communicate with other *Identities*, examples include: *Status Update*, *Comment*s, *Announcements*
+    * *Inpackets*: These are the packets received by other *Identities*.
+    * *Account*: An account is your entry to the network. Your account is protected by username and password. This is how you use your *Identity*.
+    * *Provider*:
+
+++Approach
+
+We need vendors to adopt the PDS and VRM functionality as part of the ecommerce middleware that they use.
+
+Shopping carts
+
+++Drivers
+
+Drivers are used to transmit packets between users. The bare mimimum they must offer is the ability to transmit and receive files.
+
+Most drivers have two counterparts: one for sending data to remote users and one for receiving files from remote users.
+
+Send drivers are configured from:
+    * the user's ACCOUNT
+    * the recipient's PROFILE
+Receive drivers are configured only from the user's ACCOUNT, as this contains important server information and credentials.
+
++++Available Drivers
+    * SMTP Driver
+    * IMAP Driver
+    * HTTP POST Driver
+
+++User search
+
+How do users find one another?
+
+++Development
+    * Setup local mailserver
+    * Create a local DNS server
+    * Create test domain and email accounts
+    * Write transfer drivers to interact by email
+
+
+

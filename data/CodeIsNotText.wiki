@@ -1,0 +1,7 @@
+﻿++ Code Is Not Text
+
+CINT refers to the principle that the [Developer] should avoid treating sourcecode as plain text. Instead, it should be presented and manipulatable in a powerful way. This is achieved through:
+    * ContextMenu]s
+    * CrossReferential
+    * ConnectedCode
+    * 

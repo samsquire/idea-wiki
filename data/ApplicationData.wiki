@@ -1,0 +1,28 @@
+﻿++ Application Database
+
+SystemInformation is stored per-application and records facts about software. The database is created when an application is installed or used on a system.
+
+++Involved Data
+
+AD tends to hold low level data about an application. Most of the information is collected from an appropriate SoftwareServer. [RelevancyHook]s are installed to ensure that information is not needlessly stored.
+
+    * versioning scheme - how the version numbers work
+     * versions - list of versions
+      * changelog - what has changed since each and every version both logically(behaviour) and physically(files, formats etc) needs a interface!
+    * [Issues] IssueSystem
+     * bugs
+     * errors
+     * mistakes
+    * events/handlers
+     * error handling information
+      * send the error information to a central server for example
+    * log format reference/structure 
+    * [Configuration] descriptor/format reference
+
+This database is not entirely developer specific. SystemInformation from the database is used to inform the user, eg, the SolutionSystem.
+
+    * can be shipped with the application itself
+    * downloaded from a SoftwareServer
+    * created from scratch, see [Developer]
+
+[icon=barcode]

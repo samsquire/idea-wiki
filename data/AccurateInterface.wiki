@@ -1,0 +1,12 @@
+﻿++ Accurate Interface
+
+AI means that anything available on UserInterfaces should be accurate and possible.
+    * The [Frontend] must be synchronized with the [Processing] [Backend]. This task is a DataFlow problem and relies on LiveData and ChangeSensitivity.
+    * NoLying
+    * No artifacts leftover on the screen
+
+++Architecture
+
+LiveData allows anything in display to be persisted.
+    * This means VisibleData is available
+    * [Data] in SmartCache is blocked from removal in case it needs to be removed.

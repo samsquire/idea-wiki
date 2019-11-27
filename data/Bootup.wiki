@@ -1,0 +1,15 @@
+﻿++ Bootup
+
+Bootup is the first of the ComputerStages when TheSystem is first initiated. [Startup] follows bootup.
+
+ComprehensiveSystem means that manipulation and its management is DesignedIn. This gives a SystemAwareness to the user.
+
+Bootups in ConventionalSystems are slow because they are filled with unnecessary [LogicalEndpoint]s that are related to [Hardware]. To counter this, two modes are available:
+    * LogicalEndpoint: hardware independent, slow
+    * PhysicalEndpoint: hardware dependent, fast
+Bootup must have [Directness]. Linux runs text manipulation programs during bootup and this slows it down.
+    * The [Stager] of the StagerSystem is used in bootup [Configuration] for PhysicalRepresenting of the [Bootup] process.
+
+
+BIOS is basically an virtual machine host/ hypervisor/supervisor
+

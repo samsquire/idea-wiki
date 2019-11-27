@@ -1,0 +1,14 @@
+﻿++ Access Modes
+
+AM is are PredecidedConfiguration [Security] access modes. AM are ConditionalFeatures.
+
+    Walls
+     * Walls block access.
+
+    Box
+     * The access doesn't apply to the real object. The access is emulated.
+
+    Pot
+     * Only the result is outputted. Nothing is edited.
+
+    

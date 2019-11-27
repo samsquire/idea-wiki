@@ -1,0 +1,17 @@
+﻿++ Crowd Cloud
+
+Crowd Cloud is social news and reputation aggregator. The core idea is based on consumers thoughts and feelings regarding everything and anything. Anything that people can have an opinion on is called an entity.
+
+Essentially the website would aim to become a complete knowledgebase of everyone's thoughts and feelings on everything. There are two main parts of the website:
+    * Social Stream: This is a summary of submitted news articles and the accompanying biases, thoughts and feelings of them.
+    * Entity Profiles: This is a collection of information on the entity.
+
+++Example Entities
+    * Films
+    * Companies
+    * Shops, Retailers
+    * Festivals
+    * Celebrities
+
+
+The interface will have to be very flexible because information is apprpriate for different entities.

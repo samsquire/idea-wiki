@@ -1,0 +1,6 @@
+﻿++ Desktop Applications
+
+DA are [Applications] that utilize the rich [Desktop] architecture rather than the WebApplications.
+    * DesktopFirst means that DA should be created first.
+
+persistent login in desktop applications

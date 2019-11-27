@@ -1,0 +1,12 @@
+﻿++ Change Sensitivity
+
+CS is how responsive to change. Detecting changes involves:
+    * [Watch]ing
+    * [Hooking]
+    * PointConsistency
+
+Change Sensitivity is important because it promotes [LiveData].
+    * Change should not be ignored - AlwaysFeedback changes with ProgressiveFeedback
+    * ReversibilitySystem and UndoWillUndo
+
+CS needs to be ContinuousInitialization for [Performance].

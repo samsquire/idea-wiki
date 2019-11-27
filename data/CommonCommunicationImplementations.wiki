@@ -1,0 +1,13 @@
+﻿++ Common Communication Implementations
+
+CCI are CommonImplementations of communications.
+
+++Systems
+These systems include:
+    * Friend lists
+    * Ignore lists
+    * Online list
+    * PrivateMessaging
+    * [Posting]/messages
+    * profiles
+    * user identification

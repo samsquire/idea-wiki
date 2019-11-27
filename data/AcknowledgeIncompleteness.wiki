@@ -1,0 +1,26 @@
+﻿++ Acknowledge Incompleteness
+
+AI means that incompleteness is acknowledged.
+    * Unfinished [Tasks] are clear
+    * temporary files
+    * swap space/page file
+
+TheSystem promotes AI because there should be NoForcedSteps to complete. For example, if a user changes something on a [Wizard], they should not HaveTo complete the entire wizard if they want to leave. Wizard typically assume that all stages will be completed so that no provisions are made to allow the user to pause. NoAssumptions. This can either be implemented by the wizard architecture or by pausing, storing and dumping the wizard process, effectively ImplementationBypassing.
+
+AI can be implemented through UserTracking and ChangePreserving to solve these problems. On the first stage of the wizard and before changes by the user, there is an option for 'Cancel'.
+    * If the user changes something on the wizard, the 'continue later' option becomes available. This is an example of CP.
+    * The user may [Undo] and the option will change accordingly, back to 'Cancel' (UndoWillUndo)
+
+Continue later is not visible by default because
+    * before changes because this would create DatalessTemplates and useless incomplete entries with MinimumInformation would be saved by the user. 
+    * Users will use it as schedule/todo list instead of a real one which is more ideal. UseATypicalApplication and UserMisuse
+
+++Examples
+
+A file that is incomplete in the sense that it will not open correctly in an application should not have the extension of the file it will be when complete.
+
+a file should not have an extension for its intended application until it can be opened with it
+
+unedited wizard: button says CANCEL. right clicking button gives other options: 'continue later'
+each button has a condition, if the user goes to the next stage, the button automatically switches to continue later
+button stacking?

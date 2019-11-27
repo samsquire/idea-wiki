@@ -1,0 +1,5 @@
+﻿++ Anything Can Be A File
+
+ACBAF is a simple methodology that aims to reduce the distinct pieces of knowledge that users must remember to use a computer effectively.
+
+    * QuizSoftware, quizzes are just another type of file.

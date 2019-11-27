@@ -1,0 +1,6 @@
+﻿++ Collaborative Mining
+
+Usage data can be willfully donated to the network. Donated usages can produce aggregate statistics that help contents producers produce better content and better understand the network itself. For example, the path through a netsite is logged and fed into the network.
+    * People get paid to view an advert.
+    * People can sell the data they produce. They can earn real or virtually.
+    * 

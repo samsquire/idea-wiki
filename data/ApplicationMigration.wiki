@@ -1,0 +1,18 @@
+﻿++ Application Migration
+
+AM is the [Migration] of [Applications]. Migration is handled by ApplicationManagement. The contents of applications can be migrated. (see InstallPackages)
+
+++Interfaces
+The migration can be incurred in two ways:
+    * from individual items, eg, right click a Component
+    * a dedicated migration screen can be used which displays absolutely everything related to the application
+
+++Example
+    Instant Messenger
+     an instant messenger would be capable of exporting Logs of chats and the application or the Preferences of users, address book etc
+
+if using LDS, then easily export specific data: eg:
+    - categorise exportable data
+    
+    - settings for using libraries, eg, settings for the web server, email etc
+    - user interface and system settings, themes etc

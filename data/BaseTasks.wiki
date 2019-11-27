@@ -1,0 +1,37 @@
+﻿++ Base Tasks
+
+BT are [Basics] tasks that should always be available and as simple as possible. The NoBaseTaskDownload applies here. 
+    * see ApplicationBaseTasks for [Applications] specific BT
+
+++Core
+    * BaseInteraction
+    * [Fundamentals]
+    * AestheticControlOfAppearance
+
+++Simple
+    * [Shutdown]
+    * Running applications
+
+++Casual
+    * [Download] and Upload ([Sharer])
+    * [Email]
+    * WordProcessor
+    * [Browser]
+    * [Internet]
+    * [Network]
+    * [Printing]
+    * MediaCreation
+    * [Metering]
+    * [Clipboard]
+Tend to be fulfilled by DefaultSoftware
+
+++Maintenance
+see [Managed]: [Installation]
+    * [Migration] and  [Synchronization]
+    * FileHandling
+    * [Backup]
+see SystemComponents
+
+++Advanced
+    * [Development]
+

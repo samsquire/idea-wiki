@@ -1,0 +1,20 @@
+﻿++ Application Portalling
+
+AP is the awareness of [Applications] installed on TheSystem through [Portalling].
+
+This is accomplished through:
+    * InternalConfiguration
+    * ExternalConfiguration
+    * [Zones]
+    * ApplicationManagement
+    * ComponentryConfiguration
+
+++Architecture
+
+The [CapabilityStore] for uninstalled and installed can rendered as a StateList in the form of a table. This will display properties such as:
+    * web based
+
+ComprehensiveSystem and IndepthData mean that extensive information is available regarding applications. To present this data in a meaningful fashion, portalling is used to make it easy readable.
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/application_portal.PNG
+Application UserInterfaces

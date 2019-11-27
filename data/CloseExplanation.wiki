@@ -1,0 +1,10 @@
+﻿++ Close Explanation
+
+CE means that [Help] should be available very close from the potential HelpLapse. This includes:
+    * graphical representations StandardRepresentations
+    * [Errors]
+    * automated
+
+CE is handled through:
+    * IndicateAutomatedActions
+    * InformationPopup]s

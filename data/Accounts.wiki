@@ -1,0 +1,99 @@
+﻿++ Accounts
+
+Accounts are [Entity]s that are used for [Accountability], [Authoring], management and [Permissions].
+
+    * Users and people can have many-to many relationship so that more than one person can use a user.
+    * Accounts can be used for many different types of systems, not just computer based:           
+     Telephone, internet, personal etc
+    * Accounts can be created across various mediums. Phonecall via microphone and dialup/VOIP
+    * An account can be registered using the specification.
+
+see AutoAccount
+
+++Specification
+The structure and composition of accounts.
+     * can exist without accounts since specifications are separate
+Stores:    
+    * the user structure: Master accounts with sub accounts - nesting
+    * what information is required to create the account
+
+++Accounts
+The accounts that fit the specification.
+    * CrossReferential with local system
+    * VariableInputOutput
+
+++Architecture
+Accounts can be used purely for logging or they can be live. Live accounts are across a medium.
+
+Accounts are either local or remote in representation. This means accounts may or may not always be an exact representation. Stored accounts are either:
+    * Passive - a one-way copy of information that is prone to poor PointConsistency and LiveData problems
+    * Active - a two-way consistent and synchronized copy where changes are mirrored
+
+Account Management and information ShouldBeAbleTo have [Multidirectional] PointConsistency between provider and client. This can be implemented in two ways:
+    * Native: There is a MachineReadable method of [Change]ing the data.
+    * Non-Native: If MachineReadable [Change] is [Unimplemented] at the source, HelpTheUser by BringCloser the [UserInterfaces] through ContentClassification and [Simplification]
+
+Native account management is preferred.
+
+TheSystem differentiates between local and remote accounts. A local account will always be an exact representation - active.
+    * Local: on this particular machine or [Network], eg email server, web server, desktop environment
+    * Remote: external to this computer, webmail, forums, bank, email
+
+++Possible Activities
+    * Delete account
+    * Edit fields
+    * Delete fields
+    * Create Account
+
+++Examples
+The Electronic Arts specifications states that accounts are interacted with via the HTTP [Protocols]. The management of this account is via a natively through a [Browser]. This has no [Directness] and not machine friendly. The non-native ContentClassification is used to recognise the password, username and other input fields. Any of the possible activities are detected.
+
+Natively, account deletion may involve multiple stages such as providing your password again to confirm you want to delete. BringCloser means that this interface would be brought closer to the user by showing a dialogue.
+
+idea: content classification, change account details from inside this interface
+ view bank details
+ or registered games on EA games
+ Native/Non native, unidirectional and bidirectional
+
+++Interfaces
+    * If the account provider is clicked, then information regarding the [Entity] is opened, this can include, the ownership of the entity, who is responsible for it, contact details
+ 
+++Requirements
+
+ * offers admin for the account: eg, change password via http
+  
+
+++Features
+    * ability to export accounts from one pc to another
+     * into multiple formats thanks to LDS
+     * if the remote computer where the account is is under the local computer's remote control, then administration options are available
+      * such as making a new account or deleting an account 
+
+++Grouping Accounts
+    Accounts can be grouped and classed as one where batch actions can happen to each of them.
+    * username of multiple accounts could be the same
+    * by entity
+    * by identity
+    * by person
+
+++Account Sharing
+Sharing passwords undermines the security of an account. A specialised architecture exists that means accounts can be shared without suffering loss of [Accountability]. Sharing could be to another user or someone without an account.
+    * The password is not actually used to gain access. A new password is generated, a 'throwaway password'.
+
+++Content Classification
+ContentClassification of other services may be used to interact with [Accounts]. Web pages may offer administration services. The mapping of them to accounts means the user can switch between them.
+
+discovery
+    * central account server stores information regarding different accounts
+    * the website offering the account hosts said information
+    * some heuristics detect account systems
+
+++User Interface
+    * parse account information requests and offer in a convenient format
+
+++Ideas
+    * ability to store accounts that are not registered (the metdadata for them????)
+    * use various mediums to register: eg, phonecall via microphone and dialup/VOIP
+
+
+[icon=person]

@@ -1,0 +1,17 @@
+﻿++ Cooperative Control
+
+CC is a feature of MultiplayerGaming that permits multiple players to simultaneously control the same team on [Games]. This is usually only useful on real time strategy games and turn based games.
+
+++Implementation
+On map based games, the view of the map is separate and unsynchronized. The view of an ally is indicated by a border on the minimap and possibly on the game terrain. When this ally moves their view, the border moves with it. CC doesn't have to be [DesignedIn]to [Games] and can be an ImplicitImplementTheUnimplemented if [SharedImplementation]s are used.
+
+This is useful for strategizing as different team members can focus on different parts of the map.
+
+To avoid confusion and collisions there is a coloured marker on the unit when an orders are assigned so that allies know who has given it.
+
+If games choose to acknowledge this feature, the members of the team could be given units that represent them, that when killed, remove control from the game. 
+
+    * Maps generally must be large for this feature to be worthwhile.
+    * Individual units can be commandable by any player of the team.
+
+both controlling the same character, in RTS games, co-operative control

@@ -1,0 +1,6 @@
+﻿++ Allow Anytime
+
+* scheduling tighly integrated into system, right click and "schedule"
+* failure conditions: eg, send email
+
+[category=paradigms]

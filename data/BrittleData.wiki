@@ -1,0 +1,8 @@
+﻿++ Brittle Data
+
+BD is a result of LowStandards and is discouraged for TheSystem and [Applications] as NoBrittleData.
+
+    * Where modification of this data is difficult or impossible.
+    * Data in a central repository, see StandardEstablishment
+    * Brittle Data is where the data can quickly become inconsistent and cause a system to fail.
+    * Data is specific to a particular case and cannot be placed elsewhere.

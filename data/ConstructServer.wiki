@@ -1,0 +1,33 @@
+﻿++ Construct Server
+
+CS are used for CPU intensive [Processing].
+
+++Implementation
+The request for construction is made by the client. The client specifies:
+    * what needs to be constructed
+    * where the source is: from the client or an external URL or a folder package
+    * where it should result
+
+The client UserInterfaces allow options to be specified in the request:
+    * The server can download everything required at once from the source. Pre-acquiring the source means construction can continue even if connection is lost.
+  * Download items from the source when they are required. Nothing is downloaded unnecessarily.
+
+Upon succesful request the server will begin the construction. [Outsourcing] the construction via DistributedProcessing may be used by the server to spread the workload.
+    * outsource work to other stations if other stations are connected
+    * helps compiling for other architectures
+    * issue project to them
+
++++Technology
+* if a client's folder, client creates a large metadata packet which is sent to the server where the server OR the client analyses it for conventional files from build systems, applications, IDEs, patching is automatically resolved/recreated to new directory structure
+  * perhaps the client is informed of file descriptors so it sends the right things beforehand  
+* will do what it can to finish by downloads dependencies and any other necessary files
+* construct whatever is sent to it: compile, build etc
+
+
+
++++Final Result
+* presented with completed versions in different packages
+ * eg, linux, windows, mac
+
+build process
+- need a good bug database

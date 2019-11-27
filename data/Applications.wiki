@@ -1,0 +1,54 @@
+﻿++ Applications
+
+Applications are software that runs on a system.
+    * Applications tend to have UserInterfaces.
+    * [Processing] state is recorded by the StagerSystem
+    * Require [Installation]
+    * How they are obtained SoftwareDistribution
+    * RemoteSoftware
+
+++Architecture
+
+Application [Development] uses [Fundamentals].
+
+[Data] stored includes:
+    * ApplicationData
+    * ApplicationComponentry
+    * ApplicationEntities
+    * ApplicationPurpose
+    * ApplicationCategories
+    * PrerequisiteStore
+    * ApplicationIndependentState
+
+++Tasks
+These are [Tasks] that apply to software:
+    * ApplicationRules
+    * ApplicationSemantics - how applications are interlaid in the system
+    * ApplicationBaseTasks
+    * ApplicationManagement
+    * ApplicationMode
+
+
+
+++Features
+    * Extract data from applications that aren't even installed
+
+++Ideas
+    Referential [Initialization]
+    * application file, eg, firefox.app
+     * stores location of application itself AND the source files
+
+
+view software installed per user...software should never be global unless desired
+ - trial software button in control panel, limits employee usage of software for example
+
+++Alternative
+UseBest applies to [Applications].
+    * use the fastest version (based on ReviewStore EntityStore)
+    * test multiple applications to find the fastest with a TestStore
+     * [CompatibilityStore] and [CapabilityStore]s to find works per application AND per library, detect patterns/matches, X works with Y well but not with Z
+    * eg, using syncML increases compatibility but reduces speed
+
+
+
+[icon=system]

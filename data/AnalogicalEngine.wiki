@@ -1,0 +1,3 @@
+﻿++ Analogical Engine
+
+Analogical Engine is an alternative term for RepresentationalInterfacesAreTests.

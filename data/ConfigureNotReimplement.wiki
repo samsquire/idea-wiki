@@ -1,0 +1,5 @@
+﻿++ Configure Not Reimplement
+
+CNI means that configuration should occur as opposed to reimplementation.
+    * Promotes [LogicalEndpoint]s
+    * NoReimplementation

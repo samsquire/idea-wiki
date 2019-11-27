@@ -1,0 +1,16 @@
+﻿++ Configuration Portal
+
+CP means that [Configuration] [Frontend] is powered by [Portalling] and is completely in the control of the user.
+
+++Implementation
+
+In the centre of the screen is a search box. This encourages users to type a word or phrase that refers to an aspect of the system that has configuration.
+
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/configuration_portal.PNG
+
+configurability is distributable
+ - the configuration interface is a search box and some generic headings
+ - typing words runs a live search
+ - the default configuration panels are configured themselves
+ - configuration is a portal
+  - widget for 'regularly modified settings by users'

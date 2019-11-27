@@ -1,0 +1,5 @@
+﻿++ Data Flow
+
+DF is the direction of data flows between entities. This is important where multiples require the same data at the same time. [Frontend]s and [Backend]s are the best example of this.
+    * PointConsistency, LiveData
+    * Use [Notifying] to make sure that there is limited [Polling].

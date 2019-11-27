@@ -1,0 +1,11 @@
+﻿++ Application Signing
+
+AS is a ContentSigning subclass for [Applications]. During the [Development] process, all [Users] who contribute to the development leave a signature with the [Applications]. This is interpreted by [Authoring] to provide communicative features. AS provides additional features with this information.
+
+++Implementation
+
+[Applications] in the SystemUniverse are uniquely identifiable.
+    * [Developers] can be contacted by the remote component of the IssueSystem
+
+This idea originated from lawpoop at:
+http://www.halfbakery.com/idea/signed_20software#1200015271

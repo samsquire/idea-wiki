@@ -1,0 +1,11 @@
+﻿++ Automatic Icon
+
+AUI is where UsersContent is automatically given icons to represent the content.
+
+++Reasoning
+
+Icons can hint at the purpose or type of content a document is. AUI assumes that words [Users] use to name things refer to the content. [Conventional] software like forums and Wikidpad forces the user to select from a list of icons. NoManual means that this is tedious and not intuitive. AI allows encourages logical defaults that are not permanent but merely suggestions. It is better than a default that is plain and difficult to relate to.
+
+++Implementation
+
+CommonImplementations will be used to hold a list of phrases and the mapping of icons to them. The list will be checked against the user's provided name to see if they are substrings, if so, the icon is assigned. This is without effort from the user.

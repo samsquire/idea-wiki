@@ -1,0 +1,24 @@
+﻿++ Delete A File
+
+Mode: Delete A File
+Singular
+
+Are you sure you want to delete
+Show: [File]
+Actions:
+    * Delete
+    * Cancel
+    * Move then delete
+    * Permanently delete
+
+Related:
+    * DeleteFiles
+
+
+LogDeletion
+    * Confirmed deletion of [File]
+
+[category=FeatureBuilder]
+
+
+    

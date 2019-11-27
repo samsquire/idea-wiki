@@ -1,0 +1,17 @@
+﻿++ Bubble Back
+
+Bubble back is a highlight behind objects. The highlight can indicate:
+    * status (FileState)
+    * groupings ([FileGrouping]s)
+    * type
+If groupings overlap, there should be a clear Venn diagram effect that is visible and understandable.
+
+++Implementation
+
+An intelligent placement algorithm will be needed during the rendition stages of the targets of BubbleBack. This will ensure that everything can have BB applied. This algorithm should support:
+    * diagonal groupings
+    * maximise all the backing of preconditions, avoid leaving orphan backings
+
+
+++Requirements
+    * Multiple rows and columns, a grid, like a PanelGrid

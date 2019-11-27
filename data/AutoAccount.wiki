@@ -1,0 +1,5 @@
+﻿++ Auto Account
+
+Software or a service that require a certain account can be set up to automatically create the account. This is likely to be used for people and organisations. The following are examples of what could be registered for:
+    * webmail
+    * user on the database

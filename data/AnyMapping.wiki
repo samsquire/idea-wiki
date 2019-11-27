@@ -1,0 +1,49 @@
+﻿++ Any Mapping
+
+AM means allows any content to map to any other content. Examples include:
+    * directories
+    * files
+    * [Paths]
+    * domains/subdomains
+    * windows
+    * processes
+    * threads
+    * [Entity]s
+
+AM allows [Users] to create, use or access content seamlessly. AM can be used for SeamlessUsability and [Navigation].
+
+The CreateMenu can be used to create new content accessed from ContextMenu]s that are placed where mappings are available. For example:
+    * file(s) - the file
+    * [TitleBar] - for the window
+    * [Files] [Paths] - the file
+    * the taskbar - the 
+
+Once content is chosen, the application responsible for the type can be invoked in any of the following ways:
+    * through [Tabs] of the application itself, UnchangingInterface and SingleInterface
+    * by opening the application itself in a new window
+    * by a sliding panel out of the side of the application
+
+If a tab or sliding panel, saving is likely to be automatic to keep a SeamlessUsability. Saved content needs to be accessible from the target, this means TheSystem needs to know where to look or a reference. Multiple strategies can achieve this: 
+    * saved in a location where the user requests and noted in the file's metadata and the application's configuration
+    * StandardEstablishment of linked application content in UserArea that TheSystem consults when application is opened
+
+Methods of accessing content include:
+    * [Paneling] docked to the side of the window.
+    * StandardRepresentations in InterfacePanels such as reviews, my blog post, wiki
+
+SiteProjects
+
+++Examples
+User rates music he plays depending on how much he likes it.
+    * Submit review to website, store locally, with file
+    * Application
+     * feedback
+     * report bugs
+     * personal notes
+    * documentation about a process
+    * Error message
+     * documentation in an online wiki
+     * discussion forum
+    * Write into personal wiki
+
+[Help] utilizes AM to create [Links] between [Documentation] and elements.

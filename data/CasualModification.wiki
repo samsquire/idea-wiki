@@ -1,0 +1,7 @@
+﻿++ Casual Modification
+
+CM refers to DeepCustomisation that can be used by [Users]. This applies to:
+    * [Configuration]
+    * UserInterfaces [Frontend]s
+
+[Fundamentals] apply to the CM.

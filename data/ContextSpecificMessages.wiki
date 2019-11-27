@@ -1,0 +1,5 @@
+﻿++ Context Specific Messages
+
+CSM means that text should aim to be accurate to the [Users] task.
+
+    * particular filesystem specific error messages 'you cannot delete content that doesn't belong to you!'

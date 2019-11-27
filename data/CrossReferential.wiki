@@ -1,0 +1,9 @@
+﻿++ Cross Referential
+
+Anything can reference to anything. See InformationInterface
+
+++Examples
+    * link to specific point in movie/video
+     * side panel of links of events
+
+     * linked text appears different to non-linked text so that the uses knows where more information is stored

@@ -1,0 +1,16 @@
+﻿++ Backup
+
+Backup is when data is made redundant to keep safe. Backup is a NoBaseTaskDownload. Backup is provided to the user as:
+    * The ReversibilitySystem
+    * [Imaging]
+    * [Snapshotting]
+TheSystem should HelpTheUser backup data through various methods:
+    * [Outsourcing]
+    * PracticeSystem
+    * [Wizard]s
+
+Using a backup is to [Restore].
+
+Backup must be comprehensive in what it enables [Users] to restore
+    * individual, important [Email]s
+UseATypicalApplication means that no SpecializedScreens should be required to recover items from the backup software. [Conventional] backup applications reimplement file management interfaces for recovery. This is an unecessary [Reimplementation] that is precluded by NoReimplementation, NoUnnecessary, IrrelevantCoding and [Reusability]. When recovering emails, [Users] can use the features of the email client to recover said emails. The emails may not be viewable.

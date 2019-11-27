@@ -1,0 +1,15 @@
+﻿++ Capability Overload
+
+CO is when [Applications] add [Capability] that likely to be relevant but not necessary. CO increases [Complexity] and [Issues] and should be avoided.  Eventually CO results in FrenziedFeatures.
+
+Common CO in malware scanning software includes:
+    * privacy cleanup
+    * startup viewers
+While relevant parts of security, these should be separate implementations.
+
+The contrary to CO is SoftwareConsolidation and SystemIntegration.
+
+i don't trust applications with lots of features, do few things and everything else be an expansion
+
+do one thing and do one thing only, well:
+ - trojan remover tries to clean the registry of erroneous values, let another application do it, flag it as assumed invalid

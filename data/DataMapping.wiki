@@ -1,0 +1,29 @@
+﻿++ Data Mapping
+
+DM is a RealRepresentation of [Data] through diagrams.
+    * RepresentationMapping is a DM used by the RepresentationSystem
+    * source for DynamicData
+
+Diagrams include:
+    * separating into squares
+    * pie charts
+    * trees
+
+++Architecture
+The following data is to be conveyed with a DM:
+    * size
+    * raw data
+    * name/reference
+
+Not all of this information will fit on the diagram and the scale may be insufficient to represent everything. The scale may be intentionally inaccurate to better represent data by hiding indepthdata. ToolTips can be used per square to convey any information unable to fit onto the map.
+
+The map is sometimes accompanied by a table.
+
+The following tasks are available to maps:
+    * Erasing - The data as it was is removed and replaced with a placeholder. This placeholder states that it was removed and may even show to to reobtain it.
+    * adding [Permissions], [Security] and AccessModes
+    * [Metering]
+    * [Autonomy]
+
+The following image demonstrates this for a link:
+file:///C|/Documents%20and%20Settings/Improfane/My%20Documents/Pictures/Ideas/data_breakdown.PNG

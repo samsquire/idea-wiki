@@ -1,0 +1,5 @@
+﻿++ Consistent Base Tasks
+
+[BaseTasks] should be consistent throughout TheSystem. This is why [Downlevelling] is used to DownlevelToTheSystem.
+
+[category=paradigms]

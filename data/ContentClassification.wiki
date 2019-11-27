@@ -1,0 +1,26 @@
+﻿++ Content Classification
+
+CC is a strategy to ImplementTheUnimplemented by classifying human [Frontend]s so they are MachineReadable. This works by [Mapping] pages on demand or automatically through AutoMapping. This refers mainly to HTML content. 
+    * Promotes [Directness] and [Autonomy]
+
+email message subscription/confirmation/account detail email
+content classification is completely distributed network
+
+++Architecture
+
+[Users] inherit the ImplicitImplementTheUnimplemented access to the [Fundamentals] and BaseInteraction]s that were non-existent beforehand.
+    * [Data] may be stored on the client if it follows a consistent format, such as a blog or [Forum].
+    * Can be [Search]ed after [Indexing]
+    * Reads only what is necessary and in doing so, strips the irrelevant (NoUnnecessary)
+
+[Portalling] and [Frontend]s are used instead of the original representation.
+    * CC will be used to combine multiple UserInterfaces together. Websites with unnecessary StagedInterfaces are combined to OnlyOnce and BringCloser.
+
+    * CC creates reusable [Share]s of the classified web page. This means that a browser (irrelevant software) will not need to be opened or reparsed, NoParse.
+
+++Implementation
+
+CC can be as simple as searching for a particular string. The [Browser] may scan for 'register' link and create an account specifications for it by AutoMapping.
+    *AlternativeExpansion also permits [Accounts] specifications to be obtained.
+
+Sometimes structure is important. [Externalisation] makes nested structures available that can be scanned for correlating information.

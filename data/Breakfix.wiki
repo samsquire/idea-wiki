@@ -1,0 +1,7 @@
+﻿++ Breakfix
+
+Breakfix is a classification for [Update]s that cause a cease of functioning. This only occurs where the only solution is to break the implementation. This is mainly the case for security fixes.
+
+* "fixbreak" or "breakfix" - terminology that WILL break software
+ * implemented in the system as a type of update, guide user through
+ * detect breakage

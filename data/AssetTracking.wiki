@@ -1,0 +1,12 @@
+﻿++ Asset Tracking
+
+AT refers to the tracking of various assets on a machine or [Network]. AT usually involves an [Inventory] for all assets with highly CrossReferential [Data].
+
+This data is [Search]able and [Indexing] is used to make 
+
+++Contents
+    * HardwareManager
+    * NetworkMonitoring
+    * ApplicationManagement
+    * SoftwateAssetTracking
+

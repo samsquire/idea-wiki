@@ -1,0 +1,16 @@
+﻿++ Batching
+
+Batching is where many can be treated as a singular.
+    * is a BaseInteraction
+    * Batching enables an action to apply to multiple items without selecting them individually manually. NoManual
+    * The batch may or not be a [Queue] of actions to take place against each item.
+    * OrderPreservation may apply for a batch.
+
+
+++Implementation
+    * [Targeter] to select all items
+    * Checkboxes represent the selection of an item. The action is then applied to all selected items.
+
+++Problems
+
+Some systems use batching as the primary technique of issuing commands to [Multiples]. If the user wants to select a single item rather than multiple items the user has to interact more than necessary and is forced through more steps. (NoUnnecessary and NoForcedSteps)

@@ -1,0 +1,13 @@
+﻿++ Cool Tools
+
+* calculation viewer, show the calculations used to result in a value and how it was obtained
+ * used in "Lazy Programming" 
+ 
+ * use pause download technology to be able to download the middle of a file
+  * flash might refer to the size of library contents first so that those files can be ignored
+
+
+
+* determine user activity
+
+[icon=glasses]

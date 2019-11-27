@@ -1,0 +1,3 @@
+﻿++ Bridging
+
+Bridging is bringing separate and isolated together. It effectively adds support of the other to another.

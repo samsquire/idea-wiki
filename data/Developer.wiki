@@ -1,0 +1,74 @@
+﻿++ Developer
+
+Developer is an tighly integrated suite of productive applications (an DevelopmentInterfacers) for developing and customising software. This is how TheSystem implements IntricateDevelopment. The developer:
+
+    * Compact
+    * Responsive
+    * Loadable on the spot without delay
+    * stable as it is used for development of TheSystem itself
+    * high SystemIntegration
+    * SelfHosted
+
+The Developer attempts to make [Development] more accessible with the usage of UserDeveloping. This is a type of Rapid Application Development, where interfaces and design concepts are created first.
+
+[Portalling] is used heavily to accomplish AbstractionAwareness over development tasks.
+
+++Components
+    * IDE
+    * Planning/Specification writing
+    * [UserInterfaces]
+    * Format creator
+    * ProtocolDeveloper
+    * DataConnector
+    * DistributedProcessing for building ([Outsourcing] Building)
+    * RIAT
+
+++Tasks
+    * Plan
+    * Design: specification writing
+    * Create
+    * Build
+    * Distribute
+
+++Implementation
+Development is a complex task and the following systems make it easier:
+
+    PracticeSystem
+    Enables the best course of action to take place during development.
+    
+    IssueDetection
+    Makes use of the practice system to identify common problems and misuse can be recognised early. This does not involve [Code], it involves the entire project. Manual override with warnings/cautions
+    * developer: warning on high [Resources] usage
+
+    TaskArchitecture
+    Tasks allow users to follow steps in order for a project. This can also be used to aid functionality programming. For example; If the user has implemented a feature, extra tasks become available.
+
+    [Bases]
+    The bases are available for the developer to interact with.
+
+++Interfaces
+
+The developer is a subset of systems but may act as a suite. [Tabs] for:
+    * Code
+    * [Frontend]
+    * Testing
+    * Debugging
+    * Documentation
+    * Building
+This makes it easy for [Users] to work evenly and streamline projects. Many interfaces have strong bridges to eachother. For example, the documentation of a function can be written from inside the code screen.
+
+build process should use the stager:
+ - it should be as simple as possible to add and remove stages
+
+The building process needs to be highly detailed:
+    * different platforms
+    * 
+
+compile profiling, what is the most efficient compiling options?
+ - these should be specified within the applications
+
+++Capabilities
+    Beginning to end software production/management
+     The Developer allows people to start new projects and offers tools for:
+      planning, documentation, testing, coding, distribution and maintainence
+

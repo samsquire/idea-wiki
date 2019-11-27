@@ -1,0 +1,8 @@
+﻿++ Auto Size
+
+AS is where UserInterfaces proportions are maintained through resizing. This is important for ResolutionNeutral because [Absolute] sized content will break proportions.
+
+Resizing may confuse [Users] and cause HelpLapse if it is not consistent. The top left of a [Frontend] is kept fixed.
+
+++Examples
+    * [Browser]

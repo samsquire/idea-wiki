@@ -1,0 +1,23 @@
+﻿++ Desktop First
+
+DF means that [Applications] are to be implemented and designed for the [Desktop] before WebApplications. 
+
+DesktopApplications are HigherLevel implementations and support more features. DeriveNotReimplement means that the strong implementation of DesktopApplications can be derived to create WA.
+
+WA can be derived from a DA but the reverse is impossible. Simply implementing as WebApplications cannot go any further and are [DeadEndImplementation]s.
+
+Conventional systems are relying on WA frequently, making some kinds of desktop applications underused or even obsolete. TheSystem avoids this because:
+    * WebApplications are an OverAbstraction
+    * Destroys PersonalOwnership
+    * Low SystemIntegration
+
+DF can only work if:
+    * DesktopApplications are as easy or easier to create than WebApplications
+    * DA can run [Remote]ly
+
+++Implementation
+
+RepresentationSystem allows the more powerful desktop representation to be converted into a more simpler representation of WebApplications, using the principle of DeriveNotReimplement. To make DF an attractive platform, the following are necessary:
+    * Simple but powerful [Developer]
+    * RemoteSoftware
+    * Consistently powerful desktop to web application conversions

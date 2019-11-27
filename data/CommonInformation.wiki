@@ -1,0 +1,28 @@
+﻿++ Common Information
+
+CI is common [Information] that is rendered the same way by the RepresentationSystem.
+    * It is important to note that CI differs to StandardRepresentations in that CI refers to any information that is displayed in [Frontend]s.
+    * see the CommonInformationSystem
+
+++Examples
+
+    * Telephone numbers
+    * email addresses
+    * Internet protocol address
+    * Web addresses
+    * Application commands or shortcuts
+    * Postal Address (and their components)
+    * Names
+    * Application names, commands
+
+++Alternative Names
+Finding a name for this concept was difficult and the following are other names:
+CommonInformationRepresentations
+CommonData
+CommonFormats
+CommonRepresentations
+
+++Ideas
+
+a database architecture that uses the common information types as its column types
+ there is a master class for telephone numbers, email addresses, people can can add their own formats to the master class but there will only be one single master class, each subclass says what things it supports and what it doesn't, this is to prevent people being forced to write custom data type routines like in microsoft access validation and input masks

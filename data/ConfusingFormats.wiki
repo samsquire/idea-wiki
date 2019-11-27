@@ -1,0 +1,11 @@
+﻿++ Confusing Formats
+
+Formats cause many problems in computing due to incompatibility of formats. This is because a file created in [Applications] may not open in others due to format differences.
+
+This can be confusing to [Users] since the file is not regarded by format, only by what it contains. TheSystem should HelpTheUser and avoid focus on different formats.
+
+++Solutions
+Solutions to avoiding the format problem include:
+    * ensure [Compatibility] between as many formats as possible to begin with. This is achieved through [Standardization] with SharedImplementation]s of formats.  [Conventional] systems are not so easy to co-operate with and require different solutions.
+    * RepresentationConversion so that the right format is delivered
+    * RepresentationGrouping by synchronizing multiple representations

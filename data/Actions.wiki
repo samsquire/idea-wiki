@@ -1,0 +1,12 @@
+﻿++ Actions
+
+Actions are generic activities. These are represented by StandardActionRepresentations graphically.
+
+    * [Save]
+    * [Download]
+    * [Open]
+    * Delete
+    * [Change]
+    * [Loading]
+    * [Undo]
+    * [Printing]

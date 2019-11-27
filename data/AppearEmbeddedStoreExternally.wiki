@@ -1,0 +1,4 @@
+﻿++ Appear Embedded Store Externally
+
+The concept of appearing integrated means that CrossReferential data and information represented on a [Frontend] should appear as if the data is actually integrated within the data. Instead, the concept argues that the data should in fact be stored as ExternalData but applied in real time or during rendering.
+

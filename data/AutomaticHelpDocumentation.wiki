@@ -1,0 +1,22 @@
+﻿++ Automatic Help Documentation
+
+AHD means [Help] and [Documentation] materials should be generated ForFree, without extensive manual writing. This promotes NoManual. TheSystem intends to use AHD extensively as SystemPhilosophies through UpfrontConsideration and ParallelSimultaneousDevelopment.
+
+
+
+Combine the Documentation and User Interface together.
+    * Design a good user interface and have much of the documentation generated.
+    * Write a "documentation" file, a condensed language which then generates a standard abiding uder interface.
+    * Control language - outlines all methods of controlling the application and making it do what you want
+
+++Implementation
+
+TheSystem intends to use AHD to produce usable and useful materials. An unfortunate consequence of [Conventional] generation is LowAutonomicQuality. Proposed methods to mitigate this include:
+    * Comprehensive metadata is recognised and stored during TheDevelopmentModusOperandi
+    * Avoind the generation of full textual English because sentences are difficult to generate.
+    * Instead, the interface should support the data structures. Search, context and CrossReferential.
+    * The TaskArchitecture helps create [Help].
+
+see CrossReferentialHelp
+(a lot of stuff from probably be moved here from there)
+

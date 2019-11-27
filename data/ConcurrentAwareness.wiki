@@ -1,0 +1,3 @@
+﻿++ Concurrent Awareness
+
+process/progress awareness, vista starts looking again even if explorer is searching the network aswell...they can share the same data

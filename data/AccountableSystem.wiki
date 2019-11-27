@@ -1,0 +1,26 @@
+﻿++ Accountable System
+
+AS means that actions, components and concepts of TheSystem have [Accountability].
+
+++Implementation
+
+Important interactions of TheSystem include:
+    * [Bases]
+    * writing to files
+    * threads, processes
+    * [Network] activity
+
+[Conventional] systems require specialist tools to view the technicalities of how [Applications] are currently interacting with TheSystem. This is bad because:
+    * unfriendly to users
+    * there is no accountability for what is happening
+    * differentiates well and poorly developed [Applications]. For example, Windows has way many hidden windows that have no obvious purpose
+
+Accountability is therefore a OrganizeFromTheBeginning. Internal structures are well documented, clean and tidy. The following rules aim to encourage AS:
+    * OfficiallyAcceptedCertification is only awarded to applications that have full accountability
+    * ApplicationsMustExplainThemselves
+    * promotingusage of SharedImplementation rather than [Reimplementation]
+
+++Examples
+    * Disk activity is rarely possible to account on conventional applications, it requires manual supervision of applications.
+
+((communities: using different dates/hours to indicate a user's duration of residence, eg per post: made 1 minute from registration, member for 2 hours))

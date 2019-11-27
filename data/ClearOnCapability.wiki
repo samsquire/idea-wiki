@@ -1,0 +1,17 @@
+﻿++ Clear On Capability
+
+Clear on Capability means that TheSystem and [Users] are clear about what it [Applications] or a [Frontend] is capable of doing.
+    * Capabilities are stored and processed as CapabilityStore]s.
+
+++Implementation
+
+C/C prevents [HelpLapse]s and is a form of AccidentSafety since [Users] are aware what can happen.
+
+C/C is accomplished through:
+    * Indicating capabilities with UserInterfaces through StateList]s with [Checklist]s. 
+    * ReliableInterfaces
+    * AccurateInterface
+    * incompatibility detection/alert
+    * IndicatePossibleInteraction
+
+

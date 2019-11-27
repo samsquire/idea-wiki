@@ -1,0 +1,24 @@
+﻿++ Community Quality
+
+CC is the quality of a community based on its individuals. This means:
+    * trolls
+    * flaming
+    * spamming
+    * personality clashes
+    * arguments
+
+++Implementations
+
+Community accountability can be enforced by reducing anonymity through:
+    * email activation
+    * human checks
+    * captchas
+    * blocking free email providers
+
+These checks can be combined:
+    * domain blacklists
+    * domain whitelists
+    * certain domains need admin/self activation, others do not
+
+Advanced user activation should be a default
+ - some domains are 'safe listed' whereas are denied by default

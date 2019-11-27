@@ -1,0 +1,9 @@
+﻿++ Auto Mapping
+
+Automatic Mapping is where [Mapping] takes place to HelpTheUser without intervention. AM is a strategy to Automate [Downlevelling], see AutomaticDownlevelling.
+    * Automapping is used for discovery.
+
+++Examples
+    * [Files]
+    * InstallPackages
+    * Remote Machines

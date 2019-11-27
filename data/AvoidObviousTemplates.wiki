@@ -1,0 +1,6 @@
+﻿++ Avoid Obvious Templates
+
+AOT means that data should not be an obvious template. VariableInputOutput is incredibly useful but reduces [Directness] if it is an English string.
+
+    * field based templates should be used instead
+    * tables (name:value)

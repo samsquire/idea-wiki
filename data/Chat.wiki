@@ -1,0 +1,8 @@
+﻿++ Chat
+
+Chat [Applications] allow [Users] to communicate to eachother, even across [Network]s.
+
+++Automatic Status
+    * If the user signals states they are going away, eg, by typing an acronym such as 'brb'. The status should automatically be modified as such.
+    * When the player returns and starts typing again, the status should return back to normal. Perhaps it should only return to normal when the user has pressed enter - to avoid accidental status reverts.
+    * Multiple messages can be reordered manually so that they make more sense.

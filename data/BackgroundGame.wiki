@@ -1,0 +1,8 @@
+﻿++ Background Game
+
+BG means that [Games] can run in the background while [Users] continue to do other things. Examples include:
+    * Slow Games: turn based games
+    * [Hotseating] with a large number of players
+
+++Architecture
+BG is possible due to NoDistance, where GameManagement and [Loading] can occur outside of the game view. [Conventional] games force a [Loading] screen from within the game and lag the computer.

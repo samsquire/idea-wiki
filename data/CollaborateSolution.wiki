@@ -1,0 +1,10 @@
+﻿++ Collaborate Solution
+
+The Collaborate is an internet focused application that aims to allow users to collaborate on problems to find lots of solutions.
+
+    * solution index
+     * variable name reference 'varibalise your posts!'
+     * evidence
+     * variables in titles, 'relation'/effect
+      * eg, "Use sticky notes and secret code" ????
+        todo:Find Original Idea

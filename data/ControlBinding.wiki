@@ -1,0 +1,3 @@
+﻿++ Control Binding
+
+CB is where actions are assigned to a keypresses or mouse actions. This is among the [Bases] to simplify its manipulation. CB is a DownlevelToTheSystem to support NoReimplementation.

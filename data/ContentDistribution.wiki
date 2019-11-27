@@ -1,0 +1,22 @@
+﻿++ Content Distribution
+
+CD is how content is distributed through multiple machines. Examples include:
+    * [Network]s
+    * the [Internet]
+    * distributed community
+
+This content can be:
+    * [Update]s
+    * [Information] for the ExpandSystem
+    * ReviewStore
+    * CollaborativeData
+    * DistributedStatistics
+    * [Configuration]
+    * [Files]
+
+++Implementation
+
+Content reaching large numbers of people requires lots of resources. DC is content that has this problem and can be solved through the following strategies:
+    * [NetworkCacher]
+    * [DistributedDataNetwork]s
+    * CommunityNetwork

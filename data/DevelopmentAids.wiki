@@ -1,0 +1,9 @@
+﻿++ Development Aids
+
+These are some aids to development that should be useful:
+    * test visualization (point at failure)
+    * graphical code time profiling (square size represents time doing activity)
+    * integrated code testing (right click method names and add tests while at code level)
+    * multicolumn sourcecode
+    * code as a data structure
+    * 
