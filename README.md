@@ -1,3 +1,3 @@
 # idea-wiki
 
-This is WikidPad wiki of ideas
+This is [WikidPad](http://wikidpad.sourceforge.net/) wiki of ideas
